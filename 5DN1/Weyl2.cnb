@@ -43,12 +43,12 @@
 			"cell_type": "input",
 			"cells": [
 				{
-					"cell_id": 15181966938772535968,
+					"cell_id": 2864087586236367574,
 					"cell_origin": "server",
 					"cell_type": "latex_view",
 					"cells": [
 						{
-							"cell_id": 6103112419578910667,
+							"cell_id": 13594464095610924229,
 							"cell_origin": "server",
 							"cell_type": "input_form",
 							"source": " -  1/2 I \\e^{\\alpha1 \\a} \\e^{\\alpha2 \\b} \\e^{\\alpha3 \\g} \\fW_{\\a \\b \\g}^{i} \\fW_{\\alpha1 \\alpha2 \\alpha3}^{j} +  3/2 I \\e^{\\a \\alpha1} \\e^{\\b \\alpha2} W_{\\alpha1 \\alpha2} \\wX_{\\a \\b}^{i j} -  3/4 I \\e^{\\a \\b} \\fX^{i}_{\\b} \\fX^{j}_{\\a}"
@@ -57,12 +57,12 @@
 					"source": "\\begin{dmath*}{} - \\frac{1}{2}I \\epsilon^{{\\alpha_{1}} \\alpha} \\epsilon^{{\\alpha_{2}} \\beta} \\epsilon^{{\\alpha_{3}} \\gamma} W_{\\alpha \\beta \\gamma}\\,^{i} W_{{\\alpha_{1}} {\\alpha_{2}} {\\alpha_{3}}}\\,^{j}+\\frac{3}{2}I \\epsilon^{\\alpha {\\alpha_{1}}} \\epsilon^{\\beta {\\alpha_{2}}} W_{{\\alpha_{1}} {\\alpha_{2}}} X_{\\alpha \\beta}\\,^{i j} - \\frac{3}{4}I \\epsilon^{\\alpha \\beta} X^{i}_{\\beta} X^{j}_{\\alpha}\\end{dmath*}"
 				},
 				{
-					"cell_id": 8792180216350136197,
+					"cell_id": 12828186677668032551,
 					"cell_origin": "server",
 					"cell_type": "latex_view",
 					"cells": [
 						{
-							"cell_id": 5039552756708450038,
+							"cell_id": 13330910071997241317,
 							"cell_origin": "server",
 							"cell_type": "input_form",
 							"source": "K^{a}( -  1/2 I \\e^{\\alpha1 \\a} \\e^{\\alpha2 \\b} \\e^{\\alpha3 \\g} \\fW_{\\a \\b \\g}^{i} \\fW_{\\alpha1 \\alpha2 \\alpha3}^{j} +  3/2 I \\e^{\\a \\alpha1} \\e^{\\b \\alpha2} W_{\\alpha1 \\alpha2} \\wX_{\\a \\b}^{i j} -  3/4 I \\e^{\\a \\b} \\fX^{i}_{\\b} \\fX^{j}_{\\a})"
@@ -71,12 +71,12 @@
 					"source": "\\begin{dmath*}{}K^{a}\\left( - \\frac{1}{2}I \\epsilon^{{\\alpha_{1}} \\alpha} \\epsilon^{{\\alpha_{2}} \\beta} \\epsilon^{{\\alpha_{3}} \\gamma} W_{\\alpha \\beta \\gamma}\\,^{i} W_{{\\alpha_{1}} {\\alpha_{2}} {\\alpha_{3}}}\\,^{j}+\\frac{3}{2}I \\epsilon^{\\alpha {\\alpha_{1}}} \\epsilon^{\\beta {\\alpha_{2}}} W_{{\\alpha_{1}} {\\alpha_{2}}} X_{\\alpha \\beta}\\,^{i j} - \\frac{3}{4}I \\epsilon^{\\alpha \\beta} X^{i}_{\\beta} X^{j}_{\\alpha}\\right)\\end{dmath*}"
 				},
 				{
-					"cell_id": 4028941028447856650,
+					"cell_id": 15108040998269162828,
 					"cell_origin": "server",
 					"cell_type": "latex_view",
 					"cells": [
 						{
-							"cell_id": 17756185534593081623,
+							"cell_id": 12693015784426443014,
 							"cell_origin": "server",
 							"cell_type": "input_form",
 							"source": "0"
@@ -85,12 +85,12 @@
 					"source": "\\begin{dmath*}{}0\\end{dmath*}"
 				},
 				{
-					"cell_id": 15532703794317471991,
+					"cell_id": 6486916926404311115,
 					"cell_origin": "server",
 					"cell_type": "latex_view",
 					"cells": [
 						{
-							"cell_id": 9105489230398800702,
+							"cell_id": 10064651398535284212,
 							"cell_origin": "server",
 							"cell_type": "input_form",
 							"source": "\\Lambda_{i}^{\\a A} S_{A}( -  1/2 I \\e^{\\alpha1 \\p} \\e^{\\alpha2 \\b} \\e^{\\alpha3 \\g} \\fW_{\\p \\b \\g}^{i} \\fW_{\\alpha1 \\alpha2 \\alpha3}^{j} +  3/2 I \\e^{\\p \\alpha1} \\e^{\\b \\alpha2} W_{\\alpha1 \\alpha2} \\wX_{\\p \\b}^{i j} -  3/4 I \\e^{\\p \\b} \\fX^{i}_{\\b} \\fX^{j}_{\\p})"
@@ -99,12 +99,12 @@
 					"source": "\\begin{dmath*}{}\\Lambda_{i}\\,^{\\alpha A} S_{A}\\left( - \\frac{1}{2}I \\epsilon^{{\\alpha_{1}} \\rho} \\epsilon^{{\\alpha_{2}} \\beta} \\epsilon^{{\\alpha_{3}} \\gamma} W_{\\rho \\beta \\gamma}\\,^{i} W_{{\\alpha_{1}} {\\alpha_{2}} {\\alpha_{3}}}\\,^{j}+\\frac{3}{2}I \\epsilon^{\\rho {\\alpha_{1}}} \\epsilon^{\\beta {\\alpha_{2}}} W_{{\\alpha_{1}} {\\alpha_{2}}} X_{\\rho \\beta}\\,^{i j} - \\frac{3}{4}I \\epsilon^{\\rho \\beta} X^{i}_{\\beta} X^{j}_{\\rho}\\right)\\end{dmath*}"
 				},
 				{
-					"cell_id": 8194445265901954963,
+					"cell_id": 16726906955812104594,
 					"cell_origin": "server",
 					"cell_type": "latex_view",
 					"cells": [
 						{
-							"cell_id": 1305545458927194125,
+							"cell_id": 2039416125151805136,
 							"cell_origin": "server",
 							"cell_type": "input_form",
 							"source": "0"
@@ -113,12 +113,12 @@
 					"source": "\\begin{dmath*}{}0\\end{dmath*}"
 				},
 				{
-					"cell_id": 8367965140448709131,
+					"cell_id": 9004750174088938416,
 					"cell_origin": "server",
 					"cell_type": "latex_view",
 					"cells": [
 						{
-							"cell_id": 8967535318231969877,
+							"cell_id": 3045049706830104541,
 							"cell_origin": "server",
 							"cell_type": "input_form",
 							"source": "\\Symmetrize_{i j k}^{i1 i2 i3} \\Lambda^{k}_{\\a}^{A} \\D_{A}( -  1/2 I \\e^{\\alpha1 \\p} \\e^{\\alpha2 \\b} \\e^{\\alpha3 \\g} \\fW_{\\p \\b \\g}^{i} \\fW_{\\alpha1 \\alpha2 \\alpha3}^{j} +  3/2 I \\e^{\\p \\alpha1} \\e^{\\b \\alpha2} W_{\\alpha1 \\alpha2} \\wX_{\\p \\b}^{i j} -  3/4 I \\e^{\\p \\b} \\fX^{i}_{\\b} \\fX^{j}_{\\p})"
@@ -127,12 +127,12 @@
 					"source": "\\begin{dmath*}{}\\mathbb{S}_{i j k}\\,^{{i_{1}} {i_{2}} {i_{3}}} \\Lambda^{k}\\,_{\\alpha}\\,^{A} \\nabla_{A}\\left( - \\frac{1}{2}I \\epsilon^{{\\alpha_{1}} \\rho} \\epsilon^{{\\alpha_{2}} \\beta} \\epsilon^{{\\alpha_{3}} \\gamma} W_{\\rho \\beta \\gamma}\\,^{i} W_{{\\alpha_{1}} {\\alpha_{2}} {\\alpha_{3}}}\\,^{j}+\\frac{3}{2}I \\epsilon^{\\rho {\\alpha_{1}}} \\epsilon^{\\beta {\\alpha_{2}}} W_{{\\alpha_{1}} {\\alpha_{2}}} X_{\\rho \\beta}\\,^{i j} - \\frac{3}{4}I \\epsilon^{\\rho \\beta} X^{i}_{\\beta} X^{j}_{\\rho}\\right)\\end{dmath*}"
 				},
 				{
-					"cell_id": 13701550522073723299,
+					"cell_id": 12018860128271989088,
 					"cell_origin": "server",
 					"cell_type": "latex_view",
 					"cells": [
 						{
-							"cell_id": 18358089004824423173,
+							"cell_id": 10012707304417186790,
 							"cell_origin": "server",
 							"cell_type": "input_form",
 							"source": "0"
@@ -141,7 +141,7 @@
 					"source": "\\begin{dmath*}{}0\\end{dmath*}"
 				}
 			],
-			"source": "## Definition and simple consitency checks that all work ##\nHijWeyl:=  - (I/2) \\e^{\\alpha1 \\a} \\e^{\\alpha2 \\b} \\e^{\\alpha3 \\g} \\fW_{\\a \\b \\g}^{i} \\fW_{\\alpha1 \\alpha2 \\alpha3}^{j} + (3 I / 2) \\e^{\\a \\alpha1} \\e^{\\b \\alpha2} W_{\\alpha1 \\alpha2} \\wX_{\\a \\b}^{i j} - (3 I / 4) \\e^{\\a \\b} \\fX^{i}_{\\b} \\fX^{j}_{\\a}; \n\ncheck1 := K^{a}{@(HijWeyl)};\ncleverSimplify = CleverSimplify(check1)\ncleverSimplify.main(5, True)\nsort_sum(check1);\n\ncheck2 := \\Lambda_{i}^{\\a}^{A} S_{A}{@(HijWeyl)};\ncleverSimplify = CleverSimplify(check2)\ncleverSimplify.main(6, True)\nsort_sum(check2);\n\ncheck3 := \\Symmetrize_{i j k}^{i1 i2 i3} \\Lambda^{k}_{\\a}^{A} \\D_{A}{@(HijWeyl)};\ncleverSimplify = CleverSimplify(check3)\ncleverSimplify.main(6, True)\nsort_sum(check3);"
+			"source": "## Definition and simple consitency checks that all work ##\nHijWeyl:=  - (I/2) \\e^{\\alpha1 \\a} \\e^{\\alpha2 \\b} \\e^{\\alpha3 \\g} \\fW_{\\a \\b \\g}^{i} \\fW_{\\alpha1 \\alpha2 \\alpha3}^{j} \n\t\t + (3 I / 2) \\e^{\\a \\alpha1} \\e^{\\b \\alpha2} W_{\\alpha1 \\alpha2} \\wX_{\\a \\b}^{i j} \n\t      - (3 I / 4) \\e^{\\a \\b} \\fX^{i}_{\\b} \\fX^{j}_{\\a}; \n\ncheck1 := K^{a}{@(HijWeyl)};\ncleverSimplify = CleverSimplify(check1)\ncleverSimplify.main(5, True)\nsort_sum(check1);\n\ncheck2 := \\Lambda_{i}^{\\a}^{A} S_{A}{@(HijWeyl)};\ncleverSimplify = CleverSimplify(check2)\ncleverSimplify.main(6, True)\nsort_sum(check2);\n\ncheck3 := \\Symmetrize_{i j k}^{i1 i2 i3} \\Lambda^{k}_{\\a}^{A} \\D_{A}{@(HijWeyl)};\ncleverSimplify = CleverSimplify(check3)\ncleverSimplify.main(6, True)\nsort_sum(check3);"
 		},
 		{
 			"cell_id": 4139380107758259280,
