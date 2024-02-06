@@ -1,0 +1,1122 @@
+{
+	"cell_id": 12994044605177505786,
+	"cells": [
+		{
+			"cell_id": 2515582538022878314,
+			"cell_origin": "client",
+			"cell_type": "latex",
+			"cells": [
+				{
+					"cell_id": 16290080197176496435,
+					"cell_origin": "client",
+					"cell_type": "latex_view",
+					"source": "\\section*{Import 5D N = 1 Code}"
+				}
+			],
+			"hidden": true,
+			"source": "\\section*{Import 5D N = 1 Code}"
+		},
+		{
+			"cell_id": 14451742905609991395,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "from sugra5DN1 import *"
+		},
+		{
+			"cell_id": 18162270650155093490,
+			"cell_origin": "client",
+			"cell_type": "latex",
+			"cells": [
+				{
+					"cell_id": 11296414844966408895,
+					"cell_origin": "client",
+					"cell_type": "latex_view",
+					"source": "\\section*{$H^{i j}_{\\log}$ Descendants}\nNote the bosons of these descendants have been further reduced and written in objects.cnb. This is the generation process."
+				}
+			],
+			"hidden": true,
+			"source": "\\section*{$H^{i j}_{\\log}$ Descendants}\nNote the bosons of these descendants have been further reduced and written in objects.cnb. This is the generation process."
+		},
+		{
+			"cell_id": 4631860995979950585,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"cells": [
+				{
+					"cell_id": 10621903017081403682,
+					"cell_origin": "server",
+					"cell_type": "latex_view",
+					"cells": [
+						{
+							"cell_id": 12159964877190101987,
+							"cell_origin": "server",
+							"cell_type": "input_form",
+							"source": " -  3/8 I W_{a b} \\wX^{a b i j} -  51/64 I \\e^{\\a \\b} \\fX^{i}_{\\a} \\fX^{j}_{\\b} +  9/64 \\vX^{i j} Y (\\vW)**(-1) -  1/2 \\eta_{a b} (\\vW)**(-1) \\vDh^{a}(\\vDh^{b}(\\vX^{i j})) -  3/8 I F_{a b} \\wX^{a b i j} (\\vW)**(-1) -  9/64 \\vX^{i j} W^{a b} W_{a b} (\\vW)**(-1) -  1/8 \\e^{\\a \\b} \\eta^{a c} \\eta^{b d} W_{a b} \\fW_{c d \\a}^{i} \\l^{j}_{\\b} (\\vW)**(-1) -  1/8 \\e^{\\a \\b} \\eta^{a c} \\eta^{b d} W_{a b} \\fW_{c d \\a}^{j} \\l^{i}_{\\b} (\\vW)**(-1) -  3/8 \\Gamma^{a}_{\\a \\b} \\eta_{a b} \\e^{\\a \\l} \\e^{\\b \\p} \\fX^{i}_{\\l} (\\vW)**(-1) \\vDh^{b}(\\l^{j}_{\\p}) -  3/8 \\Gamma^{a}_{\\a \\b} \\eta_{a b} \\e^{\\a \\l} \\e^{\\b \\p} \\fX^{j}_{\\l} (\\vW)**(-1) \\vDh^{b}(\\l^{i}_{\\p}) +  3/8 \\Gamma^{a}_{\\a \\b} \\eta_{a b} \\e^{\\a \\l} \\e^{\\b \\p} \\l^{i}_{\\l} (\\vW)**(-1) \\vDh^{b}(\\fX^{j}_{\\p}) +  3/8 \\Gamma^{a}_{\\a \\b} \\eta_{a b} \\e^{\\a \\l} \\e^{\\b \\p} \\l^{j}_{\\l} (\\vW)**(-1) \\vDh^{b}(\\fX^{i}_{\\p}) +  1/2 \\eta_{a b} \\vX^{i j} (\\vW)**(-2) \\vDh^{a}(\\vDh^{b}(\\vW)) +  1/2 \\eta_{a b} (\\vW)**(-2) \\vDh^{a}(\\vW) \\vDh^{b}(\\vX^{i j}) -  1/8 \\e^{\\a \\b} \\eta^{a c} \\eta^{b d} F_{a b} \\fW_{c d \\a}^{i} \\l^{j}_{\\b} (\\vW)**(-2) -  1/8 \\e^{\\a \\b} \\eta^{a c} \\eta^{b d} F_{a b} \\fW_{c d \\a}^{j} \\l^{i}_{\\b} (\\vW)**(-2) +  1/4 I \\eta_{a b} \\e^{\\a \\b} \\l^{i}_{\\a} (\\vW)**(-2) \\vDh^{a}(\\vDh^{b}(\\l^{j}_{\\b})) +  1/4 I \\eta_{a b} \\e^{\\a \\b} \\l^{j}_{\\a} (\\vW)**(-2) \\vDh^{a}(\\vDh^{b}(\\l^{i}_{\\b})) +  1/4 I \\eta_{a b} \\e^{\\a \\b} (\\vW)**(-2) \\vDh^{a}(\\l^{i}_{\\a}) \\vDh^{b}(\\l^{j}_{\\b}) -  3/32 I \\eLevi^{a b c d e} \\Sigma_{a b \\a \\b} \\eta_{c e1} \\e^{\\a \\l} \\e^{\\b \\p} W_{d e} \\l^{i}_{\\l} (\\vW)**(-2) \\vDh^{e1}(\\l^{j}_{\\p}) -  3/32 I \\eLevi^{a b c d e} \\Sigma_{a b \\a \\b} \\eta_{c e1} \\e^{\\a \\l} \\e^{\\b \\p} W_{d e} \\l^{j}_{\\l} (\\vW)**(-2) \\vDh^{e1}(\\l^{i}_{\\p}) -  3/8 I \\Gamma^{a}_{\\a \\b} \\eta_{a b} \\eta_{c d} \\e^{\\a \\g} \\e^{\\b \\p} \\l^{i}_{\\g} \\l^{j}_{\\p} (\\vW)**(-2) \\vDh^{c}(W^{b d}) -  3/128 I \\e^{\\a \\b} W^{a b} W_{a b} \\l^{i}_{\\a} \\l^{j}_{\\b} (\\vW)**(-2) +  9/256 I \\eLevi^{a b c d e} \\Gamma^{e1}_{\\a \\b} \\eta_{a e1} \\e^{\\a \\l} \\e^{\\b \\p} W_{b c} W_{d e} \\l^{i}_{\\l} \\l^{j}_{\\p} (\\vW)**(-2) -  3/64 I \\e^{\\a \\b} Y \\l^{i}_{\\a} \\l^{j}_{\\b} (\\vW)**(-2) +  3/16 \\Sigma_{a b \\a \\b} \\e^{\\a \\l} \\e^{\\b \\p} F^{a b} \\fX^{i}_{\\l} \\l^{j}_{\\p} (\\vW)**(-2) +  3/16 \\Sigma_{a b \\a \\b} \\e^{\\a \\l} \\e^{\\b \\p} F^{a b} \\fX^{j}_{\\l} \\l^{i}_{\\p} (\\vW)**(-2) +  3/8 \\e_{k l} \\e^{\\a \\b} \\vX^{i j} \\fX^{k}_{\\a} \\l^{l}_{\\b} (\\vW)**(-2) +  1/8 \\vX^{i j} F^{a b} F_{a b} (\\vW)**(-3) -  1/8 \\e_{k l} \\e_{m n} \\vX^{i j} \\vX^{k m} \\vX^{l n} (\\vW)**(-3) -  1/4 \\eta_{a b} \\vX^{i j} (\\vW)**(-3) \\vDh^{a}(\\vW) \\vDh^{b}(\\vW) -  1/16 I \\eLevi^{a b c d e} \\Sigma_{a b \\a \\b} \\eta_{c e1} \\e^{\\a \\l} \\e^{\\b \\p} F_{d e} \\l^{i}_{\\l} (\\vW)**(-3) \\vDh^{e1}(\\l^{j}_{\\p}) -  1/16 I \\eLevi^{a b c d e} \\Sigma_{a b \\a \\b} \\eta_{c e1} \\e^{\\a \\l} \\e^{\\b \\p} F_{d e} \\l^{j}_{\\l} (\\vW)**(-3) \\vDh^{e1}(\\l^{i}_{\\p}) -  1/8 I \\e_{k l} \\Gamma^{a}_{\\a \\b} \\eta_{a b} \\e^{\\a \\l} \\e^{\\b \\p} \\l^{i}_{\\l} \\l^{k}_{\\p} (\\vW)**(-3) \\vDh^{b}(\\vX^{j l}) -  1/8 I \\e_{k l} \\Gamma^{a}_{\\a \\b} \\eta_{a b} \\e^{\\a \\l} \\e^{\\b \\p} \\l^{j}_{\\l} \\l^{k}_{\\p} (\\vW)**(-3) \\vDh^{b}(\\vX^{i l}) -  1/4 I \\Gamma^{a}_{\\a \\b} \\eta_{a b} \\eta_{c d} \\e^{\\a \\g} \\e^{\\b \\p} \\l^{i}_{\\g} \\l^{j}_{\\p} (\\vW)**(-3) \\vDh^{c}(F^{b d}) +  1/4 I \\e_{k l} \\Gamma^{a}_{\\a \\b} \\eta_{a b} \\e^{\\a \\l} \\e^{\\b \\p} \\vX^{i j} \\l^{k}_{\\l} (\\vW)**(-3) \\vDh^{b}(\\l^{l}_{\\p}) +  1/8 I \\e_{k l} \\Gamma^{a}_{\\a \\b} \\eta_{a b} \\e^{\\a \\l} \\e^{\\b \\p} \\vX^{i k} \\l^{j}_{\\l} (\\vW)**(-3) \\vDh^{b}(\\l^{l}_{\\p}) +  1/8 I \\e_{k l} \\Gamma^{a}_{\\a \\b} \\eta_{a b} \\e^{\\a \\l} \\e^{\\b \\p} \\vX^{j k} \\l^{i}_{\\l} (\\vW)**(-3) \\vDh^{b}(\\l^{l}_{\\p}) -  1/8 I \\Gamma^{a}_{\\a \\b} \\e^{\\a \\l} \\e^{\\b \\p} F_{a b} \\l^{i}_{\\l} (\\vW)**(-3) \\vDh^{b}(\\l^{j}_{\\p}) -  1/8 I \\Gamma^{a}_{\\a \\b} \\e^{\\a \\l} \\e^{\\b \\p} F_{a b} \\l^{j}_{\\l} (\\vW)**(-3) \\vDh^{b}(\\l^{i}_{\\p}) -  1/4 I \\eta_{a b} \\e^{\\a \\b} \\l^{i}_{\\a} \\l^{j}_{\\b} (\\vW)**(-3) \\vDh^{a}(\\vDh^{b}(\\vW)) -  3/8 I \\eta_{a b} \\e^{\\a \\b} \\l^{i}_{\\a} (\\vW)**(-3) \\vDh^{a}(\\vW) \\vDh^{b}(\\l^{j}_{\\b}) -  3/8 I \\eta_{a b} \\e^{\\a \\b} \\l^{j}_{\\a} (\\vW)**(-3) \\vDh^{a}(\\vW) \\vDh^{b}(\\l^{i}_{\\b}) -  1/4 I \\Sigma_{a b \\a \\b} \\e^{\\a \\l} \\e^{\\b \\p} \\l^{i}_{\\l} (\\vW)**(-3) \\vDh^{a}(\\vW) \\vDh^{b}(\\l^{j}_{\\p}) -  1/4 I \\Sigma_{a b \\a \\b} \\e^{\\a \\l} \\e^{\\b \\p} \\l^{j}_{\\l} (\\vW)**(-3) \\vDh^{a}(\\vW) \\vDh^{b}(\\l^{i}_{\\p}) -  3/16 I \\Gamma^{a}_{\\a \\b} \\e^{\\a \\l} \\e^{\\b \\p} W_{a b} \\l^{i}_{\\l} \\l^{j}_{\\p} (\\vW)**(-3) \\vDh^{b}(\\vW) -  3/32 I \\e^{\\a \\b} W_{a b} F^{a b} \\l^{i}_{\\a} \\l^{j}_{\\b} (\\vW)**(-3) +  9/64 I \\eLevi^{a b c d e} \\Gamma^{e1}_{\\a \\b} \\eta_{a e1} \\e^{\\a \\l} \\e^{\\b \\p} W_{b c} F_{d e} \\l^{i}_{\\l} \\l^{j}_{\\p} (\\vW)**(-3) -  3/32 I \\e_{k l} \\Sigma_{a b \\a \\b} \\e^{\\a \\l} \\e^{\\b \\p} \\vX^{i j} W^{a b} \\l^{k}_{\\l} \\l^{l}_{\\p} (\\vW)**(-3) -  3/16 I \\e_{k l} \\e^{\\a \\b} \\e^{\\l \\p} \\fX^{k}_{\\a} \\l^{i}_{\\b} \\l^{j}_{\\l} \\l^{l}_{\\p} (\\vW)**(-3) -  3/16 I \\e_{k l} \\e^{\\a \\b} \\e^{\\l \\p} \\fX^{k}_{\\a} \\l^{j}_{\\b} \\l^{i}_{\\l} \\l^{l}_{\\p} (\\vW)**(-3) -  3/8 I \\e_{k l} \\e^{\\a \\b} \\e^{\\l \\p} \\fX^{k}_{\\a} \\l^{i}_{\\l} \\l^{j}_{\\p} \\l^{l}_{\\b} (\\vW)**(-3) +  3/16 I \\eta_{a b} \\e^{\\a \\b} \\l^{i}_{\\a} \\l^{j}_{\\b} (\\vW)**(-4) \\vDh^{a}(\\vW) \\vDh^{b}(\\vW) -  3/16 I \\e_{k l} \\Gamma^{a}_{\\a \\b} \\eta_{a b} \\e^{\\a \\l} \\e^{\\b \\p} \\vX^{i k} \\l^{j}_{\\l} \\l^{l}_{\\p} (\\vW)**(-4) \\vDh^{b}(\\vW) -  3/16 I \\e_{k l} \\Gamma^{a}_{\\a \\b} \\eta_{a b} \\e^{\\a \\l} \\e^{\\b \\p} \\vX^{j k} \\l^{i}_{\\l} \\l^{l}_{\\p} (\\vW)**(-4) \\vDh^{b}(\\vW) +  3/8 I \\Gamma^{a}_{\\a \\b} \\e^{\\a \\l} \\e^{\\b \\p} F_{a b} \\l^{i}_{\\l} \\l^{j}_{\\p} (\\vW)**(-4) \\vDh^{b}(\\vW) -  3/32 I \\e^{\\a \\b} F^{a b} F_{a b} \\l^{i}_{\\a} \\l^{j}_{\\b} (\\vW)**(-4) +  3/64 I \\eLevi^{a b c d e} \\Gamma^{e1}_{\\a \\b} \\eta_{a e1} \\e^{\\a \\l} \\e^{\\b \\p} F_{b c} F_{d e} \\l^{i}_{\\l} \\l^{j}_{\\p} (\\vW)**(-4) -  3/16 I \\e_{k l} \\Sigma_{a b \\a \\b} \\e^{\\a \\l} \\e^{\\b \\p} \\vX^{i j} F^{a b} \\l^{k}_{\\l} \\l^{l}_{\\p} (\\vW)**(-4) +  3/16 I \\e_{k l} \\e_{m n} \\e^{\\a \\b} \\vX^{i j} \\vX^{k m} \\l^{l}_{\\a} \\l^{n}_{\\b} (\\vW)**(-4) +  3/32 I \\e_{k l} \\e_{m n} \\e^{\\a \\b} \\vX^{k m} \\vX^{l n} \\l^{i}_{\\a} \\l^{j}_{\\b} (\\vW)**(-4) +  15/64 \\e_{k l} \\Gamma^{a}_{\\a \\b} \\eta_{a b} \\e^{\\a \\g} \\e^{\\b \\l} \\e^{\\p \\t} \\l^{i}_{\\g} \\l^{j}_{\\l} \\l^{k}_{\\p} (\\vW)**(-4) \\vDh^{b}(\\l^{l}_{\\t}) +  9/64 \\e_{k l} \\Gamma^{a}_{\\a \\b} \\eta_{a b} \\e^{\\a \\g} \\e^{\\b \\l} \\e^{\\p \\t} \\l^{i}_{\\g} \\l^{j}_{\\p} \\l^{k}_{\\l} (\\vW)**(-4) \\vDh^{b}(\\l^{l}_{\\t}) +  9/64 \\e_{k l} \\Gamma^{a}_{\\a \\b} \\eta_{a b} \\e^{\\a \\g} \\e^{\\b \\l} \\e^{\\p \\t} \\l^{j}_{\\g} \\l^{i}_{\\p} \\l^{k}_{\\l} (\\vW)**(-4) \\vDh^{b}(\\l^{l}_{\\t}) +  15/64 \\e_{k l} \\Gamma^{a}_{\\a \\b} \\eta_{a b} \\e^{\\a \\g} \\e^{\\b \\l} \\e^{\\p \\t} \\l^{i}_{\\g} \\l^{j}_{\\p} \\l^{k}_{\\t} (\\vW)**(-4) \\vDh^{b}(\\l^{l}_{\\l}) +  15/64 \\e_{k l} \\Gamma^{a}_{\\a \\b} \\eta_{a b} \\e^{\\a \\g} \\e^{\\b \\l} \\e^{\\p \\t} \\l^{j}_{\\g} \\l^{i}_{\\p} \\l^{k}_{\\t} (\\vW)**(-4) \\vDh^{b}(\\l^{l}_{\\l}) +  15/64 \\e_{k l} \\Gamma^{a}_{\\a \\b} \\eta_{a b} \\e^{\\a \\g} \\e^{\\b \\l} \\e^{\\p \\t} \\l^{j}_{\\p} \\l^{i}_{\\t} \\l^{k}_{\\g} (\\vW)**(-4) \\vDh^{b}(\\l^{l}_{\\l}) -  9/64 \\e_{k l} \\Sigma_{a b \\a \\b} \\e^{\\a \\g} \\e^{\\b \\l} \\e^{\\p \\t} W^{a b} \\l^{i}_{\\g} \\l^{j}_{\\p} \\l^{k}_{\\l} \\l^{l}_{\\t} (\\vW)**(-4) -  9/64 \\e_{k l} \\Sigma_{a b \\a \\b} \\e^{\\a \\g} \\e^{\\b \\l} \\e^{\\p \\t} W^{a b} \\l^{j}_{\\g} \\l^{i}_{\\p} \\l^{k}_{\\l} \\l^{l}_{\\t} (\\vW)**(-4) -  9/64 \\e_{k l} \\Sigma_{a b \\a \\b} \\e^{\\a \\g} \\e^{\\b \\l} \\e^{\\p \\t} W^{a b} \\l^{i}_{\\p} \\l^{j}_{\\t} \\l^{k}_{\\g} \\l^{l}_{\\l} (\\vW)**(-4) +  3/8 \\e_{k l} \\e_{m n} \\e^{\\a \\b} \\e^{\\l \\p} \\vX^{k m} \\l^{i}_{\\a} \\l^{j}_{\\b} \\l^{l}_{\\l} \\l^{n}_{\\p} (\\vW)**(-5) -  3/8 \\e_{k l} \\Sigma_{a b \\a \\b} \\e^{\\a \\g} \\e^{\\b \\l} \\e^{\\p \\t} F^{a b} \\l^{i}_{\\p} \\l^{j}_{\\t} \\l^{k}_{\\g} \\l^{l}_{\\l} (\\vW)**(-5) -  3/16 \\e_{k l} \\Gamma^{a}_{\\a \\b} \\eta_{a b} \\e^{\\a \\g} \\e^{\\b \\l} \\e^{\\p \\t} \\l^{i}_{\\g} \\l^{j}_{\\p} \\l^{k}_{\\l} \\l^{l}_{\\t} (\\vW)**(-5) \\vDh^{b}(\\vW) -  3/16 \\e_{k l} \\Gamma^{a}_{\\a \\b} \\eta_{a b} \\e^{\\a \\g} \\e^{\\b \\l} \\e^{\\p \\t} \\l^{j}_{\\g} \\l^{i}_{\\p} \\l^{k}_{\\l} \\l^{l}_{\\t} (\\vW)**(-5) \\vDh^{b}(\\vW) +  3/32 I \\e_{k l} \\e_{m n} \\e^{\\a \\b} \\e^{\\g \\l} \\e^{\\p \\t} \\l^{i}_{\\a} \\l^{j}_{\\b} \\l^{k}_{\\g} \\l^{l}_{\\p} \\l^{m}_{\\l} \\l^{n}_{\\t} (\\vW)**(-6) -  3/16 I \\e_{k l} \\e_{m n} \\e^{\\a \\b} \\e^{\\g \\l} \\e^{\\p \\t} \\l^{i}_{\\a} \\l^{j}_{\\g} \\l^{k}_{\\b} \\l^{l}_{\\p} \\l^{m}_{\\l} \\l^{n}_{\\t} (\\vW)**(-6)"
+						}
+					],
+					"source": "\\begin{dmath*}{} - \\frac{3}{8}I W_{a b} X^{a b i j} - \\frac{51}{64}I \\epsilon^{\\alpha \\beta} X^{i}_{\\alpha} X^{j}_{\\beta}+\\frac{9}{64}X^{i j} Y {W}^{-1} - \\frac{1}{2}\\eta_{a b} {W}^{-1} \\hat{\\nabla}^{a}{\\hat{\\nabla}^{b}{X^{i j}}} - \\frac{3}{8}I F_{a b} X^{a b i j} {W}^{-1} - \\frac{9}{64}X^{i j} W^{a b} W_{a b} {W}^{-1} - \\frac{1}{8}\\epsilon^{\\alpha \\beta} \\eta^{a c} \\eta^{b d} W_{a b} W_{c d \\alpha}\\,^{i} \\lambda^{j}_{\\beta} {W}^{-1} - \\frac{1}{8}\\epsilon^{\\alpha \\beta} \\eta^{a c} \\eta^{b d} W_{a b} W_{c d \\alpha}\\,^{j} \\lambda^{i}_{\\beta} {W}^{-1} - \\frac{3}{8}(\\Gamma^{a})_{\\alpha \\beta} \\eta_{a b} \\epsilon^{\\alpha \\lambda} \\epsilon^{\\beta \\rho} X^{i}_{\\lambda} {W}^{-1} \\hat{\\nabla}^{b}{\\lambda^{j}_{\\rho}} - \\frac{3}{8}(\\Gamma^{a})_{\\alpha \\beta} \\eta_{a b} \\epsilon^{\\alpha \\lambda} \\epsilon^{\\beta \\rho} X^{j}_{\\lambda} {W}^{-1} \\hat{\\nabla}^{b}{\\lambda^{i}_{\\rho}}+\\frac{3}{8}(\\Gamma^{a})_{\\alpha \\beta} \\eta_{a b} \\epsilon^{\\alpha \\lambda} \\epsilon^{\\beta \\rho} \\lambda^{i}_{\\lambda} {W}^{-1} \\hat{\\nabla}^{b}{X^{j}_{\\rho}}+\\frac{3}{8}(\\Gamma^{a})_{\\alpha \\beta} \\eta_{a b} \\epsilon^{\\alpha \\lambda} \\epsilon^{\\beta \\rho} \\lambda^{j}_{\\lambda} {W}^{-1} \\hat{\\nabla}^{b}{X^{i}_{\\rho}}+\\frac{1}{2}\\eta_{a b} X^{i j} {W}^{-2} \\hat{\\nabla}^{a}{\\hat{\\nabla}^{b}{W}}+\\frac{1}{2}\\eta_{a b} {W}^{-2} \\hat{\\nabla}^{a}{W} \\hat{\\nabla}^{b}{X^{i j}} - \\frac{1}{8}\\epsilon^{\\alpha \\beta} \\eta^{a c} \\eta^{b d} F_{a b} W_{c d \\alpha}\\,^{i} \\lambda^{j}_{\\beta} {W}^{-2} - \\frac{1}{8}\\epsilon^{\\alpha \\beta} \\eta^{a c} \\eta^{b d} F_{a b} W_{c d \\alpha}\\,^{j} \\lambda^{i}_{\\beta} {W}^{-2}+\\frac{1}{4}I \\eta_{a b} \\epsilon^{\\alpha \\beta} \\lambda^{i}_{\\alpha} {W}^{-2} \\hat{\\nabla}^{a}{\\hat{\\nabla}^{b}{\\lambda^{j}_{\\beta}}}+\\frac{1}{4}I \\eta_{a b} \\epsilon^{\\alpha \\beta} \\lambda^{j}_{\\alpha} {W}^{-2} \\hat{\\nabla}^{a}{\\hat{\\nabla}^{b}{\\lambda^{i}_{\\beta}}}+\\frac{1}{4}I \\eta_{a b} \\epsilon^{\\alpha \\beta} {W}^{-2} \\hat{\\nabla}^{a}{\\lambda^{i}_{\\alpha}} \\hat{\\nabla}^{b}{\\lambda^{j}_{\\beta}}%\n - \\frac{3}{32}I \\epsilon^{a b c d e} (\\Sigma_{a b})_{\\alpha \\beta} \\eta_{c {e_{1}}} \\epsilon^{\\alpha \\lambda} \\epsilon^{\\beta \\rho} W_{d e} \\lambda^{i}_{\\lambda} {W}^{-2} \\hat{\\nabla}^{{e_{1}}}{\\lambda^{j}_{\\rho}} - \\frac{3}{32}I \\epsilon^{a b c d e} (\\Sigma_{a b})_{\\alpha \\beta} \\eta_{c {e_{1}}} \\epsilon^{\\alpha \\lambda} \\epsilon^{\\beta \\rho} W_{d e} \\lambda^{j}_{\\lambda} {W}^{-2} \\hat{\\nabla}^{{e_{1}}}{\\lambda^{i}_{\\rho}} - \\frac{3}{8}I (\\Gamma^{a})_{\\alpha \\beta} \\eta_{a b} \\eta_{c d} \\epsilon^{\\alpha \\gamma} \\epsilon^{\\beta \\rho} \\lambda^{i}_{\\gamma} \\lambda^{j}_{\\rho} {W}^{-2} \\hat{\\nabla}^{c}{W^{b d}} - \\frac{3}{128}I \\epsilon^{\\alpha \\beta} W^{a b} W_{a b} \\lambda^{i}_{\\alpha} \\lambda^{j}_{\\beta} {W}^{-2}+\\frac{9}{256}I \\epsilon^{a b c d e} (\\Gamma^{{e_{1}}})_{\\alpha \\beta} \\eta_{a {e_{1}}} \\epsilon^{\\alpha \\lambda} \\epsilon^{\\beta \\rho} W_{b c} W_{d e} \\lambda^{i}_{\\lambda} \\lambda^{j}_{\\rho} {W}^{-2} - \\frac{3}{64}I \\epsilon^{\\alpha \\beta} Y \\lambda^{i}_{\\alpha} \\lambda^{j}_{\\beta} {W}^{-2}+\\frac{3}{16}(\\Sigma_{a b})_{\\alpha \\beta} \\epsilon^{\\alpha \\lambda} \\epsilon^{\\beta \\rho} F^{a b} X^{i}_{\\lambda} \\lambda^{j}_{\\rho} {W}^{-2}+\\frac{3}{16}(\\Sigma_{a b})_{\\alpha \\beta} \\epsilon^{\\alpha \\lambda} \\epsilon^{\\beta \\rho} F^{a b} X^{j}_{\\lambda} \\lambda^{i}_{\\rho} {W}^{-2}+\\frac{3}{8}\\epsilon_{k l} \\epsilon^{\\alpha \\beta} X^{i j} X^{k}_{\\alpha} \\lambda^{l}_{\\beta} {W}^{-2}+\\frac{1}{8}X^{i j} F^{a b} F_{a b} {W}^{-3} - \\frac{1}{8}\\epsilon_{k l} \\epsilon_{m n} X^{i j} X^{k m} X^{l n} {W}^{-3} - \\frac{1}{4}\\eta_{a b} X^{i j} {W}^{-3} \\hat{\\nabla}^{a}{W} \\hat{\\nabla}^{b}{W} - \\frac{1}{16}I \\epsilon^{a b c d e} (\\Sigma_{a b})_{\\alpha \\beta} \\eta_{c {e_{1}}} \\epsilon^{\\alpha \\lambda} \\epsilon^{\\beta \\rho} F_{d e} \\lambda^{i}_{\\lambda} {W}^{-3} \\hat{\\nabla}^{{e_{1}}}{\\lambda^{j}_{\\rho}} - \\frac{1}{16}I \\epsilon^{a b c d e} (\\Sigma_{a b})_{\\alpha \\beta} \\eta_{c {e_{1}}} \\epsilon^{\\alpha \\lambda} \\epsilon^{\\beta \\rho} F_{d e} \\lambda^{j}_{\\lambda} {W}^{-3} \\hat{\\nabla}^{{e_{1}}}{\\lambda^{i}_{\\rho}} - \\frac{1}{8}I \\epsilon_{k l} (\\Gamma^{a})_{\\alpha \\beta} \\eta_{a b} \\epsilon^{\\alpha \\lambda} \\epsilon^{\\beta \\rho} \\lambda^{i}_{\\lambda} \\lambda^{k}_{\\rho} {W}^{-3} \\hat{\\nabla}^{b}{X^{j l}} - \\frac{1}{8}I \\epsilon_{k l} (\\Gamma^{a})_{\\alpha \\beta} \\eta_{a b} \\epsilon^{\\alpha \\lambda} \\epsilon^{\\beta \\rho} \\lambda^{j}_{\\lambda} \\lambda^{k}_{\\rho} {W}^{-3} \\hat{\\nabla}^{b}{X^{i l}} - \\frac{1}{4}I (\\Gamma^{a})_{\\alpha \\beta} \\eta_{a b} \\eta_{c d} \\epsilon^{\\alpha \\gamma} \\epsilon^{\\beta \\rho} \\lambda^{i}_{\\gamma} \\lambda^{j}_{\\rho} {W}^{-3} \\hat{\\nabla}^{c}{F^{b d}}+\\frac{1}{4}I \\epsilon_{k l} (\\Gamma^{a})_{\\alpha \\beta} \\eta_{a b} \\epsilon^{\\alpha \\lambda} \\epsilon^{\\beta \\rho} X^{i j} \\lambda^{k}_{\\lambda} {W}^{-3} \\hat{\\nabla}^{b}{\\lambda^{l}_{\\rho}}+\\frac{1}{8}I \\epsilon_{k l} (\\Gamma^{a})_{\\alpha \\beta} \\eta_{a b} \\epsilon^{\\alpha \\lambda} \\epsilon^{\\beta \\rho} X^{i k} \\lambda^{j}_{\\lambda} {W}^{-3} \\hat{\\nabla}^{b}{\\lambda^{l}_{\\rho}}+\\frac{1}{8}I \\epsilon_{k l} (\\Gamma^{a})_{\\alpha \\beta} \\eta_{a b} \\epsilon^{\\alpha \\lambda} \\epsilon^{\\beta \\rho} X^{j k} \\lambda^{i}_{\\lambda} {W}^{-3} \\hat{\\nabla}^{b}{\\lambda^{l}_{\\rho}}%\n - \\frac{1}{8}I (\\Gamma^{a})_{\\alpha \\beta} \\epsilon^{\\alpha \\lambda} \\epsilon^{\\beta \\rho} F_{a b} \\lambda^{i}_{\\lambda} {W}^{-3} \\hat{\\nabla}^{b}{\\lambda^{j}_{\\rho}} - \\frac{1}{8}I (\\Gamma^{a})_{\\alpha \\beta} \\epsilon^{\\alpha \\lambda} \\epsilon^{\\beta \\rho} F_{a b} \\lambda^{j}_{\\lambda} {W}^{-3} \\hat{\\nabla}^{b}{\\lambda^{i}_{\\rho}} - \\frac{1}{4}I \\eta_{a b} \\epsilon^{\\alpha \\beta} \\lambda^{i}_{\\alpha} \\lambda^{j}_{\\beta} {W}^{-3} \\hat{\\nabla}^{a}{\\hat{\\nabla}^{b}{W}} - \\frac{3}{8}I \\eta_{a b} \\epsilon^{\\alpha \\beta} \\lambda^{i}_{\\alpha} {W}^{-3} \\hat{\\nabla}^{a}{W} \\hat{\\nabla}^{b}{\\lambda^{j}_{\\beta}} - \\frac{3}{8}I \\eta_{a b} \\epsilon^{\\alpha \\beta} \\lambda^{j}_{\\alpha} {W}^{-3} \\hat{\\nabla}^{a}{W} \\hat{\\nabla}^{b}{\\lambda^{i}_{\\beta}} - \\frac{1}{4}I (\\Sigma_{a b})_{\\alpha \\beta} \\epsilon^{\\alpha \\lambda} \\epsilon^{\\beta \\rho} \\lambda^{i}_{\\lambda} {W}^{-3} \\hat{\\nabla}^{a}{W} \\hat{\\nabla}^{b}{\\lambda^{j}_{\\rho}} - \\frac{1}{4}I (\\Sigma_{a b})_{\\alpha \\beta} \\epsilon^{\\alpha \\lambda} \\epsilon^{\\beta \\rho} \\lambda^{j}_{\\lambda} {W}^{-3} \\hat{\\nabla}^{a}{W} \\hat{\\nabla}^{b}{\\lambda^{i}_{\\rho}} - \\frac{3}{16}I (\\Gamma^{a})_{\\alpha \\beta} \\epsilon^{\\alpha \\lambda} \\epsilon^{\\beta \\rho} W_{a b} \\lambda^{i}_{\\lambda} \\lambda^{j}_{\\rho} {W}^{-3} \\hat{\\nabla}^{b}{W} - \\frac{3}{32}I \\epsilon^{\\alpha \\beta} W_{a b} F^{a b} \\lambda^{i}_{\\alpha} \\lambda^{j}_{\\beta} {W}^{-3}+\\frac{9}{64}I \\epsilon^{a b c d e} (\\Gamma^{{e_{1}}})_{\\alpha \\beta} \\eta_{a {e_{1}}} \\epsilon^{\\alpha \\lambda} \\epsilon^{\\beta \\rho} W_{b c} F_{d e} \\lambda^{i}_{\\lambda} \\lambda^{j}_{\\rho} {W}^{-3} - \\frac{3}{32}I \\epsilon_{k l} (\\Sigma_{a b})_{\\alpha \\beta} \\epsilon^{\\alpha \\lambda} \\epsilon^{\\beta \\rho} X^{i j} W^{a b} \\lambda^{k}_{\\lambda} \\lambda^{l}_{\\rho} {W}^{-3} - \\frac{3}{16}I \\epsilon_{k l} \\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} X^{k}_{\\alpha} \\lambda^{i}_{\\beta} \\lambda^{j}_{\\lambda} \\lambda^{l}_{\\rho} {W}^{-3} - \\frac{3}{16}I \\epsilon_{k l} \\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} X^{k}_{\\alpha} \\lambda^{j}_{\\beta} \\lambda^{i}_{\\lambda} \\lambda^{l}_{\\rho} {W}^{-3} - \\frac{3}{8}I \\epsilon_{k l} \\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} X^{k}_{\\alpha} \\lambda^{i}_{\\lambda} \\lambda^{j}_{\\rho} \\lambda^{l}_{\\beta} {W}^{-3}+\\frac{3}{16}I \\eta_{a b} \\epsilon^{\\alpha \\beta} \\lambda^{i}_{\\alpha} \\lambda^{j}_{\\beta} {W}^{-4} \\hat{\\nabla}^{a}{W} \\hat{\\nabla}^{b}{W} - \\frac{3}{16}I \\epsilon_{k l} (\\Gamma^{a})_{\\alpha \\beta} \\eta_{a b} \\epsilon^{\\alpha \\lambda} \\epsilon^{\\beta \\rho} X^{i k} \\lambda^{j}_{\\lambda} \\lambda^{l}_{\\rho} {W}^{-4} \\hat{\\nabla}^{b}{W} - \\frac{3}{16}I \\epsilon_{k l} (\\Gamma^{a})_{\\alpha \\beta} \\eta_{a b} \\epsilon^{\\alpha \\lambda} \\epsilon^{\\beta \\rho} X^{j k} \\lambda^{i}_{\\lambda} \\lambda^{l}_{\\rho} {W}^{-4} \\hat{\\nabla}^{b}{W}+\\frac{3}{8}I (\\Gamma^{a})_{\\alpha \\beta} \\epsilon^{\\alpha \\lambda} \\epsilon^{\\beta \\rho} F_{a b} \\lambda^{i}_{\\lambda} \\lambda^{j}_{\\rho} {W}^{-4} \\hat{\\nabla}^{b}{W} - \\frac{3}{32}I \\epsilon^{\\alpha \\beta} F^{a b} F_{a b} \\lambda^{i}_{\\alpha} \\lambda^{j}_{\\beta} {W}^{-4}+\\frac{3}{64}I \\epsilon^{a b c d e} (\\Gamma^{{e_{1}}})_{\\alpha \\beta} \\eta_{a {e_{1}}} \\epsilon^{\\alpha \\lambda} \\epsilon^{\\beta \\rho} F_{b c} F_{d e} \\lambda^{i}_{\\lambda} \\lambda^{j}_{\\rho} {W}^{-4}%\n - \\frac{3}{16}I \\epsilon_{k l} (\\Sigma_{a b})_{\\alpha \\beta} \\epsilon^{\\alpha \\lambda} \\epsilon^{\\beta \\rho} X^{i j} F^{a b} \\lambda^{k}_{\\lambda} \\lambda^{l}_{\\rho} {W}^{-4}+\\frac{3}{16}I \\epsilon_{k l} \\epsilon_{m n} \\epsilon^{\\alpha \\beta} X^{i j} X^{k m} \\lambda^{l}_{\\alpha} \\lambda^{n}_{\\beta} {W}^{-4}+\\frac{3}{32}I \\epsilon_{k l} \\epsilon_{m n} \\epsilon^{\\alpha \\beta} X^{k m} X^{l n} \\lambda^{i}_{\\alpha} \\lambda^{j}_{\\beta} {W}^{-4}+\\frac{15}{64}\\epsilon_{k l} (\\Gamma^{a})_{\\alpha \\beta} \\eta_{a b} \\epsilon^{\\alpha \\gamma} \\epsilon^{\\beta \\lambda} \\epsilon^{\\rho \\tau} \\lambda^{i}_{\\gamma} \\lambda^{j}_{\\lambda} \\lambda^{k}_{\\rho} {W}^{-4} \\hat{\\nabla}^{b}{\\lambda^{l}_{\\tau}}+\\frac{9}{64}\\epsilon_{k l} (\\Gamma^{a})_{\\alpha \\beta} \\eta_{a b} \\epsilon^{\\alpha \\gamma} \\epsilon^{\\beta \\lambda} \\epsilon^{\\rho \\tau} \\lambda^{i}_{\\gamma} \\lambda^{j}_{\\rho} \\lambda^{k}_{\\lambda} {W}^{-4} \\hat{\\nabla}^{b}{\\lambda^{l}_{\\tau}}+\\frac{9}{64}\\epsilon_{k l} (\\Gamma^{a})_{\\alpha \\beta} \\eta_{a b} \\epsilon^{\\alpha \\gamma} \\epsilon^{\\beta \\lambda} \\epsilon^{\\rho \\tau} \\lambda^{j}_{\\gamma} \\lambda^{i}_{\\rho} \\lambda^{k}_{\\lambda} {W}^{-4} \\hat{\\nabla}^{b}{\\lambda^{l}_{\\tau}}+\\frac{15}{64}\\epsilon_{k l} (\\Gamma^{a})_{\\alpha \\beta} \\eta_{a b} \\epsilon^{\\alpha \\gamma} \\epsilon^{\\beta \\lambda} \\epsilon^{\\rho \\tau} \\lambda^{i}_{\\gamma} \\lambda^{j}_{\\rho} \\lambda^{k}_{\\tau} {W}^{-4} \\hat{\\nabla}^{b}{\\lambda^{l}_{\\lambda}}+\\frac{15}{64}\\epsilon_{k l} (\\Gamma^{a})_{\\alpha \\beta} \\eta_{a b} \\epsilon^{\\alpha \\gamma} \\epsilon^{\\beta \\lambda} \\epsilon^{\\rho \\tau} \\lambda^{j}_{\\gamma} \\lambda^{i}_{\\rho} \\lambda^{k}_{\\tau} {W}^{-4} \\hat{\\nabla}^{b}{\\lambda^{l}_{\\lambda}}+\\frac{15}{64}\\epsilon_{k l} (\\Gamma^{a})_{\\alpha \\beta} \\eta_{a b} \\epsilon^{\\alpha \\gamma} \\epsilon^{\\beta \\lambda} \\epsilon^{\\rho \\tau} \\lambda^{j}_{\\rho} \\lambda^{i}_{\\tau} \\lambda^{k}_{\\gamma} {W}^{-4} \\hat{\\nabla}^{b}{\\lambda^{l}_{\\lambda}} - \\frac{9}{64}\\epsilon_{k l} (\\Sigma_{a b})_{\\alpha \\beta} \\epsilon^{\\alpha \\gamma} \\epsilon^{\\beta \\lambda} \\epsilon^{\\rho \\tau} W^{a b} \\lambda^{i}_{\\gamma} \\lambda^{j}_{\\rho} \\lambda^{k}_{\\lambda} \\lambda^{l}_{\\tau} {W}^{-4} - \\frac{9}{64}\\epsilon_{k l} (\\Sigma_{a b})_{\\alpha \\beta} \\epsilon^{\\alpha \\gamma} \\epsilon^{\\beta \\lambda} \\epsilon^{\\rho \\tau} W^{a b} \\lambda^{j}_{\\gamma} \\lambda^{i}_{\\rho} \\lambda^{k}_{\\lambda} \\lambda^{l}_{\\tau} {W}^{-4} - \\frac{9}{64}\\epsilon_{k l} (\\Sigma_{a b})_{\\alpha \\beta} \\epsilon^{\\alpha \\gamma} \\epsilon^{\\beta \\lambda} \\epsilon^{\\rho \\tau} W^{a b} \\lambda^{i}_{\\rho} \\lambda^{j}_{\\tau} \\lambda^{k}_{\\gamma} \\lambda^{l}_{\\lambda} {W}^{-4}+\\frac{3}{8}\\epsilon_{k l} \\epsilon_{m n} \\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} X^{k m} \\lambda^{i}_{\\alpha} \\lambda^{j}_{\\beta} \\lambda^{l}_{\\lambda} \\lambda^{n}_{\\rho} {W}^{-5} - \\frac{3}{8}\\epsilon_{k l} (\\Sigma_{a b})_{\\alpha \\beta} \\epsilon^{\\alpha \\gamma} \\epsilon^{\\beta \\lambda} \\epsilon^{\\rho \\tau} F^{a b} \\lambda^{i}_{\\rho} \\lambda^{j}_{\\tau} \\lambda^{k}_{\\gamma} \\lambda^{l}_{\\lambda} {W}^{-5} - \\frac{3}{16}\\epsilon_{k l} (\\Gamma^{a})_{\\alpha \\beta} \\eta_{a b} \\epsilon^{\\alpha \\gamma} \\epsilon^{\\beta \\lambda} \\epsilon^{\\rho \\tau} \\lambda^{i}_{\\gamma} \\lambda^{j}_{\\rho} \\lambda^{k}_{\\lambda} \\lambda^{l}_{\\tau} {W}^{-5} \\hat{\\nabla}^{b}{W} - \\frac{3}{16}\\epsilon_{k l} (\\Gamma^{a})_{\\alpha \\beta} \\eta_{a b} \\epsilon^{\\alpha \\gamma} \\epsilon^{\\beta \\lambda} \\epsilon^{\\rho \\tau} \\lambda^{j}_{\\gamma} \\lambda^{i}_{\\rho} \\lambda^{k}_{\\lambda} \\lambda^{l}_{\\tau} {W}^{-5} \\hat{\\nabla}^{b}{W}+\\frac{3}{32}I \\epsilon_{k l} \\epsilon_{m n} \\epsilon^{\\alpha \\beta} \\epsilon^{\\gamma \\lambda} \\epsilon^{\\rho \\tau} \\lambda^{i}_{\\alpha} \\lambda^{j}_{\\beta} \\lambda^{k}_{\\gamma} \\lambda^{l}_{\\rho} \\lambda^{m}_{\\lambda} \\lambda^{n}_{\\tau} {W}^{-6} - \\frac{3}{16}I \\epsilon_{k l} \\epsilon_{m n} \\epsilon^{\\alpha \\beta} \\epsilon^{\\gamma \\lambda} \\epsilon^{\\rho \\tau} \\lambda^{i}_{\\alpha} \\lambda^{j}_{\\gamma} \\lambda^{k}_{\\beta} \\lambda^{l}_{\\rho} \\lambda^{m}_{\\lambda} \\lambda^{n}_{\\tau} {W}^{-6}\\end{dmath*}"
+				}
+			],
+			"source": "# From objects.cnb\nHijLogW;"
+		},
+		{
+			"cell_id": 6608323839747526114,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "saver.save(HijLogW, 'HijLogW.txt')"
+		},
+		{
+			"cell_id": 8299497332293598337,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"cells": [
+				{
+					"cell_id": 4180537709143520073,
+					"cell_origin": "server",
+					"cell_type": "latex_view",
+					"cells": [
+						{
+							"cell_id": 14197667099749747662,
+							"cell_origin": "server",
+							"cell_type": "input_form",
+							"source": " -  3/4 I \\e^{\\a \\b} \\e^{\\l \\p} \\wX_{\\a \\l}^{i j} W_{\\b \\p} -  51/64 I \\e^{\\a \\b} \\fX^{i}_{\\a} \\fX^{j}_{\\b} +  9/64 \\vX^{i j} Y (\\vW)**(-1) -  1/32 \\AOmega^{\\a \\b \\A} \\AOmega^{\\l \\p \\B} \\e_{\\a \\b} \\e_{\\l \\p} (\\vW)**(-1) \\vDh_{\\A}(\\vDh_{\\B}(\\vX^{i j})) +  1/8 \\AOmega^{\\a \\b \\A} \\AOmega^{\\l \\p \\B} \\e_{\\a \\l} \\e_{\\b \\p} (\\vW)**(-1) \\vDh_{\\A}(\\vDh_{\\B}(\\vX^{i j})) -  3/4 I \\e^{\\a \\b} \\e^{\\l \\p} \\wX_{\\a \\l}^{i j} F_{\\b \\p} (\\vW)**(-1) -  9/32 \\e^{\\a \\b} \\e^{\\l \\p} \\vX^{i j} W_{\\a \\l} W_{\\b \\p} (\\vW)**(-1) -  1/4 \\e^{\\a \\b} \\e^{\\g \\l} \\e^{\\p \\t} W_{\\a \\g} \\fW_{\\b \\l \\p}^{i} \\l^{j}_{\\t} (\\vW)**(-1) -  1/4 \\e^{\\a \\b} \\e^{\\g \\l} \\e^{\\p \\t} W_{\\a \\g} \\fW_{\\b \\l \\p}^{j} \\l^{i}_{\\t} (\\vW)**(-1) -  3/32 \\AOmega^{\\a \\b \\A} \\e_{\\a \\b} \\e^{\\l \\p} \\fX^{i}_{\\l} \\vDh_{\\A}(\\l^{j}_{\\p}) (\\vW)**(-1) -  3/8 \\AOmega^{\\a \\b \\A} \\fX^{i}_{\\a} \\vDh_{\\A}(\\l^{j}_{\\b}) (\\vW)**(-1) -  3/32 \\AOmega^{\\a \\b \\A} \\e_{\\a \\b} \\e^{\\l \\p} \\fX^{j}_{\\l} \\vDh_{\\A}(\\l^{i}_{\\p}) (\\vW)**(-1) -  3/8 \\AOmega^{\\a \\b \\A} \\fX^{j}_{\\a} \\vDh_{\\A}(\\l^{i}_{\\b}) (\\vW)**(-1) +  3/32 \\AOmega^{\\a \\b \\A} \\e_{\\a \\b} \\e^{\\l \\p} \\l^{i}_{\\l} \\vDh_{\\A}(\\fX^{j}_{\\p}) (\\vW)**(-1) +  3/8 \\AOmega^{\\a \\b \\A} \\l^{i}_{\\a} \\vDh_{\\A}(\\fX^{j}_{\\b}) (\\vW)**(-1) +  3/32 \\AOmega^{\\a \\b \\A} \\e_{\\a \\b} \\e^{\\l \\p} \\l^{j}_{\\l} \\vDh_{\\A}(\\fX^{i}_{\\p}) (\\vW)**(-1) +  3/8 \\AOmega^{\\a \\b \\A} \\l^{j}_{\\a} \\vDh_{\\A}(\\fX^{i}_{\\b}) (\\vW)**(-1) +  1/32 \\AOmega^{\\a \\b \\A} \\AOmega^{\\l \\p \\B} \\e_{\\a \\b} \\e_{\\l \\p} \\vX^{i j} (\\vW)**(-2) \\vDh_{\\A}(\\vDh_{\\B}(\\vW)) -  1/8 \\AOmega^{\\a \\b \\A} \\AOmega^{\\l \\p \\B} \\e_{\\a \\l} \\e_{\\b \\p} \\vX^{i j} (\\vW)**(-2) \\vDh_{\\A}(\\vDh_{\\B}(\\vW)) +  1/32 \\AOmega^{\\a \\b \\A} \\AOmega^{\\l \\p \\B} \\e_{\\a \\b} \\e_{\\l \\p} \\vDh_{\\A}(\\vW) \\vDh_{\\B}(\\vX^{i j}) (\\vW)**(-2) -  1/8 \\AOmega^{\\a \\b \\A} \\AOmega^{\\l \\p \\B} \\e_{\\a \\l} \\e_{\\b \\p} \\vDh_{\\A}(\\vW) \\vDh_{\\B}(\\vX^{i j}) (\\vW)**(-2) -  1/4 \\e^{\\a \\b} \\e^{\\g \\l} \\e^{\\p \\t} \\fW_{\\a \\g \\p}^{i} F_{\\b \\l} \\l^{j}_{\\t} (\\vW)**(-2) -  1/4 \\e^{\\a \\b} \\e^{\\g \\l} \\e^{\\p \\t} \\fW_{\\a \\g \\p}^{j} F_{\\b \\l} \\l^{i}_{\\t} (\\vW)**(-2) +  1/64 I \\AOmega^{\\a \\b \\A} \\AOmega^{\\g \\l \\B} \\e_{\\a \\b} \\e^{\\p \\t} \\e_{\\g \\l} \\l^{i}_{\\p} (\\vW)**(-2) \\vDh_{\\A}(\\vDh_{\\B}(\\l^{j}_{\\t})) -  1/16 I \\AOmega^{\\a \\b \\A} \\AOmega^{\\g \\l \\B} \\e_{\\a \\g} \\e_{\\b \\l} \\e^{\\p \\t} \\l^{i}_{\\p} (\\vW)**(-2) \\vDh_{\\A}(\\vDh_{\\B}(\\l^{j}_{\\t})) +  1/64 I \\AOmega^{\\a \\b \\A} \\AOmega^{\\g \\l \\B} \\e_{\\a \\b} \\e^{\\p \\t} \\e_{\\g \\l} \\l^{j}_{\\p} (\\vW)**(-2) \\vDh_{\\A}(\\vDh_{\\B}(\\l^{i}_{\\t})) -  1/16 I \\AOmega^{\\a \\b \\A} \\AOmega^{\\g \\l \\B} \\e_{\\a \\g} \\e_{\\b \\l} \\e^{\\p \\t} \\l^{j}_{\\p} (\\vW)**(-2) \\vDh_{\\A}(\\vDh_{\\B}(\\l^{i}_{\\t})) +  1/64 I \\AOmega^{\\a \\b \\A} \\AOmega^{\\g \\l \\B} \\e_{\\a \\b} \\e^{\\p \\t} \\e_{\\g \\l} \\vDh_{\\A}(\\l^{i}_{\\p}) \\vDh_{\\B}(\\l^{j}_{\\t}) (\\vW)**(-2) -  1/16 I \\AOmega^{\\a \\b \\A} \\AOmega^{\\g \\l \\B} \\e_{\\a \\g} \\e_{\\b \\l} \\e^{\\p \\t} \\vDh_{\\A}(\\l^{i}_{\\p}) \\vDh_{\\B}(\\l^{j}_{\\t}) (\\vW)**(-2) +  3/32 I \\AOmega^{\\a \\b \\A} \\e^{\\g \\l} \\e^{\\p \\t} \\e_{\\a \\b} W_{\\g \\p} \\l^{i}_{\\l} \\vDh_{\\A}(\\l^{j}_{\\t}) (\\vW)**(-2) +  3/16 I \\AOmega^{\\a \\b \\A} \\e^{\\l \\p} W_{\\a \\l} \\l^{i}_{\\b} \\vDh_{\\A}(\\l^{j}_{\\p}) (\\vW)**(-2) +  3/16 I \\AOmega^{\\a \\b \\A} \\e^{\\l \\p} W_{\\a \\l} \\l^{i}_{\\p} \\vDh_{\\A}(\\l^{j}_{\\b}) (\\vW)**(-2) +  3/32 I \\AOmega^{\\a \\b \\A} \\e^{\\g \\l} \\e^{\\p \\t} \\e_{\\a \\b} W_{\\g \\p} \\l^{j}_{\\l} \\vDh_{\\A}(\\l^{i}_{\\t}) (\\vW)**(-2) +  3/16 I \\AOmega^{\\a \\b \\A} \\e^{\\l \\p} W_{\\a \\l} \\l^{j}_{\\b} \\vDh_{\\A}(\\l^{i}_{\\p}) (\\vW)**(-2) +  3/16 I \\AOmega^{\\a \\b \\A} \\e^{\\l \\p} W_{\\a \\l} \\l^{j}_{\\p} \\vDh_{\\A}(\\l^{i}_{\\b}) (\\vW)**(-2) +  3/8 I \\AOmega^{\\a \\b \\A} \\e^{\\l \\p} \\l^{i}_{\\a} \\l^{j}_{\\l} \\vDh_{\\A}(W_{\\b \\p}) (\\vW)**(-2) -  3/8 I \\AOmega^{\\a \\b \\A} \\e^{\\l \\p} \\l^{i}_{\\l} \\l^{j}_{\\a} \\vDh_{\\A}(W_{\\b \\p}) (\\vW)**(-2) -  3/16 I \\e^{\\a \\b} \\e^{\\g \\l} \\e^{\\p \\t} W_{\\a \\g} W_{\\b \\l} \\l^{i}_{\\p} \\l^{j}_{\\t} (\\vW)**(-2) +  9/16 I \\e^{\\a \\b} \\e^{\\g \\l} \\e^{\\p \\t} W_{\\a \\g} W_{\\b \\p} \\l^{i}_{\\l} \\l^{j}_{\\t} (\\vW)**(-2) -  3/64 I \\e^{\\a \\b} Y \\l^{i}_{\\a} \\l^{j}_{\\b} (\\vW)**(-2) -  3/8 \\e^{\\a \\b} \\e^{\\l \\p} \\fX^{i}_{\\a} F_{\\b \\l} \\l^{j}_{\\p} (\\vW)**(-2) -  3/8 \\e^{\\a \\b} \\e^{\\l \\p} \\fX^{j}_{\\a} F_{\\b \\l} \\l^{i}_{\\p} (\\vW)**(-2) +  3/8 \\e^{\\a \\b} \\e_{k l} \\vX^{i j} \\fX^{k}_{\\a} \\l^{l}_{\\b} (\\vW)**(-2) +  1/4 \\e^{\\a \\b} \\e^{\\l \\p} \\vX^{i j} F_{\\a \\l} F_{\\b \\p} (\\vW)**(-3) -  1/8 \\e_{k l} \\e_{m n} \\vX^{i j} \\vX^{k m} \\vX^{l n} (\\vW)**(-3) -  1/64 \\AOmega^{\\a \\b \\A} \\AOmega^{\\l \\p \\B} \\e_{\\a \\b} \\e_{\\l \\p} \\vX^{i j} \\vDh_{\\A}(\\vW) \\vDh_{\\B}(\\vW) (\\vW)**(-3) +  1/16 \\AOmega^{\\a \\b \\A} \\AOmega^{\\l \\p \\B} \\e_{\\a \\l} \\e_{\\b \\p} \\vX^{i j} \\vDh_{\\A}(\\vW) \\vDh_{\\B}(\\vW) (\\vW)**(-3) +  1/16 I \\AOmega^{\\a \\b \\A} \\e^{\\g \\l} \\e^{\\p \\t} \\e_{\\a \\b} F_{\\g \\p} \\l^{i}_{\\l} \\vDh_{\\A}(\\l^{j}_{\\t}) (\\vW)**(-3) +  1/4 I \\AOmega^{\\a \\b \\A} \\e^{\\l \\p} F_{\\a \\l} \\l^{i}_{\\b} \\vDh_{\\A}(\\l^{j}_{\\p}) (\\vW)**(-3) +  1/16 I \\AOmega^{\\a \\b \\A} \\e^{\\g \\l} \\e^{\\p \\t} \\e_{\\a \\b} F_{\\g \\p} \\l^{j}_{\\l} \\vDh_{\\A}(\\l^{i}_{\\t}) (\\vW)**(-3) +  1/4 I \\AOmega^{\\a \\b \\A} \\e^{\\l \\p} F_{\\a \\l} \\l^{j}_{\\b} \\vDh_{\\A}(\\l^{i}_{\\p}) (\\vW)**(-3) -  1/32 I \\AOmega^{\\a \\b \\A} \\e_{\\a \\b} \\e^{\\l \\p} \\e_{k l} \\l^{i}_{\\l} \\l^{k}_{\\p} \\vDh_{\\A}(\\vX^{j l}) (\\vW)**(-3) -  1/8 I \\AOmega^{\\a \\b \\A} \\e_{k l} \\l^{i}_{\\a} \\l^{k}_{\\b} \\vDh_{\\A}(\\vX^{j l}) (\\vW)**(-3) -  1/32 I \\AOmega^{\\a \\b \\A} \\e_{\\a \\b} \\e^{\\l \\p} \\e_{k l} \\l^{j}_{\\l} \\l^{k}_{\\p} \\vDh_{\\A}(\\vX^{i l}) (\\vW)**(-3) -  1/8 I \\AOmega^{\\a \\b \\A} \\e_{k l} \\l^{j}_{\\a} \\l^{k}_{\\b} \\vDh_{\\A}(\\vX^{i l}) (\\vW)**(-3) +  1/4 I \\AOmega^{\\a \\b \\A} \\e^{\\l \\p} \\l^{i}_{\\a} \\l^{j}_{\\l} \\vDh_{\\A}(F_{\\b \\p}) (\\vW)**(-3) -  1/4 I \\AOmega^{\\a \\b \\A} \\e^{\\l \\p} \\l^{i}_{\\l} \\l^{j}_{\\a} \\vDh_{\\A}(F_{\\b \\p}) (\\vW)**(-3) +  1/16 I \\AOmega^{\\a \\b \\A} \\e_{\\a \\b} \\e^{\\l \\p} \\e_{k l} \\vX^{i j} \\l^{k}_{\\l} \\vDh_{\\A}(\\l^{l}_{\\p}) (\\vW)**(-3) +  1/4 I \\AOmega^{\\a \\b \\A} \\e_{k l} \\vX^{i j} \\l^{k}_{\\a} \\vDh_{\\A}(\\l^{l}_{\\b}) (\\vW)**(-3) +  1/32 I \\AOmega^{\\a \\b \\A} \\e_{\\a \\b} \\e^{\\l \\p} \\e_{k l} \\vX^{i k} \\l^{j}_{\\l} \\vDh_{\\A}(\\l^{l}_{\\p}) (\\vW)**(-3) +  1/8 I \\AOmega^{\\a \\b \\A} \\e_{k l} \\vX^{i k} \\l^{j}_{\\a} \\vDh_{\\A}(\\l^{l}_{\\b}) (\\vW)**(-3) +  1/32 I \\AOmega^{\\a \\b \\A} \\e_{\\a \\b} \\e^{\\l \\p} \\e_{k l} \\vX^{j k} \\l^{i}_{\\l} \\vDh_{\\A}(\\l^{l}_{\\p}) (\\vW)**(-3) +  1/8 I \\AOmega^{\\a \\b \\A} \\e_{k l} \\vX^{j k} \\l^{i}_{\\a} \\vDh_{\\A}(\\l^{l}_{\\b}) (\\vW)**(-3) -  1/64 I \\AOmega^{\\a \\b \\A} \\AOmega^{\\g \\l \\B} \\e_{\\a \\b} \\e^{\\p \\t} \\e_{\\g \\l} \\l^{i}_{\\p} \\l^{j}_{\\t} (\\vW)**(-3) \\vDh_{\\A}(\\vDh_{\\B}(\\vW)) +  1/16 I \\AOmega^{\\a \\b \\A} \\AOmega^{\\g \\l \\B} \\e_{\\a \\g} \\e_{\\b \\l} \\e^{\\p \\t} \\l^{i}_{\\p} \\l^{j}_{\\t} (\\vW)**(-3) \\vDh_{\\A}(\\vDh_{\\B}(\\vW)) -  3/128 I \\AOmega^{\\a \\b \\A} \\AOmega^{\\g \\l \\B} \\e_{\\a \\b} \\e^{\\p \\t} \\e_{\\g \\l} \\l^{i}_{\\p} \\vDh_{\\A}(\\vW) \\vDh_{\\B}(\\l^{j}_{\\t}) (\\vW)**(-3) +  3/32 I \\AOmega^{\\a \\b \\A} \\AOmega^{\\g \\l \\B} \\e_{\\a \\g} \\e_{\\b \\l} \\e^{\\p \\t} \\l^{i}_{\\p} \\vDh_{\\A}(\\vW) \\vDh_{\\B}(\\l^{j}_{\\t}) (\\vW)**(-3) -  3/128 I \\AOmega^{\\a \\b \\A} \\AOmega^{\\g \\l \\B} \\e_{\\a \\b} \\e^{\\p \\t} \\e_{\\g \\l} \\l^{j}_{\\p} \\vDh_{\\A}(\\vW) \\vDh_{\\B}(\\l^{i}_{\\t}) (\\vW)**(-3) +  3/32 I \\AOmega^{\\a \\b \\A} \\AOmega^{\\g \\l \\B} \\e_{\\a \\g} \\e_{\\b \\l} \\e^{\\p \\t} \\l^{j}_{\\p} \\vDh_{\\A}(\\vW) \\vDh_{\\B}(\\l^{i}_{\\t}) (\\vW)**(-3) -  1/16 I \\AOmega^{\\a \\b \\A} \\AOmega^{\\l \\p \\B} \\e_{\\a \\l} \\l^{i}_{\\b} \\vDh_{\\A}(\\vW) \\vDh_{\\B}(\\l^{j}_{\\p}) (\\vW)**(-3) +  1/16 I \\AOmega^{\\a \\b \\A} \\AOmega^{\\l \\p \\B} \\e_{\\a \\l} \\l^{i}_{\\b} \\vDh_{\\B}(\\vW) \\vDh_{\\A}(\\l^{j}_{\\p}) (\\vW)**(-3) -  1/16 I \\AOmega^{\\a \\b \\A} \\AOmega^{\\l \\p \\B} \\e_{\\a \\l} \\l^{j}_{\\b} \\vDh_{\\A}(\\vW) \\vDh_{\\B}(\\l^{i}_{\\p}) (\\vW)**(-3) +  1/16 I \\AOmega^{\\a \\b \\A} \\AOmega^{\\l \\p \\B} \\e_{\\a \\l} \\l^{j}_{\\b} \\vDh_{\\B}(\\vW) \\vDh_{\\A}(\\l^{i}_{\\p}) (\\vW)**(-3) -  3/16 I \\AOmega^{\\a \\b \\A} \\e^{\\l \\p} W_{\\a \\l} \\l^{i}_{\\p} \\l^{j}_{\\b} \\vDh_{\\A}(\\vW) (\\vW)**(-3) +  3/16 I \\AOmega^{\\a \\b \\A} \\e^{\\l \\p} W_{\\a \\l} \\l^{i}_{\\b} \\l^{j}_{\\p} \\vDh_{\\A}(\\vW) (\\vW)**(-3) -  3/4 I \\e^{\\a \\b} \\e^{\\g \\l} \\e^{\\p \\t} W_{\\a \\g} F_{\\b \\l} \\l^{i}_{\\p} \\l^{j}_{\\t} (\\vW)**(-3) +  9/8 I \\e^{\\a \\b} \\e^{\\g \\l} \\e^{\\p \\t} W_{\\a \\g} F_{\\b \\p} \\l^{i}_{\\l} \\l^{j}_{\\t} (\\vW)**(-3) -  9/8 I \\e^{\\a \\b} \\e^{\\g \\l} \\e^{\\p \\t} W_{\\a \\g} F_{\\b \\p} \\l^{i}_{\\t} \\l^{j}_{\\l} (\\vW)**(-3) -  3/16 I \\e^{\\a \\b} \\e^{\\l \\p} \\e_{k l} \\vX^{i j} W_{\\a \\l} \\l^{k}_{\\b} \\l^{l}_{\\p} (\\vW)**(-3) -  3/16 I \\e^{\\a \\b} \\e^{\\l \\p} \\e_{k l} \\fX^{k}_{\\a} \\l^{i}_{\\b} \\l^{j}_{\\l} \\l^{l}_{\\p} (\\vW)**(-3) +  3/16 I \\e^{\\a \\b} \\e^{\\l \\p} \\e_{k l} \\fX^{k}_{\\a} \\l^{i}_{\\l} \\l^{j}_{\\b} \\l^{l}_{\\p} (\\vW)**(-3) -  3/8 I \\e^{\\a \\b} \\e^{\\l \\p} \\e_{k l} \\fX^{k}_{\\a} \\l^{i}_{\\l} \\l^{j}_{\\p} \\l^{l}_{\\b} (\\vW)**(-3) +  3/256 I \\AOmega^{\\a \\b \\A} \\AOmega^{\\g \\l \\B} \\e_{\\a \\b} \\e^{\\p \\t} \\e_{\\g \\l} \\l^{i}_{\\p} \\l^{j}_{\\t} \\vDh_{\\A}(\\vW) \\vDh_{\\B}(\\vW) (\\vW)**(-4) -  3/64 I \\AOmega^{\\a \\b \\A} \\AOmega^{\\g \\l \\B} \\e_{\\a \\g} \\e_{\\b \\l} \\e^{\\p \\t} \\l^{i}_{\\p} \\l^{j}_{\\t} \\vDh_{\\A}(\\vW) \\vDh_{\\B}(\\vW) (\\vW)**(-4) -  3/64 I \\AOmega^{\\a \\b \\A} \\e_{\\a \\b} \\e^{\\l \\p} \\e_{k l} \\vX^{i k} \\l^{j}_{\\l} \\l^{l}_{\\p} \\vDh_{\\A}(\\vW) (\\vW)**(-4) -  3/16 I \\AOmega^{\\a \\b \\A} \\e_{k l} \\vX^{i k} \\l^{j}_{\\a} \\l^{l}_{\\b} \\vDh_{\\A}(\\vW) (\\vW)**(-4) -  3/64 I \\AOmega^{\\a \\b \\A} \\e_{\\a \\b} \\e^{\\l \\p} \\e_{k l} \\vX^{j k} \\l^{i}_{\\l} \\l^{l}_{\\p} \\vDh_{\\A}(\\vW) (\\vW)**(-4) -  3/16 I \\AOmega^{\\a \\b \\A} \\e_{k l} \\vX^{j k} \\l^{i}_{\\a} \\l^{l}_{\\b} \\vDh_{\\A}(\\vW) (\\vW)**(-4) +  3/8 I \\AOmega^{\\a \\b \\A} \\e^{\\l \\p} F_{\\a \\l} \\l^{i}_{\\p} \\l^{j}_{\\b} \\vDh_{\\A}(\\vW) (\\vW)**(-4) -  3/8 I \\AOmega^{\\a \\b \\A} \\e^{\\l \\p} F_{\\a \\l} \\l^{i}_{\\b} \\l^{j}_{\\p} \\vDh_{\\A}(\\vW) (\\vW)**(-4) -  3/8 I \\e^{\\a \\b} \\e^{\\g \\l} \\e^{\\p \\t} F_{\\a \\g} F_{\\b \\l} \\l^{i}_{\\p} \\l^{j}_{\\t} (\\vW)**(-4) +  3/4 I \\e^{\\a \\b} \\e^{\\g \\l} \\e^{\\p \\t} F_{\\a \\g} F_{\\b \\p} \\l^{i}_{\\l} \\l^{j}_{\\t} (\\vW)**(-4) -  3/8 I \\e^{\\a \\b} \\e^{\\l \\p} \\e_{k l} \\vX^{i j} F_{\\a \\l} \\l^{k}_{\\b} \\l^{l}_{\\p} (\\vW)**(-4) +  3/16 I \\e^{\\a \\b} \\e_{k l} \\e_{m n} \\vX^{i j} \\vX^{k m} \\l^{l}_{\\a} \\l^{n}_{\\b} (\\vW)**(-4) +  3/32 I \\e^{\\a \\b} \\e_{k l} \\e_{m n} \\vX^{k m} \\vX^{l n} \\l^{i}_{\\a} \\l^{j}_{\\b} (\\vW)**(-4) +  15/128 \\AOmega^{\\a \\b \\A} \\e_{\\a \\b} \\e^{\\g \\l} \\e^{\\p \\t} \\e_{k l} \\l^{i}_{\\g} \\l^{j}_{\\l} \\l^{k}_{\\p} \\vDh_{\\A}(\\l^{l}_{\\t}) (\\vW)**(-4) +  15/64 \\AOmega^{\\a \\b \\A} \\e^{\\l \\p} \\e_{k l} \\l^{i}_{\\a} \\l^{j}_{\\b} \\l^{k}_{\\l} \\vDh_{\\A}(\\l^{l}_{\\p}) (\\vW)**(-4) -  3/128 \\AOmega^{\\a \\b \\A} \\e_{\\a \\b} \\e^{\\g \\l} \\e^{\\p \\t} \\e_{k l} \\l^{i}_{\\g} \\l^{j}_{\\p} \\l^{k}_{\\l} \\vDh_{\\A}(\\l^{l}_{\\t}) (\\vW)**(-4) +  9/64 \\AOmega^{\\a \\b \\A} \\e^{\\l \\p} \\e_{k l} \\l^{i}_{\\a} \\l^{j}_{\\l} \\l^{k}_{\\b} \\vDh_{\\A}(\\l^{l}_{\\p}) (\\vW)**(-4) +  3/128 \\AOmega^{\\a \\b \\A} \\e_{\\a \\b} \\e^{\\g \\l} \\e^{\\p \\t} \\e_{k l} \\l^{i}_{\\g} \\l^{j}_{\\p} \\l^{k}_{\\t} \\vDh_{\\A}(\\l^{l}_{\\l}) (\\vW)**(-4) -  9/64 \\AOmega^{\\a \\b \\A} \\e^{\\l \\p} \\e_{k l} \\l^{i}_{\\l} \\l^{j}_{\\a} \\l^{k}_{\\b} \\vDh_{\\A}(\\l^{l}_{\\p}) (\\vW)**(-4) +  15/64 \\AOmega^{\\a \\b \\A} \\e^{\\l \\p} \\e_{k l} \\l^{i}_{\\a} \\l^{j}_{\\l} \\l^{k}_{\\p} \\vDh_{\\A}(\\l^{l}_{\\b}) (\\vW)**(-4) -  15/64 \\AOmega^{\\a \\b \\A} \\e^{\\l \\p} \\e_{k l} \\l^{i}_{\\l} \\l^{j}_{\\a} \\l^{k}_{\\p} \\vDh_{\\A}(\\l^{l}_{\\b}) (\\vW)**(-4) +  15/64 \\AOmega^{\\a \\b \\A} \\e^{\\l \\p} \\e_{k l} \\l^{i}_{\\l} \\l^{j}_{\\p} \\l^{k}_{\\a} \\vDh_{\\A}(\\l^{l}_{\\b}) (\\vW)**(-4) -  9/32 \\e^{\\a \\b} \\e^{\\g \\l} \\e^{\\p \\t} \\e_{k l} W_{\\a \\g} \\l^{i}_{\\b} \\l^{j}_{\\p} \\l^{k}_{\\l} \\l^{l}_{\\t} (\\vW)**(-4) +  9/32 \\e^{\\a \\b} \\e^{\\g \\l} \\e^{\\p \\t} \\e_{k l} W_{\\a \\g} \\l^{i}_{\\p} \\l^{j}_{\\b} \\l^{k}_{\\l} \\l^{l}_{\\t} (\\vW)**(-4) -  9/32 \\e^{\\a \\b} \\e^{\\g \\l} \\e^{\\p \\t} \\e_{k l} W_{\\a \\g} \\l^{i}_{\\p} \\l^{j}_{\\t} \\l^{k}_{\\b} \\l^{l}_{\\l} (\\vW)**(-4) +  3/8 \\e^{\\a \\b} \\e^{\\l \\p} \\e_{k l} \\e_{m n} \\vX^{k m} \\l^{i}_{\\a} \\l^{j}_{\\b} \\l^{l}_{\\l} \\l^{n}_{\\p} (\\vW)**(-5) -  3/4 \\e^{\\a \\b} \\e^{\\g \\l} \\e^{\\p \\t} \\e_{k l} F_{\\a \\g} \\l^{i}_{\\p} \\l^{j}_{\\t} \\l^{k}_{\\b} \\l^{l}_{\\l} (\\vW)**(-5) -  3/16 \\AOmega^{\\a \\b \\A} \\e^{\\l \\p} \\e_{k l} \\l^{i}_{\\a} \\l^{j}_{\\l} \\l^{k}_{\\b} \\l^{l}_{\\p} \\vDh_{\\A}(\\vW) (\\vW)**(-5) +  3/16 \\AOmega^{\\a \\b \\A} \\e^{\\l \\p} \\e_{k l} \\l^{i}_{\\l} \\l^{j}_{\\a} \\l^{k}_{\\b} \\l^{l}_{\\p} \\vDh_{\\A}(\\vW) (\\vW)**(-5) +  3/32 I \\e^{\\a \\b} \\e^{\\g \\l} \\e^{\\p \\t} \\e_{k l} \\e_{m n} \\l^{i}_{\\a} \\l^{j}_{\\b} \\l^{k}_{\\g} \\l^{l}_{\\p} \\l^{m}_{\\l} \\l^{n}_{\\t} (\\vW)**(-6) -  3/16 I \\e^{\\a \\b} \\e^{\\g \\l} \\e^{\\p \\t} \\e_{k l} \\e_{m n} \\l^{i}_{\\a} \\l^{j}_{\\g} \\l^{k}_{\\b} \\l^{l}_{\\p} \\l^{m}_{\\l} \\l^{n}_{\\t} (\\vW)**(-6)"
+						}
+					],
+					"source": "\\begin{dmath*}{} - \\frac{3}{4}I \\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} X_{\\alpha \\lambda}\\,^{i j} W_{\\beta \\rho} - \\frac{51}{64}I \\epsilon^{\\alpha \\beta} X^{i}_{\\alpha} X^{j}_{\\beta}+\\frac{9}{64}X^{i j} Y {W}^{-1} - \\frac{1}{32}\\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\tilde{\\Omega}^{\\lambda \\rho \\mathcal{B}} \\epsilon_{\\alpha \\beta} \\epsilon_{\\lambda \\rho} {W}^{-1} \\hat{\\nabla}_{\\mathcal{A}}{\\hat{\\nabla}_{\\mathcal{B}}{X^{i j}}}+\\frac{1}{8}\\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\tilde{\\Omega}^{\\lambda \\rho \\mathcal{B}} \\epsilon_{\\alpha \\lambda} \\epsilon_{\\beta \\rho} {W}^{-1} \\hat{\\nabla}_{\\mathcal{A}}{\\hat{\\nabla}_{\\mathcal{B}}{X^{i j}}} - \\frac{3}{4}I \\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} X_{\\alpha \\lambda}\\,^{i j} F_{\\beta \\rho} {W}^{-1} - \\frac{9}{32}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} X^{i j} W_{\\alpha \\lambda} W_{\\beta \\rho} {W}^{-1} - \\frac{1}{4}\\epsilon^{\\alpha \\beta} \\epsilon^{\\gamma \\lambda} \\epsilon^{\\rho \\tau} W_{\\alpha \\gamma} W_{\\beta \\lambda \\rho}\\,^{i} \\lambda^{j}_{\\tau} {W}^{-1} - \\frac{1}{4}\\epsilon^{\\alpha \\beta} \\epsilon^{\\gamma \\lambda} \\epsilon^{\\rho \\tau} W_{\\alpha \\gamma} W_{\\beta \\lambda \\rho}\\,^{j} \\lambda^{i}_{\\tau} {W}^{-1} - \\frac{3}{32}\\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\epsilon_{\\alpha \\beta} \\epsilon^{\\lambda \\rho} X^{i}_{\\lambda} \\hat{\\nabla}_{\\mathcal{A}}{\\lambda^{j}_{\\rho}} {W}^{-1} - \\frac{3}{8}\\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} X^{i}_{\\alpha} \\hat{\\nabla}_{\\mathcal{A}}{\\lambda^{j}_{\\beta}} {W}^{-1} - \\frac{3}{32}\\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\epsilon_{\\alpha \\beta} \\epsilon^{\\lambda \\rho} X^{j}_{\\lambda} \\hat{\\nabla}_{\\mathcal{A}}{\\lambda^{i}_{\\rho}} {W}^{-1} - \\frac{3}{8}\\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} X^{j}_{\\alpha} \\hat{\\nabla}_{\\mathcal{A}}{\\lambda^{i}_{\\beta}} {W}^{-1}+\\frac{3}{32}\\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\epsilon_{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\lambda^{i}_{\\lambda} \\hat{\\nabla}_{\\mathcal{A}}{X^{j}_{\\rho}} {W}^{-1}+\\frac{3}{8}\\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\lambda^{i}_{\\alpha} \\hat{\\nabla}_{\\mathcal{A}}{X^{j}_{\\beta}} {W}^{-1}+\\frac{3}{32}\\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\epsilon_{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\lambda^{j}_{\\lambda} \\hat{\\nabla}_{\\mathcal{A}}{X^{i}_{\\rho}} {W}^{-1}+\\frac{3}{8}\\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\lambda^{j}_{\\alpha} \\hat{\\nabla}_{\\mathcal{A}}{X^{i}_{\\beta}} {W}^{-1}+\\frac{1}{32}\\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\tilde{\\Omega}^{\\lambda \\rho \\mathcal{B}} \\epsilon_{\\alpha \\beta} \\epsilon_{\\lambda \\rho} X^{i j} {W}^{-2} \\hat{\\nabla}_{\\mathcal{A}}{\\hat{\\nabla}_{\\mathcal{B}}{W}} - \\frac{1}{8}\\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\tilde{\\Omega}^{\\lambda \\rho \\mathcal{B}} \\epsilon_{\\alpha \\lambda} \\epsilon_{\\beta \\rho} X^{i j} {W}^{-2} \\hat{\\nabla}_{\\mathcal{A}}{\\hat{\\nabla}_{\\mathcal{B}}{W}}%\n+\\frac{1}{32}\\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\tilde{\\Omega}^{\\lambda \\rho \\mathcal{B}} \\epsilon_{\\alpha \\beta} \\epsilon_{\\lambda \\rho} \\hat{\\nabla}_{\\mathcal{A}}{W} \\hat{\\nabla}_{\\mathcal{B}}{X^{i j}} {W}^{-2} - \\frac{1}{8}\\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\tilde{\\Omega}^{\\lambda \\rho \\mathcal{B}} \\epsilon_{\\alpha \\lambda} \\epsilon_{\\beta \\rho} \\hat{\\nabla}_{\\mathcal{A}}{W} \\hat{\\nabla}_{\\mathcal{B}}{X^{i j}} {W}^{-2} - \\frac{1}{4}\\epsilon^{\\alpha \\beta} \\epsilon^{\\gamma \\lambda} \\epsilon^{\\rho \\tau} W_{\\alpha \\gamma \\rho}\\,^{i} F_{\\beta \\lambda} \\lambda^{j}_{\\tau} {W}^{-2} - \\frac{1}{4}\\epsilon^{\\alpha \\beta} \\epsilon^{\\gamma \\lambda} \\epsilon^{\\rho \\tau} W_{\\alpha \\gamma \\rho}\\,^{j} F_{\\beta \\lambda} \\lambda^{i}_{\\tau} {W}^{-2}+\\frac{1}{64}I \\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\tilde{\\Omega}^{\\gamma \\lambda \\mathcal{B}} \\epsilon_{\\alpha \\beta} \\epsilon^{\\rho \\tau} \\epsilon_{\\gamma \\lambda} \\lambda^{i}_{\\rho} {W}^{-2} \\hat{\\nabla}_{\\mathcal{A}}{\\hat{\\nabla}_{\\mathcal{B}}{\\lambda^{j}_{\\tau}}} - \\frac{1}{16}I \\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\tilde{\\Omega}^{\\gamma \\lambda \\mathcal{B}} \\epsilon_{\\alpha \\gamma} \\epsilon_{\\beta \\lambda} \\epsilon^{\\rho \\tau} \\lambda^{i}_{\\rho} {W}^{-2} \\hat{\\nabla}_{\\mathcal{A}}{\\hat{\\nabla}_{\\mathcal{B}}{\\lambda^{j}_{\\tau}}}+\\frac{1}{64}I \\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\tilde{\\Omega}^{\\gamma \\lambda \\mathcal{B}} \\epsilon_{\\alpha \\beta} \\epsilon^{\\rho \\tau} \\epsilon_{\\gamma \\lambda} \\lambda^{j}_{\\rho} {W}^{-2} \\hat{\\nabla}_{\\mathcal{A}}{\\hat{\\nabla}_{\\mathcal{B}}{\\lambda^{i}_{\\tau}}} - \\frac{1}{16}I \\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\tilde{\\Omega}^{\\gamma \\lambda \\mathcal{B}} \\epsilon_{\\alpha \\gamma} \\epsilon_{\\beta \\lambda} \\epsilon^{\\rho \\tau} \\lambda^{j}_{\\rho} {W}^{-2} \\hat{\\nabla}_{\\mathcal{A}}{\\hat{\\nabla}_{\\mathcal{B}}{\\lambda^{i}_{\\tau}}}+\\frac{1}{64}I \\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\tilde{\\Omega}^{\\gamma \\lambda \\mathcal{B}} \\epsilon_{\\alpha \\beta} \\epsilon^{\\rho \\tau} \\epsilon_{\\gamma \\lambda} \\hat{\\nabla}_{\\mathcal{A}}{\\lambda^{i}_{\\rho}} \\hat{\\nabla}_{\\mathcal{B}}{\\lambda^{j}_{\\tau}} {W}^{-2} - \\frac{1}{16}I \\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\tilde{\\Omega}^{\\gamma \\lambda \\mathcal{B}} \\epsilon_{\\alpha \\gamma} \\epsilon_{\\beta \\lambda} \\epsilon^{\\rho \\tau} \\hat{\\nabla}_{\\mathcal{A}}{\\lambda^{i}_{\\rho}} \\hat{\\nabla}_{\\mathcal{B}}{\\lambda^{j}_{\\tau}} {W}^{-2}+\\frac{3}{32}I \\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\epsilon^{\\gamma \\lambda} \\epsilon^{\\rho \\tau} \\epsilon_{\\alpha \\beta} W_{\\gamma \\rho} \\lambda^{i}_{\\lambda} \\hat{\\nabla}_{\\mathcal{A}}{\\lambda^{j}_{\\tau}} {W}^{-2}+\\frac{3}{16}I \\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\epsilon^{\\lambda \\rho} W_{\\alpha \\lambda} \\lambda^{i}_{\\beta} \\hat{\\nabla}_{\\mathcal{A}}{\\lambda^{j}_{\\rho}} {W}^{-2}+\\frac{3}{16}I \\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\epsilon^{\\lambda \\rho} W_{\\alpha \\lambda} \\lambda^{i}_{\\rho} \\hat{\\nabla}_{\\mathcal{A}}{\\lambda^{j}_{\\beta}} {W}^{-2}+\\frac{3}{32}I \\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\epsilon^{\\gamma \\lambda} \\epsilon^{\\rho \\tau} \\epsilon_{\\alpha \\beta} W_{\\gamma \\rho} \\lambda^{j}_{\\lambda} \\hat{\\nabla}_{\\mathcal{A}}{\\lambda^{i}_{\\tau}} {W}^{-2}+\\frac{3}{16}I \\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\epsilon^{\\lambda \\rho} W_{\\alpha \\lambda} \\lambda^{j}_{\\beta} \\hat{\\nabla}_{\\mathcal{A}}{\\lambda^{i}_{\\rho}} {W}^{-2}+\\frac{3}{16}I \\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\epsilon^{\\lambda \\rho} W_{\\alpha \\lambda} \\lambda^{j}_{\\rho} \\hat{\\nabla}_{\\mathcal{A}}{\\lambda^{i}_{\\beta}} {W}^{-2}+\\frac{3}{8}I \\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\epsilon^{\\lambda \\rho} \\lambda^{i}_{\\alpha} \\lambda^{j}_{\\lambda} \\hat{\\nabla}_{\\mathcal{A}}{W_{\\beta \\rho}} {W}^{-2} - \\frac{3}{8}I \\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\epsilon^{\\lambda \\rho} \\lambda^{i}_{\\lambda} \\lambda^{j}_{\\alpha} \\hat{\\nabla}_{\\mathcal{A}}{W_{\\beta \\rho}} {W}^{-2} - \\frac{3}{16}I \\epsilon^{\\alpha \\beta} \\epsilon^{\\gamma \\lambda} \\epsilon^{\\rho \\tau} W_{\\alpha \\gamma} W_{\\beta \\lambda} \\lambda^{i}_{\\rho} \\lambda^{j}_{\\tau} {W}^{-2}+\\frac{9}{16}I \\epsilon^{\\alpha \\beta} \\epsilon^{\\gamma \\lambda} \\epsilon^{\\rho \\tau} W_{\\alpha \\gamma} W_{\\beta \\rho} \\lambda^{i}_{\\lambda} \\lambda^{j}_{\\tau} {W}^{-2}%\n - \\frac{3}{64}I \\epsilon^{\\alpha \\beta} Y \\lambda^{i}_{\\alpha} \\lambda^{j}_{\\beta} {W}^{-2} - \\frac{3}{8}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} X^{i}_{\\alpha} F_{\\beta \\lambda} \\lambda^{j}_{\\rho} {W}^{-2} - \\frac{3}{8}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} X^{j}_{\\alpha} F_{\\beta \\lambda} \\lambda^{i}_{\\rho} {W}^{-2}+\\frac{3}{8}\\epsilon^{\\alpha \\beta} \\epsilon_{k l} X^{i j} X^{k}_{\\alpha} \\lambda^{l}_{\\beta} {W}^{-2}+\\frac{1}{4}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} X^{i j} F_{\\alpha \\lambda} F_{\\beta \\rho} {W}^{-3} - \\frac{1}{8}\\epsilon_{k l} \\epsilon_{m n} X^{i j} X^{k m} X^{l n} {W}^{-3} - \\frac{1}{64}\\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\tilde{\\Omega}^{\\lambda \\rho \\mathcal{B}} \\epsilon_{\\alpha \\beta} \\epsilon_{\\lambda \\rho} X^{i j} \\hat{\\nabla}_{\\mathcal{A}}{W} \\hat{\\nabla}_{\\mathcal{B}}{W} {W}^{-3}+\\frac{1}{16}\\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\tilde{\\Omega}^{\\lambda \\rho \\mathcal{B}} \\epsilon_{\\alpha \\lambda} \\epsilon_{\\beta \\rho} X^{i j} \\hat{\\nabla}_{\\mathcal{A}}{W} \\hat{\\nabla}_{\\mathcal{B}}{W} {W}^{-3}+\\frac{1}{16}I \\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\epsilon^{\\gamma \\lambda} \\epsilon^{\\rho \\tau} \\epsilon_{\\alpha \\beta} F_{\\gamma \\rho} \\lambda^{i}_{\\lambda} \\hat{\\nabla}_{\\mathcal{A}}{\\lambda^{j}_{\\tau}} {W}^{-3}+\\frac{1}{4}I \\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\epsilon^{\\lambda \\rho} F_{\\alpha \\lambda} \\lambda^{i}_{\\beta} \\hat{\\nabla}_{\\mathcal{A}}{\\lambda^{j}_{\\rho}} {W}^{-3}+\\frac{1}{16}I \\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\epsilon^{\\gamma \\lambda} \\epsilon^{\\rho \\tau} \\epsilon_{\\alpha \\beta} F_{\\gamma \\rho} \\lambda^{j}_{\\lambda} \\hat{\\nabla}_{\\mathcal{A}}{\\lambda^{i}_{\\tau}} {W}^{-3}+\\frac{1}{4}I \\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\epsilon^{\\lambda \\rho} F_{\\alpha \\lambda} \\lambda^{j}_{\\beta} \\hat{\\nabla}_{\\mathcal{A}}{\\lambda^{i}_{\\rho}} {W}^{-3} - \\frac{1}{32}I \\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\epsilon_{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{k l} \\lambda^{i}_{\\lambda} \\lambda^{k}_{\\rho} \\hat{\\nabla}_{\\mathcal{A}}{X^{j l}} {W}^{-3} - \\frac{1}{8}I \\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\epsilon_{k l} \\lambda^{i}_{\\alpha} \\lambda^{k}_{\\beta} \\hat{\\nabla}_{\\mathcal{A}}{X^{j l}} {W}^{-3} - \\frac{1}{32}I \\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\epsilon_{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{k l} \\lambda^{j}_{\\lambda} \\lambda^{k}_{\\rho} \\hat{\\nabla}_{\\mathcal{A}}{X^{i l}} {W}^{-3} - \\frac{1}{8}I \\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\epsilon_{k l} \\lambda^{j}_{\\alpha} \\lambda^{k}_{\\beta} \\hat{\\nabla}_{\\mathcal{A}}{X^{i l}} {W}^{-3}+\\frac{1}{4}I \\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\epsilon^{\\lambda \\rho} \\lambda^{i}_{\\alpha} \\lambda^{j}_{\\lambda} \\hat{\\nabla}_{\\mathcal{A}}{F_{\\beta \\rho}} {W}^{-3} - \\frac{1}{4}I \\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\epsilon^{\\lambda \\rho} \\lambda^{i}_{\\lambda} \\lambda^{j}_{\\alpha} \\hat{\\nabla}_{\\mathcal{A}}{F_{\\beta \\rho}} {W}^{-3}+\\frac{1}{16}I \\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\epsilon_{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{k l} X^{i j} \\lambda^{k}_{\\lambda} \\hat{\\nabla}_{\\mathcal{A}}{\\lambda^{l}_{\\rho}} {W}^{-3}+\\frac{1}{4}I \\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\epsilon_{k l} X^{i j} \\lambda^{k}_{\\alpha} \\hat{\\nabla}_{\\mathcal{A}}{\\lambda^{l}_{\\beta}} {W}^{-3}%\n+\\frac{1}{32}I \\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\epsilon_{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{k l} X^{i k} \\lambda^{j}_{\\lambda} \\hat{\\nabla}_{\\mathcal{A}}{\\lambda^{l}_{\\rho}} {W}^{-3}+\\frac{1}{8}I \\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\epsilon_{k l} X^{i k} \\lambda^{j}_{\\alpha} \\hat{\\nabla}_{\\mathcal{A}}{\\lambda^{l}_{\\beta}} {W}^{-3}+\\frac{1}{32}I \\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\epsilon_{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{k l} X^{j k} \\lambda^{i}_{\\lambda} \\hat{\\nabla}_{\\mathcal{A}}{\\lambda^{l}_{\\rho}} {W}^{-3}+\\frac{1}{8}I \\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\epsilon_{k l} X^{j k} \\lambda^{i}_{\\alpha} \\hat{\\nabla}_{\\mathcal{A}}{\\lambda^{l}_{\\beta}} {W}^{-3} - \\frac{1}{64}I \\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\tilde{\\Omega}^{\\gamma \\lambda \\mathcal{B}} \\epsilon_{\\alpha \\beta} \\epsilon^{\\rho \\tau} \\epsilon_{\\gamma \\lambda} \\lambda^{i}_{\\rho} \\lambda^{j}_{\\tau} {W}^{-3} \\hat{\\nabla}_{\\mathcal{A}}{\\hat{\\nabla}_{\\mathcal{B}}{W}}+\\frac{1}{16}I \\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\tilde{\\Omega}^{\\gamma \\lambda \\mathcal{B}} \\epsilon_{\\alpha \\gamma} \\epsilon_{\\beta \\lambda} \\epsilon^{\\rho \\tau} \\lambda^{i}_{\\rho} \\lambda^{j}_{\\tau} {W}^{-3} \\hat{\\nabla}_{\\mathcal{A}}{\\hat{\\nabla}_{\\mathcal{B}}{W}} - \\frac{3}{128}I \\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\tilde{\\Omega}^{\\gamma \\lambda \\mathcal{B}} \\epsilon_{\\alpha \\beta} \\epsilon^{\\rho \\tau} \\epsilon_{\\gamma \\lambda} \\lambda^{i}_{\\rho} \\hat{\\nabla}_{\\mathcal{A}}{W} \\hat{\\nabla}_{\\mathcal{B}}{\\lambda^{j}_{\\tau}} {W}^{-3}+\\frac{3}{32}I \\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\tilde{\\Omega}^{\\gamma \\lambda \\mathcal{B}} \\epsilon_{\\alpha \\gamma} \\epsilon_{\\beta \\lambda} \\epsilon^{\\rho \\tau} \\lambda^{i}_{\\rho} \\hat{\\nabla}_{\\mathcal{A}}{W} \\hat{\\nabla}_{\\mathcal{B}}{\\lambda^{j}_{\\tau}} {W}^{-3} - \\frac{3}{128}I \\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\tilde{\\Omega}^{\\gamma \\lambda \\mathcal{B}} \\epsilon_{\\alpha \\beta} \\epsilon^{\\rho \\tau} \\epsilon_{\\gamma \\lambda} \\lambda^{j}_{\\rho} \\hat{\\nabla}_{\\mathcal{A}}{W} \\hat{\\nabla}_{\\mathcal{B}}{\\lambda^{i}_{\\tau}} {W}^{-3}+\\frac{3}{32}I \\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\tilde{\\Omega}^{\\gamma \\lambda \\mathcal{B}} \\epsilon_{\\alpha \\gamma} \\epsilon_{\\beta \\lambda} \\epsilon^{\\rho \\tau} \\lambda^{j}_{\\rho} \\hat{\\nabla}_{\\mathcal{A}}{W} \\hat{\\nabla}_{\\mathcal{B}}{\\lambda^{i}_{\\tau}} {W}^{-3} - \\frac{1}{16}I \\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\tilde{\\Omega}^{\\lambda \\rho \\mathcal{B}} \\epsilon_{\\alpha \\lambda} \\lambda^{i}_{\\beta} \\hat{\\nabla}_{\\mathcal{A}}{W} \\hat{\\nabla}_{\\mathcal{B}}{\\lambda^{j}_{\\rho}} {W}^{-3}+\\frac{1}{16}I \\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\tilde{\\Omega}^{\\lambda \\rho \\mathcal{B}} \\epsilon_{\\alpha \\lambda} \\lambda^{i}_{\\beta} \\hat{\\nabla}_{\\mathcal{B}}{W} \\hat{\\nabla}_{\\mathcal{A}}{\\lambda^{j}_{\\rho}} {W}^{-3} - \\frac{1}{16}I \\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\tilde{\\Omega}^{\\lambda \\rho \\mathcal{B}} \\epsilon_{\\alpha \\lambda} \\lambda^{j}_{\\beta} \\hat{\\nabla}_{\\mathcal{A}}{W} \\hat{\\nabla}_{\\mathcal{B}}{\\lambda^{i}_{\\rho}} {W}^{-3}+\\frac{1}{16}I \\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\tilde{\\Omega}^{\\lambda \\rho \\mathcal{B}} \\epsilon_{\\alpha \\lambda} \\lambda^{j}_{\\beta} \\hat{\\nabla}_{\\mathcal{B}}{W} \\hat{\\nabla}_{\\mathcal{A}}{\\lambda^{i}_{\\rho}} {W}^{-3} - \\frac{3}{16}I \\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\epsilon^{\\lambda \\rho} W_{\\alpha \\lambda} \\lambda^{i}_{\\rho} \\lambda^{j}_{\\beta} \\hat{\\nabla}_{\\mathcal{A}}{W} {W}^{-3}+\\frac{3}{16}I \\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\epsilon^{\\lambda \\rho} W_{\\alpha \\lambda} \\lambda^{i}_{\\beta} \\lambda^{j}_{\\rho} \\hat{\\nabla}_{\\mathcal{A}}{W} {W}^{-3} - \\frac{3}{4}I \\epsilon^{\\alpha \\beta} \\epsilon^{\\gamma \\lambda} \\epsilon^{\\rho \\tau} W_{\\alpha \\gamma} F_{\\beta \\lambda} \\lambda^{i}_{\\rho} \\lambda^{j}_{\\tau} {W}^{-3}+\\frac{9}{8}I \\epsilon^{\\alpha \\beta} \\epsilon^{\\gamma \\lambda} \\epsilon^{\\rho \\tau} W_{\\alpha \\gamma} F_{\\beta \\rho} \\lambda^{i}_{\\lambda} \\lambda^{j}_{\\tau} {W}^{-3} - \\frac{9}{8}I \\epsilon^{\\alpha \\beta} \\epsilon^{\\gamma \\lambda} \\epsilon^{\\rho \\tau} W_{\\alpha \\gamma} F_{\\beta \\rho} \\lambda^{i}_{\\tau} \\lambda^{j}_{\\lambda} {W}^{-3} - \\frac{3}{16}I \\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{k l} X^{i j} W_{\\alpha \\lambda} \\lambda^{k}_{\\beta} \\lambda^{l}_{\\rho} {W}^{-3}%\n - \\frac{3}{16}I \\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{k l} X^{k}_{\\alpha} \\lambda^{i}_{\\beta} \\lambda^{j}_{\\lambda} \\lambda^{l}_{\\rho} {W}^{-3}+\\frac{3}{16}I \\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{k l} X^{k}_{\\alpha} \\lambda^{i}_{\\lambda} \\lambda^{j}_{\\beta} \\lambda^{l}_{\\rho} {W}^{-3} - \\frac{3}{8}I \\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{k l} X^{k}_{\\alpha} \\lambda^{i}_{\\lambda} \\lambda^{j}_{\\rho} \\lambda^{l}_{\\beta} {W}^{-3}+\\frac{3}{256}I \\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\tilde{\\Omega}^{\\gamma \\lambda \\mathcal{B}} \\epsilon_{\\alpha \\beta} \\epsilon^{\\rho \\tau} \\epsilon_{\\gamma \\lambda} \\lambda^{i}_{\\rho} \\lambda^{j}_{\\tau} \\hat{\\nabla}_{\\mathcal{A}}{W} \\hat{\\nabla}_{\\mathcal{B}}{W} {W}^{-4} - \\frac{3}{64}I \\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\tilde{\\Omega}^{\\gamma \\lambda \\mathcal{B}} \\epsilon_{\\alpha \\gamma} \\epsilon_{\\beta \\lambda} \\epsilon^{\\rho \\tau} \\lambda^{i}_{\\rho} \\lambda^{j}_{\\tau} \\hat{\\nabla}_{\\mathcal{A}}{W} \\hat{\\nabla}_{\\mathcal{B}}{W} {W}^{-4} - \\frac{3}{64}I \\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\epsilon_{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{k l} X^{i k} \\lambda^{j}_{\\lambda} \\lambda^{l}_{\\rho} \\hat{\\nabla}_{\\mathcal{A}}{W} {W}^{-4} - \\frac{3}{16}I \\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\epsilon_{k l} X^{i k} \\lambda^{j}_{\\alpha} \\lambda^{l}_{\\beta} \\hat{\\nabla}_{\\mathcal{A}}{W} {W}^{-4} - \\frac{3}{64}I \\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\epsilon_{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{k l} X^{j k} \\lambda^{i}_{\\lambda} \\lambda^{l}_{\\rho} \\hat{\\nabla}_{\\mathcal{A}}{W} {W}^{-4} - \\frac{3}{16}I \\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\epsilon_{k l} X^{j k} \\lambda^{i}_{\\alpha} \\lambda^{l}_{\\beta} \\hat{\\nabla}_{\\mathcal{A}}{W} {W}^{-4}+\\frac{3}{8}I \\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\epsilon^{\\lambda \\rho} F_{\\alpha \\lambda} \\lambda^{i}_{\\rho} \\lambda^{j}_{\\beta} \\hat{\\nabla}_{\\mathcal{A}}{W} {W}^{-4} - \\frac{3}{8}I \\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\epsilon^{\\lambda \\rho} F_{\\alpha \\lambda} \\lambda^{i}_{\\beta} \\lambda^{j}_{\\rho} \\hat{\\nabla}_{\\mathcal{A}}{W} {W}^{-4} - \\frac{3}{8}I \\epsilon^{\\alpha \\beta} \\epsilon^{\\gamma \\lambda} \\epsilon^{\\rho \\tau} F_{\\alpha \\gamma} F_{\\beta \\lambda} \\lambda^{i}_{\\rho} \\lambda^{j}_{\\tau} {W}^{-4}+\\frac{3}{4}I \\epsilon^{\\alpha \\beta} \\epsilon^{\\gamma \\lambda} \\epsilon^{\\rho \\tau} F_{\\alpha \\gamma} F_{\\beta \\rho} \\lambda^{i}_{\\lambda} \\lambda^{j}_{\\tau} {W}^{-4} - \\frac{3}{8}I \\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{k l} X^{i j} F_{\\alpha \\lambda} \\lambda^{k}_{\\beta} \\lambda^{l}_{\\rho} {W}^{-4}+\\frac{3}{16}I \\epsilon^{\\alpha \\beta} \\epsilon_{k l} \\epsilon_{m n} X^{i j} X^{k m} \\lambda^{l}_{\\alpha} \\lambda^{n}_{\\beta} {W}^{-4}+\\frac{3}{32}I \\epsilon^{\\alpha \\beta} \\epsilon_{k l} \\epsilon_{m n} X^{k m} X^{l n} \\lambda^{i}_{\\alpha} \\lambda^{j}_{\\beta} {W}^{-4}+\\frac{15}{128}\\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\epsilon_{\\alpha \\beta} \\epsilon^{\\gamma \\lambda} \\epsilon^{\\rho \\tau} \\epsilon_{k l} \\lambda^{i}_{\\gamma} \\lambda^{j}_{\\lambda} \\lambda^{k}_{\\rho} \\hat{\\nabla}_{\\mathcal{A}}{\\lambda^{l}_{\\tau}} {W}^{-4}+\\frac{15}{64}\\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\epsilon^{\\lambda \\rho} \\epsilon_{k l} \\lambda^{i}_{\\alpha} \\lambda^{j}_{\\beta} \\lambda^{k}_{\\lambda} \\hat{\\nabla}_{\\mathcal{A}}{\\lambda^{l}_{\\rho}} {W}^{-4} - \\frac{3}{128}\\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\epsilon_{\\alpha \\beta} \\epsilon^{\\gamma \\lambda} \\epsilon^{\\rho \\tau} \\epsilon_{k l} \\lambda^{i}_{\\gamma} \\lambda^{j}_{\\rho} \\lambda^{k}_{\\lambda} \\hat{\\nabla}_{\\mathcal{A}}{\\lambda^{l}_{\\tau}} {W}^{-4}+\\frac{9}{64}\\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\epsilon^{\\lambda \\rho} \\epsilon_{k l} \\lambda^{i}_{\\alpha} \\lambda^{j}_{\\lambda} \\lambda^{k}_{\\beta} \\hat{\\nabla}_{\\mathcal{A}}{\\lambda^{l}_{\\rho}} {W}^{-4}%\n+\\frac{3}{128}\\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\epsilon_{\\alpha \\beta} \\epsilon^{\\gamma \\lambda} \\epsilon^{\\rho \\tau} \\epsilon_{k l} \\lambda^{i}_{\\gamma} \\lambda^{j}_{\\rho} \\lambda^{k}_{\\tau} \\hat{\\nabla}_{\\mathcal{A}}{\\lambda^{l}_{\\lambda}} {W}^{-4} - \\frac{9}{64}\\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\epsilon^{\\lambda \\rho} \\epsilon_{k l} \\lambda^{i}_{\\lambda} \\lambda^{j}_{\\alpha} \\lambda^{k}_{\\beta} \\hat{\\nabla}_{\\mathcal{A}}{\\lambda^{l}_{\\rho}} {W}^{-4}+\\frac{15}{64}\\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\epsilon^{\\lambda \\rho} \\epsilon_{k l} \\lambda^{i}_{\\alpha} \\lambda^{j}_{\\lambda} \\lambda^{k}_{\\rho} \\hat{\\nabla}_{\\mathcal{A}}{\\lambda^{l}_{\\beta}} {W}^{-4} - \\frac{15}{64}\\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\epsilon^{\\lambda \\rho} \\epsilon_{k l} \\lambda^{i}_{\\lambda} \\lambda^{j}_{\\alpha} \\lambda^{k}_{\\rho} \\hat{\\nabla}_{\\mathcal{A}}{\\lambda^{l}_{\\beta}} {W}^{-4}+\\frac{15}{64}\\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\epsilon^{\\lambda \\rho} \\epsilon_{k l} \\lambda^{i}_{\\lambda} \\lambda^{j}_{\\rho} \\lambda^{k}_{\\alpha} \\hat{\\nabla}_{\\mathcal{A}}{\\lambda^{l}_{\\beta}} {W}^{-4} - \\frac{9}{32}\\epsilon^{\\alpha \\beta} \\epsilon^{\\gamma \\lambda} \\epsilon^{\\rho \\tau} \\epsilon_{k l} W_{\\alpha \\gamma} \\lambda^{i}_{\\beta} \\lambda^{j}_{\\rho} \\lambda^{k}_{\\lambda} \\lambda^{l}_{\\tau} {W}^{-4}+\\frac{9}{32}\\epsilon^{\\alpha \\beta} \\epsilon^{\\gamma \\lambda} \\epsilon^{\\rho \\tau} \\epsilon_{k l} W_{\\alpha \\gamma} \\lambda^{i}_{\\rho} \\lambda^{j}_{\\beta} \\lambda^{k}_{\\lambda} \\lambda^{l}_{\\tau} {W}^{-4} - \\frac{9}{32}\\epsilon^{\\alpha \\beta} \\epsilon^{\\gamma \\lambda} \\epsilon^{\\rho \\tau} \\epsilon_{k l} W_{\\alpha \\gamma} \\lambda^{i}_{\\rho} \\lambda^{j}_{\\tau} \\lambda^{k}_{\\beta} \\lambda^{l}_{\\lambda} {W}^{-4}+\\frac{3}{8}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{k l} \\epsilon_{m n} X^{k m} \\lambda^{i}_{\\alpha} \\lambda^{j}_{\\beta} \\lambda^{l}_{\\lambda} \\lambda^{n}_{\\rho} {W}^{-5} - \\frac{3}{4}\\epsilon^{\\alpha \\beta} \\epsilon^{\\gamma \\lambda} \\epsilon^{\\rho \\tau} \\epsilon_{k l} F_{\\alpha \\gamma} \\lambda^{i}_{\\rho} \\lambda^{j}_{\\tau} \\lambda^{k}_{\\beta} \\lambda^{l}_{\\lambda} {W}^{-5} - \\frac{3}{16}\\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\epsilon^{\\lambda \\rho} \\epsilon_{k l} \\lambda^{i}_{\\alpha} \\lambda^{j}_{\\lambda} \\lambda^{k}_{\\beta} \\lambda^{l}_{\\rho} \\hat{\\nabla}_{\\mathcal{A}}{W} {W}^{-5}+\\frac{3}{16}\\tilde{\\Omega}^{\\alpha \\beta \\mathcal{A}} \\epsilon^{\\lambda \\rho} \\epsilon_{k l} \\lambda^{i}_{\\lambda} \\lambda^{j}_{\\alpha} \\lambda^{k}_{\\beta} \\lambda^{l}_{\\rho} \\hat{\\nabla}_{\\mathcal{A}}{W} {W}^{-5}+\\frac{3}{32}I \\epsilon^{\\alpha \\beta} \\epsilon^{\\gamma \\lambda} \\epsilon^{\\rho \\tau} \\epsilon_{k l} \\epsilon_{m n} \\lambda^{i}_{\\alpha} \\lambda^{j}_{\\beta} \\lambda^{k}_{\\gamma} \\lambda^{l}_{\\rho} \\lambda^{m}_{\\lambda} \\lambda^{n}_{\\tau} {W}^{-6} - \\frac{3}{16}I \\epsilon^{\\alpha \\beta} \\epsilon^{\\gamma \\lambda} \\epsilon^{\\rho \\tau} \\epsilon_{k l} \\epsilon_{m n} \\lambda^{i}_{\\alpha} \\lambda^{j}_{\\gamma} \\lambda^{k}_{\\beta} \\lambda^{l}_{\\rho} \\lambda^{m}_{\\lambda} \\lambda^{n}_{\\tau} {W}^{-6}\\end{dmath*}"
+				}
+			],
+			"source": "HijLogWspinor := @(HijLogW).\nsubstitute(HijLogWspinor, lorentz_to_spinor)\ncleverSimplify = CleverSimplify(HijLogWspinor)\ncleverSimplify.main(28);\n#substitute(HijLogWspinor, vanishing_trace_property);  \n#cleverSimplify.terms_per_iteration;\n#cleverSimplify.logical_structures;"
+		},
+		{
+			"cell_id": 6527064412477261143,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "timer = StopWatch()\nvarphi := (1/3) \\Lambda_{i \\ah}^{A} \\D_{A}{@(HijLogWspinor)}.\ncleverSimplify = CleverSimplify(varphi)\ncleverSimplify.main(28)\ncleverSimplify = CleverSimplify(varphi)\ncleverSimplify.main(28)\nsort_sum(varphi);\ntimer.check_time()\ncleverSimplify.terms_per_iteration;\ncleverSimplify.logical_structures;\n#substitute(varphi, vanishing_trace_property)  |"
+		},
+		{
+			"cell_id": 4135627714811260928,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "cleverSimplify = CleverSimplify(varphi)\ncleverSimplify.main(28)\ncleverSimplify = CleverSimplify(varphi)\ncleverSimplify.main(28)\nsort_sum(varphi);\ntimer.check_time()\ncleverSimplify.terms_per_iteration;\ncleverSimplify.logical_structures;"
+		},
+		{
+			"cell_id": 15801645561972322816,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "substitute(varphi, vanishing_trace_properties)\ncleverSimplify = CleverSimplify(varphi)\ncleverSimplify.main(28)\nsort_sum(varphi);\ncleverSimplify.terms_per_iteration;\ncleverSimplify.logical_structures;"
+		},
+		{
+			"cell_id": 3140438736956247116,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "save_expression(varphi, \"varphiLogW2.txt\",file_path)"
+		},
+		{
+			"cell_id": 14923839822068561134,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "varphi = read_expression(\"varphiLogW.txt\",file_path);\ncount_terms(varphi);"
+		},
+		{
+			"cell_id": 3386121753537658190,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "\nvarphi2 = read_expression(\"varphiLogW2.txt\",file_path);\ncount_terms(varphi2);\nsubstitute(varphi2, transfer)\ncleverSimplify = CleverSimplify(varphi2)\ncleverSimplify.main(20);\ncheck := @(varphi) - @(varphi2).\ncleverSimplify = CleverSimplify(check)\ncleverSimplify.main(20)\ncleverSimplify = CleverSimplify(check)\ncleverSimplify.main(20);"
+		},
+		{
+			"cell_id": 17372498137215628292,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "#substitute(check, spinor_to_lorentz)\ncleverSimplify = CleverSimplify(check)\ncleverSimplify.main(20);\nsave_expression(check, \"varphilogWDiff.txt\",file_path)"
+		},
+		{
+			"cell_id": 5836720834154675853,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "save_expression(check, \"temp.txt\", file_path)"
+		},
+		{
+			"cell_id": 1691871542321757915,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "F := (I/4) \\Lambda_{j}^{\\ah}^{A} \\D_{A}{@(varphi)}.\n#substitute(F, vanishing_trace_property)\ncleverSimplify = CleverSimplify(F)\ncleverSimplify.main(40)\ncleverSimplify = CleverSimplify(F)\ncleverSimplify.main(20);\ncleverSimplify.terms_per_iteration;\ncleverSimplify.logical_structures;"
+		},
+		{
+			"cell_id": 18418384101860234745,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "cleverSimplify = CleverSimplify(F)\ncleverSimplify.main(40)\ncleverSimplify = CleverSimplify(F)\ncleverSimplify.main(20);\ncleverSimplify.terms_per_iteration;\ncleverSimplify.logical_structures;"
+		},
+		{
+			"cell_id": 1054713842596347097,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "cleverSimplify = CleverSimplify(F)\ncleverSimplify.main(40)\ncleverSimplify = CleverSimplify(F)\ncleverSimplify.main(20);\ncleverSimplify.terms_per_iteration;\ncleverSimplify.logical_structures;\nsubstitute(F, vanishing_trace_properties)"
+		},
+		{
+			"cell_id": 7837096714484886156,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "save_expression(F, \"FlogW2.txt\",file_path)"
+		},
+		{
+			"cell_id": 9628375512470444979,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "F = read_expression(\"FlogW.txt\",file_path);\ncount_terms(F);"
+		},
+		{
+			"cell_id": 15281475573510954251,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "Fbosons := @(F).\nsubstitute(Fbosons, Spinor_0);\ncount_terms(Fbosons);"
+		},
+		{
+			"cell_id": 8771574778852511953,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "## H Vector ##\nH := (I/4) \\Gamma^{\\5a}^{\\bh \\ah}\\Lambda_{j \\bh}^{A}   \\D_{A}{@(varphi)}.\ncleverSimplify = CleverSimplify(H)\ncleverSimplify.main(40)\ncleverSimplify = CleverSimplify(H)\ncleverSimplify.main(40)"
+		},
+		{
+			"cell_id": 4963822968535592979,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "cleverSimplify = CleverSimplify(H)\ncleverSimplify.main(40)\ncleverSimplify = CleverSimplify(H)\ncleverSimplify.main(40)\ncleverSimplify.terms_per_iteration;\ncleverSimplify.logical_structures;"
+		},
+		{
+			"cell_id": 14319105558136829742,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "cleverSimplify = CleverSimplify(H)\ncleverSimplify.main(20)\nsubstitute(H, vanishing_trace_properties)  \nsort_sum(H)\ncleverSimplify.terms_per_iteration;\ncleverSimplify.logical_structures;"
+		},
+		{
+			"cell_id": 5158898755803013314,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "save_expression(H, \"HalogW2.txt\",file_path)"
+		},
+		{
+			"cell_id": 17206222280758947762,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "H = read_expression(\"HalogW.txt\",file_path);\ncount_terms(H);"
+		},
+		{
+			"cell_id": 11473967492830532727,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "Ha = read_expression(\"bosonic_H.txt\",file_path);\ncount_terms(Ha);"
+		},
+		{
+			"cell_id": 132108348576691609,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "HaBosons := @(Ha).\nsubstitute(HaBosons, Spinor_0);\ncount_terms(HaBosons);"
+		},
+		{
+			"cell_id": 10364881925976197610,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "temp1 := @(Ha).\ntake_match(temp1,$ W{#} \\vDh^{\\5a}{\\vDh^{\\5b}{W{#}}} Q??$);"
+		},
+		{
+			"cell_id": 18063788952893483376,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "temp2 := @(Ha).\ntake_match(temp2,$  \\vDh^{\\5a}{W{#}} \\vDh^{\\5b}{W{#}} Q??$);"
+		},
+		{
+			"cell_id": 4730575669084011700,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "temp3 := @(Ha).\ntake_match(temp3,$  \\vDh^{\\5a}{\\vDh^{\\5b}{\\vDh^{\\5c}{W{#}}}} Q??$);"
+		},
+		{
+			"cell_id": 7906226666586638865,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "temp4 := @(Ha).\ntake_match(temp4,$  W{#} W{#} \\vDh^{\\5a}{W{#}} Q??$);"
+		},
+		{
+			"cell_id": 11507131826443337117,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "tem := @(Ha).\ntake_match(tem,$ Q?? W{#} W{#} \\vDh^{\\5a}{W{#}}$);"
+		},
+		{
+			"cell_id": 4903255722272177769,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "temp5 := @(Ha).\ntake_match(temp5,$F{#} \\vDh^{\\5a}{\\vDh^{\\5b}{W{#}}} Q??$);"
+		},
+		{
+			"cell_id": 5112122117863871034,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "temp5 := @(Ha).\ntake_match(temp5,$ W{#} \\vDh^{\\5a}{\\vDh^{\\5b}{F{#}}} Q??$);"
+		},
+		{
+			"cell_id": 814765353675036422,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "contract_fields_vector_arbitrary := {\n   A?_{\\5a \\5b} \\eta^{\\5a \\5c} \\eta^{\\5b \\5d} -> A?^{\\5c \\5d},\n   A?_{\\5a \\5b} \\eta^{\\5c \\5a} \\eta^{\\5b \\5d} -> A?^{\\5c \\5d},\n   A?_{\\5a \\5b} \\eta^{\\5c \\5a} \\eta^{\\5d \\5b} -> A?^{\\5c \\5d},\n   A?_{\\5a \\5b} \\eta^{\\5a \\5c} \\eta^{\\5d \\5b} -> A?^{\\5c \\5d},\n   A?^{\\5a \\5b} \\eta_{\\5a \\5c} \\eta_{\\5b \\5d} -> A?_{\\5c \\5d},\n   A?^{\\5a \\5b} \\eta_{\\5c \\5a} \\eta_{\\5b \\5d} -> A?_{\\5c \\5d},\n   A?^{\\5a \\5b} \\eta_{\\5c \\5a} \\eta_{\\5d \\5b} -> A?_{\\5c \\5d},\n   A?^{\\5a \\5b} \\eta_{\\5a \\5c} \\eta_{\\5d \\5b} -> A?_{\\5c \\5d},\n   \\vDh^{e1}{A?_{\\5a \\5b}} \\eta^{\\5a \\5c} \\eta^{\\5b \\5d} -> \\vDh^{e1}{A?^{\\5c \\5d}},\n   \\vDh^{e1}{A?_{\\5a \\5b}} \\eta^{\\5c \\5a} \\eta^{\\5b \\5d} -> \\vDh^{e1}{A?^{\\5c \\5d}},\n   \\vDh^{e1}{A?_{\\5a \\5b}} \\eta^{\\5c \\5a} \\eta^{\\5d \\5b} -> \\vDh^{e1}{A?^{\\5c \\5d}},\n   \\vDh^{e1}{A?_{\\5a \\5b}} \\eta^{\\5a \\5c} \\eta^{\\5d \\5b} -> \\vDh^{e1}{A?^{\\5c \\5d}},\n   \\vDh^{e1}{A?^{\\5a \\5b}} \\eta_{\\5a \\5c} \\eta_{\\5b \\5d} -> \\vDh^{e1}{A?_{\\5c \\5d}},\n   \\vDh^{e1}{A?^{\\5a \\5b}} \\eta_{\\5c \\5a} \\eta_{\\5b \\5d} -> \\vDh^{e1}{A?_{\\5c \\5d}},\n   \\vDh^{e1}{A?^{\\5a \\5b}} \\eta_{\\5c \\5a} \\eta_{\\5d \\5b} -> \\vDh^{e1}{A?_{\\5c \\5d}},\n   \\vDh^{e1}{A?^{\\5a \\5b}} \\eta_{\\5a \\5c} \\eta_{\\5d \\5b} -> \\vDh^{e1}{A?_{\\5c \\5d}},\n   \\vDh^{e2}{\\vDh^{e1}{A?_{\\5a \\5b}}} \\eta^{\\5a \\5c} \\eta^{\\5b \\5d} -> \\vDh^{e2}{\\vDh^{e1}{A?^{\\5c \\5d}}},\n   \\vDh^{e2}{\\vDh^{e1}{A?_{\\5a \\5b}}} \\eta^{\\5c \\5a} \\eta^{\\5b \\5d} -> \\vDh^{e2}{\\vDh^{e1}{A?^{\\5c \\5d}}},\n   \\vDh^{e2}{\\vDh^{e1}{A?_{\\5a \\5b}}} \\eta^{\\5c \\5a} \\eta^{\\5d \\5b} -> \\vDh^{e2}{\\vDh^{e1}{A?^{\\5c \\5d}}},\n   \\vDh^{e2}{\\vDh^{e1}{A?_{\\5a \\5b}}} \\eta^{\\5a \\5c} \\eta^{\\5d \\5b} -> \\vDh^{e2}{\\vDh^{e1}{A?^{\\5c \\5d}}},\n   \\vDh^{e2}{\\vDh^{e1}{A?^{\\5a \\5b}}} \\eta_{\\5a \\5c} \\eta_{\\5b \\5d} -> \\vDh^{e2}{\\vDh^{e1}{A?_{\\5c \\5d}}},\n   \\vDh^{e2}{\\vDh^{e1}{A?^{\\5a \\5b}}} \\eta_{\\5c \\5a} \\eta_{\\5b \\5d} -> \\vDh^{e2}{\\vDh^{e1}{A?_{\\5c \\5d}}},\n   \\vDh^{e2}{\\vDh^{e1}{A?^{\\5a \\5b}}} \\eta_{\\5c \\5a} \\eta_{\\5d \\5b} -> \\vDh^{e2}{\\vDh^{e1}{A?_{\\5c \\5d}}},\n   \\vDh^{e2}{\\vDh^{e1}{A?^{\\5a \\5b}}} \\eta_{\\5a \\5c} \\eta_{\\5d \\5b} -> \\vDh^{e2}{\\vDh^{e1}{A?_{\\5c \\5d}}},\n   \\eLevi_{\\5a \\5b \\5c \\5d \\5e} \\eta^{\\5a e1} \\eta^{\\5b e2} \\eta^{\\5c e3} \\eta^{\\5d e4} \\eta^{\\5e e5} -> \\eLevi^{e1 e2 e3 e4 e5},\n   \\eLevi^{\\5a \\5b \\5c \\5d \\5e} \\eta_{\\5a e1} \\eta_{\\5b e2} \\eta_{\\5c e3} \\eta_{\\5d e4} \\eta_{\\5e e5} -> \\eLevi_{e1 e2 e3 e4 e5},\n   X_{\\5a \\5b}^{i j} \\eta^{\\5a \\5c} \\eta^{\\5b \\5d} -> X^{\\5c \\5d}^{i j},\n   X_{\\5a \\5b}^{i j} \\eta^{\\5c \\5a} \\eta^{\\5b \\5d} -> X^{\\5c \\5d}^{i j},\n   X_{\\5a \\5b}^{i j} \\eta^{\\5c \\5a} \\eta^{\\5d \\5b} -> X^{\\5c \\5d}^{i j},\n   X_{\\5a \\5b}^{i j} \\eta^{\\5a \\5c} \\eta^{\\5d \\5b} -> X^{\\5c \\5d}^{i j},\n   X^{\\5a \\5b}^{i j} \\eta_{\\5a \\5c} \\eta_{\\5b \\5d} -> X_{\\5c \\5d}^{i j},\n   X^{\\5a \\5b}^{i j} \\eta_{\\5c \\5a} \\eta_{\\5b \\5d} -> X_{\\5c \\5d}^{i j},\n   X^{\\5a \\5b}^{i j} \\eta_{\\5c \\5a} \\eta_{\\5d \\5b} -> X_{\\5c \\5d}^{i j},\n   X^{\\5a \\5b}^{i j} \\eta_{\\5a \\5c} \\eta_{\\5d \\5b} -> X_{\\5c \\5d}^{i j}\n}."
+		},
+		{
+			"cell_id": 10784983664690396205,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "#temp6 := @(Ha).\n#take_match(temp6,$  \\vDh^{\\5a}{W{#}} \\vDh^{\\5b}{F{#}} Q??$);\nsubstitute( temp6, contract_fields_vector_arbitrary);"
+		},
+		{
+			"cell_id": 17190270008165210445,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "#temp7 := @(Ha).\n#take_match(temp7,$ W{#} \\vDh^{\\5a}{W{#}} \\vDh^{\\5b}{\\cW} Q??$);\nsubstitute( temp7, contract_fields_vector_arbitrary);"
+		},
+		{
+			"cell_id": 17373861933927537102,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "temp8 := @(Ha).\ntake_match(temp8,$  Q?? W{#} W{#} W{#} F{#}$);"
+		},
+		{
+			"cell_id": 8531283832121999609,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "temp9 := @(Ha).\ntake_match(temp9,$ \\cW**(-1) W_{\\5a \\5b \\5c \\5d} W{#} F{#} Q??$);"
+		},
+		{
+			"cell_id": 10785747223161122376,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "temp10 := @(Ha).\ntake_match(temp10,$ F{#} \\vDh^{\\5a}{F{#}} \\vDh^{\\5b}{\\cW} Q??$);"
+		},
+		{
+			"cell_id": 8319142780814170610,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "temp11 := @(Ha).\ntake_match(temp11,$ F{#} \\vDh^{\\5a}{W{#}} \\vDh^{\\5b}{\\cW} Q??$);"
+		},
+		{
+			"cell_id": 8468575903524943130,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "temp12 := @(Ha).\ntake_match(temp12,$ W{#} \\vDh^{\\5a}{F{#}} \\vDh^{\\5b}{\\cW} Q??$);"
+		},
+		{
+			"cell_id": 16486558837265258958,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "temp15 := @(Ha)-@(temp11)-@(temp12)-@(temp13)-@(temp14);\ncanonicalise_fields(temp15)\nsubstitute(temp15, replace_W)\n"
+		},
+		{
+			"cell_id": 3780688551207968470,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "temp11 := @(Ha).\ntake_match(temp11,$ W{#} W{#} W{#} W{#} Q??$);"
+		},
+		{
+			"cell_id": 17392488971041966755,
+			"cell_origin": "client",
+			"cell_type": "latex",
+			"cells": [
+				{
+					"cell_id": 16750355734670485149,
+					"cell_origin": "client",
+					"cell_type": "latex_view",
+					"source": "\\section*{Convert to Vector Notation}"
+				}
+			],
+			"hidden": true,
+			"source": "\\section*{Convert to Vector Notation}"
+		},
+		{
+			"cell_id": 18240012515095095178,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "#FlogWvector = read_expression(\"FlogW.txt\",file_path)\nsubstitute(FlogWvector, spinor_to_lorentz)\ncleverSimplify = CleverSimplify(FlogWvector)\ncleverSimplify.main(20)\ncleverSimplify = CleverSimplify(FlogWvector)\ncleverSimplify.main(20)\ncleverSimplify = CleverSimplify(FlogWvector)\ncleverSimplify.main(20);\ncleverSimplify.terms_per_iteration;\ncleverSimplify.logical_structures;"
+		},
+		{
+			"cell_id": 6810857290756692642,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "cleverSimplify = CleverSimplify(FlogWvector)\ncleverSimplify.main(20)\ncleverSimplify = CleverSimplify(FlogWvector)\ncleverSimplify.main(20);\ncleverSimplify.terms_per_iteration;\ncleverSimplify.logical_structures;"
+		},
+		{
+			"cell_id": 13839843074749725870,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "save_expression(FlogWvector, \"FlogWvector.txt\", file_path)"
+		},
+		{
+			"cell_id": 13704477359222362730,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "HalogWvector = read_expression(\"HalogW.txt\",file_path)\nsubstitute(HalogWvector, spinor_to_lorentz)\ncleverSimplify = CleverSimplify(HalogWvector)\ncleverSimplify.main(20)\ncleverSimplify = CleverSimplify(HalogWvector)\ncleverSimplify.main(20);\ncleverSimplify.terms_per_iteration;\ncleverSimplify.logical_structures;"
+		},
+		{
+			"cell_id": 2014973071022170559,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "substitute(HalogWvector, spinor_to_lorentz)\ncleverSimplify = CleverSimplify(HalogWvector)\ncleverSimplify.main(20)\ncleverSimplify = CleverSimplify(HalogWvector)\ncleverSimplify.main(20);\ncleverSimplify.terms_per_iteration;\ncleverSimplify.logical_structures;"
+		},
+		{
+			"cell_id": 15421543501023053863,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "save_expression(HalogWvector, \"HalogWvector.txt\", file_path)"
+		},
+		{
+			"cell_id": 1277348360045799520,
+			"cell_origin": "client",
+			"cell_type": "latex",
+			"cells": [
+				{
+					"cell_id": 12085649427317753177,
+					"cell_origin": "client",
+					"cell_type": "latex_view",
+					"source": "\\section*{Compact BF Action and Degauging}"
+				}
+			],
+			"hidden": true,
+			"source": "\\section*{Compact BF Action and Degauging}"
+		},
+		{
+			"cell_id": 5561427731381864734,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "### See SUGRA_5DN1.cnb for the definition. ###\nBFlogW;"
+		},
+		{
+			"cell_id": 6993719596502237896,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "BFlogWDegagued := @(BFlogW)."
+		},
+		{
+			"cell_id": 6324623689592154983,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "#substitute(BFlogWDegagued, lorentz_to_spinor)\n#cleverSimplify = CleverSimplify(BFlogWDegagued)\n#cleverSimplify.main(20)\n#substitute(BFlogWDegagued, vanishing_trace_property);\n#substitute(BFlogWDegagued, expose_4Der_spinor)\n#cleverSimplify = CleverSimplify(BFlogWDegagued)\n#cleverSimplify.main(10,True)\n#substitute(BFlogWDegagued, expose_3Der_spinor)\n#cleverSimplify = CleverSimplify(BFlogWDegagued)\n#cleverSimplify.main(10,True)\n#substitute(BFlogWDegagued, expose_2Der_spinor)\n#cleverSimplify = CleverSimplify(BFlogWDegagued)\n#cleverSimplify.main(10,True)\nsubstitute(BFlogWDegagued, expose_1Der_spinor)\ncleverSimplify = CleverSimplify(BFlogWDegagued)\ncleverSimplify.main(10,True)\nsubstitute(BFlogWDegagued, spinor_to_lorentz)\ncleverSimplify = CleverSimplify(BFlogWDegagued)\ncleverSimplify.main(20,True);\ncleverSimplify.terms_per_iteration;\ncleverSimplify.logical_structures;"
+		},
+		{
+			"cell_id": 12874652474185668677,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "cleverSimplify = CleverSimplify(BFlogWDegagued)\ncleverSimplify.main(20,True)\nsubstitute(BFlogWDegagued, gauge_cW)\ncanonicalise_fields(BFlogWDegagued)\nunwrap(BFlogWDegagued)\nsubstitute(BFlogWDegagued, contract_R)\nsubstitute(BFlogWDegagued, replace_W)\nsubstitute(BFlogWDegagued, replace_C)\nsubstitute(BFlogWDegagued, replace_f)\nsubstitute(BFlogWDegagued, spinor_to_lorentz)\ncleverSimplify = CleverSimplify(BFlogWDegagued)\ncleverSimplify.main(20,True)\ncollect_factors(BFlogWDegagued);"
+		},
+		{
+			"cell_id": 7761687265259857161,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "save_expression(BFlogWDegagued, \"BFlogWDegagued.txt\",file_path)"
+		},
+		{
+			"cell_id": 11344459954925428517,
+			"cell_origin": "client",
+			"cell_type": "latex",
+			"cells": [
+				{
+					"cell_id": 3295134323327481914,
+					"cell_origin": "client",
+					"cell_type": "latex_view",
+					"source": "\\section*{Generating $H^{i j}$ and Consistency Checks}\nNote that $H^{ij}$ has been completely cleaned and written in SUGRA\\_5DN1. This is how we originally created it."
+				}
+			],
+			"hidden": true,
+			"source": "\\section*{Generating $H^{i j}$ and Consistency Checks}\nNote that $H^{ij}$ has been completely cleaned and written in SUGRA\\_5DN1. This is how we originally created it."
+		},
+		{
+			"cell_id": 10306728470158871428,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "ex1Der :=   \\Lambda_{l \\ah}^{A1}  \\D_{A1}(\\log(\\cW));\nsubstitute(ex1Der, basic_chain_rule)\ncleverSimplify = CleverSimplify(ex1Der)\ncleverSimplify.main(15)\nsort_sum(ex1Der);\ncleverSimplify.terms_per_iteration;"
+		},
+		{
+			"cell_id": 16594681477113303652,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "ex2Der :=  \\Lambda_{k}^{\\ah}^{A1}  \\D_{A1}{@(ex1Der)};\ncleverSimplify = CleverSimplify(ex2Der)\ncleverSimplify.main(15)\nsubstitute(ex2Der, vanishing_trace_property)\nsort_sum(ex2Der);\ncleverSimplify.terms_per_iteration;\n#cleverSimplify.logical_structures;"
+		},
+		{
+			"cell_id": 7077551428239739209,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "# This matches previous code\nex3Der :=  \\Lambda^{i4}_{\\ah}^{A1}  \\D_{A1}{@(ex2Der)};\ncleverSimplify = CleverSimplify(ex3Der)\ncleverSimplify.main(15, False)\nsort_sum(ex3Der)\nsubstitute(ex3Der, vanishing_trace_property);\ncleverSimplify.terms_per_iteration;\ncleverSimplify.logical_structures;\n"
+		},
+		{
+			"cell_id": 10091064634655131747,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "ex4Der :=  \\Lambda^{i3 \\ah}^{A1}  \\D_{A1}{@(ex3Der)};\ncleverSimplify = CleverSimplify(ex4Der)\ncleverSimplify.main(15,True)\ncleverSimplify = CleverSimplify(ex4Der)\ncleverSimplify.main(15,True)\ncollect_terms(ex4Der)\nsort_sum(ex4Der)\nsubstitute(ex4Der, vanishing_trace_property);\ncleverSimplify.terms_per_iteration;\ncleverSimplify.logical_structures;"
+		},
+		{
+			"cell_id": 9865034065200711919,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "#ex5Der := \\Lambda^{i2}_{\\ah}^{A1}  \\D_{A1}{@(ex4Der)}.\ncleverSimplify = CleverSimplify(ex5Der)\ncleverSimplify.main(24)\ncleverSimplify.terms_per_iteration;\ncleverSimplify.logical_structures;\ncleverSimplify = CleverSimplify(ex5Der)\ncleverSimplify.main(5)\nsort_sum(ex5Der)\nsubstitute(ex5Der, vanishing_trace_property);\ncleverSimplify.terms_per_iteration;\ncleverSimplify.logical_structures;\ncount_terms(ex5Der);"
+		},
+		{
+			"cell_id": 4048045163356876709,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "#HijLogW := (3 I / 1280) \\Symmetrize_{i1 i2 i3 i4}^{i j k l} \\Lambda^{i1 \\ah}^{A1}   \\D_{A1}{@(ex5Der)}.\ncleverSimplify = CleverSimplify(HijLogW)\ncleverSimplify.main(28)\nsort_sum(HijLogW)\nsubstitute(HijLogW, vanishing_trace_property);      \ncleverSimplify.terms_per_iteration;\ncleverSimplify.logical_structures;"
+		},
+		{
+			"cell_id": 15674592318972657088,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "#check1 := K^{\\5a}{@(HijLogW)}.\nsubstitute(check1, spinor_to_lorentz)\ncleverSimplify = CleverSimplify(check1)\ncleverSimplify.main(28,True)\nsort_sum(check1);\ncleverSimplify.terms_per_iteration;\ncleverSimplify.logical_structures;"
+		},
+		{
+			"cell_id": 13294269499723804059,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "#check2 := \\Lambda_{i \\ah}^{A} S_{A}{@(HijLogW)}.\nsubstitute(check2,gamma_properties)\nsubstitute(check2,spinor_to_lorentz)\n#substitute(check2, vv_algebra_traceless)\n#cleverSimplify = CleverSimplify(check2)\ncleverSimplify.main(28,True)\nsort_sum(check2);\ncleverSimplify.terms_per_iteration;\ncleverSimplify.logical_structures;"
+		},
+		{
+			"cell_id": 6402857925558170161,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "#check3 := \\Symmetrize_{i j k}^{i1 i2 i3} \\Lambda^{k}_{\\ah}^{A} \\D_{A}{@(HijLogW)}.\nsubstitute(check3,spinor_to_lorentz)\ncleverSimplify = CleverSimplify(check3)\ncleverSimplify.main(28,True)\nsort_sum(check3);\ncleverSimplify.terms_per_iteration;\ncleverSimplify.logical_structures;"
+		},
+		{
+			"cell_id": 4860264111932690973,
+			"cell_origin": "client",
+			"cell_type": "latex",
+			"cells": [
+				{
+					"cell_id": 12565907333229910304,
+					"cell_origin": "client",
+					"cell_type": "latex_view",
+					"source": "\\section*{Degauge Identites}"
+				}
+			],
+			"hidden": true,
+			"source": "\\section*{Degauge Identites}"
+		},
+		{
+			"cell_id": 7611886141383834512,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "expose_1Der_spinor_fermions := {\n    \\vDh_{\\A}{X??} -> \\mD_{\\A}{X??}  - (1/2) \\IAOmega_{\\ah \\bh}_{\\A} \\Gamma_{e1}^{\\ah \\bh} \\psi^{e1}_{i}^{\\ph} \\Lambda^{i}_{\\ph}^{A} \\D_{A}{X??} + (1/2) \\IAOmega_{\\ah \\bh}_{\\A} \\Gamma_{e1}^{\\ah \\bh} \\phi^{e1}_{i}^{\\ph} \\Lambda^{i}_{\\ph}^{A} S_{A}{X??}- \\IAOmega_{\\ah \\bh}_{\\A} \\Gamma^{e1}^{\\ah \\bh} f_{e1 e2} K^{e2}{X??}\n}.\n\nexpose_2Der_spinor_fermions := {\n    \\vDh_{\\A}{\\vDh_{\\B}{X??}} -> \\mD_{\\A}{\\vDh_{\\B}{X??}}  - (1/2) \\IAOmega_{\\ah \\bh}_{\\A} \\Gamma_{e1}^{\\ah \\bh} \\psi^{e1}_{i}^{\\ph} \\Lambda^{i}_{\\ph}^{A} \\D_{A}{\\vDh_{\\B}{X??}} + (1/2) \\IAOmega_{\\ah \\bh}_{\\A} \\Gamma_{e1}^{\\ah \\bh} \\phi^{e1}_{i}^{\\ph} \\Lambda^{i}_{\\ph}^{A} S_{A}{\\vDh_{\\B}{X??}} - \\IAOmega_{\\ah \\bh}_{\\A} \\Gamma^{e1}^{\\ah \\bh} f_{e1 e2} K^{e2}{\\vDh_{\\B}{X??}}\n}.\n\nexpose_3Der_spinor_fermions := {\n    \\vDh_{\\A}{\\vDh_{\\B}{\\vDh_{\\C}{X??}}} -> \\mD_{\\A}{\\vDh_{\\B}{\\vDh_{\\C}{X??}}}  - (1/2) \\IAOmega_{\\ah \\bh}_{\\A} \\Gamma_{e1}^{\\ah \\bh} \\psi^{e1}_{i}^{\\ph} \\Lambda^{i}_{\\ph}^{A} \\D_{A}{\\vDh_{\\B}{\\vDh_{\\C}{X??}}} + (1/2) \\IAOmega_{\\ah \\bh}_{\\A} \\Gamma_{e1}^{\\ah \\bh} \\phi^{e1}_{i}^{\\ph} \\Lambda^{i}_{\\ph}^{A} S_{A}{\\vDh_{\\B}{\\vDh_{\\C}{X??}}}- \\IAOmega_{\\ah \\bh}_{\\A} \\Gamma^{e1}^{\\ah \\bh} f_{e1 e2} K^{e2}{\\vDh_{\\B}{\\vDh_{\\C}{X??}}}\n}.\n\nexpose_4Der_spinor_fermions := {\n    \\vDh_{\\A}{\\vDh_{\\B}{\\vDh_{\\C}{\\vDh_{\\E}{X??}}}} -> \\mD_{\\A}{\\vDh_{\\B}{\\vDh_{\\C}{\\vDh_{\\E}{X??}}}}  - (1/2) \\IAOmega_{\\ah \\bh}_{\\A} \\Gamma_{e1}^{\\ah \\bh} \\psi^{e1}_{i}^{\\ph} \\Lambda^{i}_{\\ph}^{A} \\D_{A}{\\vDh_{\\B}{\\vDh_{\\C}{\\vDh_{\\E}{X??}}}} + (1/2) \\IAOmega_{\\ah \\bh}_{\\A} \\Gamma_{e1}^{\\ah \\bh} \\phi^{e1}_{i}^{\\ph} \\Lambda^{i}_{\\ph}^{A} S_{A}{\\vDh_{\\B}{\\vDh_{\\C}{\\vDh_{\\E}{X??}}}} - \\IAOmega_{\\ah \\bh}_{\\A} \\Gamma^{e1}^{\\ah \\bh} f_{e1 e2} K^{e2}{\\vDh_{\\B}{\\vDh_{\\C}{\\vDh_{\\E}{X??}}}}\n}.\n\nC_to_W := {\n\tC_{\\ah \\bh \\gh \\ph} -> -(1/4) I W_{\\ah \\bh \\gh \\ph} - (1/4) W_{\\ah \\bh} W_{\\gh \\ph} - (1/4) W_{\\ah \\gh} W_{\\bh \\ph} - (1/4) W_{\\ah \\ph} W_{\\bh \\gh}\n}."
+		},
+		{
+			"cell_id": 11557281409081087954,
+			"cell_origin": "client",
+			"cell_type": "latex",
+			"cells": [
+				{
+					"cell_id": 14735196410890700590,
+					"cell_origin": "client",
+					"cell_type": "latex_view",
+					"source": "\\subsection*{Weyl Multiplet}"
+				}
+			],
+			"hidden": true,
+			"source": "\\subsection*{Weyl Multiplet}"
+		},
+		{
+			"cell_id": 18095518611487120761,
+			"cell_origin": "client",
+			"cell_type": "latex",
+			"cells": [
+				{
+					"cell_id": 5262405451567189531,
+					"cell_origin": "client",
+					"cell_type": "latex_view",
+					"source": "1 Der"
+				}
+			],
+			"hidden": true,
+			"source": "1 Der"
+		},
+		{
+			"cell_id": 14486570828608213446,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "# This is correct\nex := \\vDh^{\\5a}{C_{\\5b \\5c \\5d \\5e}}.\nsubstitute(ex, lorentz_to_spinor);\ndistribute(ex)\nunwrap(ex)\nsubstitute(ex, C_to_W);\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);\n"
+		},
+		{
+			"cell_id": 2312163243145134299,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "substitute(ex, expose_1Der_spinor_fermions)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);"
+		},
+		{
+			"cell_id": 10922387364620453335,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "substitute(ex, replace_W)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);"
+		},
+		{
+			"cell_id": 1167029723153790428,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "temp := W_{\\ah \\bh \\gh \\ph};\nsubstitute(temp, replace_W);\nsubstitute(temp, C_to_W);\ncleverSimplify = CleverSimplify(temp)\ncleverSimplify.main(28,True);"
+		},
+		{
+			"cell_id": 5314487587606787746,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "# This is correct\nex := \\vDh^{\\5a}{W_{\\5b \\5c}}.\nsubstitute(ex, lorentz_to_spinor)\nsubstitute(ex, expose_1Der_spinor_fermions)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True)\nsubstitute(ex, spinor_to_lorentz)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);"
+		},
+		{
+			"cell_id": 15350332261596973915,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "# This is correct\nex := \\vDh^{\\5a}{X^{i}_{\\ah}}.\nsubstitute(ex, lorentz_to_spinor)\nsubstitute(ex, expose_1Der_spinor_fermions)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True)\nsubstitute(ex, spinor_to_lorentz)\ncleverSimplify = CleverSimplify(te,m)\ncleverSimplify.main(28,True);"
+		},
+		{
+			"cell_id": 9101825264777849186,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "# This is correct\nex := \\vDh^{\\5a}{W_{\\ah \\bh \\gh}^{i}}.\nsubstitute(ex, lorentz_to_spinor)\nsubstitute(ex, expose_1Der_spinor_fermions)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True)\nsubstitute(ex, spinor_to_lorentz)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);"
+		},
+		{
+			"cell_id": 4335821785179412727,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "# This is correct\nex := \\vDh^{\\5a}{W_{\\5b \\5c \\5d \\5e}}.\nsubstitute(ex, lorentz_to_spinor)\nsubstitute(ex, expose_1Der_spinor_fermions)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True)\nsubstitute(ex, spinor_to_lorentz)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);"
+		},
+		{
+			"cell_id": 7147991547076448854,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "ex := -(1/4) I W_{\\ah \\bh \\gh \\ph} - (1/4) W_{\\ah \\bh} W_{\\gh \\ph} - (1/4) W_{\\ah \\gh} W_{\\bh \\ph} - (1/4) W_{\\ah \\ph} W_{\\bh \\gh};\nsubstitute(ex, replace_W);\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);"
+		},
+		{
+			"cell_id": 18405089430824875217,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "ex := \\vDh^{\\5a}{W_{\\5b \\5c \\5d \\5e}};\nsubstitute(ex, lorentz_to_spinor);\nsubstitute(ex, expose_1Der_spinor_fermions);"
+		},
+		{
+			"cell_id": 937710047088474350,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "distribute(ex)\nunwrap(ex);"
+		},
+		{
+			"cell_id": 15399477541719325473,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "cleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);\ncleverSimplify.logical_structures;\ncleverSimplify.terms_per_iteration;"
+		},
+		{
+			"cell_id": 15550454707339513764,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "substitute(ex, spinor_to_lorentz)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28, True);"
+		},
+		{
+			"cell_id": 10829070833181182858,
+			"cell_origin": "client",
+			"cell_type": "latex",
+			"cells": [
+				{
+					"cell_id": 12482989649069731954,
+					"cell_origin": "client",
+					"cell_type": "latex_view",
+					"source": "2 Der"
+				}
+			],
+			"hidden": true,
+			"source": "2 Der"
+		},
+		{
+			"cell_id": 16474881706648414391,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": ""
+		},
+		{
+			"cell_id": 17014545401302298296,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": ""
+		},
+		{
+			"cell_id": 4385385892866833991,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": ""
+		},
+		{
+			"cell_id": 3976226523817280124,
+			"cell_origin": "client",
+			"cell_type": "latex",
+			"cells": [
+				{
+					"cell_id": 2363493995846836767,
+					"cell_origin": "client",
+					"cell_type": "latex_view",
+					"source": "3 Der"
+				}
+			],
+			"hidden": true,
+			"source": "3 Der"
+		},
+		{
+			"cell_id": 17132697684491307545,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": ""
+		},
+		{
+			"cell_id": 16599384864027306861,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": ""
+		},
+		{
+			"cell_id": 13760019149554589816,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "# This is correct\nex := \\vDh^{\\5a}{\\cW}.\nsubstitute(ex, lorentz_to_spinor)\nsubstitute(ex, expose_1Der_spinor_fermions)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True)\nsubstitute(ex, spinor_to_lorentz)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);"
+		},
+		{
+			"cell_id": 16113398984378261833,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "# This is correct\nex := \\vDh^{\\5a}{\\l^{i}_{\\ah}}.\nsubstitute(ex, lorentz_to_spinor)\nsubstitute(ex, expose_1Der_spinor_fermions)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True)\nsubstitute(ex, spinor_to_lorentz)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);"
+		},
+		{
+			"cell_id": 6699783662977123164,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "# ???\nex := \\vDh^{\\5a}{G_{i j}}.\nsubstitute(ex, lorentz_to_spinor)\nsubstitute(ex, expose_1Der_spinor_fermions)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True)\nsubstitute(ex, spinor_to_lorentz)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);"
+		},
+		{
+			"cell_id": 5860733341788739907,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "# ???\nex := \\e_{i j} \\vDh^{\\5a}{\\varphi^{j}_{\\ah}}.\nsubstitute(ex, lorentz_to_spinor)\nsubstitute(ex, expose_1Der_spinor_fermions)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True)\nsubstitute(ex, spinor_to_lorentz)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);"
+		},
+		{
+			"cell_id": 10547519966042328484,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "ex := \\vDh^{\\5a}{\\vDh^{\\5b}{\\cW}};\nsubstitute(ex, lorentz_to_spinor)\nunwrap(ex)\nsubstitute(ex, expose_2Der_spinor_fermions);\ndistribute(ex)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);\nsubstitute(ex, spinor_to_lorentz)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);"
+		},
+		{
+			"cell_id": 6909755802233189468,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "save_expression(ex, \"Degagued2DerW.txt\", file_path)"
+		},
+		{
+			"cell_id": 11246198753018779425,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "ex := \\eta_{\\5b \\5c} \\vDh^{\\5a}{\\vDh^{\\5b}{\\vDh^{\\5c}{\\cW}}};\nsubstitute(ex, lorentz_to_spinor)\nunwrap(ex)\nsubstitute(ex, expose_3Der_spinor_fermions)\ndistribute(ex)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);\ncleverSimplify.logical_structures;\ncleverSimplify.terms_per_iteration;"
+		},
+		{
+			"cell_id": 12705539661212871683,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "substitute(ex, spinor_to_lorentz)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);\ncleverSimplify.logical_structures;\ncleverSimplify.terms_per_iteration;"
+		},
+		{
+			"cell_id": 4731878025819897005,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "save_expression(ex, \"Degagued3DerW.txt\", file_path)"
+		},
+		{
+			"cell_id": 17448646250306599222,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "Spinor_02 := {\\phi{#} -> 0, \\psi{#}->0}.\ntemp := @(ex).\nsubstitute(temp, Spinor_02) \nsubstitute(temp, Spinor_0);"
+		},
+		{
+			"cell_id": 17898357123976558405,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "ex := \\eta_{\\5a \\5b} \\eta_{\\5c e1} \\vDh^{\\5a}{\\vDh^{\\5b}{\\vDh^{\\5c}{\\vDh^{e1}{\\cW}}}};\nsubstitute(ex, lorentz_to_spinor)\nunwrap(ex)\nsubstitute(ex, expose_4Der_spinor_fermions)\ndistribute(ex)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);\ncleverSimplify.logical_structures;\ncleverSimplify.terms_per_iteration;"
+		},
+		{
+			"cell_id": 14287091433765527467,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "substitute(ex, spinor_to_lorentz)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);\ncleverSimplify.logical_structures;\ncleverSimplify.terms_per_iteration;"
+		},
+		{
+			"cell_id": 9480045888808314458,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "save_expression(ex, \"Degagued4DerW.txt\", file_path)"
+		},
+		{
+			"cell_id": 16608500189228706167,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "ex := \\vDh^{\\5a}{\\vDh^{\\5b}{\\l^{i}_{\\ah}}};\nsubstitute(ex, lorentz_to_spinor)\nunwrap(ex)\nsubstitute(ex, expose_2Der_spinor_fermions);\ndistribute(ex)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);\nsubstitute(ex, spinor_to_lorentz)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);"
+		},
+		{
+			"cell_id": 9424946551987878994,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "save_expression(ex, \"Degagued2Derlambda.txt\", file_path)"
+		},
+		{
+			"cell_id": 17627097147953718663,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "#ex := \\eta_{\\5b \\5c} \\vDh^{\\5a}{\\vDh^{\\5b}{\\vDh^{\\5c}{\\l^{i}_{\\ah}}}};\n#substitute(ex, lorentz_to_spinor)\n#unwrap(ex)\n#substitute(ex, expose_3Der_spinor_fermions);\ndistribute(ex)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);\ncleverSimplify.logical_structures;\ncleverSimplify.terms_per_iteration;"
+		},
+		{
+			"cell_id": 10041950884931271289,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "substitute(ex, spinor_to_lorentz)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);\ncleverSimplify.logical_structures;\ncleverSimplify.terms_per_iteration;"
+		},
+		{
+			"cell_id": 3420211939426637194,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "save_expression(ex, \"Degagued3Derlambda.txt\", file_path)"
+		},
+		{
+			"cell_id": 8873938863012843150,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "ex := \\vDh^{\\5a}{W_{\\5c \\5d}}.\nsubstitute(ex, lorentz_to_spinor)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);\nsubstitute(ex, expose_1Der_spinor_fermions)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);\nsubstitute(ex, spinor_to_lorentz)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);"
+		},
+		{
+			"cell_id": 4355372368676448005,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "save_expression(ex, \"Degagued1DerWcd.txt\", file_path)"
+		},
+		{
+			"cell_id": 1775427744294821704,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "ex := \\vDh^{\\5a}{\\vDh^{\\5b}{W_{\\5c \\5d}}}.\nsubstitute(ex, lorentz_to_spinor)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);\nsubstitute(ex, expose_2Der_spinor_fermions)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);\ncleverSimplify.logical_structures;\ncleverSimplify.terms_per_iteration;\nsubstitute(ex, spinor_to_lorentz)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);\ncleverSimplify.logical_structures;\ncleverSimplify.terms_per_iteration;"
+		},
+		{
+			"cell_id": 8124581615657813820,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "save_expression(ex, \"Degagued2DerWcd.txt\", file_path)"
+		},
+		{
+			"cell_id": 3985737949937607125,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "ex := \\eta_{e1 e2} \\vDh^{\\5a}{\\vDh^{e1}{\\vDh^{e2}{W_{\\5c \\5d}}}}.\nsubstitute(ex, lorentz_to_spinor)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);\nsubstitute(ex, expose_3Der_spinor_fermions)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);\ncleverSimplify.logical_structures;\ncleverSimplify.terms_per_iteration;"
+		},
+		{
+			"cell_id": 12900025705838230574,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "substitute(ex, spinor_to_lorentz)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);\ncleverSimplify.logical_structures;\ncleverSimplify.terms_per_iteration;"
+		},
+		{
+			"cell_id": 18324682270643320580,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "save_expression(ex, \"Degagued3DerWcd.txt\", file_path)"
+		},
+		{
+			"cell_id": 18353374806213569528,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "# Should I degauge entirely here?\nex := \\vDh^{\\5a}{F_{\\5c \\5d}}.\nsubstitute(ex, lorentz_to_spinor)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);\nsubstitute(ex, expose_1Der_spinor_fermions)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);\nsubstitute(ex, spinor_to_lorentz)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);\ncleverSimplify.logical_structures;\ncleverSimplify.terms_per_iteration;"
+		},
+		{
+			"cell_id": 483536097749234457,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "save_expression(ex, \"Degagued1DerFcd.txt\", file_path)"
+		},
+		{
+			"cell_id": 2460902595303765162,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "ex := \\vDh^{\\5a}{\\vDh^{\\5b}{F_{\\5c \\5d}}}.\nsubstitute(ex, lorentz_to_spinor)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);\nsubstitute(ex, expose_2Der_spinor_fermions)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);\ncleverSimplify.logical_structures;\ncleverSimplify.terms_per_iteration;\nsubstitute(ex, spinor_to_lorentz)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);\ncleverSimplify.logical_structures;\ncleverSimplify.terms_per_iteration;"
+		},
+		{
+			"cell_id": 4186448149784905019,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "save_expression(ex, \"Degagued2DerFcd.txt\", file_path)"
+		},
+		{
+			"cell_id": 2857164719265218949,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "ex := \\eta_{e1 e2} \\vDh^{\\5a}{\\vDh^{e1}{\\vDh^{e2}{F_{\\5c \\5d}}}}.\nsubstitute(ex, lorentz_to_spinor)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);\nsubstitute(ex, expose_3Der_spinor_fermions)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);\ncleverSimplify.logical_structures;\ncleverSimplify.terms_per_iteration;"
+		},
+		{
+			"cell_id": 10465645777955395453,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "substitute(ex, spinor_to_lorentz)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);\ncleverSimplify.logical_structures;\ncleverSimplify.terms_per_iteration;"
+		},
+		{
+			"cell_id": 2163605879521435542,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "save_expression(ex, \"Degagued3DerFcd.txt\", file_path)"
+		},
+		{
+			"cell_id": 16839777337604945100,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "ex := \\vDh^{\\5a}{\\vDh^{\\5b}{X^{i j}}.\nsubstitute(ex, lorentz_to_spinor)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);\nsubstitute(ex, expose_2Der_spinor);\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);\nsubstitute(ex, spinor_to_lorentz)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);\neliminate_metric(ex,repeat=True);"
+		},
+		{
+			"cell_id": 11958191497392071914,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "ex := \\vDh^{\\5a}{\\vDh^{\\5b}{F^{\\5c \\5d}}.\nsubstitute(ex, lorentz_to_spinor)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);\nsubstitute(ex, expose_2Der_spinor);\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);\nsubstitute(ex, spinor_to_lorentz)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);\neliminate_metric(ex,repeat=True);"
+		},
+		{
+			"cell_id": 4923025322906336633,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "ex := \\eta_{e3 e4} \\vDh^{\\5a}{\\vDh^{e3}{\\vDh^{e4}{\\cW}}}.\nsubstitute(ex, lorentz_to_spinor)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);\nsubstitute(ex, expose_3Der_spinor)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);\nsubstitute(ex, expose_2Der_spinor)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);\nsubstitute(ex, spinor_to_lorentz)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);\neliminate_metric(ex,repeat=True);"
+		},
+		{
+			"cell_id": 9027549397002308736,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "ex := \\eta_{e1 e2} \\eta_{e3 e4} \\vDh^{e1}{\\vDh^{e2}{\\vDh^{e3}{\\vDh^{e4}{\\cW}}}}.\nsubstitute(ex, lorentz_to_spinor)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);\nsubstitute(ex, expose_4Der_spinor)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);\nsubstitute(ex, expose_3Der_spinor)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);\nsubstitute(ex, expose_2Der_spinor)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);"
+		},
+		{
+			"cell_id": 5086718131351707650,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "substitute(ex, spinor_to_lorentz)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);"
+		},
+		{
+			"cell_id": 16678488945433021556,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "cleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True)\neliminate_metric(ex,repeat=True);"
+		},
+		{
+			"cell_id": 9650060086249386232,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "ex := \\vDh^{\\5a}{\\vDh^{\\5b}{Y}.\nsubstitute(ex, lorentz_to_spinor)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);\nsubstitute(ex, expose_2Der_spinor);\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);\nsubstitute(ex, spinor_to_lorentz)\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);\ncleverSimplify = CleverSimplify(ex)\ncleverSimplify.main(28,True);\neliminate_metric(ex,repeat=True);"
+		},
+		{
+			"cell_id": 11996926312192907863,
+			"cell_origin": "client",
+			"cell_type": "latex",
+			"cells": [
+				{
+					"cell_id": 11996926312192907863,
+					"cell_origin": "client",
+					"cell_type": "latex_view",
+					"source": "Finging EOM"
+				}
+			],
+			"hidden": true,
+			"source": "Finging EOM"
+		},
+		{
+			"cell_id": 3831350548675252088,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "spinor_to_lorentz_boson_only := {\n    W_{\\ah \\bh} -> (1/2)\\Sigma_{\\5a \\5b}_{\\ah \\bh} W^{\\5a \\5b},\n\t\\cHt_{\\ah \\bh} -> (1/2)\\Sigma_{\\5a \\5b}_{\\ah \\bh} \\cHt^{\\5a \\5b},\n    F_{\\ah \\bh} -> (1/2)\\Sigma_{\\5a \\5b}_{\\ah \\bh} F^{\\5a \\5b},\n    X_{\\ah \\bh}^{i j} -> (1/2)\\Sigma_{\\5a \\5b}_{\\ah \\bh} X^{\\5a \\5b}^{i j},\n    W_{\\ah \\bh \\gh \\ph} -> (1/4) \\Symmetrize_{\\ah \\bh \\gh \\ph}^{\\ah1 \\ah2 \\ah3 \\ah4} \\Sigma_{\\5a \\5b}_{\\ah1 \\ah2} \\Sigma_{\\5c \\5d}_{\\ah3 \\ah4}  W^{\\5a \\5b \\5c \\5d},\n\tC_{\\ah \\bh \\gh \\ph} -> (1/4) \\Symmetrize_{\\ah \\bh \\gh \\ph}^{\\ah1 \\ah2 \\ah3 \\ah4} \\Sigma_{\\5a \\5b}_{\\ah1 \\ah2} \\Sigma_{\\5c \\5d}_{\\ah3 \\ah4}  C^{\\5a \\5b \\5c \\5d},\n\t\\Phi_{\\ah \\bh} -> \\Gamma^{\\5a}_{\\ah \\bh} \\Phi_{\\5a},\n    \\vDh_{\\A}{X??} -> \\eta_{\\5a \\5b} \\IAOmega_{\\ah \\bh}_{\\A} \\Gamma^{\\5b}^{\\ah \\bh} \\vDh^{\\5a}{X??},\n\t\\mD_{\\A}{X??} -> \\eta_{\\5a \\5b} \\IAOmega_{\\ah \\bh}_{\\A} \\Gamma^{\\5b}^{\\ah \\bh} \\mD^{\\5a}{X??}\n}."
+		},
+		{
+			"cell_id": 13023276737077631457,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "temp1 := @(H).\ntake_match(temp1, $X^{i j} Q??$);\ncount_terms(temp1);"
+		},
+		{
+			"cell_id": 4194027558775325311,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "temp2 := @(H)- @(temp1).\ntake_match(temp2, $\\vDh_{\\A}{X^{i j}} Q??$);\ncount_terms(temp2);"
+		},
+		{
+			"cell_id": 639705534998407421,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "temp3 := @(H)- @(temp1) - @(temp2).\ntake_match(temp3, $\\vDh_{\\B}{\\vDh_{\\A}{X^{i j}}} Q??$);\ncount_terms(temp3);"
+		},
+		{
+			"cell_id": 9051350498470554288,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "temp4 := @(H)- @(temp1) - @(temp2).\ntake_match(temp4, $\\vDh_{\\C}{\\vDh_{\\B}{\\vDh_{\\A}{X^{i j}}}} Q??$);\ncount_terms(temp4);"
+		},
+		{
+			"cell_id": 13479091980276613363,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "temp3 := @(F)-@(temp1).\ntake_match(temp3, $ \\l{#} \\vDh{#} Q??$);\ncount_terms(temp3);"
+		},
+		{
+			"cell_id": 9645681834690335326,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "Hijrel := @(temp1) + @(temp2) + @(temp3);\ncount_terms(Hijrel);"
+		},
+		{
+			"cell_id": 705180404667576984,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "varphirel := @(temp1) + @(temp2) + @(temp3);\ncount_terms(varphirel);"
+		},
+		{
+			"cell_id": 10838119857022602669,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "Frel := @(temp1) + @(temp2) + @(temp3);\ncount_terms(Frel);"
+		},
+		{
+			"cell_id": 4382948860119483442,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "Hrel := @(temp1) + @(temp2) + @(temp3);\ncount_terms(Hrel);"
+		},
+		{
+			"cell_id": 9868327309098371857,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "temp1 := @(varphirel).\ntake_match( temp1, $\\l{#}\\l{#} Q??$);\ncount_terms(temp1);"
+		},
+		{
+			"cell_id": 8287574451951096425,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "varphitwofermion := @(varphirel) - @(temp1).\ntake_match(varphitwofermion, $\\l{#}X_{\\ah}^{i} Q??$);\ncount_terms(varphitwofermion);"
+		},
+		{
+			"cell_id": 9666780849904161050,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "substitute(varphitwofermion, vanishing_trace_property)\nsubstitute(varphitwofermion, spinor_to_lorentz_boson_only)\ncleverSimplify = CleverSimplify(varphitwofermion)\ncleverSimplify.main(10,True);\ncount_terms(varphitwofermion);"
+		},
+		{
+			"cell_id": 15179867435949548161,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "temp1 := @(Frel).\ntake_match( temp1, $\\l{#}\\l{#} \\l{#} Q??$);\ncount_terms(temp1);"
+		},
+		{
+			"cell_id": 12439477503919351027,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "Freltwofermion := @(Frel) - @(temp1).\ntake_match(Freltwofermion, $\\l{#}\\l{#}X_{\\ah}^{i} Q??$);\ncount_terms(Freltwofermion);"
+		},
+		{
+			"cell_id": 15850354374086294231,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "substitute(Freltwofermion, vanishing_trace_property)\nsubstitute(Freltwofermion, spinor_to_lorentz_boson_only)\ncleverSimplify = CleverSimplify(Freltwofermion)\ncleverSimplify.main(10,True);\ncount_terms(Freltwofermion);"
+		},
+		{
+			"cell_id": 16871404807209434762,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "temp1 := @(Hrel).\ntake_match( temp1, $\\l{#}\\l{#} \\l{#} Q??$);\ncount_terms(temp1);"
+		},
+		{
+			"cell_id": 10145925597602638676,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "Hreltwofermion := @(Hrel) - @(temp1).\ntake_match( Hreltwofermion, $\\l{#}\\l{#}X_{\\ah}^{i} Q??$);\ncount_terms(Hreltwofermion);"
+		},
+		{
+			"cell_id": 9689602354829178465,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "substitute(Hreltwofermion, vanishing_trace_property)\nsubstitute(Hreltwofermion, spinor_to_lorentz_boson_only)\ncleverSimplify = CleverSimplify(Hreltwofermion)\ncleverSimplify.main(10,True);\ncount_terms(Hreltwofermion);"
+		},
+		{
+			"cell_id": 15868637810047104238,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": ""
+		},
+		{
+			"cell_id": 10375283229205099630,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": ""
+		},
+		{
+			"cell_id": 2671283826121879014,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": ""
+		},
+		{
+			"cell_id": 9054157252717117952,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": ""
+		},
+		{
+			"cell_id": 11904635903455679451,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": ""
+		},
+		{
+			"cell_id": 17046493398271377678,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": ""
+		},
+		{
+			"cell_id": 16135218818073242694,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "Just_for_EOM := {\n    \\vDh^{\\5a}{X??} ->  \\partial^{\\5a}{X??}\n}."
+		},
+		{
+			"cell_id": 9288628073213299825,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "Hijrel;"
+		},
+		{
+			"cell_id": 8332869658755875325,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "varphitwofermion;"
+		},
+		{
+			"cell_id": 10184259165258091477,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "Freltwofermion;"
+		},
+		{
+			"cell_id": 15216842373830821446,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "temp1:= @(Hreltwofermion);"
+		},
+		{
+			"cell_id": 6233979284843153851,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "temp1:= @(Hreltwofermion).\ntake_match(temp1, $ X_{\\5b \\5c}^{ i j} Q??  $);\nsubstitute(temp1,lorentz_to_spinor);\ncleverSimplify = CleverSimplify(temp1)\ncleverSimplify.main(10,True);\ncount_terms(temp1);"
+		},
+		{
+			"cell_id": 1603382430782564105,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "\\partial{#}::PartialDerivative;\nex:= A_{ij}@(Hijrel);\nsubstitute(ex, $\\vDh^{\\5a}{X??} ->  \\partial^{\\5a}{X??}$);\ndistribute(ex);\ncount_terms(ex);\nex1:= \\int{ @(ex) }{x};\nvary(ex1, $X{#} -> \\delta{X{#}$);\nintegrate_by_parts(ex1, $\\delta{X{#}}$);\nproduct_rule(ex1);\ndistribute(ex1);"
+		},
+		{
+			"cell_id": 11012057800332712511,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": ""
+		}
+	],
+	"description": "Cadabra JSON notebook format",
+	"version": 1.0
+}

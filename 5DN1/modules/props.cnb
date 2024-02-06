@@ -1,0 +1,46 @@
+{
+	"cell_id": 14693665255475561834,
+	"cells": [
+		{
+			"cell_id": 8953692123411308645,
+			"cell_origin": "client",
+			"cell_type": "latex",
+			"cells": [
+				{
+					"cell_id": 11034245826927733817,
+					"cell_origin": "client",
+					"cell_type": "latex_view",
+					"source": "\\section*{Properties}\nThis notebook defines all cadabra properties used in 5D N=1 including indicies, derivatives, dependence, symmetries, sort order, and anti commutation."
+				}
+			],
+			"hidden": true,
+			"source": "\\section*{Propertieas}\nThis notebook defines all cadabra properties used in 5D N=1 including indicies, derivatives, dependence, symmetries, sort order, and anti commutation."
+		},
+		{
+			"cell_id": 8439456159330506223,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "from latex_macros import *"
+		},
+		{
+			"cell_id": 16228761011054463144,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "## Indices ##\n# 4-Component Spinor\n{\\a, \\b, \\p, \\l, \\g, \\t, \\alpha#, \\rho#}::Indices(spinorhat, position=independent).\n{\\a, \\b, \\p, \\l, \\g, \\t, \\alpha#, \\rho#}::Integer(1..4).\n\n# SU(2)\n{i, j, k, l, m, n, i#}::Indices(su2,position=independent).\n{i, j, k, l, m, n, i#}::Integer(1..2).\n\n# 5D Vector  \n{a, b, c, d, e, e#}::Indices(vector5, position=independent).\n{a, b, c, d, e, e#}::Integer(0..4).\n\n## Delta, Metrics, Levi-Civita ##\n\\d{#}::KroneckerDelta.\n\\delta{#}::Accent.\n\\eta_{a b}::Metric(signature=-1). \n\\eta^{a b}::InverseMetric(signature=-1).\n\\eta^{a}_{b}::KroneckerDelta.\n\\eta_{a}^{b}::KroneckerDelta.\n\\eta{#}::SelfCommuting.\n\\e_{q? r?}::AntiSymmetric.\n\\e^{q? r?}::AntiSymmetric.\n\\eLevi{#}::EpsilonTensor(delta=\\d, metric=\\eta_{a b})."
+		},
+		{
+			"cell_id": 4634205866193529924,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "## Declare Operators as Derivatives ##\n\\D{#}::Derivative.\n\\vDh{#}::Derivative.\n\\vDp{#}::Derivative.\n\\mD{#}::Derivative.\n\\mDp{#}::Derivative.\nM{#}::Derivative.\nJ{#}::Derivative.\n\\cD{#}::Derivative.\nS{#}::Derivative.\nK{#}::Derivative.\n\n## Field and object symmetries ##\nW_{\\a \\b}::Symmetric.\nW^{\\a \\b}::Symmetric.\nW_{a b}::AntiSymmetric.\nW^{a b}::AntiSymmetric.\nF_{a b}::AntiSymmetric.\nF^{a b}::AntiSymmetric.\n\\fW_{\\a \\b \\g}^{k}::TableauSymmetry(shape={3}, indices={0,1,2}).\n\\fW_{a b}_{\\g}^{k}::TableauSymmetry(shape={1,1}, indices={0,1}).\n\\fW^{a b}_{\\g}^{k}::TableauSymmetry(shape={1,1}, indices={0,1}).\n\\wW_{\\a \\b \\g \\l}::Symmetric.\n\\wW_{a b c d}::TableauSymmetry(shape={1,1}, indices={0,1},shape={1,1}, indices={2,3}).\n\\wW^{a b c d}::TableauSymmetry(shape={1,1}, indices={0,1},shape={1,1}, indices={2,3}).\nC_{\\a \\b \\g \\l}::Symmetric.\nC_{a b c d}::TableauSymmetry(shape={1,1}, indices={0,1},shape={1,1}, indices={2,3}).\nC^{a b c d}::TableauSymmetry(shape={1,1}, indices={0,1},shape={1,1}, indices={2,3}).\nG^{i j}::Symmetric.\nG_{i j}::Symmetric.\nF_{\\a \\b}::Symmetric.\nF^{\\a \\b}::Symmetric.\n\\pi_{\\a \\b}::AntiSymmetric.\n\\pi^{\\a \\b}::AntiSymmetric.\n\\vX^{i j}::Symmetric.\n\\vX_{i j}::Symmetric.\n\\wX_{\\a \\b}^{i j}::TableauSymmetry(shape={2}, indices={0,1}, shape={2}, indices={2,3}).\n\\wX_{a b}^{i j}::TableauSymmetry(shape={1,1}, indices={0,1}, shape={2}, indices={2,3}).\n\\wX^{a b}^{i j}::TableauSymmetry(shape={1,1}, indices={0,1}, shape={2}, indices={2,3}).\n\\pi_{a b}^{i j}::TableauSymmetry(shape={1,1}, indices={0,1}, shape={2}, indices={2,3}).\n\\pi^{a b}^{i j}::TableauSymmetry(shape={1,1}, indices={0,1}, shape={2}, indices={2,3}).\n\\Gamma_{a}_{\\a \\b}::TableauSymmetry(shape={1,1}, indices={1,2}).\n\\Gamma^{a}_{\\a \\b}::TableauSymmetry(shape={1,1}, indices={1,2}).\n\\Gamma_{a}^{\\a \\b}::TableauSymmetry(shape={1,1}, indices={1,2}).\n\\Gamma^{a}^{\\a \\b}::TableauSymmetry(shape={1,1}, indices={1,2}).\n\\Sigma_{a b}_{\\a \\b}::TableauSymmetry(shape={1,1}, indices={0,1}, shape={2}, indices={2,3}).\n\\Sigma^{a b}_{\\a \\b}::TableauSymmetry(shape={1,1}, indices={0,1}, shape={2}, indices={2,3}).\n\\Sigma_{a b}^{\\a \\b}::TableauSymmetry(shape={1,1}, indices={0,1}, shape={2}, indices={2,3}).\n\\Sigma^{a b}^{\\a \\b}::TableauSymmetry(shape={1,1}, indices={0,1}, shape={2}, indices={2,3}).\n\\Sigma^{a}_{b}_{\\a \\b}::TableauSymmetry(shape={1,1}, indices={0,1}, shape={2}, indices={2,3}).\n\\Sigma^{a}_{b}^{\\a \\b}::TableauSymmetry(shape={1,1}, indices={0,1}, shape={2}, indices={2,3}).\n\\Sigma_{a}^{b}_{\\a \\b}::TableauSymmetry(shape={1,1}, indices={0,1}, shape={2}, indices={2,3}).\n\\Sigma_{a}^{b}^{\\a \\b}::TableauSymmetry(shape={1,1}, indices={0,1}, shape={2}, indices={2,3}).\nR_{a b c d}::RiemannTensor.\nR_{a b}::Symmetric.\n\\Omega^{\\a \\b}^{\\A}::TableauSymmetry(shape={2}, indices={0,1}).\n\\Omega^{i j}^{\\i}::TableauSymmetry(shape={2}, indices={0,1}).\n\\Omega_{a b}^{H}::TableauSymmetry(shape={1,1}, indices={0,1}).\n\\IOmega^{a b}_{H}::TableauSymmetry(shape={1,1}, indices={0,1}).\n\\AOmega^{\\a \\b}^{\\A}::TableauSymmetry(shape={1,1}, indices={0,1}).\n\\IAOmega_{\\a \\b}_{\\A}::TableauSymmetry(shape={1,1}, indices={0,1}).\n\\ASymmetrize_{a b}^{c d}::TableauSymmetry(shape={1,1}, indices={0,1}, shape={1,1}, indices={2,3}).\n\\S^{a b}^{H}::TableauSymmetry(shape={2}, indices={0,1}).\n\\cH{#}::AntiSymmetric.\n\\cHt_{a b}::AntiSymmetric.\n\\cHt^{a b}::AntiSymmetric.\n\\cHt_{\\a \\b}::Symmetric.\n\\cHt^{\\a \\b}::Symmetric.\nRp_{a b c d}::TableauSymmetry(shape={1,1}, indices={0,1}, shape={1,1}, indices={2,3}).\n\n## Field Dependence ##\n{W{#}, \\fW{#}, \\wW{#}, \\wX{#}, \\fX{#}, Y, G{#}, \\varphi{#}, F, \\pi{#}, \\vW{#}, \\l{#}, \\vX{#}, F{#}, \\log{#}, \\nu{#}, f{#}, C{#}, R{#}, Rp{#}, L{#}, T{#}, \\cH{#}, \\cHt{#}, \\psi{#}, \\pi{#}}::Depends(\\D{#}, \\vDh{#}, \\vDp{#}, \\mD{#}, \\mDp{#}, M{#}, J{#}, \\cD{#}, S{#}, K{#}).\n\n\n## Dummy Indices and Objects ## These are needed because derivatives can not have multiple indices in cadabra. For example, \\Lambda^{\\a}_{i}^{A} \\D_{A} is needed to represent \\D^{\\a}_{i}.\n{A, B, C, A#}::Indices(DummySpinorSU2, position=independent).\n{\\A, \\B, \\C, \\E, \\F}::Indices(DummySpinorSpinor, position=independent).\n{\\i, \\j, \\k, \\m}::Indices(DummySU2SU2, position=independent).\n{H, H#}::Indices(DummyLorentzLorentz, position=independent).\n\n### Note: The below may seem confusing, but cadabra's sort_product() algorithm is problematic with fermionic derivatives. This is even true when fermions are nested in bosonic derivatives without hard-coding the anticommutation of such objects.\n### We have instead written our own sort() algorithm that requires sort_order and anti_commute lists.\n\n# Sort Order list and map needed for our custome sort() method.\nsort_order = ['I', '\\\\alpha', '\\\\beta', '\\\\kappa', '\\\\Symmetrize', '\\\\ASymmetrize', '\\\\eLevi', 'R', 'Rp', '\\\\pi', 'F', 'G', '\\\\Omega', '\\\\IOmega', '\\\\AOmega', '\\\\IAOmega', '\\\\Lambda', '\\\\ILambda', '\\\\Sigma', '\\\\Gamma', '\\\\d', '\\\\eta', '\\\\e', '\\\\psi', '\\\\pi', '\\\\vW', '\\\\vX', '\\\\fX', '\\\\wX', '\\\\cH', '\\\\cHt', 'C', 'W', '\\\\fW', '\\\\wW', 'F', 'Y', '\\\\l']\n# Anti Commute list needed for our custom sort() method. It is then converted to a cadabra property as well for use in product_rule(). \n# Self Anticommutation is also applied for everything here. Commutation is assumed for everything not here.\nanti_commute = ['\\\\a', '\\\\b', '\\\\p', '\\\\l', '\\\\g', '\\\\t', '\\\\a#', '\\\\rho#', 'A', 'B', 'C', 'A#']\n# Below is the only solution I've found so far to take the above list and apply it to the cadabra property. If it can be arbitrary length, that would be better, as the length here is hard-coded. Even better would be to define them in the property first and extract them later, but I do not know how to do so.\nac0 = Ex(anti_commute[0]); ac1 = Ex(anti_commute[1]); ac2 = Ex(anti_commute[2]); ac3 = Ex(anti_commute[3]); ac4 = Ex(anti_commute[4]); ac5 = Ex(anti_commute[5]); ac6 = Ex(anti_commute[6]); ac7 = Ex(anti_commute[7]); ac8 = Ex(anti_commute[8]); ac9 = Ex(anti_commute[9]); ac10 = Ex(anti_commute[10]); ac11 = Ex(anti_commute[11])\n{@(ac0),@(ac1),@(ac2),@(ac3),@(ac4),@(ac5),@(ac6),@(ac7),@(ac8),@(ac9),@(ac10),@(ac11)}::AntiCommuting.\n\n# This are needed only for canonicalise().\n\\fW{#}::SelfAntiCommuting.\n\\fX{#}::SelfAntiCommuting.\n\\varphi{#}::SelfAntiCommuting.\n\\l{#}::SelfAntiCommuting."
+		},
+		{
+			"cell_id": 15882308183110873727,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": ""
+		}
+	],
+	"description": "Cadabra JSON notebook format",
+	"version": 1.0
+}
