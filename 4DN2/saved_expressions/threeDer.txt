@@ -1,0 +1,1 @@
+\Lambda_{\b}^{i A} \Lambda^{\a}_{i}^{B} \Lambda_{\a j}^{C} \D_{A}(\D_{B}(\D_{C}(\cW^{I})))

@@ -1,0 +1,43 @@
+{
+	"cell_id": 18238172922404832629,
+	"cells": [
+		{
+			"cell_id": 13521187995905660898,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "# For manual use. This is exlcuded from import.\nfrom latex_macros import *\nfrom props import *\nfrom subs import *"
+		},
+		{
+			"cell_id": 17648920809680512406,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "import sys\ncurrent_path = str(sys.path[0])\nrepo_name  = 'sugra-component-reduction'\npy_path = current_path.split(repo_name)[0] + repo_name + '/py/'\nsys.path.append(py_path)\nfrom shared import *"
+		},
+		{
+			"cell_id": 4057025789550968640,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "# Method to remove excess \\epsilon tensors.\r\ndef eliminate_epsilon(exp):\n    substitute(exp, epsilon_to_kronecker)\n    eliminate_kronecker(exp)\n    return(exp)\n\n# Methods used to ensure \\Lambda and \\Gamma can be simplified\r\ndef canonicalise_Lambda(exp):\r\n\trewrite_indices(_, $\\Lambda^{\\a}_{i}^{A}$, $\\e_{\\a \\b}$)\r\n\trewrite_indices(_, $\\Lambda^{\\a}_{i}^{A}$, $\\e^{i j}$)\r\n\trewrite_indices(_, $\\Lambda^{\\ad}_{i}^{A}$, $\\e_{\\ad \\bd}$)\r\n\trewrite_indices(_, $\\Lambda^{\\ad}_{i}^{A}$, $\\e^{i j}$)\r\n\tsort_product(_)\r\n\tcanonicalise(_)\r\n\treturn(_)\r\n\r\ndef canonicalise_Gamma(exp):\r\n\trewrite_indices(_, $\\Gamma_{a b}^{\\A}$, $\\eta^{a b}$)\n\trewrite_indices(_, $\\Gamma^{\\A}_{a b}$, $\\eta^{a b}$)\n\trewrite_indices(_, $\\Gamma_{i j}^{\\i}$, $\\e^{i j}$)\n\trewrite_indices(_, $\\Gamma^{\\i}_{i j}$, $\\e^{i j}$)\r\n\treturn(_)\n\ndef canonicalise_sigma(exp):\n\trewrite_indices(_, $\\s_{c d}^{\\ad \\bd}$, $\\e_{\\ad \\bd}$)\n\trewrite_indices(_, $\\s^{c d}^{\\ad \\bd}$, $\\e_{\\ad \\bd}$)\r\n\treturn(_)"
+		},
+		{
+			"cell_id": 5461215191933705412,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "class ComponentReduction:\n\n\tdef __init__(self, exp):\n\t\tself.exp = exp\n\n\tdef reduce(self, number=1):\n\t\tfor i in range(number):\r\n\t\t\tcanonicalise_Lambda(self.exp)\n\t\t\tcanonicalise_Gamma(self.exp)\r\n\t\t\tsubstitute(self.exp, constraints)\r\n\t\t\tsubstitute(self.exp, commute_derivatives)\r\n\t\t\tdistribute(self.exp)\r\n\t\t\tunwrap(self.exp, repeat = True)\r\n\t\t\tsubstitute(self.exp, commute_generators)\r\n\t\t\tdistribute(self.exp)\r\n\t\t\tproduct_rule(self.exp)\r\n\t\t\tsubstitute(self.exp, apply_generators)\r\n\t\treturn(self.exp)\n\t\n\tdef simplify(self, number=1):\n\t\tfor i in range(number):\r\n\t\t\tsubstitute(self.exp,pauli_identities)\r\n\t\t\teliminate_epsilon(self.exp)\n\t\t\teliminate_metric(self.exp)\r\n\t\t\tdistribute(self.exp)\r\n\t\t\tcanonicalise(self.exp)\r\n\t\t\teliminate_kronecker(self.exp)\r\n\t\treturn(self.exp)\n\n\tdef combine(self, number=1):\n\t\tfor i in range(number):\n\t\t\trename_dummies(self.exp)\n\t\t\tsort_product(self.exp)\n\t\t\tcollect_terms(self.exp)\n\t\treturn(self.exp)\n\t\n\tdef project(self, number=1):\n\t\tfor i in range(number):\r\n\t\t\tsubstitute(self.exp, projection_rules_vector)\r\n\t\t\tsort_product(self.exp)\r\n\t\t\tcanonicalise(self.exp)\r\n\t\t\tsubstitute(self.exp, projection_rules_general)\r\n\t\t\tdistribute(self.exp)\n\t\tsubstitute(self.exp, contract_epsilon, repeat=True)\r\n\t\treturn(self.exp)"
+		},
+		{
+			"cell_id": 4292066305843426021,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "class ComponentReductionTower:\n\n\tdef __init__(self, exp):\n\t\tself.exp = exp\n\n\tdef reduce(self, number=1):\n\t\tfor i in range(number):\r\n\t\t\tcanonicalise_Lambda(self.exp)\n\t\t\tcanonicalise_Gamma(self.exp)\r\n\t\t\tsubstitute(self.exp, constraints)\r\n\t\t\tsubstitute(self.exp, commute_derivatives)\r\n\t\t\tdistribute(self.exp)\r\n\t\t\tunwrap(self.exp, repeat = True)\r\n\t\t\tsubstitute(self.exp, commute_generators)\r\n\t\t\tdistribute(self.exp)\r\n\t\t\tproduct_rule(self.exp)\r\n\t\t\tsubstitute(self.exp, apply_generators)\r\n\t\treturn(self.exp)\n\t\n\tdef simplify(self, number=1):\n\t\tfor i in range(number):\r\n\t\t\tsubstitute(self.exp,pauli_identities)\r\n\t\t\teliminate_epsilon(self.exp)\n\t\t\teliminate_metric(self.exp)\r\n\t\t\tdistribute(self.exp)\r\n\t\t\tcanonicalise(self.exp)\r\n\t\t\teliminate_kronecker(self.exp)\r\n\t\treturn(self.exp)\n\n\tdef combine(self, number=1):\n\t\tfor i in range(number):\n\t\t\trename_dummies(self.exp)\n\t\t\tsort_product(self.exp)\n\t\t\tcollect_terms(self.exp)\n\t\treturn(self.exp)\n\t\n\tdef project(self, number=1):\n\t\tfor i in range(number):\r\n\t\t\tsubstitute(self.exp, projection_rules_vector)\r\n\t\t\tsort_product(self.exp)\r\n\t\t\tcanonicalise(self.exp)\r\n\t\t\tsubstitute(self.exp, projection_rules_general)\r\n\t\t\tdistribute(self.exp)\n\t\tsubstitute(self.exp, contract_epsilon, repeat=True)\r\n\t\treturn(self.exp)"
+		},
+		{
+			"cell_id": 10495655078159568319,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": ""
+		}
+	],
+	"description": "Cadabra JSON notebook format",
+	"version": 1.0
+}
