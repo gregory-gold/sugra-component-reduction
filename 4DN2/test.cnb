@@ -23,6 +23,318 @@
 			"source": "from sugra4DN2 import *"
 		},
 		{
+			"cell_id": 4252430216547480558,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"cells": [
+				{
+					"cell_id": 5820601093330442238,
+					"cell_origin": "server",
+					"cell_type": "latex_view",
+					"cells": [
+						{
+							"cell_id": 10565973048208423191,
+							"cell_origin": "server",
+							"cell_type": "input_form",
+							"source": "\\e_{j i1} \\Lambda^{i1}_{\\a}^{A} \\D_{A}(\\cF)"
+						}
+					],
+					"source": "\\begin{dmath*}{}\\epsilon_{j {i_{1}}} \\Lambda^{{i_{1}}}\\,_{\\alpha}\\,^{A} \\nabla_{A}{\\mathcal{F}}\\end{dmath*}"
+				},
+				{
+					"cell_id": 17258498081106937628,
+					"cell_origin": "server",
+					"cell_type": "latex_view",
+					"cells": [
+						{
+							"cell_id": 12671273706640921898,
+							"cell_origin": "server",
+							"cell_type": "input_form",
+							"source": "\\e_{j i} \\l^{i}_{\\a}^{I} \\cF_{I}"
+						}
+					],
+					"source": "\\begin{dmath*}{}\\epsilon_{j i} \\lambda^{i}_{\\alpha}{}^{I} \\mathcal{F}_{I}\\end{dmath*}"
+				}
+			],
+			"source": "ex := \\e_{j i1} \\Lambda^{i1}_{\\a}^{A}\\D_{A}{\\cF};\ncomponentReduce = CleverSimplify(ex)\ncomponentReduce.main(5);"
+		},
+		{
+			"cell_id": 3166278416505744248,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"cells": [
+				{
+					"cell_id": 14497173032211586386,
+					"cell_origin": "server",
+					"cell_type": "latex_view",
+					"cells": [
+						{
+							"cell_id": 13626579473370266329,
+							"cell_origin": "server",
+							"cell_type": "input_form",
+							"source": "\\e_{i i1} \\e^{\\a \\b} \\Lambda^{i1}_{\\b}^{A} \\D_{A}(\\e_{j k} \\l^{k}_{\\a}^{I} \\cF_{I})"
+						}
+					],
+					"source": "\\begin{dmath*}{}\\epsilon_{i {i_{1}}} \\epsilon^{\\alpha \\beta} \\Lambda^{{i_{1}}}\\,_{\\beta}\\,^{A} \\nabla_{A}\\left(\\epsilon_{j k} \\lambda^{k}_{\\alpha}{}^{I} \\mathcal{F}_{I}\\right)\\end{dmath*}"
+				},
+				{
+					"cell_id": 17438130665318806565,
+					"cell_origin": "server",
+					"cell_type": "latex_view",
+					"cells": [
+						{
+							"cell_id": 7032762063893797540,
+							"cell_origin": "server",
+							"cell_type": "input_form",
+							"source": "\\e_{i k} \\e_{j l} \\cF_{I} \\vX^{k l I}-\\e^{\\a \\b} \\e_{i k} \\e_{j l} \\l^{k}_{\\a}^{I} \\l^{l}_{\\b}^{J} \\cF_{I J}"
+						}
+					],
+					"source": "\\begin{dmath*}{}\\epsilon_{i k} \\epsilon_{j l} \\mathcal{F}_{I} X^{k l I}-\\epsilon^{\\alpha \\beta} \\epsilon_{i k} \\epsilon_{j l} \\lambda^{k}_{\\alpha}{}^{I} \\lambda^{l}_{\\beta}{}^{J} \\mathcal{F}_{I J}\\end{dmath*}"
+				}
+			],
+			"source": "ex2 := \\e_{i i1} \\e^{\\a \\b} \\Lambda^{i1}_{\\b}^{A}\\D_{A}{@(ex)};\ncomponentReduce = CleverSimplify(ex2)\ncomponentReduce.main(5);"
+		},
+		{
+			"cell_id": 829988173812747810,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"cells": [
+				{
+					"cell_id": 6960948642045996090,
+					"cell_origin": "server",
+					"cell_type": "latex_view",
+					"cells": [
+						{
+							"cell_id": 6181875127638908178,
+							"cell_origin": "server",
+							"cell_type": "input_form",
+							"source": "\\Lambda^{j}_{\\a}^{A} \\D_{A}(\\e_{i k} \\e_{j l} \\cF_{I} \\vX^{k l I}-\\e^{\\p \\b} \\e_{i k} \\e_{j l} \\l^{k}_{\\p}^{I} \\l^{l}_{\\b}^{J} \\cF_{I J})"
+						}
+					],
+					"source": "\\begin{dmath*}{}\\Lambda^{j}\\,_{\\alpha}\\,^{A} \\nabla_{A}\\left(\\epsilon_{i k} \\epsilon_{j l} \\mathcal{F}_{I} X^{k l I}-\\epsilon^{\\rho \\beta} \\epsilon_{i k} \\epsilon_{j l} \\lambda^{k}_{\\rho}{}^{I} \\lambda^{l}_{\\beta}{}^{J} \\mathcal{F}_{I J}\\right)\\end{dmath*}"
+				},
+				{
+					"cell_id": 1813445798340350092,
+					"cell_origin": "server",
+					"cell_type": "latex_view",
+					"cells": [
+						{
+							"cell_id": 16880913960072863646,
+							"cell_origin": "server",
+							"cell_type": "input_form",
+							"source": " 3/2 \\e_{i j} \\e_{k l} \\l^{k}_{\\a}^{I} \\cF_{I J} \\vX^{j l J} + 6\\e_{\\ad \\bd} \\Gamma_{\\a}^{\\ad \\A} \\cF_{I} \\ri \\vD_{\\A}(\\lb_{i}^{\\bd I})-12\\e^{\\b \\p} \\e_{i j} \\l^{j}_{\\b}^{I} F_{\\a \\p}^{J} \\cF_{I J}-6\\e^{\\b \\p} \\e_{i j} \\vWb^{I} \\l^{j}_{\\b}^{J} W_{\\a \\p} \\cF_{I J}-\\e^{\\b \\p} \\e_{i j} \\e_{k l} \\l^{k}_{\\a}^{I} \\l^{j}_{\\b}^{J} \\l^{l}_{\\p}^{K} \\cF_{I J K}"
+						}
+					],
+					"source": "\\begin{dmath*}{}\\frac{3}{2}\\epsilon_{i j} \\epsilon_{k l} \\lambda^{k}_{\\alpha}{}^{I} \\mathcal{F}_{I J} X^{j l J}+6\\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\Gamma_{\\alpha}\\,^{\\dot{\\alpha} \\mathcal{A}} \\mathcal{F}_{I} {\\rm i} \\nabla_{\\mathcal{A}}{\\overline{\\lambda}_{\\,i}^{\\,\\dot{\\beta}}{}^{I}}-12\\epsilon^{\\beta \\rho} \\epsilon_{i j} \\lambda^{j}_{\\beta}{}^{I} F_{\\alpha \\rho}\\,^{J} \\mathcal{F}_{I J}-6\\epsilon^{\\beta \\rho} \\epsilon_{i j} \\overline{W}^{I} \\lambda^{j}_{\\beta}{}^{J} W_{\\alpha \\rho} \\mathcal{F}_{I J}-\\epsilon^{\\beta \\rho} \\epsilon_{i j} \\epsilon_{k l} \\lambda^{k}_{\\alpha}{}^{I} \\lambda^{j}_{\\beta}{}^{J} \\lambda^{l}_{\\rho}{}^{K} \\mathcal{F}_{I J K}\\end{dmath*}"
+				},
+				{
+					"cell_id": 12467872925513766844,
+					"cell_origin": "server",
+					"cell_type": "latex_view",
+					"source": "{}$\\big[$$\\verb|{'\\\\D': 1, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 1, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 1, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 2, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 0, '\\\\prod': 2, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 5, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 0, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 10, '\\\\IGamma': 0, '\\\\sum': 3, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 3, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 0, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 3, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 1, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 0, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 2, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 0, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 0, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 0, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$$\\big]$"
+				},
+				{
+					"cell_id": 7934155159415744746,
+					"cell_origin": "server",
+					"cell_type": "latex_view",
+					"source": "{}$\\big[$$\\verb|1|$,\\discretionary{}{}{} $\\verb|2|$,\\discretionary{}{}{} $\\verb|5|$,\\discretionary{}{}{} $\\verb|5|$,\\discretionary{}{}{} $\\verb|10|$,\\discretionary{}{}{} $\\verb|13|$,\\discretionary{}{}{} $\\verb|15|$,\\discretionary{}{}{} $\\verb|5|$,\\discretionary{}{}{} $\\verb|5|$$\\big]$"
+				}
+			],
+			"source": "ex3 := \\Lambda^{j}_{\\a}^{A}\\D_{A}{@(ex2)};\ncomponentReduce = CleverSimplify(ex3)\ncomponentReduce.main(10);\ncomponentReduce.logical_structures;\ncomponentReduce.terms_per_iteration;"
+		},
+		{
+			"cell_id": 12311632013107992080,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"cells": [
+				{
+					"cell_id": 17794553272636673432,
+					"cell_origin": "server",
+					"cell_type": "latex_view",
+					"cells": [
+						{
+							"cell_id": 7987088595154272830,
+							"cell_origin": "server",
+							"cell_type": "input_form",
+							"source": " 1/48 \\e^{\\a \\b} \\Lambda^{i}_{\\b}^{A} \\D_{A}( 3/2 \\e_{i j} \\e_{k l} \\l^{k}_{\\a}^{I} \\cF_{I J} \\vX^{j l J} + 6\\e_{\\ad \\bd} \\Gamma_{\\a}^{\\ad \\A} \\cF_{I} \\ri \\vD_{\\A}(\\lb_{i}^{\\bd I})-12\\e^{\\l \\p} \\e_{i j} \\l^{j}_{\\l}^{I} F_{\\a \\p}^{J} \\cF_{I J}-6\\e^{\\l \\p} \\e_{i j} \\vWb^{I} \\l^{j}_{\\l}^{J} W_{\\a \\p} \\cF_{I J}-\\e^{\\l \\p} \\e_{i j} \\e_{k l} \\l^{k}_{\\a}^{I} \\l^{j}_{\\l}^{J} \\l^{l}_{\\p}^{K} \\cF_{I J K})"
+						}
+					],
+					"source": "\\begin{dmath*}{}\\frac{1}{48}\\epsilon^{\\alpha \\beta} \\Lambda^{i}\\,_{\\beta}\\,^{A} \\nabla_{A}\\left(\\frac{3}{2}\\epsilon_{i j} \\epsilon_{k l} \\lambda^{k}_{\\alpha}{}^{I} \\mathcal{F}_{I J} X^{j l J}+6\\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\Gamma_{\\alpha}\\,^{\\dot{\\alpha} \\mathcal{A}} \\mathcal{F}_{I} {\\rm i} \\nabla_{\\mathcal{A}}{\\overline{\\lambda}_{\\,i}^{\\,\\dot{\\beta}}{}^{I}}-12\\epsilon^{\\lambda \\rho} \\epsilon_{i j} \\lambda^{j}_{\\lambda}{}^{I} F_{\\alpha \\rho}\\,^{J} \\mathcal{F}_{I J}-6\\epsilon^{\\lambda \\rho} \\epsilon_{i j} \\overline{W}^{I} \\lambda^{j}_{\\lambda}{}^{J} W_{\\alpha \\rho} \\mathcal{F}_{I J}-\\epsilon^{\\lambda \\rho} \\epsilon_{i j} \\epsilon_{k l} \\lambda^{k}_{\\alpha}{}^{I} \\lambda^{j}_{\\lambda}{}^{J} \\lambda^{l}_{\\rho}{}^{K} \\mathcal{F}_{I J K}\\right)\\end{dmath*}"
+				},
+				{
+					"cell_id": 2924183784218081981,
+					"cell_origin": "server",
+					"cell_type": "latex_view",
+					"cells": [
+						{
+							"cell_id": 11336448711817691522,
+							"cell_origin": "server",
+							"cell_type": "input_form",
+							"source": " 1/32 \\e_{i j} \\e_{k l} \\cF_{I J} \\vX^{i k I} \\vX^{j l J} -  1/16 \\e^{\\a \\b} \\e_{i j} \\e_{k l} \\l^{i}_{\\a}^{I} \\l^{k}_{\\b}^{J} \\cF_{I J K} \\vX^{j l K} -  1/2 \\e_{\\ad \\bd} \\e^{\\a \\b} \\l^{i}_{\\a}^{I} \\Gamma_{\\b}^{\\ad \\A} \\cF_{I J} \\ri \\vD_{\\A}(\\lb_{i}^{\\bd J}) +  1/2 \\e^{\\a \\b} \\e_{\\ad \\bd} \\Gamma_{\\a}^{\\ad \\A} \\Gamma_{\\b}^{\\bd \\B} \\cF_{I} \\vD_{\\A}(\\vD_{\\B}(\\vWb^{I}))-2\\e_{\\ad \\bd} \\e_{\\ld \\pd} Fb^{\\ad \\ld I} Wb^{\\bd \\pd} \\cF_{I}-\\e_{\\ad \\bd} \\e_{\\ld \\pd} \\vW^{I} Wb^{\\ad \\ld} Wb^{\\bd \\pd} \\cF_{I} -  3/2 \\e_{\\ad \\bd} \\e^{i j} \\lb_{i}^{\\ad I} \\cF_{I} \\fSb_{j}^{\\bd} + 3\\vWb^{I} \\cF_{I} \\wD-2\\e^{\\a \\b} \\e^{\\l \\p} F_{\\a \\l}^{I} F_{\\b \\p}^{J} \\cF_{I J}-2\\e^{\\a \\b} \\e^{\\l \\p} \\vWb^{I} F_{\\a \\l}^{J} W_{\\b \\p} \\cF_{I J} +  1/2 \\e^{\\a \\b} \\e^{\\l \\p} \\e_{i j} \\l^{i}_{\\a}^{I} \\l^{j}_{\\l}^{J} F_{\\b \\p}^{K} \\cF_{I J K} -  1/2 \\e^{\\a \\b} \\e^{\\l \\p} \\vWb^{I} \\vWb^{J} W_{\\a \\l} W_{\\b \\p} \\cF_{I J} +  1/4 \\e^{\\a \\b} \\e^{\\l \\p} \\e_{i j} \\vWb^{I} \\l^{i}_{\\a}^{J} \\l^{j}_{\\l}^{K} W_{\\b \\p} \\cF_{I J K} -  1/48 \\e^{\\a \\b} \\e^{\\l \\p} \\e_{i j} \\e_{k l} \\l^{i}_{\\a}^{I} \\l^{j}_{\\l}^{J} \\l^{k}_{\\b}^{K} \\l^{l}_{\\p}^{L} \\cF_{I J K L}"
+						}
+					],
+					"source": "\\begin{dmath*}{}\\frac{1}{32}\\epsilon_{i j} \\epsilon_{k l} \\mathcal{F}_{I J} X^{i k I} X^{j l J} - \\frac{1}{16}\\epsilon^{\\alpha \\beta} \\epsilon_{i j} \\epsilon_{k l} \\lambda^{i}_{\\alpha}{}^{I} \\lambda^{k}_{\\beta}{}^{J} \\mathcal{F}_{I J K} X^{j l K} - \\frac{1}{2}\\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\epsilon^{\\alpha \\beta} \\lambda^{i}_{\\alpha}{}^{I} \\Gamma_{\\beta}\\,^{\\dot{\\alpha} \\mathcal{A}} \\mathcal{F}_{I J} {\\rm i} \\nabla_{\\mathcal{A}}{\\overline{\\lambda}_{\\,i}^{\\,\\dot{\\beta}}{}^{J}}+\\frac{1}{2}\\epsilon^{\\alpha \\beta} \\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\Gamma_{\\alpha}\\,^{\\dot{\\alpha} \\mathcal{A}} \\Gamma_{\\beta}\\,^{\\dot{\\beta} \\mathcal{B}} \\mathcal{F}_{I} \\nabla_{\\mathcal{A}}{\\nabla_{\\mathcal{B}}{\\overline{W}^{I}}}-2\\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\epsilon_{\\dot{\\lambda} \\dot{\\rho}} \\overline{F}^{\\dot{\\alpha} \\dot{\\lambda} I} \\overline{W}^{\\dot{\\beta} \\dot{\\rho}} \\mathcal{F}_{I}-\\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\epsilon_{\\dot{\\lambda} \\dot{\\rho}} W^{I} \\overline{W}^{\\dot{\\alpha} \\dot{\\lambda}} \\overline{W}^{\\dot{\\beta} \\dot{\\rho}} \\mathcal{F}_{I} - \\frac{3}{2}\\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\epsilon^{i j} \\overline{\\lambda}_{\\,i}^{\\,\\dot{\\alpha}}{}^{I} \\mathcal{F}_{I} \\overline{\\Sigma}_{j}\\,^{\\dot{\\beta}}+3\\overline{W}^{I} \\mathcal{F}_{I} D-2\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} F_{\\alpha \\lambda}\\,^{I} F_{\\beta \\rho}\\,^{J} \\mathcal{F}_{I J}-2\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\overline{W}^{I} F_{\\alpha \\lambda}\\,^{J} W_{\\beta \\rho} \\mathcal{F}_{I J}+\\frac{1}{2}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{i j} \\lambda^{i}_{\\alpha}{}^{I} \\lambda^{j}_{\\lambda}{}^{J} F_{\\beta \\rho}\\,^{K} \\mathcal{F}_{I J K} - \\frac{1}{2}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\overline{W}^{I} \\overline{W}^{J} W_{\\alpha \\lambda} W_{\\beta \\rho} \\mathcal{F}_{I J}+\\frac{1}{4}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{i j} \\overline{W}^{I} \\lambda^{i}_{\\alpha}{}^{J} \\lambda^{j}_{\\lambda}{}^{K} W_{\\beta \\rho} \\mathcal{F}_{I J K} - \\frac{1}{48}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{i j} \\epsilon_{k l} \\lambda^{i}_{\\alpha}{}^{I} \\lambda^{j}_{\\lambda}{}^{J} \\lambda^{k}_{\\beta}{}^{K} \\lambda^{l}_{\\rho}{}^{L} \\mathcal{F}_{I J K L}\\end{dmath*}"
+				},
+				{
+					"cell_id": 12100355308432703267,
+					"cell_origin": "server",
+					"cell_type": "latex_view",
+					"source": "{}$\\big[$$\\verb|{'\\\\D': 1, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 1, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 1, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 5, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 0, '\\\\prod': 5, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 16, '\\\\Db': 0, '\\\\vD': 1, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 16, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 9, '\\\\IGamma': 13, '\\\\sum': 4, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 1, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 16, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 2, '\\\\IGamma': 10, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 12, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 0, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 32, '\\\\IGamma': 0, '\\\\sum': 14, '\\\\prod': 1, '\\\\pow': 0, 'epsilon_contracts': 2, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 0, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 0, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 0, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$$\\big]$"
+				},
+				{
+					"cell_id": 4998815050248985540,
+					"cell_origin": "server",
+					"cell_type": "latex_view",
+					"source": "{}$\\big[$$\\verb|1|$,\\discretionary{}{}{} $\\verb|5|$,\\discretionary{}{}{} $\\verb|16|$,\\discretionary{}{}{} $\\verb|16|$,\\discretionary{}{}{} $\\verb|30|$,\\discretionary{}{}{} $\\verb|52|$,\\discretionary{}{}{} $\\verb|49|$,\\discretionary{}{}{} $\\verb|14|$,\\discretionary{}{}{} $\\verb|14|$$\\big]$"
+				}
+			],
+			"source": "ex4 := (1/48) \\e^{\\a \\b} \\Lambda^{i}_{\\b}^{A}\\D_{A}{@(ex3)};\ncomponentReduce = CleverSimplify(ex4)\ncomponentReduce.main(10);\ncomponentReduce.logical_structures;\ncomponentReduce.terms_per_iteration;"
+		},
+		{
+			"cell_id": 13575719641252168083,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"cells": [
+				{
+					"cell_id": 4701754040032495236,
+					"cell_origin": "server",
+					"cell_type": "latex_view",
+					"cells": [
+						{
+							"cell_id": 10138227385405959203,
+							"cell_origin": "server",
+							"cell_type": "input_form",
+							"source": "\\e_{i i1} \\e_{j i2} \\e^{\\b \\a} \\Lambda^{i1}_{\\a}^{A} \\Lambda^{i2}_{\\b}^{B} \\D_{A}(\\D_{B}(\\vW^{I}))"
+						}
+					],
+					"source": "\\begin{dmath*}{}\\epsilon_{i {i_{1}}} \\epsilon_{j {i_{2}}} \\epsilon^{\\beta \\alpha} \\Lambda^{{i_{1}}}\\,_{\\alpha}\\,^{A} \\Lambda^{{i_{2}}}\\,_{\\beta}\\,^{B} \\nabla_{A}{\\nabla_{B}{W^{I}}}\\end{dmath*}"
+				},
+				{
+					"cell_id": 9556254902597288394,
+					"cell_origin": "server",
+					"cell_type": "latex_view",
+					"cells": [
+						{
+							"cell_id": 1698815194057751418,
+							"cell_origin": "server",
+							"cell_type": "input_form",
+							"source": "\\e_{i k} \\e_{j l} \\vX^{k l I}"
+						}
+					],
+					"source": "\\begin{dmath*}{}\\epsilon_{i k} \\epsilon_{j l} X^{k l I}\\end{dmath*}"
+				},
+				{
+					"cell_id": 8201621612214370821,
+					"cell_origin": "server",
+					"cell_type": "latex_view",
+					"source": "{}$\\big[$$\\verb|{'\\\\D': 2, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 1, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 1, '\\\\IGamma': 0, '\\\\sum': 0, '\\\\prod': 1, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 1, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 0, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 3, '\\\\IGamma': 0, '\\\\sum': 1, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 1, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 0, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 0, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$$\\big]$"
+				},
+				{
+					"cell_id": 9438898718053925284,
+					"cell_origin": "server",
+					"cell_type": "latex_view",
+					"source": "{}$\\big[$$\\verb|1|$,\\discretionary{}{}{} $\\verb|1|$,\\discretionary{}{}{} $\\verb|1|$,\\discretionary{}{}{} $\\verb|1|$,\\discretionary{}{}{} $\\verb|3|$,\\discretionary{}{}{} $\\verb|1|$$\\big]$"
+				}
+			],
+			"source": "ex := \\e_{i i1} \\e_{j i2} \\e^{\\b \\a} \\Lambda^{i1}_{\\a}^{A} \\Lambda^{i2}_{\\b}^{B} \\D_{A}{\\D_{B}{\\vW^{I}}};\ncomponentReduce = CleverSimplify(ex)\ncomponentReduce.main(5);\ncomponentReduce.logical_structures;\ncomponentReduce.terms_per_iteration;"
+		},
+		{
+			"cell_id": 7126182788667383869,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"cells": [
+				{
+					"cell_id": 6054346057191231396,
+					"cell_origin": "server",
+					"cell_type": "latex_view",
+					"cells": [
+						{
+							"cell_id": 11816609080135677699,
+							"cell_origin": "server",
+							"cell_type": "input_form",
+							"source": "\\Lambda^{j}_{\\a}^{A} \\D_{A}(\\e_{i k} \\e_{j l} \\vX^{k l I})"
+						}
+					],
+					"source": "\\begin{dmath*}{}\\Lambda^{j}\\,_{\\alpha}\\,^{A} \\nabla_{A}\\left(\\epsilon_{i k} \\epsilon_{j l} X^{k l I}\\right)\\end{dmath*}"
+				},
+				{
+					"cell_id": 2809802471307033735,
+					"cell_origin": "server",
+					"cell_type": "latex_view",
+					"cells": [
+						{
+							"cell_id": 11643102544141263475,
+							"cell_origin": "server",
+							"cell_type": "input_form",
+							"source": "6\\e_{\\ad \\bd} \\Gamma_{\\a}^{\\ad \\A} \\ri \\vD_{\\A}(\\lb_{i}^{\\bd I})"
+						}
+					],
+					"source": "\\begin{dmath*}{}6\\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\Gamma_{\\alpha}\\,^{\\dot{\\alpha} \\mathcal{A}} {\\rm i} \\nabla_{\\mathcal{A}}{\\overline{\\lambda}_{\\,i}^{\\,\\dot{\\beta}}{}^{I}}\\end{dmath*}"
+				},
+				{
+					"cell_id": 15463963422043669971,
+					"cell_origin": "server",
+					"cell_type": "latex_view",
+					"source": "{}$\\big[$$\\verb|{'\\\\D': 1, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 0, '\\\\prod': 1, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 1, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 0, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 2, '\\\\IGamma': 0, '\\\\sum': 1, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 1, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 0, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 1, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 1, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 0, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 2, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 0, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 0, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 0, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$$\\big]$"
+				},
+				{
+					"cell_id": 16737862544680597980,
+					"cell_origin": "server",
+					"cell_type": "latex_view",
+					"source": "{}$\\big[$$\\verb|1|$,\\discretionary{}{}{} $\\verb|1|$,\\discretionary{}{}{} $\\verb|1|$,\\discretionary{}{}{} $\\verb|2|$,\\discretionary{}{}{} $\\verb|3|$,\\discretionary{}{}{} $\\verb|5|$,\\discretionary{}{}{} $\\verb|1|$,\\discretionary{}{}{} $\\verb|1|$$\\big]$"
+				}
+			],
+			"source": "ex3 := \\Lambda^{j}_{\\a}^{A} \\D_{A}{@(ex)};\ncomponentReduce = CleverSimplify(ex3)\ncomponentReduce.main(10);\ncomponentReduce.logical_structures;\ncomponentReduce.terms_per_iteration;"
+		},
+		{
+			"cell_id": 6990000421657287956,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"cells": [
+				{
+					"cell_id": 14319186140217118194,
+					"cell_origin": "server",
+					"cell_type": "latex_view",
+					"cells": [
+						{
+							"cell_id": 129431893001754987,
+							"cell_origin": "server",
+							"cell_type": "input_form",
+							"source": "6\\e^{\\a \\b} \\Lambda^{i}_{\\b}^{A} \\D_{A}(\\e_{\\ad \\bd} \\Gamma_{\\a}^{\\ad \\A} \\ri \\vD_{\\A}(\\lb_{i}^{\\bd I}))"
+						}
+					],
+					"source": "\\begin{dmath*}{}6\\epsilon^{\\alpha \\beta} \\Lambda^{i}\\,_{\\beta}\\,^{A} \\nabla_{A}\\left(\\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\Gamma_{\\alpha}\\,^{\\dot{\\alpha} \\mathcal{A}} {\\rm i} \\nabla_{\\mathcal{A}}{\\overline{\\lambda}_{\\,i}^{\\,\\dot{\\beta}}{}^{I}}\\right)\\end{dmath*}"
+				},
+				{
+					"cell_id": 16739545594251085983,
+					"cell_origin": "server",
+					"cell_type": "latex_view",
+					"cells": [
+						{
+							"cell_id": 9666525048648223256,
+							"cell_origin": "server",
+							"cell_type": "input_form",
+							"source": "24\\e^{\\a \\b} \\e_{\\ad \\bd} \\Gamma_{\\a}^{\\ad \\A} \\Gamma_{\\b}^{\\bd \\B} \\vD_{\\A}(\\vD_{\\B}(\\vWb^{I}))-96\\e_{\\ad \\bd} \\e_{\\ld \\pd} Fb^{\\ad \\ld I} Wb^{\\bd \\pd}-48\\e_{\\ad \\bd} \\e_{\\ld \\pd} \\vW^{I} Wb^{\\ad \\ld} Wb^{\\bd \\pd}-72\\e_{\\ad \\bd} \\e^{i j} \\lb_{i}^{\\ad I} \\fSb_{j}^{\\bd} + 144\\vWb^{I} \\wD"
+						}
+					],
+					"source": "\\begin{dmath*}{}24\\epsilon^{\\alpha \\beta} \\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\Gamma_{\\alpha}\\,^{\\dot{\\alpha} \\mathcal{A}} \\Gamma_{\\beta}\\,^{\\dot{\\beta} \\mathcal{B}} \\nabla_{\\mathcal{A}}{\\nabla_{\\mathcal{B}}{\\overline{W}^{I}}}-96\\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\epsilon_{\\dot{\\lambda} \\dot{\\rho}} \\overline{F}^{\\dot{\\alpha} \\dot{\\lambda} I} \\overline{W}^{\\dot{\\beta} \\dot{\\rho}}-48\\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\epsilon_{\\dot{\\lambda} \\dot{\\rho}} W^{I} \\overline{W}^{\\dot{\\alpha} \\dot{\\lambda}} \\overline{W}^{\\dot{\\beta} \\dot{\\rho}}-72\\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\epsilon^{i j} \\overline{\\lambda}_{\\,i}^{\\,\\dot{\\alpha}}{}^{I} \\overline{\\Sigma}_{j}\\,^{\\dot{\\beta}}+144\\overline{W}^{I} D\\end{dmath*}"
+				},
+				{
+					"cell_id": 9702261056260002362,
+					"cell_origin": "server",
+					"cell_type": "latex_view",
+					"source": "{}$\\big[$$\\verb|{'\\\\D': 1, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 0, '\\\\prod': 1, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 1, '\\\\Db': 0, '\\\\vD': 1, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 1, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 9, '\\\\IGamma': 13, '\\\\sum': 4, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 1, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 1, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 2, '\\\\IGamma': 10, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 12, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 0, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 4, '\\\\IGamma': 0, '\\\\sum': 0, '\\\\prod': 1, '\\\\pow': 0, 'epsilon_contracts': 1, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 0, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 0, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 0, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$$\\big]$"
+				},
+				{
+					"cell_id": 2303607456428177136,
+					"cell_origin": "server",
+					"cell_type": "latex_view",
+					"source": "{}$\\big[$$\\verb|1|$,\\discretionary{}{}{} $\\verb|1|$,\\discretionary{}{}{} $\\verb|1|$,\\discretionary{}{}{} $\\verb|15|$,\\discretionary{}{}{} $\\verb|19|$,\\discretionary{}{}{} $\\verb|15|$,\\discretionary{}{}{} $\\verb|5|$,\\discretionary{}{}{} $\\verb|5|$$\\big]$"
+				}
+			],
+			"source": "ex4 := \\e^{\\a \\b} \\Lambda^{i}_{\\b}^{A} \\D_{A}{@(ex3)};\ncomponentReduce = CleverSimplify(ex4)\ncomponentReduce.main(10);\ncomponentReduce.logical_structures;\ncomponentReduce.terms_per_iteration;"
+		},
+		{
 			"cell_id": 6043917468218812109,
 			"cell_origin": "client",
 			"cell_type": "input",
