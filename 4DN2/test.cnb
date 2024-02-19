@@ -13,7 +13,6 @@
 					"source": "Import"
 				}
 			],
-			"hidden": true,
 			"source": "Import"
 		},
 		{
@@ -28,12 +27,12 @@
 			"cell_type": "input",
 			"cells": [
 				{
-					"cell_id": 733376753730889539,
+					"cell_id": 15786473678558631397,
 					"cell_origin": "server",
 					"cell_type": "latex_view",
 					"cells": [
 						{
-							"cell_id": 16370045426790648408,
+							"cell_id": 317094354227665545,
 							"cell_origin": "server",
 							"cell_type": "input_form",
 							"source": "\\e_{j i1} \\Lambda^{i1}_{\\a}^{A} \\D_{A}(\\vW^{I}) + \\e_{j i1} \\Lambda^{i1}_{\\a}^{A} \\D_{A}(\\P^{I})"
@@ -42,12 +41,12 @@
 					"source": "\\begin{dmath*}{}\\epsilon_{j {i_{1}}} \\Lambda^{{i_{1}}}\\,_{\\alpha}\\,^{A} \\nabla_{A}{W^{I}}+\\epsilon_{j {i_{1}}} \\Lambda^{{i_{1}}}\\,_{\\alpha}\\,^{A} \\nabla_{A}{\\Psi^{I}}\\end{dmath*}"
 				},
 				{
-					"cell_id": 1342310734209051917,
+					"cell_id": 17993189076025974284,
 					"cell_origin": "server",
 					"cell_type": "latex_view",
 					"cells": [
 						{
-							"cell_id": 343479732773528404,
+							"cell_id": 4233179080090554291,
 							"cell_origin": "server",
 							"cell_type": "input_form",
 							"source": "\\e_{j i} \\l^{i}_{\\a}^{I} + \\e_{j i} \\fB^{i}_{\\a}^{I}"
@@ -364,12 +363,12 @@
 			"cell_type": "input",
 			"cells": [
 				{
-					"cell_id": 16594507680441961427,
+					"cell_id": 3418497305769187102,
 					"cell_origin": "server",
 					"cell_type": "latex_view",
 					"cells": [
 						{
-							"cell_id": 8840867420210505463,
+							"cell_id": 2490138789257944073,
 							"cell_origin": "server",
 							"cell_type": "input_form",
 							"source": "\\e_{j i1} \\Lambda^{i1}_{\\a}^{A} \\D_{A}(\\cF)"
@@ -378,12 +377,12 @@
 					"source": "\\begin{dmath*}{}\\epsilon_{j {i_{1}}} \\Lambda^{{i_{1}}}\\,_{\\alpha}\\,^{A} \\nabla_{A}{\\mathcal{F}}\\end{dmath*}"
 				},
 				{
-					"cell_id": 10649665588938885615,
+					"cell_id": 13169417930287857147,
 					"cell_origin": "server",
 					"cell_type": "latex_view",
 					"cells": [
 						{
-							"cell_id": 4772131990534915280,
+							"cell_id": 15304453325699775427,
 							"cell_origin": "server",
 							"cell_type": "input_form",
 							"source": "\\e_{j i} \\l^{i}_{\\a}^{I} \\cF_{I} + \\e_{j i} \\cF_{I} \\fB^{i}_{\\a}^{I}"
@@ -400,12 +399,12 @@
 			"cell_type": "input",
 			"cells": [
 				{
-					"cell_id": 10779361678289891800,
+					"cell_id": 8575797409477703366,
 					"cell_origin": "server",
 					"cell_type": "latex_view",
 					"cells": [
 						{
-							"cell_id": 14766492965648479498,
+							"cell_id": 8500862498107036558,
 							"cell_origin": "server",
 							"cell_type": "input_form",
 							"source": "\\e_{i i1} \\e^{\\a \\b} \\Lambda^{i1}_{\\b}^{A} \\D_{A}(\\e_{j k} \\l^{k}_{\\a}^{I} \\cF_{I} + \\e_{j k} \\cF_{I} \\fB^{k}_{\\a}^{I})"
@@ -414,12 +413,12 @@
 					"source": "\\begin{dmath*}{}\\epsilon_{i {i_{1}}} \\epsilon^{\\alpha \\beta} \\Lambda^{{i_{1}}}\\,_{\\beta}\\,^{A} \\nabla_{A}\\left(\\epsilon_{j k} \\lambda^{k}_{\\alpha}{}^{I} \\mathcal{F}_{I}+\\epsilon_{j k} \\mathcal{F}_{I} B^{k}\\,_{\\alpha}\\,^{I}\\right)\\end{dmath*}"
 				},
 				{
-					"cell_id": 7326243486101957445,
+					"cell_id": 17505122673190129743,
 					"cell_origin": "server",
 					"cell_type": "latex_view",
 					"cells": [
 						{
-							"cell_id": 1690675020131441002,
+							"cell_id": 9929049108329212008,
 							"cell_origin": "server",
 							"cell_type": "input_form",
 							"source": "\\e_{i k} \\e_{j l} \\cF_{I} \\vX^{k l I}-\\e^{\\a \\b} \\e_{i k} \\e_{j l} \\l^{k}_{\\a}^{I} \\l^{l}_{\\b}^{J} \\cF_{I J}-\\e^{\\a \\b} \\e_{i k} \\e_{j l} \\l^{l}_{\\a}^{I} \\cF_{I J} \\fB^{k}_{\\b}^{J}-\\e^{\\a \\b} \\e_{i k} \\e_{j l} \\l^{k}_{\\a}^{I} \\cF_{I J} \\fB^{l}_{\\b}^{J}-\\e^{\\a \\b} \\e_{i k} \\e_{j l} \\cF_{I J} \\fB^{k}_{\\a}^{I} \\fB^{l}_{\\b}^{J} + \\e_{i k} \\e_{j l} \\cF_{I} \\tB^{k l I}"
@@ -436,12 +435,12 @@
 			"cell_type": "input",
 			"cells": [
 				{
-					"cell_id": 12667951862187226410,
+					"cell_id": 3691904949095489310,
 					"cell_origin": "server",
 					"cell_type": "latex_view",
 					"cells": [
 						{
-							"cell_id": 1503957976877887034,
+							"cell_id": 5817375531510006169,
 							"cell_origin": "server",
 							"cell_type": "input_form",
 							"source": "\\Lambda^{j}_{\\a}^{A} \\D_{A}(\\e_{i k} \\e_{j l} \\cF_{I} \\vX^{k l I}-\\e^{\\p \\b} \\e_{i k} \\e_{j l} \\l^{k}_{\\p}^{I} \\l^{l}_{\\b}^{J} \\cF_{I J}-\\e^{\\p \\b} \\e_{i k} \\e_{j l} \\l^{l}_{\\p}^{I} \\cF_{I J} \\fB^{k}_{\\b}^{J}-\\e^{\\p \\b} \\e_{i k} \\e_{j l} \\l^{k}_{\\p}^{I} \\cF_{I J} \\fB^{l}_{\\b}^{J}-\\e^{\\p \\b} \\e_{i k} \\e_{j l} \\cF_{I J} \\fB^{k}_{\\p}^{I} \\fB^{l}_{\\b}^{J} + \\e_{i k} \\e_{j l} \\cF_{I} \\tB^{k l I})"
@@ -450,12 +449,12 @@
 					"source": "\\begin{dmath*}{}\\Lambda^{j}\\,_{\\alpha}\\,^{A} \\nabla_{A}\\left(\\epsilon_{i k} \\epsilon_{j l} \\mathcal{F}_{I} X^{k l I}-\\epsilon^{\\rho \\beta} \\epsilon_{i k} \\epsilon_{j l} \\lambda^{k}_{\\rho}{}^{I} \\lambda^{l}_{\\beta}{}^{J} \\mathcal{F}_{I J}-\\epsilon^{\\rho \\beta} \\epsilon_{i k} \\epsilon_{j l} \\lambda^{l}_{\\rho}{}^{I} \\mathcal{F}_{I J} B^{k}\\,_{\\beta}\\,^{J}-\\epsilon^{\\rho \\beta} \\epsilon_{i k} \\epsilon_{j l} \\lambda^{k}_{\\rho}{}^{I} \\mathcal{F}_{I J} B^{l}\\,_{\\beta}\\,^{J}-\\epsilon^{\\rho \\beta} \\epsilon_{i k} \\epsilon_{j l} \\mathcal{F}_{I J} B^{k}\\,_{\\rho}\\,^{I} B^{l}\\,_{\\beta}\\,^{J}+\\epsilon_{i k} \\epsilon_{j l} \\mathcal{F}_{I} B^{k l I}\\right)\\end{dmath*}"
 				},
 				{
-					"cell_id": 8567499024659270590,
+					"cell_id": 5776016886939078103,
 					"cell_origin": "server",
 					"cell_type": "latex_view",
 					"cells": [
 						{
-							"cell_id": 11242982364626484056,
+							"cell_id": 17734837471005464765,
 							"cell_origin": "server",
 							"cell_type": "input_form",
 							"source": " 3/2 \\e_{i j} \\e_{k l} \\l^{k}_{\\a}^{I} \\cF_{I J} \\vX^{j l J} +  3/2 \\e_{i j} \\e_{k l} \\cF_{I J} \\fB^{k}_{\\a}^{I} \\vX^{j l J} + 6\\e_{\\ad \\bd} \\Gamma_{\\a}^{\\ad \\A} \\cF_{I} \\ri \\vD_{\\A}(\\lb_{i}^{\\bd I})-12\\e^{\\b \\p} \\e_{i j} \\l^{j}_{\\b}^{I} F_{\\a \\p}^{J} \\cF_{I J}-6\\e^{\\b \\p} \\e_{i j} \\vWb^{I} \\l^{j}_{\\b}^{J} W_{\\a \\p} \\cF_{I J}-\\e^{\\b \\p} \\e_{i j} \\e_{k l} \\l^{k}_{\\a}^{I} \\l^{j}_{\\b}^{J} \\l^{l}_{\\p}^{K} \\cF_{I J K} + \\e^{\\b \\p} \\e_{i j} \\e_{k l} \\l^{j}_{\\b}^{I} \\l^{k}_{\\p}^{J} \\cF_{I J K} \\fB^{l}_{\\a}^{K} + 12\\e^{\\b \\p} \\e_{i j} F_{\\a \\b}^{I} \\cF_{I J} \\fB^{j}_{\\p}^{J} + 6\\e^{\\b \\p} \\e_{i j} \\vWb^{I} W_{\\a \\b} \\cF_{I J} \\fB^{j}_{\\p}^{J}-\\e^{\\b \\p} \\e_{i j} \\e_{k l} \\l^{k}_{\\a}^{I} \\l^{l}_{\\b}^{J} \\cF_{I J K} \\fB^{j}_{\\p}^{K}-\\e^{\\b \\p} \\e_{i j} \\e_{k l} \\l^{k}_{\\b}^{I} \\cF_{I J K} \\fB^{l}_{\\a}^{J} \\fB^{j}_{\\p}^{K} +  3/2 \\e_{i j} \\e_{k l} \\l^{k}_{\\a}^{I} \\cF_{I J} \\tB^{j l J}-12\\e^{\\b \\p} \\e_{i j} \\l^{j}_{\\b}^{I} \\cF_{I J} \\tB_{\\a \\p}^{J}-6\\e^{\\b \\p} \\e_{i j} \\l^{j}_{\\b}^{I} W_{\\a \\p} \\Pb^{J} \\cF_{I J}-\\e^{\\b \\p} \\e_{i j} \\e_{k l} \\l^{k}_{\\a}^{I} \\l^{j}_{\\b}^{J} \\cF_{I J K} \\fB^{l}_{\\p}^{K} + \\e^{\\b \\p} \\e_{i j} \\e_{k l} \\l^{j}_{\\b}^{I} \\cF_{I J K} \\fB^{k}_{\\a}^{J} \\fB^{l}_{\\p}^{K}-\\e^{\\b \\p} \\e_{i j} \\e_{k l} \\l^{k}_{\\a}^{I} \\cF_{I J K} \\fB^{j}_{\\b}^{J} \\fB^{l}_{\\p}^{K}-\\e^{\\b \\p} \\e_{i j} \\e_{k l} \\cF_{I J K} \\fB^{k}_{\\a}^{I} \\fB^{j}_{\\b}^{J} \\fB^{l}_{\\p}^{K} +  3/2 \\e_{i j} \\e_{k l} \\cF_{I J} \\fB^{k}_{\\a}^{I} \\tB^{j l J}-12\\e^{\\b \\p} \\e_{i j} \\cF_{I J} \\fB^{j}_{\\b}^{I} \\tB_{\\a \\p}^{J} + 6\\e^{\\b \\p} \\e_{i j} W_{\\a \\b} \\Pb^{I} \\cF_{I J} \\fB^{j}_{\\p}^{J} + 6\\e_{i j} \\cF_{I} \\chi^{j}_{\\a}^{I} \\ri + 6\\e_{\\ad \\bd} \\Gamma_{\\a}^{\\ad \\A} \\cF_{I} \\ri \\vD_{\\A}(\\fBb_{i}^{\\bd I})"
@@ -464,19 +463,53 @@
 					"source": "\\begin{dmath*}{}\\frac{3}{2}\\epsilon_{i j} \\epsilon_{k l} \\lambda^{k}_{\\alpha}{}^{I} \\mathcal{F}_{I J} X^{j l J}+\\frac{3}{2}\\epsilon_{i j} \\epsilon_{k l} \\mathcal{F}_{I J} B^{k}\\,_{\\alpha}\\,^{I} X^{j l J}+6\\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\Gamma_{\\alpha}\\,^{\\dot{\\alpha} \\mathcal{A}} \\mathcal{F}_{I} {\\rm i} \\nabla_{\\mathcal{A}}{\\overline{\\lambda}_{\\,i}^{\\,\\dot{\\beta}}{}^{I}}-12\\epsilon^{\\beta \\rho} \\epsilon_{i j} \\lambda^{j}_{\\beta}{}^{I} F_{\\alpha \\rho}\\,^{J} \\mathcal{F}_{I J}-6\\epsilon^{\\beta \\rho} \\epsilon_{i j} \\overline{W}^{I} \\lambda^{j}_{\\beta}{}^{J} W_{\\alpha \\rho} \\mathcal{F}_{I J}-\\epsilon^{\\beta \\rho} \\epsilon_{i j} \\epsilon_{k l} \\lambda^{k}_{\\alpha}{}^{I} \\lambda^{j}_{\\beta}{}^{J} \\lambda^{l}_{\\rho}{}^{K} \\mathcal{F}_{I J K}+\\epsilon^{\\beta \\rho} \\epsilon_{i j} \\epsilon_{k l} \\lambda^{j}_{\\beta}{}^{I} \\lambda^{k}_{\\rho}{}^{J} \\mathcal{F}_{I J K} B^{l}\\,_{\\alpha}\\,^{K}+12\\epsilon^{\\beta \\rho} \\epsilon_{i j} F_{\\alpha \\beta}\\,^{I} \\mathcal{F}_{I J} B^{j}\\,_{\\rho}\\,^{J}+6\\epsilon^{\\beta \\rho} \\epsilon_{i j} \\overline{W}^{I} W_{\\alpha \\beta} \\mathcal{F}_{I J} B^{j}\\,_{\\rho}\\,^{J}-\\epsilon^{\\beta \\rho} \\epsilon_{i j} \\epsilon_{k l} \\lambda^{k}_{\\alpha}{}^{I} \\lambda^{l}_{\\beta}{}^{J} \\mathcal{F}_{I J K} B^{j}\\,_{\\rho}\\,^{K}-\\epsilon^{\\beta \\rho} \\epsilon_{i j} \\epsilon_{k l} \\lambda^{k}_{\\beta}{}^{I} \\mathcal{F}_{I J K} B^{l}\\,_{\\alpha}\\,^{J} B^{j}\\,_{\\rho}\\,^{K}+\\frac{3}{2}\\epsilon_{i j} \\epsilon_{k l} \\lambda^{k}_{\\alpha}{}^{I} \\mathcal{F}_{I J} B^{j l J}-12\\epsilon^{\\beta \\rho} \\epsilon_{i j} \\lambda^{j}_{\\beta}{}^{I} \\mathcal{F}_{I J} B_{\\alpha \\rho}\\,^{J}-6\\epsilon^{\\beta \\rho} \\epsilon_{i j} \\lambda^{j}_{\\beta}{}^{I} W_{\\alpha \\rho} \\overline{\\Psi}^{J} \\mathcal{F}_{I J}-\\epsilon^{\\beta \\rho} \\epsilon_{i j} \\epsilon_{k l} \\lambda^{k}_{\\alpha}{}^{I} \\lambda^{j}_{\\beta}{}^{J} \\mathcal{F}_{I J K} B^{l}\\,_{\\rho}\\,^{K}+\\epsilon^{\\beta \\rho} \\epsilon_{i j} \\epsilon_{k l} \\lambda^{j}_{\\beta}{}^{I} \\mathcal{F}_{I J K} B^{k}\\,_{\\alpha}\\,^{J} B^{l}\\,_{\\rho}\\,^{K}-\\epsilon^{\\beta \\rho} \\epsilon_{i j} \\epsilon_{k l} \\lambda^{k}_{\\alpha}{}^{I} \\mathcal{F}_{I J K} B^{j}\\,_{\\beta}\\,^{J} B^{l}\\,_{\\rho}\\,^{K}-\\epsilon^{\\beta \\rho} \\epsilon_{i j} \\epsilon_{k l} \\mathcal{F}_{I J K} B^{k}\\,_{\\alpha}\\,^{I} B^{j}\\,_{\\beta}\\,^{J} B^{l}\\,_{\\rho}\\,^{K}+\\frac{3}{2}\\epsilon_{i j} \\epsilon_{k l} \\mathcal{F}_{I J} B^{k}\\,_{\\alpha}\\,^{I} B^{j l J}%\n-12\\epsilon^{\\beta \\rho} \\epsilon_{i j} \\mathcal{F}_{I J} B^{j}\\,_{\\beta}\\,^{I} B_{\\alpha \\rho}\\,^{J}+6\\epsilon^{\\beta \\rho} \\epsilon_{i j} W_{\\alpha \\beta} \\overline{\\Psi}^{I} \\mathcal{F}_{I J} B^{j}\\,_{\\rho}\\,^{J}+6\\epsilon_{i j} \\mathcal{F}_{I} \\chi^{j}\\,_{\\alpha}\\,^{I} {\\rm i}+6\\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\Gamma_{\\alpha}\\,^{\\dot{\\alpha} \\mathcal{A}} \\mathcal{F}_{I} {\\rm i} \\nabla_{\\mathcal{A}}{\\overline{B}_{i}\\,^{\\dot{\\beta} I}}\\end{dmath*}"
 				},
 				{
-					"cell_id": 6989424494909462012,
+					"cell_id": 2834645689140197786,
 					"cell_origin": "server",
 					"cell_type": "latex_view",
 					"source": "{}$\\big[$$\\verb|{'\\\\D': 1, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 1, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 1, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 6, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 0, '\\\\prod': 6, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 16, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 0, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 42, '\\\\IGamma': 0, '\\\\sum': 16, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 10, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 0, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 11, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 2, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 0, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 4, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 0, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 0, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 0, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$$\\big]$"
 				},
 				{
-					"cell_id": 3798932847080463169,
+					"cell_id": 3353161126786934179,
 					"cell_origin": "server",
 					"cell_type": "latex_view",
 					"source": "{}$\\big[$$\\verb|1|$,\\discretionary{}{}{} $\\verb|6|$,\\discretionary{}{}{} $\\verb|16|$,\\discretionary{}{}{} $\\verb|16|$,\\discretionary{}{}{} $\\verb|42|$,\\discretionary{}{}{} $\\verb|53|$,\\discretionary{}{}{} $\\verb|57|$,\\discretionary{}{}{} $\\verb|23|$,\\discretionary{}{}{} $\\verb|23|$$\\big]$"
 				}
 			],
 			"source": "ex3 := \\Lambda^{j}_{\\a}^{A}\\D_{A}{@( ex2)};\ncomponentReduce = CleverSimplify(ex3)\ncomponentReduce.main(10);\ncomponentReduce.logical_structures;\ncomponentReduce.terms_per_iteration;"
+		},
+		{
+			"cell_id": 4623708183208594855,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"cells": [
+				{
+					"cell_id": 3680867403309147349,
+					"cell_origin": "server",
+					"cell_type": "latex_view",
+					"cells": [
+						{
+							"cell_id": 8931734870428725435,
+							"cell_origin": "server",
+							"cell_type": "input_form",
+							"source": " 3/2 \\e_{j i} \\e_{k l} \\l^{k}_{\\a}^{I} \\cF_{I J} \\vX^{i l J} +  3/2 \\e_{j i} \\e_{k l} \\cF_{I J} \\fB^{k}_{\\a}^{I} \\vX^{i l J} + 6\\e_{\\ad \\bd} \\Gamma_{\\a}^{\\ad \\A} \\cF_{I} \\ri \\vD_{\\A}(\\lb_{j}^{\\bd I})-12\\e^{\\b \\p} \\e_{j i} \\l^{i}_{\\b}^{I} F_{\\a \\p}^{J} \\cF_{I J}-6\\e^{\\b \\p} \\e_{j i} \\vWb^{I} \\l^{i}_{\\b}^{J} W_{\\a \\p} \\cF_{I J}-\\e^{\\b \\p} \\e_{j i} \\e_{k l} \\l^{k}_{\\a}^{I} \\l^{i}_{\\b}^{J} \\l^{l}_{\\p}^{K} \\cF_{I J K} + \\e^{\\b \\p} \\e_{j i} \\e_{k l} \\l^{i}_{\\b}^{I} \\l^{k}_{\\p}^{J} \\cF_{I J K} \\fB^{l}_{\\a}^{K} + 12\\e^{\\b \\p} \\e_{j i} F_{\\a \\b}^{I} \\cF_{I J} \\fB^{i}_{\\p}^{J} + 6\\e^{\\b \\p} \\e_{j i} \\vWb^{I} W_{\\a \\b} \\cF_{I J} \\fB^{i}_{\\p}^{J}-\\e^{\\b \\p} \\e_{j i} \\e_{k l} \\l^{k}_{\\a}^{I} \\l^{i}_{\\b}^{J} \\cF_{I J K} \\fB^{l}_{\\p}^{K} + \\e^{\\b \\p} \\e_{j i} \\e_{k l} \\l^{i}_{\\b}^{I} \\cF_{I J K} \\fB^{k}_{\\a}^{J} \\fB^{l}_{\\p}^{K}-12\\e^{\\b \\p} \\e_{j i} \\l^{i}_{\\b}^{I} \\cF_{I J} \\tB_{\\a \\p}^{J}-6\\e^{\\b \\p} \\e_{j i} \\l^{i}_{\\b}^{I} W_{\\a \\p} \\Pb^{J} \\cF_{I J}-\\e^{\\b \\p} \\e_{j i} \\e_{k l} \\l^{k}_{\\a}^{I} \\l^{l}_{\\b}^{J} \\cF_{I J K} \\fB^{i}_{\\p}^{K}-\\e^{\\b \\p} \\e_{j i} \\e_{k l} \\l^{k}_{\\b}^{I} \\cF_{I J K} \\fB^{l}_{\\a}^{J} \\fB^{i}_{\\p}^{K} +  3/2 \\e_{j i} \\e_{k l} \\l^{k}_{\\a}^{I} \\cF_{I J} \\tB^{i l J}-\\e^{\\b \\p} \\e_{j i} \\e_{k l} \\l^{k}_{\\a}^{I} \\cF_{I J K} \\fB^{i}_{\\b}^{J} \\fB^{l}_{\\p}^{K}-\\e^{\\b \\p} \\e_{j i} \\e_{k l} \\cF_{I J K} \\fB^{k}_{\\a}^{I} \\fB^{i}_{\\b}^{J} \\fB^{l}_{\\p}^{K}-12\\e^{\\b \\p} \\e_{j i} \\cF_{I J} \\fB^{i}_{\\b}^{I} \\tB_{\\a \\p}^{J} + 6\\e^{\\b \\p} \\e_{j i} W_{\\a \\b} \\Pb^{I} \\cF_{I J} \\fB^{i}_{\\p}^{J} +  3/2 \\e_{j i} \\e_{k l} \\cF_{I J} \\fB^{k}_{\\a}^{I} \\tB^{i l J} + 6\\e_{j i} \\cF_{I} \\chi^{i}_{\\a}^{I} \\ri + 6\\e_{\\ad \\bd} \\Gamma_{\\a}^{\\ad \\A} \\cF_{I} \\ri \\vD_{\\A}(\\fBb_{j}^{\\bd I})"
+						}
+					],
+					"source": "\\begin{dmath*}{}\\frac{3}{2}\\epsilon_{j i} \\epsilon_{k l} \\lambda^{k}_{\\alpha}{}^{I} \\mathcal{F}_{I J} X^{i l J}+\\frac{3}{2}\\epsilon_{j i} \\epsilon_{k l} \\mathcal{F}_{I J} B^{k}\\,_{\\alpha}\\,^{I} X^{i l J}+6\\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\Gamma_{\\alpha}\\,^{\\dot{\\alpha} \\mathcal{A}} \\mathcal{F}_{I} {\\rm i} \\nabla_{\\mathcal{A}}{\\overline{\\lambda}_{\\,j}^{\\,\\dot{\\beta}}{}^{I}}-12\\epsilon^{\\beta \\rho} \\epsilon_{j i} \\lambda^{i}_{\\beta}{}^{I} F_{\\alpha \\rho}\\,^{J} \\mathcal{F}_{I J}-6\\epsilon^{\\beta \\rho} \\epsilon_{j i} \\overline{W}^{I} \\lambda^{i}_{\\beta}{}^{J} W_{\\alpha \\rho} \\mathcal{F}_{I J}-\\epsilon^{\\beta \\rho} \\epsilon_{j i} \\epsilon_{k l} \\lambda^{k}_{\\alpha}{}^{I} \\lambda^{i}_{\\beta}{}^{J} \\lambda^{l}_{\\rho}{}^{K} \\mathcal{F}_{I J K}+\\epsilon^{\\beta \\rho} \\epsilon_{j i} \\epsilon_{k l} \\lambda^{i}_{\\beta}{}^{I} \\lambda^{k}_{\\rho}{}^{J} \\mathcal{F}_{I J K} B^{l}\\,_{\\alpha}\\,^{K}+12\\epsilon^{\\beta \\rho} \\epsilon_{j i} F_{\\alpha \\beta}\\,^{I} \\mathcal{F}_{I J} B^{i}\\,_{\\rho}\\,^{J}+6\\epsilon^{\\beta \\rho} \\epsilon_{j i} \\overline{W}^{I} W_{\\alpha \\beta} \\mathcal{F}_{I J} B^{i}\\,_{\\rho}\\,^{J}-\\epsilon^{\\beta \\rho} \\epsilon_{j i} \\epsilon_{k l} \\lambda^{k}_{\\alpha}{}^{I} \\lambda^{i}_{\\beta}{}^{J} \\mathcal{F}_{I J K} B^{l}\\,_{\\rho}\\,^{K}+\\epsilon^{\\beta \\rho} \\epsilon_{j i} \\epsilon_{k l} \\lambda^{i}_{\\beta}{}^{I} \\mathcal{F}_{I J K} B^{k}\\,_{\\alpha}\\,^{J} B^{l}\\,_{\\rho}\\,^{K}-12\\epsilon^{\\beta \\rho} \\epsilon_{j i} \\lambda^{i}_{\\beta}{}^{I} \\mathcal{F}_{I J} B_{\\alpha \\rho}\\,^{J}-6\\epsilon^{\\beta \\rho} \\epsilon_{j i} \\lambda^{i}_{\\beta}{}^{I} W_{\\alpha \\rho} \\overline{\\Psi}^{J} \\mathcal{F}_{I J}-\\epsilon^{\\beta \\rho} \\epsilon_{j i} \\epsilon_{k l} \\lambda^{k}_{\\alpha}{}^{I} \\lambda^{l}_{\\beta}{}^{J} \\mathcal{F}_{I J K} B^{i}\\,_{\\rho}\\,^{K}-\\epsilon^{\\beta \\rho} \\epsilon_{j i} \\epsilon_{k l} \\lambda^{k}_{\\beta}{}^{I} \\mathcal{F}_{I J K} B^{l}\\,_{\\alpha}\\,^{J} B^{i}\\,_{\\rho}\\,^{K}+\\frac{3}{2}\\epsilon_{j i} \\epsilon_{k l} \\lambda^{k}_{\\alpha}{}^{I} \\mathcal{F}_{I J} B^{i l J}-\\epsilon^{\\beta \\rho} \\epsilon_{j i} \\epsilon_{k l} \\lambda^{k}_{\\alpha}{}^{I} \\mathcal{F}_{I J K} B^{i}\\,_{\\beta}\\,^{J} B^{l}\\,_{\\rho}\\,^{K}-\\epsilon^{\\beta \\rho} \\epsilon_{j i} \\epsilon_{k l} \\mathcal{F}_{I J K} B^{k}\\,_{\\alpha}\\,^{I} B^{i}\\,_{\\beta}\\,^{J} B^{l}\\,_{\\rho}\\,^{K}-12\\epsilon^{\\beta \\rho} \\epsilon_{j i} \\mathcal{F}_{I J} B^{i}\\,_{\\beta}\\,^{I} B_{\\alpha \\rho}\\,^{J}%\n+6\\epsilon^{\\beta \\rho} \\epsilon_{j i} W_{\\alpha \\beta} \\overline{\\Psi}^{I} \\mathcal{F}_{I J} B^{i}\\,_{\\rho}\\,^{J}+\\frac{3}{2}\\epsilon_{j i} \\epsilon_{k l} \\mathcal{F}_{I J} B^{k}\\,_{\\alpha}\\,^{I} B^{i l J}+6\\epsilon_{j i} \\mathcal{F}_{I} \\chi^{i}\\,_{\\alpha}\\,^{I} {\\rm i}+6\\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\Gamma_{\\alpha}\\,^{\\dot{\\alpha} \\mathcal{A}} \\mathcal{F}_{I} {\\rm i} \\nabla_{\\mathcal{A}}{\\overline{B}_{j}\\,^{\\dot{\\beta} I}}\\end{dmath*}"
+				},
+				{
+					"cell_id": 2860990928053061813,
+					"cell_origin": "server",
+					"cell_type": "latex_view",
+					"source": "{}$\\big[$$\\verb|{'\\\\D': 0, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 0, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 0, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$$\\big]$"
+				},
+				{
+					"cell_id": 15785092397274821374,
+					"cell_origin": "server",
+					"cell_type": "latex_view",
+					"source": "{}$\\big[$$\\verb|23|$,\\discretionary{}{}{} $\\verb|23|$,\\discretionary{}{}{} $\\verb|23|$$\\big]$"
+				}
+			],
+			"source": "#ex32 := \\Lambda^{i}_{\\a}^{A}\\D_{A}{@( ex2)};\ncomponentReduce = CleverSimplify(ex32)\ncomponentReduce.main(10);\ncomponentReduce.logical_structures;\ncomponentReduce.terms_per_iteration;"
 		},
 		{
 			"cell_id": 6757745903391796950,
@@ -506,47 +539,33 @@
 			"cell_type": "input",
 			"cells": [
 				{
-					"cell_id": 1271721201955895874,
+					"cell_id": 5265022832107932808,
 					"cell_origin": "server",
 					"cell_type": "latex_view",
 					"cells": [
 						{
-							"cell_id": 8371149986282288891,
+							"cell_id": 175676541002046076,
 							"cell_origin": "server",
 							"cell_type": "input_form",
-							"source": "\\e^{\\a \\b} \\Lambda^{i}_{\\b}^{A} \\D_{A}( 3/2 \\e_{i j} \\e_{k l} \\l^{k}_{\\a}^{I} \\cF_{I J} \\tB^{j l J} + 6\\e_{i j} \\cF_{I} \\chi^{j}_{\\a}^{I} \\ri)"
+							"source": " 1/32 \\e_{i j} \\e_{k l} \\cF_{I J} \\vX^{i k I} \\vX^{j l J} -  1/16 \\e^{\\a \\b} \\e_{i j} \\e_{k l} \\l^{i}_{\\a}^{I} \\l^{k}_{\\b}^{J} \\cF_{I J K} \\vX^{j l K} -  1/8 \\e^{\\a \\b} \\e_{i j} \\e_{k l} \\l^{i}_{\\a}^{I} \\cF_{I J K} \\fB^{k}_{\\b}^{J} \\vX^{j l K} -  1/2 \\e_{\\ad \\bd} \\e^{\\a \\b} \\l^{i}_{\\a}^{I} \\Gamma_{\\b}^{\\ad \\A} \\cF_{I J} \\ri \\vD_{\\A}(\\lb_{i}^{\\bd J}) -  1/16 \\e^{\\a \\b} \\e_{i j} \\e_{k l} \\cF_{I J K} \\fB^{i}_{\\a}^{I} \\fB^{k}_{\\b}^{J} \\vX^{j l K} +  1/16 \\e_{i j} \\e_{k l} \\cF_{I J} \\tB^{i k I} \\vX^{j l J} +  1/2 \\e^{\\a \\b} \\e_{\\ad \\bd} \\Gamma_{\\a}^{\\ad \\A} \\cF_{I J} \\fB^{i}_{\\b}^{I} \\ri \\vD_{\\A}(\\lb_{i}^{\\bd J}) +  1/2 \\e^{\\a \\b} \\e_{\\ad \\bd} \\Gamma_{\\a}^{\\ad \\A} \\Gamma_{\\b}^{\\bd \\B} \\cF_{I} \\vD_{\\A}(\\vD_{\\B}(\\vWb^{I}))-2\\e_{\\ad \\bd} \\e_{\\ld \\pd} Fb^{\\ad \\ld I} Wb^{\\bd \\pd} \\cF_{I}-\\e_{\\ad \\bd} \\e_{\\ld \\pd} \\vW^{I} Wb^{\\ad \\ld} Wb^{\\bd \\pd} \\cF_{I} -  3/2 \\e_{\\ad \\bd} \\e^{i j} \\lb_{i}^{\\ad I} \\cF_{I} \\fSb_{j}^{\\bd} + 3\\vWb^{I} \\cF_{I} \\wD-2\\e^{\\a \\b} \\e^{\\l \\p} F_{\\a \\l}^{I} F_{\\b \\p}^{J} \\cF_{I J}-2\\e^{\\a \\b} \\e^{\\l \\p} \\vWb^{I} F_{\\a \\l}^{J} W_{\\b \\p} \\cF_{I J} +  1/2 \\e^{\\a \\b} \\e^{\\l \\p} \\e_{i j} \\l^{i}_{\\a}^{I} \\l^{j}_{\\l}^{J} F_{\\b \\p}^{K} \\cF_{I J K}-\\e^{\\a \\b} \\e^{\\l \\p} \\e_{i j} \\l^{i}_{\\a}^{I} F_{\\b \\l}^{J} \\cF_{I J K} \\fB^{j}_{\\p}^{K} -  1/2 \\e^{\\a \\b} \\e^{\\l \\p} \\vWb^{I} \\vWb^{J} W_{\\a \\l} W_{\\b \\p} \\cF_{I J} +  1/4 \\e^{\\a \\b} \\e^{\\l \\p} \\e_{i j} \\vWb^{I} \\l^{i}_{\\a}^{J} \\l^{j}_{\\l}^{K} W_{\\b \\p} \\cF_{I J K} -  1/2 \\e^{\\a \\b} \\e^{\\l \\p} \\e_{i j} \\vWb^{I} \\l^{i}_{\\a}^{J} W_{\\b \\l} \\cF_{I J K} \\fB^{j}_{\\p}^{K} -  1/48 \\e^{\\a \\b} \\e^{\\l \\p} \\e_{i j} \\e_{k l} \\l^{i}_{\\a}^{I} \\l^{j}_{\\l}^{J} \\l^{k}_{\\b}^{K} \\l^{l}_{\\p}^{L} \\cF_{I J K L} -  1/12 \\e^{\\a \\b} \\e^{\\l \\p} \\e_{i j} \\e_{k l} \\l^{i}_{\\a}^{I} \\l^{j}_{\\l}^{J} \\l^{k}_{\\b}^{K} \\cF_{I J K L} \\fB^{l}_{\\p}^{L} +  1/24 \\e^{\\a \\b} \\e^{\\l \\p} \\e_{i j} \\e_{k l} \\l^{i}_{\\a}^{I} \\l^{k}_{\\b}^{J} \\cF_{I J K L} \\fB^{j}_{\\l}^{K} \\fB^{l}_{\\p}^{L} -  1/16 \\e^{\\a \\b} \\e_{i j} \\e_{k l} \\l^{i}_{\\a}^{I} \\l^{k}_{\\b}^{J} \\cF_{I J K} \\tB^{j l K} +  1/2 \\e^{\\a \\b} \\e^{\\l \\p} \\e_{i j} F_{\\a \\l}^{I} \\cF_{I J K} \\fB^{i}_{\\b}^{J} \\fB^{j}_{\\p}^{K}-4\\e^{\\a \\b} \\e^{\\l \\p} F_{\\a \\l}^{I} \\cF_{I J} \\tB_{\\b \\p}^{J}-2\\e^{\\a \\b} \\e^{\\l \\p} F_{\\a \\l}^{I} W_{\\b \\p} \\Pb^{J} \\cF_{I J} +  1/4 \\e^{\\a \\b} \\e^{\\l \\p} \\e_{i j} \\vWb^{I} W_{\\a \\l} \\cF_{I J K} \\fB^{i}_{\\b}^{J} \\fB^{j}_{\\p}^{K}-2\\e^{\\a \\b} \\e^{\\l \\p} \\vWb^{I} W_{\\a \\l} \\cF_{I J} \\tB_{\\b \\p}^{J}-\\e^{\\a \\b} \\e^{\\l \\p} \\vWb^{I} W_{\\a \\l} W_{\\b \\p} \\Pb^{J} \\cF_{I J} -  1/24 \\e^{\\a \\b} \\e^{\\l \\p} \\e_{i j} \\e_{k l} \\l^{i}_{\\a}^{I} \\l^{j}_{\\l}^{J} \\cF_{I J K L} \\fB^{k}_{\\b}^{K} \\fB^{l}_{\\p}^{L} +  1/2 \\e^{\\a \\b} \\e^{\\l \\p} \\e_{i j} \\l^{i}_{\\a}^{I} \\l^{j}_{\\l}^{J} \\cF_{I J K} \\tB_{\\b \\p}^{K} +  1/4 \\e^{\\a \\b} \\e^{\\l \\p} \\e_{i j} \\l^{i}_{\\a}^{I} \\l^{j}_{\\l}^{J} W_{\\b \\p} \\Pb^{K} \\cF_{I J K} -  1/24 \\e^{\\a \\b} \\e^{\\l \\p} \\e_{i j} \\e_{k l} \\l^{i}_{\\a}^{I} \\l^{k}_{\\l}^{J} \\cF_{I J K L} \\fB^{j}_{\\p}^{K} \\fB^{l}_{\\b}^{L} -  1/12 \\e^{\\a \\b} \\e^{\\l \\p} \\e_{i j} \\e_{k l} \\l^{i}_{\\a}^{I} \\cF_{I J K L} \\fB^{j}_{\\l}^{J} \\fB^{k}_{\\b}^{K} \\fB^{l}_{\\p}^{L} -  1/8 \\e^{\\a \\b} \\e_{i j} \\e_{k l} \\l^{i}_{\\a}^{I} \\cF_{I J K} \\fB^{k}_{\\b}^{J} \\tB^{j l K} + \\e^{\\a \\b} \\e^{\\l \\p} \\e_{i j} \\l^{i}_{\\a}^{I} \\cF_{I J K} \\fB^{j}_{\\l}^{J} \\tB_{\\b \\p}^{K} -  1/2 \\e^{\\a \\b} \\e^{\\l \\p} \\e_{i j} \\l^{i}_{\\a}^{I} W_{\\b \\l} \\Pb^{J} \\cF_{I J K} \\fB^{j}_{\\p}^{K} -  1/2 \\e^{\\a \\b} \\e_{i j} \\l^{i}_{\\a}^{I} \\cF_{I J} \\chi^{j}_{\\b}^{J} \\ri -  1/2 \\e_{\\ad \\bd} \\e^{\\a \\b} \\l^{i}_{\\a}^{I} \\Gamma_{\\b}^{\\ad \\A} \\cF_{I J} \\ri \\vD_{\\A}(\\fBb_{i}^{\\bd J}) -  1/48 \\e^{\\a \\b} \\e^{\\l \\p} \\e_{i j} \\e_{k l} \\cF_{I J K L} \\fB^{i}_{\\a}^{I} \\fB^{j}_{\\l}^{J} \\fB^{k}_{\\b}^{K} \\fB^{l}_{\\p}^{L} -  1/16 \\e^{\\a \\b} \\e_{i j} \\e_{k l} \\cF_{I J K} \\fB^{i}_{\\a}^{I} \\fB^{k}_{\\b}^{J} \\tB^{j l K} +  1/2 \\e^{\\a \\b} \\e^{\\l \\p} \\e_{i j} \\cF_{I J K} \\fB^{i}_{\\a}^{I} \\fB^{j}_{\\l}^{J} \\tB_{\\b \\p}^{K} +  1/4 \\e^{\\a \\b} \\e^{\\l \\p} \\e_{i j} W_{\\a \\l} \\Pb^{I} \\cF_{I J K} \\fB^{i}_{\\b}^{J} \\fB^{j}_{\\p}^{K} +  1/32 \\e_{i j} \\e_{k l} \\cF_{I J} \\tB^{i k I} \\tB^{j l J} +  1/2 \\e^{\\a \\b} \\e_{i j} \\cF_{I J} \\chi^{i}_{\\a}^{I} \\fB^{j}_{\\b}^{J} \\ri +  1/2 \\e^{\\a \\b} \\e_{\\ad \\bd} \\Gamma_{\\a}^{\\ad \\A} \\cF_{I J} \\fB^{i}_{\\b}^{I} \\ri \\vD_{\\A}(\\fBb_{i}^{\\bd J})-2\\e^{\\a \\b} \\e^{\\l \\p} \\cF_{I J} \\tB_{\\a \\l}^{I} \\tB_{\\b \\p}^{J}-2\\e^{\\a \\b} \\e^{\\l \\p} W_{\\a \\l} \\Pb^{I} \\cF_{I J} \\tB_{\\b \\p}^{J} -  1/2 \\e^{\\a \\b} \\e^{\\l \\p} W_{\\a \\l} W_{\\b \\p} \\Pb^{I} \\Pb^{J} \\cF_{I J} +  1/2 \\cF_{I} \\ri \\tF^{I} +  1/2 \\e^{\\a \\b} \\e_{\\ad \\bd} \\Gamma_{\\a}^{\\ad \\A} \\Gamma_{\\b}^{\\bd \\B} \\cF_{I} \\vD_{\\A}(\\vD_{\\B}(\\Pb^{I}))-2\\e_{\\ad \\bd} \\e_{\\ld \\pd} Wb^{\\ad \\ld} \\cF_{I} \\tBb^{\\bd \\pd I}-\\e_{\\ad \\bd} \\e_{\\ld \\pd} Wb^{\\ad \\ld} Wb^{\\bd \\pd} \\P^{I} \\cF_{I} -  3/2 \\e_{\\ad \\bd} \\e^{i j} \\cF_{I} \\fBb_{i}^{\\ad I} \\fSb_{j}^{\\bd} + 3\\Pb^{I} \\cF_{I} \\wD"
 						}
 					],
-					"source": "\\begin{dmath*}{}\\epsilon^{\\alpha \\beta} \\Lambda^{i}\\,_{\\beta}\\,^{A} \\nabla_{A}\\left(\\frac{3}{2}\\epsilon_{i j} \\epsilon_{k l} \\lambda^{k}_{\\alpha}{}^{I} \\mathcal{F}_{I J} B^{j l J}+6\\epsilon_{i j} \\mathcal{F}_{I} \\chi^{j}\\,_{\\alpha}\\,^{I} {\\rm i}\\right)\\end{dmath*}"
+					"source": "\\begin{dmath*}{}\\frac{1}{32}\\epsilon_{i j} \\epsilon_{k l} \\mathcal{F}_{I J} X^{i k I} X^{j l J} - \\frac{1}{16}\\epsilon^{\\alpha \\beta} \\epsilon_{i j} \\epsilon_{k l} \\lambda^{i}_{\\alpha}{}^{I} \\lambda^{k}_{\\beta}{}^{J} \\mathcal{F}_{I J K} X^{j l K} - \\frac{1}{8}\\epsilon^{\\alpha \\beta} \\epsilon_{i j} \\epsilon_{k l} \\lambda^{i}_{\\alpha}{}^{I} \\mathcal{F}_{I J K} B^{k}\\,_{\\beta}\\,^{J} X^{j l K} - \\frac{1}{2}\\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\epsilon^{\\alpha \\beta} \\lambda^{i}_{\\alpha}{}^{I} \\Gamma_{\\beta}\\,^{\\dot{\\alpha} \\mathcal{A}} \\mathcal{F}_{I J} {\\rm i} \\nabla_{\\mathcal{A}}{\\overline{\\lambda}_{\\,i}^{\\,\\dot{\\beta}}{}^{J}} - \\frac{1}{16}\\epsilon^{\\alpha \\beta} \\epsilon_{i j} \\epsilon_{k l} \\mathcal{F}_{I J K} B^{i}\\,_{\\alpha}\\,^{I} B^{k}\\,_{\\beta}\\,^{J} X^{j l K}+\\frac{1}{16}\\epsilon_{i j} \\epsilon_{k l} \\mathcal{F}_{I J} B^{i k I} X^{j l J}+\\frac{1}{2}\\epsilon^{\\alpha \\beta} \\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\Gamma_{\\alpha}\\,^{\\dot{\\alpha} \\mathcal{A}} \\mathcal{F}_{I J} B^{i}\\,_{\\beta}\\,^{I} {\\rm i} \\nabla_{\\mathcal{A}}{\\overline{\\lambda}_{\\,i}^{\\,\\dot{\\beta}}{}^{J}}+\\frac{1}{2}\\epsilon^{\\alpha \\beta} \\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\Gamma_{\\alpha}\\,^{\\dot{\\alpha} \\mathcal{A}} \\Gamma_{\\beta}\\,^{\\dot{\\beta} \\mathcal{B}} \\mathcal{F}_{I} \\nabla_{\\mathcal{A}}{\\nabla_{\\mathcal{B}}{\\overline{W}^{I}}}-2\\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\epsilon_{\\dot{\\lambda} \\dot{\\rho}} \\overline{F}^{\\dot{\\alpha} \\dot{\\lambda} I} \\overline{W}^{\\dot{\\beta} \\dot{\\rho}} \\mathcal{F}_{I}-\\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\epsilon_{\\dot{\\lambda} \\dot{\\rho}} W^{I} \\overline{W}^{\\dot{\\alpha} \\dot{\\lambda}} \\overline{W}^{\\dot{\\beta} \\dot{\\rho}} \\mathcal{F}_{I} - \\frac{3}{2}\\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\epsilon^{i j} \\overline{\\lambda}_{\\,i}^{\\,\\dot{\\alpha}}{}^{I} \\mathcal{F}_{I} \\overline{\\Sigma}_{j}\\,^{\\dot{\\beta}}+3\\overline{W}^{I} \\mathcal{F}_{I} D-2\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} F_{\\alpha \\lambda}\\,^{I} F_{\\beta \\rho}\\,^{J} \\mathcal{F}_{I J}-2\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\overline{W}^{I} F_{\\alpha \\lambda}\\,^{J} W_{\\beta \\rho} \\mathcal{F}_{I J}+\\frac{1}{2}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{i j} \\lambda^{i}_{\\alpha}{}^{I} \\lambda^{j}_{\\lambda}{}^{J} F_{\\beta \\rho}\\,^{K} \\mathcal{F}_{I J K}-\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{i j} \\lambda^{i}_{\\alpha}{}^{I} F_{\\beta \\lambda}\\,^{J} \\mathcal{F}_{I J K} B^{j}\\,_{\\rho}\\,^{K} - \\frac{1}{2}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\overline{W}^{I} \\overline{W}^{J} W_{\\alpha \\lambda} W_{\\beta \\rho} \\mathcal{F}_{I J}+\\frac{1}{4}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{i j} \\overline{W}^{I} \\lambda^{i}_{\\alpha}{}^{J} \\lambda^{j}_{\\lambda}{}^{K} W_{\\beta \\rho} \\mathcal{F}_{I J K} - \\frac{1}{2}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{i j} \\overline{W}^{I} \\lambda^{i}_{\\alpha}{}^{J} W_{\\beta \\lambda} \\mathcal{F}_{I J K} B^{j}\\,_{\\rho}\\,^{K}%\n - \\frac{1}{48}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{i j} \\epsilon_{k l} \\lambda^{i}_{\\alpha}{}^{I} \\lambda^{j}_{\\lambda}{}^{J} \\lambda^{k}_{\\beta}{}^{K} \\lambda^{l}_{\\rho}{}^{L} \\mathcal{F}_{I J K L} - \\frac{1}{12}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{i j} \\epsilon_{k l} \\lambda^{i}_{\\alpha}{}^{I} \\lambda^{j}_{\\lambda}{}^{J} \\lambda^{k}_{\\beta}{}^{K} \\mathcal{F}_{I J K L} B^{l}\\,_{\\rho}\\,^{L}+\\frac{1}{24}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{i j} \\epsilon_{k l} \\lambda^{i}_{\\alpha}{}^{I} \\lambda^{k}_{\\beta}{}^{J} \\mathcal{F}_{I J K L} B^{j}\\,_{\\lambda}\\,^{K} B^{l}\\,_{\\rho}\\,^{L} - \\frac{1}{16}\\epsilon^{\\alpha \\beta} \\epsilon_{i j} \\epsilon_{k l} \\lambda^{i}_{\\alpha}{}^{I} \\lambda^{k}_{\\beta}{}^{J} \\mathcal{F}_{I J K} B^{j l K}+\\frac{1}{2}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{i j} F_{\\alpha \\lambda}\\,^{I} \\mathcal{F}_{I J K} B^{i}\\,_{\\beta}\\,^{J} B^{j}\\,_{\\rho}\\,^{K}-4\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} F_{\\alpha \\lambda}\\,^{I} \\mathcal{F}_{I J} B_{\\beta \\rho}\\,^{J}-2\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} F_{\\alpha \\lambda}\\,^{I} W_{\\beta \\rho} \\overline{\\Psi}^{J} \\mathcal{F}_{I J}+\\frac{1}{4}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{i j} \\overline{W}^{I} W_{\\alpha \\lambda} \\mathcal{F}_{I J K} B^{i}\\,_{\\beta}\\,^{J} B^{j}\\,_{\\rho}\\,^{K}-2\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\overline{W}^{I} W_{\\alpha \\lambda} \\mathcal{F}_{I J} B_{\\beta \\rho}\\,^{J}-\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\overline{W}^{I} W_{\\alpha \\lambda} W_{\\beta \\rho} \\overline{\\Psi}^{J} \\mathcal{F}_{I J} - \\frac{1}{24}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{i j} \\epsilon_{k l} \\lambda^{i}_{\\alpha}{}^{I} \\lambda^{j}_{\\lambda}{}^{J} \\mathcal{F}_{I J K L} B^{k}\\,_{\\beta}\\,^{K} B^{l}\\,_{\\rho}\\,^{L}+\\frac{1}{2}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{i j} \\lambda^{i}_{\\alpha}{}^{I} \\lambda^{j}_{\\lambda}{}^{J} \\mathcal{F}_{I J K} B_{\\beta \\rho}\\,^{K}+\\frac{1}{4}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{i j} \\lambda^{i}_{\\alpha}{}^{I} \\lambda^{j}_{\\lambda}{}^{J} W_{\\beta \\rho} \\overline{\\Psi}^{K} \\mathcal{F}_{I J K} - \\frac{1}{24}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{i j} \\epsilon_{k l} \\lambda^{i}_{\\alpha}{}^{I} \\lambda^{k}_{\\lambda}{}^{J} \\mathcal{F}_{I J K L} B^{j}\\,_{\\rho}\\,^{K} B^{l}\\,_{\\beta}\\,^{L} - \\frac{1}{12}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{i j} \\epsilon_{k l} \\lambda^{i}_{\\alpha}{}^{I} \\mathcal{F}_{I J K L} B^{j}\\,_{\\lambda}\\,^{J} B^{k}\\,_{\\beta}\\,^{K} B^{l}\\,_{\\rho}\\,^{L} - \\frac{1}{8}\\epsilon^{\\alpha \\beta} \\epsilon_{i j} \\epsilon_{k l} \\lambda^{i}_{\\alpha}{}^{I} \\mathcal{F}_{I J K} B^{k}\\,_{\\beta}\\,^{J} B^{j l K}+\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{i j} \\lambda^{i}_{\\alpha}{}^{I} \\mathcal{F}_{I J K} B^{j}\\,_{\\lambda}\\,^{J} B_{\\beta \\rho}\\,^{K} - \\frac{1}{2}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{i j} \\lambda^{i}_{\\alpha}{}^{I} W_{\\beta \\lambda} \\overline{\\Psi}^{J} \\mathcal{F}_{I J K} B^{j}\\,_{\\rho}\\,^{K} - \\frac{1}{2}\\epsilon^{\\alpha \\beta} \\epsilon_{i j} \\lambda^{i}_{\\alpha}{}^{I} \\mathcal{F}_{I J} \\chi^{j}\\,_{\\beta}\\,^{J} {\\rm i} - \\frac{1}{2}\\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\epsilon^{\\alpha \\beta} \\lambda^{i}_{\\alpha}{}^{I} \\Gamma_{\\beta}\\,^{\\dot{\\alpha} \\mathcal{A}} \\mathcal{F}_{I J} {\\rm i} \\nabla_{\\mathcal{A}}{\\overline{B}_{i}\\,^{\\dot{\\beta} J}}%\n - \\frac{1}{48}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{i j} \\epsilon_{k l} \\mathcal{F}_{I J K L} B^{i}\\,_{\\alpha}\\,^{I} B^{j}\\,_{\\lambda}\\,^{J} B^{k}\\,_{\\beta}\\,^{K} B^{l}\\,_{\\rho}\\,^{L} - \\frac{1}{16}\\epsilon^{\\alpha \\beta} \\epsilon_{i j} \\epsilon_{k l} \\mathcal{F}_{I J K} B^{i}\\,_{\\alpha}\\,^{I} B^{k}\\,_{\\beta}\\,^{J} B^{j l K}+\\frac{1}{2}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{i j} \\mathcal{F}_{I J K} B^{i}\\,_{\\alpha}\\,^{I} B^{j}\\,_{\\lambda}\\,^{J} B_{\\beta \\rho}\\,^{K}+\\frac{1}{4}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{i j} W_{\\alpha \\lambda} \\overline{\\Psi}^{I} \\mathcal{F}_{I J K} B^{i}\\,_{\\beta}\\,^{J} B^{j}\\,_{\\rho}\\,^{K}+\\frac{1}{32}\\epsilon_{i j} \\epsilon_{k l} \\mathcal{F}_{I J} B^{i k I} B^{j l J}+\\frac{1}{2}\\epsilon^{\\alpha \\beta} \\epsilon_{i j} \\mathcal{F}_{I J} \\chi^{i}\\,_{\\alpha}\\,^{I} B^{j}\\,_{\\beta}\\,^{J} {\\rm i}+\\frac{1}{2}\\epsilon^{\\alpha \\beta} \\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\Gamma_{\\alpha}\\,^{\\dot{\\alpha} \\mathcal{A}} \\mathcal{F}_{I J} B^{i}\\,_{\\beta}\\,^{I} {\\rm i} \\nabla_{\\mathcal{A}}{\\overline{B}_{i}\\,^{\\dot{\\beta} J}}-2\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\mathcal{F}_{I J} B_{\\alpha \\lambda}\\,^{I} B_{\\beta \\rho}\\,^{J}-2\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} W_{\\alpha \\lambda} \\overline{\\Psi}^{I} \\mathcal{F}_{I J} B_{\\beta \\rho}\\,^{J} - \\frac{1}{2}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} W_{\\alpha \\lambda} W_{\\beta \\rho} \\overline{\\Psi}^{I} \\overline{\\Psi}^{J} \\mathcal{F}_{I J}+\\frac{1}{2}\\mathcal{F}_{I} {\\rm i} F^{I}+\\frac{1}{2}\\epsilon^{\\alpha \\beta} \\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\Gamma_{\\alpha}\\,^{\\dot{\\alpha} \\mathcal{A}} \\Gamma_{\\beta}\\,^{\\dot{\\beta} \\mathcal{B}} \\mathcal{F}_{I} \\nabla_{\\mathcal{A}}{\\nabla_{\\mathcal{B}}{\\overline{\\Psi}^{I}}}-2\\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\epsilon_{\\dot{\\lambda} \\dot{\\rho}} \\overline{W}^{\\dot{\\alpha} \\dot{\\lambda}} \\mathcal{F}_{I} \\overline{B}^{\\dot{\\beta} \\dot{\\rho} I}-\\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\epsilon_{\\dot{\\lambda} \\dot{\\rho}} \\overline{W}^{\\dot{\\alpha} \\dot{\\lambda}} \\overline{W}^{\\dot{\\beta} \\dot{\\rho}} \\Psi^{I} \\mathcal{F}_{I} - \\frac{3}{2}\\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\epsilon^{i j} \\mathcal{F}_{I} \\overline{B}_{i}\\,^{\\dot{\\alpha} I} \\overline{\\Sigma}_{j}\\,^{\\dot{\\beta}}+3\\overline{\\Psi}^{I} \\mathcal{F}_{I} D\\end{dmath*}"
 				},
 				{
-					"cell_id": 15914995451572766075,
+					"cell_id": 16627673863119740713,
 					"cell_origin": "server",
 					"cell_type": "latex_view",
-					"cells": [
-						{
-							"cell_id": 12013114028351678994,
-							"cell_origin": "server",
-							"cell_type": "input_form",
-							"source": " 3/2 \\e_{i j} \\e_{k l} \\cF_{I J} \\tB^{i k I} \\vX^{j l J} -  3/2 \\e^{\\a \\b} \\e_{i j} \\e_{k l} \\l^{i}_{\\a}^{I} \\l^{k}_{\\b}^{J} \\cF_{I J K} \\tB^{j l K} -  3/2 \\e^{\\a \\b} \\e_{i j} \\e_{k l} \\l^{i}_{\\a}^{I} \\cF_{I J K} \\fB^{k}_{\\b}^{J} \\tB^{j l K}-15\\e^{\\a \\b} \\e_{i j} \\l^{i}_{\\a}^{I} \\cF_{I J} \\chi^{j}_{\\b}^{J} \\ri-9\\e_{\\ad \\bd} \\e^{\\a \\b} \\l^{i}_{\\a}^{I} \\Gamma_{\\b}^{\\ad \\A} \\cF_{I J} \\ri \\vD_{\\A}(\\fBb_{i}^{\\bd J}) + 6\\e^{\\a \\b} \\e_{i j} \\cF_{I J} \\chi^{i}_{\\a}^{I} \\fB^{j}_{\\b}^{J} \\ri + 24\\cF_{I} \\ri \\tF^{I}"
-						}
-					],
-					"source": "\\begin{dmath*}{}\\frac{3}{2}\\epsilon_{i j} \\epsilon_{k l} \\mathcal{F}_{I J} B^{i k I} X^{j l J} - \\frac{3}{2}\\epsilon^{\\alpha \\beta} \\epsilon_{i j} \\epsilon_{k l} \\lambda^{i}_{\\alpha}{}^{I} \\lambda^{k}_{\\beta}{}^{J} \\mathcal{F}_{I J K} B^{j l K} - \\frac{3}{2}\\epsilon^{\\alpha \\beta} \\epsilon_{i j} \\epsilon_{k l} \\lambda^{i}_{\\alpha}{}^{I} \\mathcal{F}_{I J K} B^{k}\\,_{\\beta}\\,^{J} B^{j l K}-15\\epsilon^{\\alpha \\beta} \\epsilon_{i j} \\lambda^{i}_{\\alpha}{}^{I} \\mathcal{F}_{I J} \\chi^{j}\\,_{\\beta}\\,^{J} {\\rm i}-9\\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\epsilon^{\\alpha \\beta} \\lambda^{i}_{\\alpha}{}^{I} \\Gamma_{\\beta}\\,^{\\dot{\\alpha} \\mathcal{A}} \\mathcal{F}_{I J} {\\rm i} \\nabla_{\\mathcal{A}}{\\overline{B}_{i}\\,^{\\dot{\\beta} J}}+6\\epsilon^{\\alpha \\beta} \\epsilon_{i j} \\mathcal{F}_{I J} \\chi^{i}\\,_{\\alpha}\\,^{I} B^{j}\\,_{\\beta}\\,^{J} {\\rm i}+24\\mathcal{F}_{I} {\\rm i} F^{I}\\end{dmath*}"
+					"source": "{}$\\big[$$\\verb|{'\\\\D': 0, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 0, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 0, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$$\\big]$"
 				},
 				{
-					"cell_id": 11946167972816935660,
+					"cell_id": 12386142755739502946,
 					"cell_origin": "server",
 					"cell_type": "latex_view",
-					"source": "{}$\\big[$$\\verb|{'\\\\D': 1, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 1, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 1, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 2, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 0, '\\\\prod': 2, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 5, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 0, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 12, '\\\\IGamma': 0, '\\\\sum': 4, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 3, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 0, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 2, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 0, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 1, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 0, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 0, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 0, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$$\\big]$"
-				},
-				{
-					"cell_id": 14453797960533342493,
-					"cell_origin": "server",
-					"cell_type": "latex_view",
-					"source": "{}$\\big[$$\\verb|1|$,\\discretionary{}{}{} $\\verb|2|$,\\discretionary{}{}{} $\\verb|5|$,\\discretionary{}{}{} $\\verb|5|$,\\discretionary{}{}{} $\\verb|12|$,\\discretionary{}{}{} $\\verb|12|$,\\discretionary{}{}{} $\\verb|13|$,\\discretionary{}{}{} $\\verb|7|$,\\discretionary{}{}{} $\\verb|7|$$\\big]$"
+					"source": "{}$\\big[$$\\verb|55|$,\\discretionary{}{}{} $\\verb|55|$,\\discretionary{}{}{} $\\verb|55|$$\\big]$"
 				}
 			],
-			"source": "\nex4 :=  \\e^{\\a \\b} \\Lambda^{i}_{\\b}^{A}\\D_{A}{@(temp)};\ncomponentReduce = CleverSimplify(ex4)\ncomponentReduce.main(10);\ncomponentReduce.logical_structures;\ncomponentReduce.terms_per_iteration;"
+			"source": "#ex4 :=  (1/48) \\e^{\\a \\b} \\Lambda^{i}_{\\b}^{A}\\D_{A}{@(ex3)};\ncomponentReduce = CleverSimplify(ex4)\ncomponentReduce.main(10);\ncomponentReduce.logical_structures;\ncomponentReduce.terms_per_iteration;"
 		},
 		{
 			"cell_id": 8979477808258971302,
@@ -554,12 +573,12 @@
 			"cell_type": "input",
 			"cells": [
 				{
-					"cell_id": 13888214433109693736,
+					"cell_id": 18166497881134847549,
 					"cell_origin": "server",
 					"cell_type": "latex_view",
 					"cells": [
 						{
-							"cell_id": 15101456286765298953,
+							"cell_id": 3800544481130027892,
 							"cell_origin": "server",
 							"cell_type": "input_form",
 							"source": "{\\P^{I} -> 0, \\Pb^{I} -> 0, \\fB^{i}_{\\a}^{I} -> 0, \\fBb_{i}^{\\ad I} -> 0, \\tB^{i j I} -> \\ri G^{i j I}}"
@@ -568,33 +587,127 @@
 					"source": "\\begin{dmath*}{}\\left[\\Psi^{I} \\rightarrow 0,~\\discretionary{}{}{} \\overline{\\Psi}^{I} \\rightarrow 0,~\\discretionary{}{}{} B^{i}\\,_{\\alpha}\\,^{I} \\rightarrow 0,~\\discretionary{}{}{} \\overline{B}_{i}\\,^{\\dot{\\alpha} I} \\rightarrow 0,~\\discretionary{}{}{} B^{i j I} \\rightarrow {\\rm i} G^{i j I}\\right]\\end{dmath*}"
 				},
 				{
-					"cell_id": 13209023046407640546,
+					"cell_id": 4721595835853636860,
 					"cell_origin": "server",
 					"cell_type": "latex_view",
 					"cells": [
 						{
-							"cell_id": 16135911009172421642,
+							"cell_id": 1447053225911290323,
 							"cell_origin": "server",
 							"cell_type": "input_form",
-							"source": " 1/32 \\e_{i j} \\e_{k l} \\cF_{I J} \\vX^{i k I} \\vX^{j l J} -  1/16 \\e^{\\a \\b} \\e_{i j} \\e_{k l} \\l^{i}_{\\a}^{I} \\l^{k}_{\\b}^{J} \\cF_{I J K} \\vX^{j l K} -  1/2 \\e_{\\ad \\bd} \\e^{\\a \\b} \\l^{i}_{\\a}^{I} \\Gamma_{\\b}^{\\ad \\A} \\cF_{I J} \\ri \\vD_{\\A}(\\lb_{i}^{\\bd J}) +  1/16 \\e_{i j} \\e_{k l} G^{i k I} \\cF_{I J} \\ri \\vX^{j l J} +  1/2 \\e^{\\a \\b} \\e_{\\ad \\bd} \\Gamma_{\\a}^{\\ad \\A} \\Gamma_{\\b}^{\\bd \\B} \\cF_{I} \\vD_{\\A}(\\vD_{\\B}(\\vWb^{I}))-2\\e_{\\ad \\bd} \\e_{\\ld \\pd} Fb^{\\ad \\ld I} Wb^{\\bd \\pd} \\cF_{I}-\\e_{\\ad \\bd} \\e_{\\ld \\pd} \\vW^{I} Wb^{\\ad \\ld} Wb^{\\bd \\pd} \\cF_{I} -  3/2 \\e_{\\ad \\bd} \\e^{i j} \\lb_{i}^{\\ad I} \\cF_{I} \\fSb_{j}^{\\bd} + 3\\vWb^{I} \\cF_{I} \\wD-2\\e^{\\a \\b} \\e^{\\l \\p} F_{\\a \\l}^{I} F_{\\b \\p}^{J} \\cF_{I J}-2\\e^{\\a \\b} \\e^{\\l \\p} \\vWb^{I} F_{\\a \\l}^{J} W_{\\b \\p} \\cF_{I J} +  1/2 \\e^{\\a \\b} \\e^{\\l \\p} \\e_{i j} \\l^{i}_{\\a}^{I} \\l^{j}_{\\l}^{J} F_{\\b \\p}^{K} \\cF_{I J K} -  1/2 \\e^{\\a \\b} \\e^{\\l \\p} \\vWb^{I} \\vWb^{J} W_{\\a \\l} W_{\\b \\p} \\cF_{I J} +  1/4 \\e^{\\a \\b} \\e^{\\l \\p} \\e_{i j} \\vWb^{I} \\l^{i}_{\\a}^{J} \\l^{j}_{\\l}^{K} W_{\\b \\p} \\cF_{I J K} -  1/48 \\e^{\\a \\b} \\e^{\\l \\p} \\e_{i j} \\e_{k l} \\l^{i}_{\\a}^{I} \\l^{j}_{\\l}^{J} \\l^{k}_{\\b}^{K} \\l^{l}_{\\p}^{L} \\cF_{I J K L} -  1/16 \\e^{\\a \\b} \\e_{i j} \\e_{k l} \\l^{i}_{\\a}^{I} \\l^{k}_{\\b}^{J} G^{j l K} \\cF_{I J K} \\ri-4\\e^{\\a \\b} \\e^{\\l \\p} F_{\\a \\l}^{I} \\cF_{I J} \\tB_{\\b \\p}^{J}-2\\e^{\\a \\b} \\e^{\\l \\p} \\vWb^{I} W_{\\a \\l} \\cF_{I J} \\tB_{\\b \\p}^{J} +  1/2 \\e^{\\a \\b} \\e^{\\l \\p} \\e_{i j} \\l^{i}_{\\a}^{I} \\l^{j}_{\\l}^{J} \\cF_{I J K} \\tB_{\\b \\p}^{K} -  5/16 \\e^{\\a \\b} \\e_{i j} \\l^{i}_{\\a}^{I} \\cF_{I J} \\chi^{j}_{\\b}^{J} \\ri -  1/32 \\e_{i j} \\e_{k l} G^{i k I} G^{j l J} \\cF_{I J}-2\\e^{\\a \\b} \\e^{\\l \\p} \\cF_{I J} \\tB_{\\a \\l}^{I} \\tB_{\\b \\p}^{J} +  1/2 \\cF_{I} \\ri \\tF^{I}-2\\e_{\\ad \\bd} \\e_{\\ld \\pd} Wb^{\\ad \\ld} \\cF_{I} \\tBb^{\\bd \\pd I}"
+							"source": " 1/32 \\e_{i j} \\e_{k l} \\cF_{I J} \\vX^{i k I} \\vX^{j l J} -  1/16 \\e^{\\a \\b} \\e_{i j} \\e_{k l} \\l^{i}_{\\a}^{I} \\l^{k}_{\\b}^{J} \\cF_{I J K} \\vX^{j l K} -  1/2 \\e_{\\ad \\bd} \\e^{\\a \\b} \\l^{i}_{\\a}^{I} \\Gamma_{\\b}^{\\ad \\A} \\cF_{I J} \\ri \\vD_{\\A}(\\lb_{i}^{\\bd J}) +  1/16 \\e_{i j} \\e_{k l} G^{i k I} \\cF_{I J} \\ri \\vX^{j l J} +  1/2 \\e^{\\a \\b} \\e_{\\ad \\bd} \\Gamma_{\\a}^{\\ad \\A} \\Gamma_{\\b}^{\\bd \\B} \\cF_{I} \\vD_{\\A}(\\vD_{\\B}(\\vWb^{I}))-2\\e_{\\ad \\bd} \\e_{\\ld \\pd} Fb^{\\ad \\ld I} Wb^{\\bd \\pd} \\cF_{I}-\\e_{\\ad \\bd} \\e_{\\ld \\pd} \\vW^{I} Wb^{\\ad \\ld} Wb^{\\bd \\pd} \\cF_{I} -  3/2 \\e_{\\ad \\bd} \\e^{i j} \\lb_{i}^{\\ad I} \\cF_{I} \\fSb_{j}^{\\bd} + 3\\vWb^{I} \\cF_{I} \\wD-2\\e^{\\a \\b} \\e^{\\l \\p} F_{\\a \\l}^{I} F_{\\b \\p}^{J} \\cF_{I J}-2\\e^{\\a \\b} \\e^{\\l \\p} \\vWb^{I} F_{\\a \\l}^{J} W_{\\b \\p} \\cF_{I J} +  1/2 \\e^{\\a \\b} \\e^{\\l \\p} \\e_{i j} \\l^{i}_{\\a}^{I} \\l^{j}_{\\l}^{J} F_{\\b \\p}^{K} \\cF_{I J K} -  1/2 \\e^{\\a \\b} \\e^{\\l \\p} \\vWb^{I} \\vWb^{J} W_{\\a \\l} W_{\\b \\p} \\cF_{I J} +  1/4 \\e^{\\a \\b} \\e^{\\l \\p} \\e_{i j} \\vWb^{I} \\l^{i}_{\\a}^{J} \\l^{j}_{\\l}^{K} W_{\\b \\p} \\cF_{I J K} -  1/48 \\e^{\\a \\b} \\e^{\\l \\p} \\e_{i j} \\e_{k l} \\l^{i}_{\\a}^{I} \\l^{j}_{\\l}^{J} \\l^{k}_{\\b}^{K} \\l^{l}_{\\p}^{L} \\cF_{I J K L} -  1/16 \\e^{\\a \\b} \\e_{i j} \\e_{k l} \\l^{i}_{\\a}^{I} \\l^{k}_{\\b}^{J} G^{j l K} \\cF_{I J K} \\ri-4\\e^{\\a \\b} \\e^{\\l \\p} F_{\\a \\l}^{I} \\cF_{I J} \\tB_{\\b \\p}^{J}-2\\e^{\\a \\b} \\e^{\\l \\p} \\vWb^{I} W_{\\a \\l} \\cF_{I J} \\tB_{\\b \\p}^{J} +  1/2 \\e^{\\a \\b} \\e^{\\l \\p} \\e_{i j} \\l^{i}_{\\a}^{I} \\l^{j}_{\\l}^{J} \\cF_{I J K} \\tB_{\\b \\p}^{K} -  1/2 \\e^{\\a \\b} \\e_{i j} \\l^{i}_{\\a}^{I} \\cF_{I J} \\chi^{j}_{\\b}^{J} \\ri -  1/32 \\e_{i j} \\e_{k l} G^{i k I} G^{j l J} \\cF_{I J}-2\\e^{\\a \\b} \\e^{\\l \\p} \\cF_{I J} \\tB_{\\a \\l}^{I} \\tB_{\\b \\p}^{J} +  1/2 \\cF_{I} \\ri \\tF^{I}-2\\e_{\\ad \\bd} \\e_{\\ld \\pd} Wb^{\\ad \\ld} \\cF_{I} \\tBb^{\\bd \\pd I}"
 						}
 					],
-					"source": "\\begin{dmath*}{}\\frac{1}{32}\\epsilon_{i j} \\epsilon_{k l} \\mathcal{F}_{I J} X^{i k I} X^{j l J} - \\frac{1}{16}\\epsilon^{\\alpha \\beta} \\epsilon_{i j} \\epsilon_{k l} \\lambda^{i}_{\\alpha}{}^{I} \\lambda^{k}_{\\beta}{}^{J} \\mathcal{F}_{I J K} X^{j l K} - \\frac{1}{2}\\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\epsilon^{\\alpha \\beta} \\lambda^{i}_{\\alpha}{}^{I} \\Gamma_{\\beta}\\,^{\\dot{\\alpha} \\mathcal{A}} \\mathcal{F}_{I J} {\\rm i} \\nabla_{\\mathcal{A}}{\\overline{\\lambda}_{\\,i}^{\\,\\dot{\\beta}}{}^{J}}+\\frac{1}{16}\\epsilon_{i j} \\epsilon_{k l} G^{i k I} \\mathcal{F}_{I J} {\\rm i} X^{j l J}+\\frac{1}{2}\\epsilon^{\\alpha \\beta} \\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\Gamma_{\\alpha}\\,^{\\dot{\\alpha} \\mathcal{A}} \\Gamma_{\\beta}\\,^{\\dot{\\beta} \\mathcal{B}} \\mathcal{F}_{I} \\nabla_{\\mathcal{A}}{\\nabla_{\\mathcal{B}}{\\overline{W}^{I}}}-2\\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\epsilon_{\\dot{\\lambda} \\dot{\\rho}} \\overline{F}^{\\dot{\\alpha} \\dot{\\lambda} I} \\overline{W}^{\\dot{\\beta} \\dot{\\rho}} \\mathcal{F}_{I}-\\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\epsilon_{\\dot{\\lambda} \\dot{\\rho}} W^{I} \\overline{W}^{\\dot{\\alpha} \\dot{\\lambda}} \\overline{W}^{\\dot{\\beta} \\dot{\\rho}} \\mathcal{F}_{I} - \\frac{3}{2}\\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\epsilon^{i j} \\overline{\\lambda}_{\\,i}^{\\,\\dot{\\alpha}}{}^{I} \\mathcal{F}_{I} \\overline{\\Sigma}_{j}\\,^{\\dot{\\beta}}+3\\overline{W}^{I} \\mathcal{F}_{I} D-2\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} F_{\\alpha \\lambda}\\,^{I} F_{\\beta \\rho}\\,^{J} \\mathcal{F}_{I J}-2\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\overline{W}^{I} F_{\\alpha \\lambda}\\,^{J} W_{\\beta \\rho} \\mathcal{F}_{I J}+\\frac{1}{2}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{i j} \\lambda^{i}_{\\alpha}{}^{I} \\lambda^{j}_{\\lambda}{}^{J} F_{\\beta \\rho}\\,^{K} \\mathcal{F}_{I J K} - \\frac{1}{2}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\overline{W}^{I} \\overline{W}^{J} W_{\\alpha \\lambda} W_{\\beta \\rho} \\mathcal{F}_{I J}+\\frac{1}{4}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{i j} \\overline{W}^{I} \\lambda^{i}_{\\alpha}{}^{J} \\lambda^{j}_{\\lambda}{}^{K} W_{\\beta \\rho} \\mathcal{F}_{I J K} - \\frac{1}{48}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{i j} \\epsilon_{k l} \\lambda^{i}_{\\alpha}{}^{I} \\lambda^{j}_{\\lambda}{}^{J} \\lambda^{k}_{\\beta}{}^{K} \\lambda^{l}_{\\rho}{}^{L} \\mathcal{F}_{I J K L} - \\frac{1}{16}\\epsilon^{\\alpha \\beta} \\epsilon_{i j} \\epsilon_{k l} \\lambda^{i}_{\\alpha}{}^{I} \\lambda^{k}_{\\beta}{}^{J} G^{j l K} \\mathcal{F}_{I J K} {\\rm i}-4\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} F_{\\alpha \\lambda}\\,^{I} \\mathcal{F}_{I J} B_{\\beta \\rho}\\,^{J}-2\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\overline{W}^{I} W_{\\alpha \\lambda} \\mathcal{F}_{I J} B_{\\beta \\rho}\\,^{J}+\\frac{1}{2}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{i j} \\lambda^{i}_{\\alpha}{}^{I} \\lambda^{j}_{\\lambda}{}^{J} \\mathcal{F}_{I J K} B_{\\beta \\rho}\\,^{K}%\n - \\frac{5}{16}\\epsilon^{\\alpha \\beta} \\epsilon_{i j} \\lambda^{i}_{\\alpha}{}^{I} \\mathcal{F}_{I J} \\chi^{j}\\,_{\\beta}\\,^{J} {\\rm i} - \\frac{1}{32}\\epsilon_{i j} \\epsilon_{k l} G^{i k I} G^{j l J} \\mathcal{F}_{I J}-2\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\mathcal{F}_{I J} B_{\\alpha \\lambda}\\,^{I} B_{\\beta \\rho}\\,^{J}+\\frac{1}{2}\\mathcal{F}_{I} {\\rm i} F^{I}-2\\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\epsilon_{\\dot{\\lambda} \\dot{\\rho}} \\overline{W}^{\\dot{\\alpha} \\dot{\\lambda}} \\mathcal{F}_{I} \\overline{B}^{\\dot{\\beta} \\dot{\\rho} I}\\end{dmath*}"
+					"source": "\\begin{dmath*}{}\\frac{1}{32}\\epsilon_{i j} \\epsilon_{k l} \\mathcal{F}_{I J} X^{i k I} X^{j l J} - \\frac{1}{16}\\epsilon^{\\alpha \\beta} \\epsilon_{i j} \\epsilon_{k l} \\lambda^{i}_{\\alpha}{}^{I} \\lambda^{k}_{\\beta}{}^{J} \\mathcal{F}_{I J K} X^{j l K} - \\frac{1}{2}\\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\epsilon^{\\alpha \\beta} \\lambda^{i}_{\\alpha}{}^{I} \\Gamma_{\\beta}\\,^{\\dot{\\alpha} \\mathcal{A}} \\mathcal{F}_{I J} {\\rm i} \\nabla_{\\mathcal{A}}{\\overline{\\lambda}_{\\,i}^{\\,\\dot{\\beta}}{}^{J}}+\\frac{1}{16}\\epsilon_{i j} \\epsilon_{k l} G^{i k I} \\mathcal{F}_{I J} {\\rm i} X^{j l J}+\\frac{1}{2}\\epsilon^{\\alpha \\beta} \\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\Gamma_{\\alpha}\\,^{\\dot{\\alpha} \\mathcal{A}} \\Gamma_{\\beta}\\,^{\\dot{\\beta} \\mathcal{B}} \\mathcal{F}_{I} \\nabla_{\\mathcal{A}}{\\nabla_{\\mathcal{B}}{\\overline{W}^{I}}}-2\\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\epsilon_{\\dot{\\lambda} \\dot{\\rho}} \\overline{F}^{\\dot{\\alpha} \\dot{\\lambda} I} \\overline{W}^{\\dot{\\beta} \\dot{\\rho}} \\mathcal{F}_{I}-\\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\epsilon_{\\dot{\\lambda} \\dot{\\rho}} W^{I} \\overline{W}^{\\dot{\\alpha} \\dot{\\lambda}} \\overline{W}^{\\dot{\\beta} \\dot{\\rho}} \\mathcal{F}_{I} - \\frac{3}{2}\\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\epsilon^{i j} \\overline{\\lambda}_{\\,i}^{\\,\\dot{\\alpha}}{}^{I} \\mathcal{F}_{I} \\overline{\\Sigma}_{j}\\,^{\\dot{\\beta}}+3\\overline{W}^{I} \\mathcal{F}_{I} D-2\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} F_{\\alpha \\lambda}\\,^{I} F_{\\beta \\rho}\\,^{J} \\mathcal{F}_{I J}-2\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\overline{W}^{I} F_{\\alpha \\lambda}\\,^{J} W_{\\beta \\rho} \\mathcal{F}_{I J}+\\frac{1}{2}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{i j} \\lambda^{i}_{\\alpha}{}^{I} \\lambda^{j}_{\\lambda}{}^{J} F_{\\beta \\rho}\\,^{K} \\mathcal{F}_{I J K} - \\frac{1}{2}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\overline{W}^{I} \\overline{W}^{J} W_{\\alpha \\lambda} W_{\\beta \\rho} \\mathcal{F}_{I J}+\\frac{1}{4}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{i j} \\overline{W}^{I} \\lambda^{i}_{\\alpha}{}^{J} \\lambda^{j}_{\\lambda}{}^{K} W_{\\beta \\rho} \\mathcal{F}_{I J K} - \\frac{1}{48}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{i j} \\epsilon_{k l} \\lambda^{i}_{\\alpha}{}^{I} \\lambda^{j}_{\\lambda}{}^{J} \\lambda^{k}_{\\beta}{}^{K} \\lambda^{l}_{\\rho}{}^{L} \\mathcal{F}_{I J K L} - \\frac{1}{16}\\epsilon^{\\alpha \\beta} \\epsilon_{i j} \\epsilon_{k l} \\lambda^{i}_{\\alpha}{}^{I} \\lambda^{k}_{\\beta}{}^{J} G^{j l K} \\mathcal{F}_{I J K} {\\rm i}-4\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} F_{\\alpha \\lambda}\\,^{I} \\mathcal{F}_{I J} B_{\\beta \\rho}\\,^{J}-2\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\overline{W}^{I} W_{\\alpha \\lambda} \\mathcal{F}_{I J} B_{\\beta \\rho}\\,^{J}+\\frac{1}{2}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{i j} \\lambda^{i}_{\\alpha}{}^{I} \\lambda^{j}_{\\lambda}{}^{J} \\mathcal{F}_{I J K} B_{\\beta \\rho}\\,^{K}%\n - \\frac{1}{2}\\epsilon^{\\alpha \\beta} \\epsilon_{i j} \\lambda^{i}_{\\alpha}{}^{I} \\mathcal{F}_{I J} \\chi^{j}\\,_{\\beta}\\,^{J} {\\rm i} - \\frac{1}{32}\\epsilon_{i j} \\epsilon_{k l} G^{i k I} G^{j l J} \\mathcal{F}_{I J}-2\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\mathcal{F}_{I J} B_{\\alpha \\lambda}\\,^{I} B_{\\beta \\rho}\\,^{J}+\\frac{1}{2}\\mathcal{F}_{I} {\\rm i} F^{I}-2\\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\epsilon_{\\dot{\\lambda} \\dot{\\rho}} \\overline{W}^{\\dot{\\alpha} \\dot{\\lambda}} \\mathcal{F}_{I} \\overline{B}^{\\dot{\\beta} \\dot{\\rho} I}\\end{dmath*}"
 				},
 				{
-					"cell_id": 15199229316622334558,
+					"cell_id": 5868845430140627438,
 					"cell_origin": "server",
 					"cell_type": "latex_view",
 					"source": "{}$\\big[$$\\verb|{'\\\\D': 0, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 0, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 0, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$$\\big]$"
 				},
 				{
-					"cell_id": 1563175414471590813,
+					"cell_id": 4204045749848555041,
 					"cell_origin": "server",
 					"cell_type": "latex_view",
 					"source": "{}$\\big[$$\\verb|24|$,\\discretionary{}{}{} $\\verb|24|$,\\discretionary{}{}{} $\\verb|24|$$\\big]$"
 				}
 			],
 			"source": "project_to_zero := { \\P^{I} -> 0, \\Pb^{I} -> 0, \\fB^{i}_{\\a}^{I} -> 0, \\fBb_{i}^{\\ad}^{I} -> 0, \\tB^{i j}^{I} ->  \\ri G^{i j}^{I}};\nsubstitute(ex4, project_to_zero)\ncomponentReduce = CleverSimplify(ex4)\ncomponentReduce.main(10);\ncomponentReduce.logical_structures;\ncomponentReduce.terms_per_iteration;"
+		},
+		{
+			"cell_id": 1934036658926764725,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"cells": [
+				{
+					"cell_id": 12134452830801691550,
+					"cell_origin": "server",
+					"cell_type": "latex_view",
+					"cells": [
+						{
+							"cell_id": 6466127427938584986,
+							"cell_origin": "server",
+							"cell_type": "input_form",
+							"source": " 1/32 \\e_{i j} \\e_{k l} \\cF_{I J} \\vX^{i k I} \\vX^{j l J} -  1/16 \\e^{\\a \\b} \\e_{i j} \\e_{k l} \\l^{i}_{\\a}^{I} \\l^{k}_{\\b}^{J} \\cF_{I J K} \\vX^{j l K} -  1/8 \\e^{\\a \\b} \\e_{i j} \\e_{k l} \\l^{i}_{\\a}^{I} \\cF_{I J K} \\fB^{k}_{\\b}^{J} \\vX^{j l K} -  1/2 \\e_{\\ad \\bd} \\e^{\\a \\b} \\l^{i}_{\\a}^{I} \\Gamma_{\\b}^{\\ad \\A} \\cF_{I J} \\ri \\vD_{\\A}(\\lb_{i}^{\\bd J}) -  1/16 \\e^{\\a \\b} \\e_{i j} \\e_{k l} \\cF_{I J K} \\fB^{i}_{\\a}^{I} \\fB^{k}_{\\b}^{J} \\vX^{j l K} +  1/16 \\e_{i j} \\e_{k l} \\cF_{I J} \\tB^{i k I} \\vX^{j l J} +  1/2 \\e^{\\a \\b} \\e_{\\ad \\bd} \\Gamma_{\\a}^{\\ad \\A} \\cF_{I J} \\fB^{i}_{\\b}^{I} \\ri \\vD_{\\A}(\\lb_{i}^{\\bd J}) +  1/2 \\e^{\\a \\b} \\e_{\\ad \\bd} \\Gamma_{\\a}^{\\ad \\A} \\Gamma_{\\b}^{\\bd \\B} \\cF_{I} \\vD_{\\A}(\\vD_{\\B}(\\vWb^{I}))-2\\e_{\\ad \\bd} \\e_{\\ld \\pd} Fb^{\\ad \\ld I} Wb^{\\bd \\pd} \\cF_{I}-\\e_{\\ad \\bd} \\e_{\\ld \\pd} \\vW^{I} Wb^{\\ad \\ld} Wb^{\\bd \\pd} \\cF_{I} -  3/2 \\e_{\\ad \\bd} \\e^{i j} \\lb_{i}^{\\ad I} \\cF_{I} \\fSb_{j}^{\\bd} + 3\\vWb^{I} \\cF_{I} \\wD-2\\e^{\\a \\b} \\e^{\\l \\p} F_{\\a \\l}^{I} F_{\\b \\p}^{J} \\cF_{I J}-2\\e^{\\a \\b} \\e^{\\l \\p} \\vWb^{I} F_{\\a \\l}^{J} W_{\\b \\p} \\cF_{I J} +  1/2 \\e^{\\a \\b} \\e^{\\l \\p} \\e_{i j} \\l^{i}_{\\a}^{I} \\l^{j}_{\\l}^{J} F_{\\b \\p}^{K} \\cF_{I J K}-\\e^{\\a \\b} \\e^{\\l \\p} \\e_{i j} \\l^{i}_{\\a}^{I} F_{\\b \\l}^{J} \\cF_{I J K} \\fB^{j}_{\\p}^{K} -  1/2 \\e^{\\a \\b} \\e^{\\l \\p} \\vWb^{I} \\vWb^{J} W_{\\a \\l} W_{\\b \\p} \\cF_{I J} +  1/4 \\e^{\\a \\b} \\e^{\\l \\p} \\e_{i j} \\vWb^{I} \\l^{i}_{\\a}^{J} \\l^{j}_{\\l}^{K} W_{\\b \\p} \\cF_{I J K} -  1/2 \\e^{\\a \\b} \\e^{\\l \\p} \\e_{i j} \\vWb^{I} \\l^{i}_{\\a}^{J} W_{\\b \\l} \\cF_{I J K} \\fB^{j}_{\\p}^{K} -  1/48 \\e^{\\a \\b} \\e^{\\l \\p} \\e_{i j} \\e_{k l} \\l^{i}_{\\a}^{I} \\l^{j}_{\\l}^{J} \\l^{k}_{\\b}^{K} \\l^{l}_{\\p}^{L} \\cF_{I J K L} -  1/12 \\e^{\\a \\b} \\e^{\\l \\p} \\e_{i j} \\e_{k l} \\l^{i}_{\\a}^{I} \\l^{j}_{\\l}^{J} \\l^{k}_{\\b}^{K} \\cF_{I J K L} \\fB^{l}_{\\p}^{L} +  1/24 \\e^{\\a \\b} \\e^{\\l \\p} \\e_{i j} \\e_{k l} \\l^{i}_{\\a}^{I} \\l^{k}_{\\b}^{J} \\cF_{I J K L} \\fB^{j}_{\\l}^{K} \\fB^{l}_{\\p}^{L} -  1/16 \\e^{\\a \\b} \\e_{i j} \\e_{k l} \\l^{i}_{\\a}^{I} \\l^{k}_{\\b}^{J} \\cF_{I J K} \\tB^{j l K} +  1/2 \\e^{\\a \\b} \\e^{\\l \\p} \\e_{i j} F_{\\a \\l}^{I} \\cF_{I J K} \\fB^{i}_{\\b}^{J} \\fB^{j}_{\\p}^{K}-4\\e^{\\a \\b} \\e^{\\l \\p} F_{\\a \\l}^{I} \\cF_{I J} \\tB_{\\b \\p}^{J}-2\\e^{\\a \\b} \\e^{\\l \\p} F_{\\a \\l}^{I} W_{\\b \\p} \\Pb^{J} \\cF_{I J} +  1/4 \\e^{\\a \\b} \\e^{\\l \\p} \\e_{i j} \\vWb^{I} W_{\\a \\l} \\cF_{I J K} \\fB^{i}_{\\b}^{J} \\fB^{j}_{\\p}^{K}-2\\e^{\\a \\b} \\e^{\\l \\p} \\vWb^{I} W_{\\a \\l} \\cF_{I J} \\tB_{\\b \\p}^{J}-\\e^{\\a \\b} \\e^{\\l \\p} \\vWb^{I} W_{\\a \\l} W_{\\b \\p} \\Pb^{J} \\cF_{I J} -  1/24 \\e^{\\a \\b} \\e^{\\l \\p} \\e_{i j} \\e_{k l} \\l^{i}_{\\a}^{I} \\l^{k}_{\\l}^{J} \\cF_{I J K L} \\fB^{j}_{\\p}^{K} \\fB^{l}_{\\b}^{L} +  1/2 \\e^{\\a \\b} \\e^{\\l \\p} \\e_{i j} \\l^{i}_{\\a}^{I} \\l^{j}_{\\l}^{J} \\cF_{I J K} \\tB_{\\b \\p}^{K} +  1/4 \\e^{\\a \\b} \\e^{\\l \\p} \\e_{i j} \\l^{i}_{\\a}^{I} \\l^{j}_{\\l}^{J} W_{\\b \\p} \\Pb^{K} \\cF_{I J K} -  1/24 \\e^{\\a \\b} \\e^{\\l \\p} \\e_{i j} \\e_{k l} \\l^{i}_{\\a}^{I} \\l^{j}_{\\l}^{J} \\cF_{I J K L} \\fB^{k}_{\\b}^{K} \\fB^{l}_{\\p}^{L} -  1/12 \\e^{\\a \\b} \\e^{\\l \\p} \\e_{i j} \\e_{k l} \\l^{i}_{\\a}^{I} \\cF_{I J K L} \\fB^{j}_{\\l}^{J} \\fB^{k}_{\\b}^{K} \\fB^{l}_{\\p}^{L} -  1/8 \\e^{\\a \\b} \\e_{i j} \\e_{k l} \\l^{i}_{\\a}^{I} \\cF_{I J K} \\fB^{k}_{\\b}^{J} \\tB^{j l K} + \\e^{\\a \\b} \\e^{\\l \\p} \\e_{i j} \\l^{i}_{\\a}^{I} \\cF_{I J K} \\fB^{j}_{\\l}^{J} \\tB_{\\b \\p}^{K} -  1/2 \\e^{\\a \\b} \\e^{\\l \\p} \\e_{i j} \\l^{i}_{\\a}^{I} W_{\\b \\l} \\Pb^{J} \\cF_{I J K} \\fB^{j}_{\\p}^{K} -  1/2 \\e_{\\ad \\bd} \\e^{\\a \\b} \\l^{i}_{\\a}^{I} \\Gamma_{\\b}^{\\ad \\A} \\cF_{I J} \\ri \\vD_{\\A}(\\fBb_{i}^{\\bd J}) -  5/16 \\e^{\\a \\b} \\e_{i j} \\l^{i}_{\\a}^{I} \\cF_{I J} \\chi^{j}_{\\b}^{J} \\ri -  1/48 \\e^{\\a \\b} \\e^{\\l \\p} \\e_{i j} \\e_{k l} \\cF_{I J K L} \\fB^{i}_{\\a}^{I} \\fB^{j}_{\\l}^{J} \\fB^{k}_{\\b}^{K} \\fB^{l}_{\\p}^{L} -  1/16 \\e^{\\a \\b} \\e_{i j} \\e_{k l} \\cF_{I J K} \\fB^{i}_{\\a}^{I} \\fB^{k}_{\\b}^{J} \\tB^{j l K} +  1/2 \\e^{\\a \\b} \\e^{\\l \\p} \\e_{i j} \\cF_{I J K} \\fB^{i}_{\\a}^{I} \\fB^{j}_{\\l}^{J} \\tB_{\\b \\p}^{K} +  1/4 \\e^{\\a \\b} \\e^{\\l \\p} \\e_{i j} W_{\\a \\l} \\Pb^{I} \\cF_{I J K} \\fB^{i}_{\\b}^{J} \\fB^{j}_{\\p}^{K}-2\\e^{\\a \\b} \\e^{\\l \\p} \\cF_{I J} \\tB_{\\a \\l}^{I} \\tB_{\\b \\p}^{J}-2\\e^{\\a \\b} \\e^{\\l \\p} W_{\\a \\l} \\Pb^{I} \\cF_{I J} \\tB_{\\b \\p}^{J} +  1/2 \\e^{\\a \\b} \\e_{\\ad \\bd} \\Gamma_{\\a}^{\\ad \\A} \\cF_{I J} \\fB^{i}_{\\b}^{I} \\ri \\vD_{\\A}(\\fBb_{i}^{\\bd J}) -  1/2 \\e^{\\a \\b} \\e^{\\l \\p} W_{\\a \\l} W_{\\b \\p} \\Pb^{I} \\Pb^{J} \\cF_{I J} +  1/32 \\e_{i j} \\e_{k l} \\cF_{I J} \\tB^{i k I} \\tB^{j l J} +  5/16 \\e^{\\a \\b} \\e_{i j} \\cF_{I J} \\chi^{i}_{\\a}^{I} \\fB^{j}_{\\b}^{J} \\ri +  1/2 \\cF_{I} \\ri \\tF^{I} +  1/2 \\e^{\\a \\b} \\e_{\\ad \\bd} \\Gamma_{\\a}^{\\ad \\A} \\Gamma_{\\b}^{\\bd \\B} \\cF_{I} \\vD_{\\A}(\\vD_{\\B}(\\Pb^{I}))-2\\e_{\\ad \\bd} \\e_{\\ld \\pd} Wb^{\\ad \\ld} \\cF_{I} \\tBb^{\\bd \\pd I}-\\e_{\\ad \\bd} \\e_{\\ld \\pd} Wb^{\\ad \\ld} Wb^{\\bd \\pd} \\P^{I} \\cF_{I} -  3/2 \\e_{\\ad \\bd} \\e^{i j} \\cF_{I} \\fBb_{i}^{\\ad I} \\fSb_{j}^{\\bd} + 3\\Pb^{I} \\cF_{I} \\wD"
+						}
+					],
+					"source": "\\begin{dmath*}{}\\frac{1}{32}\\epsilon_{i j} \\epsilon_{k l} \\mathcal{F}_{I J} X^{i k I} X^{j l J} - \\frac{1}{16}\\epsilon^{\\alpha \\beta} \\epsilon_{i j} \\epsilon_{k l} \\lambda^{i}_{\\alpha}{}^{I} \\lambda^{k}_{\\beta}{}^{J} \\mathcal{F}_{I J K} X^{j l K} - \\frac{1}{8}\\epsilon^{\\alpha \\beta} \\epsilon_{i j} \\epsilon_{k l} \\lambda^{i}_{\\alpha}{}^{I} \\mathcal{F}_{I J K} B^{k}\\,_{\\beta}\\,^{J} X^{j l K} - \\frac{1}{2}\\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\epsilon^{\\alpha \\beta} \\lambda^{i}_{\\alpha}{}^{I} \\Gamma_{\\beta}\\,^{\\dot{\\alpha} \\mathcal{A}} \\mathcal{F}_{I J} {\\rm i} \\nabla_{\\mathcal{A}}{\\overline{\\lambda}_{\\,i}^{\\,\\dot{\\beta}}{}^{J}} - \\frac{1}{16}\\epsilon^{\\alpha \\beta} \\epsilon_{i j} \\epsilon_{k l} \\mathcal{F}_{I J K} B^{i}\\,_{\\alpha}\\,^{I} B^{k}\\,_{\\beta}\\,^{J} X^{j l K}+\\frac{1}{16}\\epsilon_{i j} \\epsilon_{k l} \\mathcal{F}_{I J} B^{i k I} X^{j l J}+\\frac{1}{2}\\epsilon^{\\alpha \\beta} \\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\Gamma_{\\alpha}\\,^{\\dot{\\alpha} \\mathcal{A}} \\mathcal{F}_{I J} B^{i}\\,_{\\beta}\\,^{I} {\\rm i} \\nabla_{\\mathcal{A}}{\\overline{\\lambda}_{\\,i}^{\\,\\dot{\\beta}}{}^{J}}+\\frac{1}{2}\\epsilon^{\\alpha \\beta} \\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\Gamma_{\\alpha}\\,^{\\dot{\\alpha} \\mathcal{A}} \\Gamma_{\\beta}\\,^{\\dot{\\beta} \\mathcal{B}} \\mathcal{F}_{I} \\nabla_{\\mathcal{A}}{\\nabla_{\\mathcal{B}}{\\overline{W}^{I}}}-2\\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\epsilon_{\\dot{\\lambda} \\dot{\\rho}} \\overline{F}^{\\dot{\\alpha} \\dot{\\lambda} I} \\overline{W}^{\\dot{\\beta} \\dot{\\rho}} \\mathcal{F}_{I}-\\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\epsilon_{\\dot{\\lambda} \\dot{\\rho}} W^{I} \\overline{W}^{\\dot{\\alpha} \\dot{\\lambda}} \\overline{W}^{\\dot{\\beta} \\dot{\\rho}} \\mathcal{F}_{I} - \\frac{3}{2}\\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\epsilon^{i j} \\overline{\\lambda}_{\\,i}^{\\,\\dot{\\alpha}}{}^{I} \\mathcal{F}_{I} \\overline{\\Sigma}_{j}\\,^{\\dot{\\beta}}+3\\overline{W}^{I} \\mathcal{F}_{I} D-2\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} F_{\\alpha \\lambda}\\,^{I} F_{\\beta \\rho}\\,^{J} \\mathcal{F}_{I J}-2\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\overline{W}^{I} F_{\\alpha \\lambda}\\,^{J} W_{\\beta \\rho} \\mathcal{F}_{I J}+\\frac{1}{2}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{i j} \\lambda^{i}_{\\alpha}{}^{I} \\lambda^{j}_{\\lambda}{}^{J} F_{\\beta \\rho}\\,^{K} \\mathcal{F}_{I J K}-\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{i j} \\lambda^{i}_{\\alpha}{}^{I} F_{\\beta \\lambda}\\,^{J} \\mathcal{F}_{I J K} B^{j}\\,_{\\rho}\\,^{K} - \\frac{1}{2}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\overline{W}^{I} \\overline{W}^{J} W_{\\alpha \\lambda} W_{\\beta \\rho} \\mathcal{F}_{I J}+\\frac{1}{4}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{i j} \\overline{W}^{I} \\lambda^{i}_{\\alpha}{}^{J} \\lambda^{j}_{\\lambda}{}^{K} W_{\\beta \\rho} \\mathcal{F}_{I J K} - \\frac{1}{2}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{i j} \\overline{W}^{I} \\lambda^{i}_{\\alpha}{}^{J} W_{\\beta \\lambda} \\mathcal{F}_{I J K} B^{j}\\,_{\\rho}\\,^{K}%\n - \\frac{1}{48}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{i j} \\epsilon_{k l} \\lambda^{i}_{\\alpha}{}^{I} \\lambda^{j}_{\\lambda}{}^{J} \\lambda^{k}_{\\beta}{}^{K} \\lambda^{l}_{\\rho}{}^{L} \\mathcal{F}_{I J K L} - \\frac{1}{12}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{i j} \\epsilon_{k l} \\lambda^{i}_{\\alpha}{}^{I} \\lambda^{j}_{\\lambda}{}^{J} \\lambda^{k}_{\\beta}{}^{K} \\mathcal{F}_{I J K L} B^{l}\\,_{\\rho}\\,^{L}+\\frac{1}{24}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{i j} \\epsilon_{k l} \\lambda^{i}_{\\alpha}{}^{I} \\lambda^{k}_{\\beta}{}^{J} \\mathcal{F}_{I J K L} B^{j}\\,_{\\lambda}\\,^{K} B^{l}\\,_{\\rho}\\,^{L} - \\frac{1}{16}\\epsilon^{\\alpha \\beta} \\epsilon_{i j} \\epsilon_{k l} \\lambda^{i}_{\\alpha}{}^{I} \\lambda^{k}_{\\beta}{}^{J} \\mathcal{F}_{I J K} B^{j l K}+\\frac{1}{2}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{i j} F_{\\alpha \\lambda}\\,^{I} \\mathcal{F}_{I J K} B^{i}\\,_{\\beta}\\,^{J} B^{j}\\,_{\\rho}\\,^{K}-4\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} F_{\\alpha \\lambda}\\,^{I} \\mathcal{F}_{I J} B_{\\beta \\rho}\\,^{J}-2\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} F_{\\alpha \\lambda}\\,^{I} W_{\\beta \\rho} \\overline{\\Psi}^{J} \\mathcal{F}_{I J}+\\frac{1}{4}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{i j} \\overline{W}^{I} W_{\\alpha \\lambda} \\mathcal{F}_{I J K} B^{i}\\,_{\\beta}\\,^{J} B^{j}\\,_{\\rho}\\,^{K}-2\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\overline{W}^{I} W_{\\alpha \\lambda} \\mathcal{F}_{I J} B_{\\beta \\rho}\\,^{J}-\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\overline{W}^{I} W_{\\alpha \\lambda} W_{\\beta \\rho} \\overline{\\Psi}^{J} \\mathcal{F}_{I J} - \\frac{1}{24}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{i j} \\epsilon_{k l} \\lambda^{i}_{\\alpha}{}^{I} \\lambda^{k}_{\\lambda}{}^{J} \\mathcal{F}_{I J K L} B^{j}\\,_{\\rho}\\,^{K} B^{l}\\,_{\\beta}\\,^{L}+\\frac{1}{2}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{i j} \\lambda^{i}_{\\alpha}{}^{I} \\lambda^{j}_{\\lambda}{}^{J} \\mathcal{F}_{I J K} B_{\\beta \\rho}\\,^{K}+\\frac{1}{4}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{i j} \\lambda^{i}_{\\alpha}{}^{I} \\lambda^{j}_{\\lambda}{}^{J} W_{\\beta \\rho} \\overline{\\Psi}^{K} \\mathcal{F}_{I J K} - \\frac{1}{24}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{i j} \\epsilon_{k l} \\lambda^{i}_{\\alpha}{}^{I} \\lambda^{j}_{\\lambda}{}^{J} \\mathcal{F}_{I J K L} B^{k}\\,_{\\beta}\\,^{K} B^{l}\\,_{\\rho}\\,^{L} - \\frac{1}{12}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{i j} \\epsilon_{k l} \\lambda^{i}_{\\alpha}{}^{I} \\mathcal{F}_{I J K L} B^{j}\\,_{\\lambda}\\,^{J} B^{k}\\,_{\\beta}\\,^{K} B^{l}\\,_{\\rho}\\,^{L} - \\frac{1}{8}\\epsilon^{\\alpha \\beta} \\epsilon_{i j} \\epsilon_{k l} \\lambda^{i}_{\\alpha}{}^{I} \\mathcal{F}_{I J K} B^{k}\\,_{\\beta}\\,^{J} B^{j l K}+\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{i j} \\lambda^{i}_{\\alpha}{}^{I} \\mathcal{F}_{I J K} B^{j}\\,_{\\lambda}\\,^{J} B_{\\beta \\rho}\\,^{K} - \\frac{1}{2}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{i j} \\lambda^{i}_{\\alpha}{}^{I} W_{\\beta \\lambda} \\overline{\\Psi}^{J} \\mathcal{F}_{I J K} B^{j}\\,_{\\rho}\\,^{K} - \\frac{1}{2}\\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\epsilon^{\\alpha \\beta} \\lambda^{i}_{\\alpha}{}^{I} \\Gamma_{\\beta}\\,^{\\dot{\\alpha} \\mathcal{A}} \\mathcal{F}_{I J} {\\rm i} \\nabla_{\\mathcal{A}}{\\overline{B}_{i}\\,^{\\dot{\\beta} J}} - \\frac{5}{16}\\epsilon^{\\alpha \\beta} \\epsilon_{i j} \\lambda^{i}_{\\alpha}{}^{I} \\mathcal{F}_{I J} \\chi^{j}\\,_{\\beta}\\,^{J} {\\rm i}%\n - \\frac{1}{48}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{i j} \\epsilon_{k l} \\mathcal{F}_{I J K L} B^{i}\\,_{\\alpha}\\,^{I} B^{j}\\,_{\\lambda}\\,^{J} B^{k}\\,_{\\beta}\\,^{K} B^{l}\\,_{\\rho}\\,^{L} - \\frac{1}{16}\\epsilon^{\\alpha \\beta} \\epsilon_{i j} \\epsilon_{k l} \\mathcal{F}_{I J K} B^{i}\\,_{\\alpha}\\,^{I} B^{k}\\,_{\\beta}\\,^{J} B^{j l K}+\\frac{1}{2}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{i j} \\mathcal{F}_{I J K} B^{i}\\,_{\\alpha}\\,^{I} B^{j}\\,_{\\lambda}\\,^{J} B_{\\beta \\rho}\\,^{K}+\\frac{1}{4}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\epsilon_{i j} W_{\\alpha \\lambda} \\overline{\\Psi}^{I} \\mathcal{F}_{I J K} B^{i}\\,_{\\beta}\\,^{J} B^{j}\\,_{\\rho}\\,^{K}-2\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} \\mathcal{F}_{I J} B_{\\alpha \\lambda}\\,^{I} B_{\\beta \\rho}\\,^{J}-2\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} W_{\\alpha \\lambda} \\overline{\\Psi}^{I} \\mathcal{F}_{I J} B_{\\beta \\rho}\\,^{J}+\\frac{1}{2}\\epsilon^{\\alpha \\beta} \\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\Gamma_{\\alpha}\\,^{\\dot{\\alpha} \\mathcal{A}} \\mathcal{F}_{I J} B^{i}\\,_{\\beta}\\,^{I} {\\rm i} \\nabla_{\\mathcal{A}}{\\overline{B}_{i}\\,^{\\dot{\\beta} J}} - \\frac{1}{2}\\epsilon^{\\alpha \\beta} \\epsilon^{\\lambda \\rho} W_{\\alpha \\lambda} W_{\\beta \\rho} \\overline{\\Psi}^{I} \\overline{\\Psi}^{J} \\mathcal{F}_{I J}+\\frac{1}{32}\\epsilon_{i j} \\epsilon_{k l} \\mathcal{F}_{I J} B^{i k I} B^{j l J}+\\frac{5}{16}\\epsilon^{\\alpha \\beta} \\epsilon_{i j} \\mathcal{F}_{I J} \\chi^{i}\\,_{\\alpha}\\,^{I} B^{j}\\,_{\\beta}\\,^{J} {\\rm i}+\\frac{1}{2}\\mathcal{F}_{I} {\\rm i} F^{I}+\\frac{1}{2}\\epsilon^{\\alpha \\beta} \\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\Gamma_{\\alpha}\\,^{\\dot{\\alpha} \\mathcal{A}} \\Gamma_{\\beta}\\,^{\\dot{\\beta} \\mathcal{B}} \\mathcal{F}_{I} \\nabla_{\\mathcal{A}}{\\nabla_{\\mathcal{B}}{\\overline{\\Psi}^{I}}}-2\\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\epsilon_{\\dot{\\lambda} \\dot{\\rho}} \\overline{W}^{\\dot{\\alpha} \\dot{\\lambda}} \\mathcal{F}_{I} \\overline{B}^{\\dot{\\beta} \\dot{\\rho} I}-\\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\epsilon_{\\dot{\\lambda} \\dot{\\rho}} \\overline{W}^{\\dot{\\alpha} \\dot{\\lambda}} \\overline{W}^{\\dot{\\beta} \\dot{\\rho}} \\Psi^{I} \\mathcal{F}_{I} - \\frac{3}{2}\\epsilon_{\\dot{\\alpha} \\dot{\\beta}} \\epsilon^{i j} \\mathcal{F}_{I} \\overline{B}_{i}\\,^{\\dot{\\alpha} I} \\overline{\\Sigma}_{j}\\,^{\\dot{\\beta}}+3\\overline{\\Psi}^{I} \\mathcal{F}_{I} D\\end{dmath*}"
+				},
+				{
+					"cell_id": 6744560157222652996,
+					"cell_origin": "server",
+					"cell_type": "latex_view",
+					"source": "{}$\\big[$$\\verb|{'\\\\D': 0, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 0, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 0, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$$\\big]$"
+				},
+				{
+					"cell_id": 2254589166066951036,
+					"cell_origin": "server",
+					"cell_type": "latex_view",
+					"source": "{}$\\big[$$\\verb|55|$,\\discretionary{}{}{} $\\verb|55|$,\\discretionary{}{}{} $\\verb|55|$$\\big]$"
+				}
+			],
+			"source": "#ex42 :=  (1/48) \\e^{\\a \\b} \\Lambda^{j}_{\\b}^{A}\\D_{A}{@(ex32)};\ncomponentReduce = CleverSimplify(ex42)\ncomponentReduce.main(10);\ncomponentReduce.logical_structures;\ncomponentReduce.terms_per_iteration;"
+		},
+		{
+			"cell_id": 2094227092333758983,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"cells": [
+				{
+					"cell_id": 908347420497050746,
+					"cell_origin": "server",
+					"cell_type": "latex_view",
+					"cells": [
+						{
+							"cell_id": 17875932903228632457,
+							"cell_origin": "server",
+							"cell_type": "input_form",
+							"source": "0"
+						}
+					],
+					"source": "\\begin{dmath*}{}0\\end{dmath*}"
+				},
+				{
+					"cell_id": 10937007322006415731,
+					"cell_origin": "server",
+					"cell_type": "verbatim",
+					"source": "\\begin{verbatim}1\\end{verbatim}"
+				},
+				{
+					"cell_id": 4808293544043701848,
+					"cell_origin": "server",
+					"cell_type": "latex_view",
+					"cells": [
+						{
+							"cell_id": 8810073091951689574,
+							"cell_origin": "server",
+							"cell_type": "input_form",
+							"source": "0"
+						}
+					],
+					"source": "\\begin{dmath*}{}0\\end{dmath*}"
+				},
+				{
+					"cell_id": 9254404900069641838,
+					"cell_origin": "server",
+					"cell_type": "latex_view",
+					"source": "{}$\\big[$$\\verb|{'\\\\D': 0, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 0, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 0, '\\\\Db': 0, '\\\\vD': 0, 'Y': 0, 'K': 0, 'S': 0, 'Sb': 0, 'D': 0, 'M': 0, 'Mb': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IGamma': 0, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0}|$$\\big]$"
+				},
+				{
+					"cell_id": 9214165943846449530,
+					"cell_origin": "server",
+					"cell_type": "latex_view",
+					"source": "{}$\\big[$$\\verb|1|$,\\discretionary{}{}{} $\\verb|1|$,\\discretionary{}{}{} $\\verb|1|$$\\big]$"
+				}
+			],
+			"source": "ex4 := (1/2) @(ex41) - (1/2) @(ex42);\ncount_terms(ex4);\ncomponentReduce = CleverSimplify(ex4)\ncomponentReduce.main(10);\ncomponentReduce.logical_structures;\ncomponentReduce.terms_per_iteration;"
+		},
+		{
+			"cell_id": 7345085980449058013,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": ""
 		},
 		{
 			"cell_id": 13575719641252168083,
