@@ -1522,7 +1522,7 @@
 					"source": "\\begin{dmath*}{}\\Lambda^{\\alpha}\\,_{i}\\,^{A} \\Lambda^{\\beta}\\,_{j}\\,^{B} G_{C A B}\\end{dmath*}"
 				}
 			],
-			"source": "sub_test := {\r\n\t\\D_{A}{\\cW^{I}} -> \\l_{A},\n\t\\D_{A}{\\l_{B}} -> Z_{A B},\n\t\\D_{C}{Z_{A B}} -> G_{C A B}\r\n}.\r\n\nex := \\Lambda^{\\a}_{i}^{A}\\Lambda^{\\b}_{j}^{B} \\D_{C}{\\D_{A}{\\D_{B}{\\cW^{I}}}};\nsubstitute(_, sub_test);"
+			"source": "sub_test := {\r\n\t\\D_{A}{\\cW^{I}} -> \\fl_{A},\n\t\\D_{A}{\\fl_{B}} -> Z_{A B},\n\t\\D_{C}{Z_{A B}} -> G_{C A B}\r\n}.\r\n\nex := \\Lambda^{\\a}_{i}^{A}\\Lambda^{\\b}_{j}^{B} \\D_{C}{\\D_{A}{\\D_{B}{\\cW^{I}}}};\nsubstitute(_, sub_test);"
 		},
 		{
 			"cell_id": 11121429584290862581,
