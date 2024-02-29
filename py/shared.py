@@ -1,6 +1,4 @@
 ### This file contains classes with logic or python-specific code useful to all representations. ###
-from cadabra2 import *
-
 class ExpressionSaver:
     def __init__(self, file_path):
         self.file_path = file_path
@@ -9,8 +7,8 @@ class ExpressionSaver:
             file.write(exp.input_form()+"\n")
     def read(self, file_name):
         with open(self.file_path + file_name, "r") as file:
-            exp = Ex(file.readline())
-        return exp 
+            exp_string = file.readline()
+        return exp_string 
 
 import time
 
@@ -33,6 +31,7 @@ class StopWatch:
         print(str(round(self.end_time - self.start_time, precision)) + 's') 
 
 import re
+from cadabra2 import *
 
 class Sort:
     def __init__(self, sort_order, anti_commute):
