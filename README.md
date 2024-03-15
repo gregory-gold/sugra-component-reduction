@@ -36,8 +36,16 @@ imports several useful modules (in the form of cadabra notebooks) for $5D$ compo
 
 ## Usage
 
+The best way to learn how to use this tool is by the Tutorial notebooks in $4D$ and in $5D$. Assuming prior knowledge of cadabra, they explain various caveats and features unique to our tool. They then proceed to generate various objects in components and run consistency checks. 
+
+- For example, from the `TutorialWeyl2.cnb` notebook in $5D$, here is the definition of the composite object $H^{i j}_{\textrm{Weyl}^2}$ with various checks that generates a curvature-squared superconformal invariant in $5D, \mathcal{N}=1$ SUGRA (see arxiv:1410.8682).
+
 ![Alt text](/images/notebookHijWeyl2.png?raw=true "HijWeyl2 Example")
 
+- Also from the `TutorialWeyl2.cnb` notebook, here is the generation of one of its bosonic descendant fields $F_{\textrm{Weyl}^2}$. 
+
 ![Alt text](/images/notebookFWeyl2.png?raw=true "FWeyl2 Example")
+
+- Finally, from the `logInvariant.cnb` notebook, here is the generation of $H^{i j}_{\textrm{log}}$ that first appeared in arxiv:2302.14295 that generates a new curvature-squared superconformal invariant in $5D, \mathcal{N}=1$ SUGRA.
 
 ![Alt text](/images/notebookHijLog.png?raw=true "HijLog Example")

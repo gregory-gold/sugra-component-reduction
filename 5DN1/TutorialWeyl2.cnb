@@ -445,12 +445,12 @@
 			"cell_type": "input",
 			"cells": [
 				{
-					"cell_id": 9534874545207787755,
+					"cell_id": 15510372959168895946,
 					"cell_origin": "server",
 					"cell_type": "latex_view",
 					"cells": [
 						{
-							"cell_id": 13117878772241114832,
+							"cell_id": 17682897145719833644,
 							"cell_origin": "server",
 							"cell_type": "input_form",
 							"source": " -  1/2 I \\e^{\\alpha1 \\a} \\e^{\\alpha2 \\b} \\e^{\\alpha3 \\g} \\fW_{\\a \\b \\g}^{i} \\fW_{\\alpha1 \\alpha2 \\alpha3}^{j} +  3/2 I \\e^{\\a \\alpha1} \\e^{\\b \\alpha2} W_{\\alpha1 \\alpha2} \\wX_{\\a \\b}^{i j} -  3/4 I \\e^{\\a \\b} \\fX^{i}_{\\b} \\fX^{j}_{\\a}"
@@ -459,12 +459,12 @@
 					"source": "\\begin{dmath*}{} - \\frac{1}{2}I \\epsilon^{{\\alpha_{1}} \\alpha} \\epsilon^{{\\alpha_{2}} \\beta} \\epsilon^{{\\alpha_{3}} \\gamma} W_{\\alpha \\beta \\gamma}\\,^{i} W_{{\\alpha_{1}} {\\alpha_{2}} {\\alpha_{3}}}\\,^{j}+\\frac{3}{2}I \\epsilon^{\\alpha {\\alpha_{1}}} \\epsilon^{\\beta {\\alpha_{2}}} W_{{\\alpha_{1}} {\\alpha_{2}}} X_{\\alpha \\beta}\\,^{i j} - \\frac{3}{4}I \\epsilon^{\\alpha \\beta} X^{i}_{\\beta} X^{j}_{\\alpha}\\end{dmath*}"
 				},
 				{
-					"cell_id": 7610855506209423866,
+					"cell_id": 4869666854768947939,
 					"cell_origin": "server",
 					"cell_type": "latex_view",
 					"cells": [
 						{
-							"cell_id": 15069362329578189625,
+							"cell_id": 15960418138243694495,
 							"cell_origin": "server",
 							"cell_type": "input_form",
 							"source": "K^{a}( -  1/2 I \\e^{\\alpha1 \\a} \\e^{\\alpha2 \\b} \\e^{\\alpha3 \\g} \\fW_{\\a \\b \\g}^{i} \\fW_{\\alpha1 \\alpha2 \\alpha3}^{j} +  3/2 I \\e^{\\a \\alpha1} \\e^{\\b \\alpha2} W_{\\alpha1 \\alpha2} \\wX_{\\a \\b}^{i j} -  3/4 I \\e^{\\a \\b} \\fX^{i}_{\\b} \\fX^{j}_{\\a})"
@@ -473,12 +473,12 @@
 					"source": "\\begin{dmath*}{}K^{a}\\left( - \\frac{1}{2}I \\epsilon^{{\\alpha_{1}} \\alpha} \\epsilon^{{\\alpha_{2}} \\beta} \\epsilon^{{\\alpha_{3}} \\gamma} W_{\\alpha \\beta \\gamma}\\,^{i} W_{{\\alpha_{1}} {\\alpha_{2}} {\\alpha_{3}}}\\,^{j}+\\frac{3}{2}I \\epsilon^{\\alpha {\\alpha_{1}}} \\epsilon^{\\beta {\\alpha_{2}}} W_{{\\alpha_{1}} {\\alpha_{2}}} X_{\\alpha \\beta}\\,^{i j} - \\frac{3}{4}I \\epsilon^{\\alpha \\beta} X^{i}_{\\beta} X^{j}_{\\alpha}\\right)\\end{dmath*}"
 				},
 				{
-					"cell_id": 888662973569547964,
+					"cell_id": 2962381850744015375,
 					"cell_origin": "server",
 					"cell_type": "latex_view",
 					"cells": [
 						{
-							"cell_id": 15165609129093870704,
+							"cell_id": 18060861449845135077,
 							"cell_origin": "server",
 							"cell_type": "input_form",
 							"source": "0"
@@ -487,12 +487,12 @@
 					"source": "\\begin{dmath*}{}0\\end{dmath*}"
 				},
 				{
-					"cell_id": 8863104135228884781,
+					"cell_id": 3306492582038323493,
 					"cell_origin": "server",
 					"cell_type": "latex_view",
 					"cells": [
 						{
-							"cell_id": 9400411418687772163,
+							"cell_id": 2772606689333055364,
 							"cell_origin": "server",
 							"cell_type": "input_form",
 							"source": "\\Lambda_{i}^{\\a A} S_{A}( -  1/2 I \\e^{\\alpha1 \\p} \\e^{\\alpha2 \\b} \\e^{\\alpha3 \\g} \\fW_{\\p \\b \\g}^{i} \\fW_{\\alpha1 \\alpha2 \\alpha3}^{j} +  3/2 I \\e^{\\p \\alpha1} \\e^{\\b \\alpha2} W_{\\alpha1 \\alpha2} \\wX_{\\p \\b}^{i j} -  3/4 I \\e^{\\p \\b} \\fX^{i}_{\\b} \\fX^{j}_{\\p})"
@@ -501,12 +501,26 @@
 					"source": "\\begin{dmath*}{}\\Lambda_{i}\\,^{\\alpha A} S_{A}\\left( - \\frac{1}{2}I \\epsilon^{{\\alpha_{1}} \\rho} \\epsilon^{{\\alpha_{2}} \\beta} \\epsilon^{{\\alpha_{3}} \\gamma} W_{\\rho \\beta \\gamma}\\,^{i} W_{{\\alpha_{1}} {\\alpha_{2}} {\\alpha_{3}}}\\,^{j}+\\frac{3}{2}I \\epsilon^{\\rho {\\alpha_{1}}} \\epsilon^{\\beta {\\alpha_{2}}} W_{{\\alpha_{1}} {\\alpha_{2}}} X_{\\rho \\beta}\\,^{i j} - \\frac{3}{4}I \\epsilon^{\\rho \\beta} X^{i}_{\\beta} X^{j}_{\\rho}\\right)\\end{dmath*}"
 				},
 				{
-					"cell_id": 5051707947659784863,
+					"cell_id": 5812919518982982110,
 					"cell_origin": "server",
 					"cell_type": "latex_view",
 					"cells": [
 						{
-							"cell_id": 17165895645700467647,
+							"cell_id": 2803390062341375583,
+							"cell_origin": "server",
+							"cell_type": "input_form",
+							"source": "0"
+						}
+					],
+					"source": "\\begin{dmath*}{}0\\end{dmath*}"
+				},
+				{
+					"cell_id": 6338247829337664803,
+					"cell_origin": "server",
+					"cell_type": "latex_view",
+					"cells": [
+						{
+							"cell_id": 10320509210085375657,
 							"cell_origin": "server",
 							"cell_type": "input_form",
 							"source": "\\Symmetrize_{i j k}^{i1 i2 i3} \\Lambda^{k}_{\\a}^{A} \\D_{A}( -  1/2 I \\e^{\\alpha1 \\p} \\e^{\\alpha2 \\b} \\e^{\\alpha3 \\g} \\fW_{\\p \\b \\g}^{i} \\fW_{\\alpha1 \\alpha2 \\alpha3}^{j} +  3/2 I \\e^{\\p \\alpha1} \\e^{\\b \\alpha2} W_{\\alpha1 \\alpha2} \\wX_{\\p \\b}^{i j} -  3/4 I \\e^{\\p \\b} \\fX^{i}_{\\b} \\fX^{j}_{\\p})"
@@ -515,12 +529,12 @@
 					"source": "\\begin{dmath*}{}\\mathbb{S}_{i j k}\\,^{{i_{1}} {i_{2}} {i_{3}}} (\\Lambda)^{k}_{\\alpha}{}^{A} \\nabla_{A}\\left( - \\frac{1}{2}I \\epsilon^{{\\alpha_{1}} \\rho} \\epsilon^{{\\alpha_{2}} \\beta} \\epsilon^{{\\alpha_{3}} \\gamma} W_{\\rho \\beta \\gamma}\\,^{i} W_{{\\alpha_{1}} {\\alpha_{2}} {\\alpha_{3}}}\\,^{j}+\\frac{3}{2}I \\epsilon^{\\rho {\\alpha_{1}}} \\epsilon^{\\beta {\\alpha_{2}}} W_{{\\alpha_{1}} {\\alpha_{2}}} X_{\\rho \\beta}\\,^{i j} - \\frac{3}{4}I \\epsilon^{\\rho \\beta} X^{i}_{\\beta} X^{j}_{\\rho}\\right)\\end{dmath*}"
 				},
 				{
-					"cell_id": 17814435966748434350,
+					"cell_id": 14632518718843383626,
 					"cell_origin": "server",
 					"cell_type": "latex_view",
 					"cells": [
 						{
-							"cell_id": 17319781857755787144,
+							"cell_id": 7598678906356108892,
 							"cell_origin": "server",
 							"cell_type": "input_form",
 							"source": "0"
@@ -529,7 +543,7 @@
 					"source": "\\begin{dmath*}{}0\\end{dmath*}"
 				}
 			],
-			"source": "## Definition and simple consitency checks that should all equal zero ##\nconsitency_check = True\nHijWeyl:=  - (I/2) \\e^{\\alpha1 \\a} \\e^{\\alpha2 \\b} \\e^{\\alpha3 \\g} \\fW_{\\a \\b \\g}^{i} \\fW_{\\alpha1 \\alpha2 \\alpha3}^{j} \n\t\t + (3 I / 2) \\e^{\\a \\alpha1} \\e^{\\b \\alpha2} W_{\\alpha1 \\alpha2} \\wX_{\\a \\b}^{i j} \n\t      - (3 I / 4) \\e^{\\a \\b} \\fX^{i}_{\\b} \\fX^{j}_{\\a}; \n\ncheck1 := K^{a}{@(HijWeyl)};\nconsistencyCheck = CleverSimplify(check1)\nconsistencyCheck.main(5, consitency_check);\n\ncheck2 := \\Lambda_{i}^{\\a}^{A} S_{A}{@(HijWeyl)};\nconsistencyCheck = CleverSimplify(check2)\nconsistencyCheck.main(6, consitency_check)\n\ncheck3 := \\Symmetrize_{i j k}^{i1 i2 i3} \\Lambda^{k}_{\\a}^{A} \\D_{A}{@(HijWeyl)};\nconsistencyCheck = CleverSimplify(check3)\nconsistencyCheck.main(6, consitency_check);"
+			"source": "## Definition and simple consitency checks that should all equal zero ##\nconsitency_check = True\nHijWeyl:=  - (I/2) \\e^{\\alpha1 \\a} \\e^{\\alpha2 \\b} \\e^{\\alpha3 \\g} \\fW_{\\a \\b \\g}^{i} \\fW_{\\alpha1 \\alpha2 \\alpha3}^{j} \n\t\t + (3 I / 2) \\e^{\\a \\alpha1} \\e^{\\b \\alpha2} W_{\\alpha1 \\alpha2} \\wX_{\\a \\b}^{i j} \n\t      - (3 I / 4) \\e^{\\a \\b} \\fX^{i}_{\\b} \\fX^{j}_{\\a}; \n\ncheck1 := K^{a}{@(HijWeyl)};\nconsistencyCheck = CleverSimplify(check1)\nconsistencyCheck.main(5, consitency_check);\n\ncheck2 := \\Lambda_{i}^{\\a}^{A} S_{A}{@(HijWeyl)};\nconsistencyCheck = CleverSimplify(check2)\nconsistencyCheck.main(6, consitency_check);\n\ncheck3 := \\Symmetrize_{i j k}^{i1 i2 i3} \\Lambda^{k}_{\\a}^{A} \\D_{A}{@(HijWeyl)};\nconsistencyCheck = CleverSimplify(check3)\nconsistencyCheck.main(6, consitency_check);"
 		},
 		{
 			"cell_id": 12850270623000891059,
@@ -646,7 +660,7 @@
 					"source": "{}$\\big[$$\\verb|{'\\\\D': 1, 'K': 0, 'S': 0, '\\\\vD': 0, '\\\\mD': 0, '\\\\cD': 0, 'M': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IOmega': 0, '\\\\IAOmega': 0, '\\\\Symmetrize': 0, '\\\\ASymmetrize': 0, '\\\\sum': 1, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 1, 'identity_contracts': 0, 'collect_vW_terms': 0, 'collect_G_terms': 0, 'eLevi_contract_terms': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 13, 'K': 0, 'S': 0, '\\\\vD': 0, '\\\\mD': 0, '\\\\cD': 0, 'M': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IOmega': 0, '\\\\IAOmega': 0, '\\\\Symmetrize': 0, '\\\\ASymmetrize': 0, '\\\\sum': 0, '\\\\prod': 13, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0, 'collect_vW_terms': 0, 'collect_G_terms': 0, 'eLevi_contract_terms': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 27, 'K': 0, 'S': 0, '\\\\vD': 8, '\\\\mD': 0, '\\\\cD': 0, 'M': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IOmega': 0, '\\\\IAOmega': 0, '\\\\Symmetrize': 0, '\\\\ASymmetrize': 0, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0, 'collect_vW_terms': 0, 'collect_G_terms': 0, 'eLevi_contract_terms': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 51, 'K': 0, 'S': 0, '\\\\vD': 0, '\\\\mD': 0, '\\\\cD': 0, 'M': 0, 'J': 0, '\\\\ILambda': 224, '\\\\IOmega': 68, '\\\\IAOmega': 156, '\\\\Symmetrize': 122, '\\\\ASymmetrize': 116, '\\\\sum': 18, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 8, 'identity_contracts': 0, 'collect_vW_terms': 0, 'collect_G_terms': 0, 'eLevi_contract_terms': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 71, 'K': 0, 'S': 0, '\\\\vD': 0, '\\\\mD': 0, '\\\\cD': 0, 'M': 0, 'J': 0, '\\\\ILambda': 272, '\\\\IOmega': 0, '\\\\IAOmega': 600, '\\\\Symmetrize': 204, '\\\\ASymmetrize': 0, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 600, 'identity_contracts': 0, 'collect_vW_terms': 0, 'collect_G_terms': 0, 'eLevi_contract_terms': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 0, 'K': 0, 'S': 0, '\\\\vD': 0, '\\\\mD': 0, '\\\\cD': 0, 'M': 0, 'J': 0, '\\\\ILambda': 466, '\\\\IOmega': 0, '\\\\IAOmega': 0, '\\\\Symmetrize': 176, '\\\\ASymmetrize': 0, '\\\\sum': 0, '\\\\prod': 44, '\\\\pow': 0, 'epsilon_contracts': 459, 'identity_contracts': 0, 'collect_vW_terms': 0, 'collect_G_terms': 0, 'eLevi_contract_terms': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 0, 'K': 0, 'S': 0, '\\\\vD': 0, '\\\\mD': 0, '\\\\cD': 0, 'M': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IOmega': 0, '\\\\IAOmega': 0, '\\\\Symmetrize': 70, '\\\\ASymmetrize': 0, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 213, 'identity_contracts': 0, 'collect_vW_terms': 0, 'collect_G_terms': 0, 'eLevi_contract_terms': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 0, 'K': 0, 'S': 0, '\\\\vD': 0, '\\\\mD': 0, '\\\\cD': 0, 'M': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IOmega': 0, '\\\\IAOmega': 0, '\\\\Symmetrize': 0, '\\\\ASymmetrize': 0, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 7, 'identity_contracts': 0, 'collect_vW_terms': 0, 'collect_G_terms': 0, 'eLevi_contract_terms': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 0, 'K': 0, 'S': 0, '\\\\vD': 0, '\\\\mD': 0, '\\\\cD': 0, 'M': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IOmega': 0, '\\\\IAOmega': 0, '\\\\Symmetrize': 0, '\\\\ASymmetrize': 0, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0, 'collect_vW_terms': 0, 'collect_G_terms': 0, 'eLevi_contract_terms': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 0, 'K': 0, 'S': 0, '\\\\vD': 0, '\\\\mD': 0, '\\\\cD': 0, 'M': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IOmega': 0, '\\\\IAOmega': 0, '\\\\Symmetrize': 0, '\\\\ASymmetrize': 0, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0, 'collect_vW_terms': 0, 'collect_G_terms': 0, 'eLevi_contract_terms': 0}|$,\\discretionary{}{}{} $\\verb|{'\\\\D': 0, 'K': 0, 'S': 0, '\\\\vD': 0, '\\\\mD': 0, '\\\\cD': 0, 'M': 0, 'J': 0, '\\\\ILambda': 0, '\\\\IOmega': 0, '\\\\IAOmega': 0, '\\\\Symmetrize': 0, '\\\\ASymmetrize': 0, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0, 'epsilon_contracts': 0, 'identity_contracts': 0, 'collect_vW_terms': 0, 'collect_G_terms': 0, 'eLevi_contract_terms': 0}|$$\\big]$"
 				}
 			],
-			"source": "# This is the superspace definition for the first bosonic descendent.\nFWeyl := (1/4) I \\Lambda_{i}^{\\a}^{A}  \\D_{A}{@(varphiWeyl)};\ncleverSimplify = CleverSimplify(FWeyl)\ncleverSimplify.main(25);\ncleverSimplify.terms_per_iteration;\ncleverSimplify.logical_structures;\ncomponentReduce.timer.check_time()"
+			"source": "# This is the superspace definition for the first bosonic descendent.\nFWeyl := (1/4) I \\Lambda_{i}^{\\a}^{A}  \\D_{A}{@(varphiWeyl)};\ncleverSimplify = CleverSimplify(FWeyl)\ncleverSimplify.main(25);\ncleverSimplify.terms_per_iteration;"
 		},
 		{
 			"cell_id": 4977116016737658834,
