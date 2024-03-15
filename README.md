@@ -18,25 +18,24 @@ Once installed, run the following command in Terminal or WSL
 cadabra2-gtk
 ```
 
-and open or create a notebook in the desired representation. If creating a noteboook, make sure to save it at the highest level in the representation folder (i.e., 5DN1 and 4DN2) and import the appropriate modules.
+and open or create a notebook in the desired representation. If creating a noteboook, make sure to save it at the highest level in the representation folder (i.e., 5DN1 and 4DN2) and import the appropriate modules. For example, 
 
 ```python
 from sugra5DN1 import *
 ```
-This command imports several useful modules for 5D component reduction: `shared`, `latex_macros`, `props`, `subs`, `methods`, and `objects`.
+imports several useful modules (in the form of cadabra notebooks) for $5D$ component reduction: 
 
-In the `latex_macros` module, we define shorthand notations for various objects. For example, "\a::LaTeXForm("\alpha")" means that "\a" will render as "\alpha" in LaTeX. We use these shorthand notations throughout our modules.
+- `latex_macros`:  Shorthand LaTeX notations for various objects are define here. For example, `\a::LaTeXForm("\alpha")` means that `\a` will render as $\alpha$ in LaTeX. We use these shorthand notations throughout.
 
-The `shared` module is shared between both 4D and 5D component reduction notebooks. Within it, we've implemented general classes, notably including a sorting algorithm. This algorithm determines how to commute or anti-commute two objects to position them correctly within a term, as described by a sort order.
+- `props`: Cadabra properties are assigned to indices and objects. For example, it specifies that the vector index in $5D$ should range from 0 to 4, the spinor index from 1 to 4, and the SU(2) index from 1 to 2. Additionally, fermionic nature is designated for specific objects and indices; if not specified, all are considered bosonic by default. This module also handles defining symmetry properties of objects and declaring all generators as derivatives.
 
-Within the `Props` module, properties are assigned to indices and objects. For example, it specifies that the vector index in 5D should range from 0 to 4, the spinor index from 1 to 4, and the SU(2) index from 1 to 2. Additionally, fermionic nature is designated for specific objects and indices; if not specified, all are considered bosonic by default. This module also handles defining symmetry properties of objects and declaring all generators as derivatives.
+- `subs`:  Defines all necessary substitutions in $5D, \mathcal{N}=1$ component reduction, including algebra, generators, covariant spinor derivatives acting on fields, contractions, gamma/sigma properties, and more.
 
-The `subs` module defines all necessary substitutions in 5D N=1 component reduction, including algebra, generators, covariant spinor derivatives acting on fields, contractions, gamma/sigma properties, and more.
+- `methods`:  Includes all pythonic algorithms in classes and stand-alone methods used in component reduction. For example, we've implemented a `cleversimplify` class. This class determines the optimized order in which operations should act to simplify and reduce an expression to components.
 
-In the `methods` module, we've implemented a `cleversimplify` class. This class determines the order in which operations should act to simplify and reduce an expression to components.
+- `objects`: Includes predefined objects such as fields and actions that are used in frequently in specific notebooks.
 
-See the example notebooks for more detail.
-
+- `shared`: Includes python code that is shared between $4D$ and $5D$. For example, this notably includes a sorting algorithm that determines how to commute or anti-commute two objects to position them correctly within a term, as described by a sort order.
 
 ## Usage
 WIP
