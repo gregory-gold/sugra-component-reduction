@@ -36,7 +36,7 @@ imports several useful modules (in the form of cadabra notebooks) for $5D$ compo
 
 ## Usage
 
-The best way to learn how to use this tool is by the Tutorial notebooks in $4D$ and in $5D$. Assuming prior knowledge of cadabra, they explain various caveats and features unique to our tool. They then proceed to generate various objects in components and run consistency checks. Note the use of "dummy" indices and objects in the below such that $\nabla^i_\alpha := (\Lambda)^i_{\alpha}{}^A \nabla_A$ and ${\mathbb{S}}_{i j k}^{i_1 i_2 i_3} \nabla^{k}\_\alpha H^{i j} := \nabla^{(k}\_\alpha H^{i j)}$.
+The best way to learn how to use this tool is by the Tutorial notebooks in $4D$ and in $5D$. Assuming prior knowledge of cadabra, they explain various caveats and features unique to our tool. They then proceed to generate various objects in components and run consistency checks. Note the use of "dummy" indices and objects in the below such that $(\Lambda)^i_{\alpha}{}^A \nabla_A := \nabla^i_\alpha$, $\tilde{\Omega}^{\alpha \beta \mathcal{A}} \nabla\_{\mathcal{A}} := \nabla^{\alpha \beta}$, and ${\mathbb{S}}_{i j k}^{i_1 i_2 i_3} \nabla^{k}\_\alpha H^{i j} := \nabla^{(i\_1}\_\alpha H^{i\_2 i\_3)}$.
 
 - For example, from the `TutorialWeyl2.cnb` notebook in $5D$, here is the definition of the composite object $H^{i j}_{\textrm{Weyl}^2}$ with various checks. This is used to generate a curvature-squared superconformal invariant in $5D, \mathcal{N}=1$ SUGRA.
 
