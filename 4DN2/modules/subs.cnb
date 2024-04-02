@@ -20,7 +20,7 @@
 			"cell_id": 11294614056164502954,
 			"cell_origin": "client",
 			"cell_type": "input",
-			"source": "from latex_macros import *\nfrom props import *"
+			"source": "from latex_macros import *\nfrom props import * "
 		},
 		{
 			"cell_id": 7380196005869137632,
