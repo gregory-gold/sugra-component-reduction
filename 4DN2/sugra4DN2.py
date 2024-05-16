@@ -9,7 +9,7 @@ sys.path.append(module_path)
 sys.path.append(py_path)
 
 from shared import *
-from latex_macros import *                                                  
-from props import *
-from subs import *
-from methods import *
+from latex_macros4D import *                                                  
+from properties4D import *
+from substitutions4D import *
+from methods4D import *
