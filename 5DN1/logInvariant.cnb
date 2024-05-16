@@ -43,55 +43,69 @@
 			"cell_type": "input",
 			"cells": [
 				{
-					"cell_id": 4341363762334055997,
+					"cell_id": 10685542938775758971,
 					"cell_origin": "server",
 					"cell_type": "latex_view",
 					"cells": [
 						{
-							"cell_id": 11719473482298745119,
+							"cell_id": 1957633122841133567,
 							"cell_origin": "server",
 							"cell_type": "input_form",
-							"source": "\\Lambda_{k}^{\\a A} \\Lambda_{l \\a}^{B} \\D_{A}(\\D_{B}(\\log(\\vW)))"
+							"source": "\\e^{\\a \\b} \\e_{k i} \\e_{l j} \\Lambda^{i}_{\\b}^{A} \\Lambda^{j}_{\\a}^{B} \\D_{A}(\\D_{B}(\\log(\\vW)))"
 						}
 					],
-					"source": "\\begin{dmath*}{}\\Lambda_{k}\\,^{\\alpha A} \\Lambda_{l \\alpha}\\,^{B} \\nabla_{A}{\\nabla_{B}\\left(\\log\\left(W\\right)\\right)}\\end{dmath*}"
+					"source": "\\begin{dmath*}{}\\epsilon^{\\alpha \\beta} \\epsilon_{k i} \\epsilon_{l j} (\\Lambda)^{i}_{\\beta}{}^{A} (\\Lambda)^{j}_{\\alpha}{}^{B} \\nabla_{A}{\\nabla_{B}\\left(\\log\\left(W\\right)\\right)}\\end{dmath*}"
 				},
 				{
-					"cell_id": 17386277232258145107,
+					"cell_id": 3671998494414078031,
 					"cell_origin": "server",
 					"cell_type": "latex_view",
 					"cells": [
 						{
-							"cell_id": 17254137095092953900,
+							"cell_id": 585484749641636455,
 							"cell_origin": "server",
 							"cell_type": "input_form",
-							"source": "\\Lambda_{k}^{\\a A} \\Lambda_{l \\a}^{B} \\D_{A}((\\vW)**(-1) \\D_{B}(\\vW))"
+							"source": "\\e^{\\a \\b} \\e_{k i} \\e_{l j} \\Lambda^{i}_{\\b}^{A} \\Lambda^{j}_{\\a}^{B} \\D_{A}((\\vW)**(-1) \\D_{B}(\\vW))"
 						}
 					],
-					"source": "\\begin{dmath*}{}\\Lambda_{k}\\,^{\\alpha A} \\Lambda_{l \\alpha}\\,^{B} \\nabla_{A}\\left({W}^{-1} \\nabla_{B}{W}\\right)\\end{dmath*}"
+					"source": "\\begin{dmath*}{}\\epsilon^{\\alpha \\beta} \\epsilon_{k i} \\epsilon_{l j} (\\Lambda)^{i}_{\\beta}{}^{A} (\\Lambda)^{j}_{\\alpha}{}^{B} \\nabla_{A}\\left({W}^{-1} \\nabla_{B}{W}\\right)\\end{dmath*}"
 				},
 				{
-					"cell_id": 13398045060096538286,
+					"cell_id": 5597513921318438447,
 					"cell_origin": "server",
 					"cell_type": "latex_view",
 					"cells": [
 						{
-							"cell_id": 14652607372197318169,
+							"cell_id": 6337581109472008545,
 							"cell_origin": "server",
 							"cell_type": "input_form",
-							"source": "-4I \\e_{k i} \\e_{l j} \\vX^{i j} (\\vW)**(-1)-\\e^{\\a \\b} \\e_{k i} \\e_{l j} \\fl^{i}_{\\a} \\fl^{j}_{\\b} (\\vW)**(-2)"
+							"source": "-\\e^{\\a \\b} \\e_{k i} \\e_{l j} (\\vW)**(-2) \\fl^{i}_{\\a} \\fl^{j}_{\\b}-4I \\e_{k i} \\e_{l j} (\\vW)**(-1) \\vX^{i j}"
 						}
 					],
-					"source": "\\begin{dmath*}{}-4I \\epsilon_{k i} \\epsilon_{l j} X^{i j} {W}^{-1}-\\epsilon^{\\alpha \\beta} \\epsilon_{k i} \\epsilon_{l j} \\lambda^{i}_{\\alpha} \\lambda^{j}_{\\beta} {W}^{-2}\\end{dmath*}"
+					"source": "\\begin{dmath*}{}-\\epsilon^{\\alpha \\beta} \\epsilon_{k i} \\epsilon_{l j} {W}^{-2} \\lambda^{i}_{\\alpha} \\lambda^{j}_{\\beta}-4I \\epsilon_{k i} \\epsilon_{l j} {W}^{-1} X^{i j}\\end{dmath*}"
 				},
 				{
-					"cell_id": 12888926781328488480,
+					"cell_id": 1285280714469103369,
+					"cell_origin": "server",
+					"cell_type": "latex_view",
+					"cells": [
+						{
+							"cell_id": 8158720861349950767,
+							"cell_origin": "server",
+							"cell_type": "input_form",
+							"source": "-4I \\e_{k i} \\e_{l j} (\\vW)**(-1) \\vX^{i j}-\\e^{\\a \\b} \\e_{k i} \\e_{l j} (\\vW)**(-2) \\fl^{i}_{\\a} \\fl^{j}_{\\b}"
+						}
+					],
+					"source": "\\begin{dmath*}{}-4I \\epsilon_{k i} \\epsilon_{l j} {W}^{-1} X^{i j}-\\epsilon^{\\alpha \\beta} \\epsilon_{k i} \\epsilon_{l j} {W}^{-2} \\lambda^{i}_{\\alpha} \\lambda^{j}_{\\beta}\\end{dmath*}"
+				},
+				{
+					"cell_id": 1033059668434844327,
 					"cell_origin": "server",
 					"cell_type": "latex_view",
 					"source": "{}$\\big[$$\\verb|1|$,\\discretionary{}{}{} $\\verb|2|$,\\discretionary{}{}{} $\\verb|2|$,\\discretionary{}{}{} $\\verb|2|$,\\discretionary{}{}{} $\\verb|2|$,\\discretionary{}{}{} $\\verb|2|$,\\discretionary{}{}{} $\\verb|5|$,\\discretionary{}{}{} $\\verb|5|$,\\discretionary{}{}{} $\\verb|3|$,\\discretionary{}{}{} $\\verb|3|$$\\big]$"
 				}
 			],
-			"source": "# Two spinor covariant derivatives on logW.\ntwoDerivatives :=   \\Lambda_{k}^{\\a}^{A} \\Lambda_{l \\a}^{B}  \\D_{A}{\\D_{B}{\\log(\\vW)}};\nsubstitute(twoDerivatives, basic_chain_rule);\ncomponentReduce = CleverSimplify(twoDerivatives)\ncomponentReduce.main(15)\nsubstitute(twoDerivatives, vanishing_trace_properties)\nsort_sum(twoDerivatives);\ncomponentReduce.terms_per_iteration;"
+			"source": "# Two spinor covariant derivatives on logW.\ntwoDerivatives :=   \\e^{\\a \\b} \\e_{k i} \\e_{l j}\\Lambda^{i}_{\\b}^{A} \\Lambda^{j}_{\\a}^{B}  \\D_{A}{\\D_{B}{\\log(\\vW)}};\nsubstitute(twoDerivatives, $\\D_{A}{\\log{X?}} -> X?**(-1) \\D_{A}{X?}$);\ncomponentReduce = CleverSimplify(twoDerivatives)\ncomponentReduce.main(15)\nsubstitute(twoDerivatives, vanishing_trace_properties);\nsort_sum(twoDerivatives);\ncomponentReduce.terms_per_iteration;"
 		},
 		{
 			"cell_id": 17293018686204152593,

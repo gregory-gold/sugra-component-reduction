@@ -1,0 +1,119 @@
+{
+	"cell_id": 18238172922404832629,
+	"cells": [
+		{
+			"cell_id": 13521187995905660898,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "# For manual use. This is exlcuded from import.\nfrom latex_macros5D import *\nfrom properties5D import *\nfrom substitutions5D import *"
+		},
+		{
+			"cell_id": 17648920809680512406,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "import sys\ncurrent_path = str(sys.path[0])\nrepo_name  = 'sugra-component-reduction'\npy_path = current_path.split(repo_name)[0] + repo_name + '/py/'\nsys.path.append(py_path)\nfrom shared import *"
+		},
+		{
+			"cell_id": 9530943514838731297,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"cells": [
+				{
+					"cell_id": 17952140863607535537,
+					"cell_origin": "server",
+					"cell_type": "latex_view",
+					"cells": [
+						{
+							"cell_id": 7527276399948140758,
+							"cell_origin": "server",
+							"cell_type": "input_form",
+							"source": "\\D_{A}(\\cH^{a} (W)**(-2) + \\vD^{a}(\\vW))"
+						}
+					],
+					"source": "\\begin{dmath*}{}\\nabla_{A}\\left(\\mathcal{H}^{a} {W}^{-2}+\\nabla^{a}{W}\\right)\\end{dmath*}"
+				},
+				{
+					"cell_id": 6661872692200234468,
+					"cell_origin": "server",
+					"cell_type": "verbatim",
+					"source": "\\begin{verbatim}{'\\\\vD': 0, '\\\\D': 1, '\\\\sum': 1, '\\\\prod': 0, '\\\\pow': 0}\\end{verbatim}"
+				},
+				{
+					"cell_id": 4814348850826711167,
+					"cell_origin": "server",
+					"cell_type": "latex_view",
+					"cells": [
+						{
+							"cell_id": 15005000297178459636,
+							"cell_origin": "server",
+							"cell_type": "input_form",
+							"source": "\\D_{A}(\\cH^{a} (W)**(-2)) + \\D_{A}(\\vD^{a}(\\vW))"
+						}
+					],
+					"source": "\\begin{dmath*}{}\\nabla_{A}\\left(\\mathcal{H}^{a} {W}^{-2}\\right)+\\nabla_{A}{\\nabla^{a}{W}}\\end{dmath*}"
+				},
+				{
+					"cell_id": 4401976619997865752,
+					"cell_origin": "server",
+					"cell_type": "verbatim",
+					"source": "\\begin{verbatim}{'\\\\vD': 1, '\\\\D': 2, '\\\\sum': 0, '\\\\prod': 1, '\\\\pow': 0}\\end{verbatim}"
+				},
+				{
+					"cell_id": 17233874132111809525,
+					"cell_origin": "server",
+					"cell_type": "latex_view",
+					"cells": [
+						{
+							"cell_id": 3177568985193978217,
+							"cell_origin": "server",
+							"cell_type": "input_form",
+							"source": "\\D_{A}(\\cH^{a}) (W)**(-2) + \\cH^{a} \\D_{A}((W)**(-2)) + \\D_{A}(\\vD^{a}(\\vW))"
+						}
+					],
+					"source": "\\begin{dmath*}{}\\nabla_{A}{\\mathcal{H}^{a}} {W}^{-2}+\\mathcal{H}^{a} \\nabla_{A}{{W}^{-2}}+\\nabla_{A}{\\nabla^{a}{W}}\\end{dmath*}"
+				},
+				{
+					"cell_id": 15523853003090529168,
+					"cell_origin": "server",
+					"cell_type": "verbatim",
+					"source": "\\begin{verbatim}{'\\\\vD': 1, '\\\\D': 3, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 1}\\end{verbatim}"
+				},
+				{
+					"cell_id": 744824838631362677,
+					"cell_origin": "server",
+					"cell_type": "latex_view",
+					"cells": [
+						{
+							"cell_id": 14194282985252416065,
+							"cell_origin": "server",
+							"cell_type": "input_form",
+							"source": "\\D_{A}(\\cH^{a}) (W)**(-2)-2\\cH^{a} (W)**(-3) \\D_{A}(W) + \\D_{A}(\\vD^{a}(\\vW))"
+						}
+					],
+					"source": "\\begin{dmath*}{}\\nabla_{A}{\\mathcal{H}^{a}} {W}^{-2}-2\\mathcal{H}^{a} {W}^{-3} \\nabla_{A}{W}+\\nabla_{A}{\\nabla^{a}{W}}\\end{dmath*}"
+				},
+				{
+					"cell_id": 13790627499451588172,
+					"cell_origin": "server",
+					"cell_type": "verbatim",
+					"source": "\\begin{verbatim}{'\\\\vD': 1, '\\\\D': 3, '\\\\sum': 0, '\\\\prod': 0, '\\\\pow': 0}\\end{verbatim}"
+				}
+			],
+			"source": "def check_entire_expression_for_object(exp, logic_struct, object, nested_objects = [], add_parent_object = False):\n\tfor occurance in exp[object]:\n\t\tif nested_objects:\n\t\t\tfor child in occurance.children():\n\t\t\t\tfor nested_object in nested_objects:\n\t\t\t\t\tif str(child.name) == nested_object:\n\t\t\t\t\t\tlogic_struct[nested_object] +=1\n\t\tif not nested_objects or add_parent_object:\n                    logic_struct[object] +=1\n\treturn(logic_struct)\n\nlogic_struct = {'\\\\vD':0, '\\\\D':0, '\\\\sum':0, '\\\\prod':0, '\\\\pow':0}\nex := \\D_{A}{\\cH^{a} W**(-2) + \\vD^{a}{\\vW}};\ncheck_entire_expression_for_object(ex, logic_struct, '\\\\D', ['\\\\vD', '\\\\prod', '\\\\sum', '\\\\pow'],True);\ndistribute(ex)\nunwrap(ex);\nlogic_struct = {'\\\\vD':0, '\\\\D':0, '\\\\sum':0, '\\\\prod':0, '\\\\pow':0}\ncheck_entire_expression_for_object(ex, logic_struct, '\\\\D', ['\\\\vD', '\\\\prod', '\\\\sum', '\\\\pow'],True);\nproduct_rule(ex)\ndistribute(ex);\n\nlogic_struct = {'\\\\vD':0, '\\\\D':0, '\\\\sum':0, '\\\\prod':0, '\\\\pow':0}\ncheck_entire_expression_for_object(ex, logic_struct, '\\\\D', ['\\\\vD', '\\\\prod', '\\\\sum', '\\\\pow'],True);\nproduct_rule(ex)\ndistribute(ex);\n\nlogic_struct = {'\\\\vD':0, '\\\\D':0, '\\\\sum':0, '\\\\prod':0, '\\\\pow':0}\ncheck_entire_expression_for_object(ex, logic_struct, '\\\\D', ['\\\\vD', '\\\\prod', '\\\\sum', '\\\\pow'],True);"
+		},
+		{
+			"cell_id": 4057025789550968640,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "# Method to remove redundant epsilon tensors.\ndef eliminate_epsilon(exp):\n    substitute(exp, epsilon_to_kronecker)\n    eliminate_kronecker(exp)\n    return(exp)\n\nsorter = Sort(sort_order, anti_commute)\ndef sort(exp):\n\tsorter.sort(exp)\n\treturn(exp)\n\nexpression_path = current_path.split(repo_name)[0] + repo_name + '/5DN1/saved_expressions/'\nsaver = ExpressionSaver(expression_path)\n\n## Methods used to ensure simplification of dummy objects \\Lambda and \\Omega and notation-specific objects \\Sigma and \\Gamma. ##\ndef canonicalise_Lambda(exp):\n    rewrite_indices(exp, $\\Lambda^{i}_{\\a}^{A}$, $\\e^{\\a \\b}$)\n    rewrite_indices(exp, $\\Lambda^{i}_{\\a}^{A}$, $\\e_{i j}$)\n    return(exp)\n\ndef canonicalise_Omega(exp):\n    rewrite_indices(exp, $\\Omega_{a b}^{H}$, $\\eta^{a b}$)\n    return(exp)\n\ndef canonicalise_Sigma(exp):\n    rewrite_indices(exp, $\\Sigma_{a b}_{\\a \\b} $, $\\eta^{a b}$)\n    rewrite_indices(exp, $\\Sigma_{a b}_{\\a \\b} $, $\\e^{\\a \\b}$)\n    return(exp)\n\ndef canonicalise_Gamma(exp):\n    rewrite_indices(exp, $\\Gamma^{a}_{\\a \\b}$, $\\eta_{a b}$)\n    rewrite_indices(exp, $\\Gamma^{a}_{\\a \\b}$, $\\e^{\\a \\b}$)\n    return(exp)\n\ndef canonicalise_Gamma_reverse(exp):\n    rewrite_indices(exp, $\\Gamma^{a}^{\\a \\b}$, $\\e_{\\a \\b}$)\n    return(exp)\n\ndef canonicalise_eLevi(exp):\n    rewrite_indices(exp, $\\eLevi^{e1 e2 e3 e4 e5}$, $\\eta_{e1 e2}$)\n    return(exp)\n\ndef canonicalise_eLevi_lower(exp):\n    rewrite_indices(exp, $\\eLevi_{e1 e2 e3 e4 e5}$, $\\eta^{e1 e2}$)\n    return(exp)\n\ndef canonicalise_fields(exp):\n    rewrite_indices(exp, $W_{a b}$, $\\eta^{e1 e2}$)\n    rewrite_indices(exp, $\\cHt_{a b}$, $\\eta^{e1 e2}$)\n    rewrite_indices(exp, $\\cH_{a b c}$, $\\eta^{e1 e2}$)\n    rewrite_indices(exp, $\\nu_{a}$, $\\eta^{e1 e2}$)\n    rewrite_indices(exp, $F_{a b}$, $\\eta^{e1 e2}$)\n    rewrite_indices(exp, $\\wX_{a b}^{i j}$, $\\eta^{e1 e2}$)\n    rewrite_indices(exp, $\\wW_{a b c d}$, $\\eta^{e1 e2}$)\n    rewrite_indices(exp, $C_{a b c d}$, $\\eta^{e1 e2}$)\n    rewrite_indices(exp, $R_{a b c d}$, $\\eta^{e1 e2}$)\n    rewrite_indices(exp, $G^{i j}$, $\\e_{k l}$)\n    return(exp)\n\ndef count_terms(exp):\n    total_terms = 0\n    for term in exp.top().terms():\n        total_terms += 1\n    return(total_terms)\n\n# Simple class to contain clever simplify methods\nclass CleverSimplify:\n\n    def __init__(self, exp):\n        self.exp = exp\n        self.post_processing = False\n        self.terms_per_iteration = []\n        self.logical_structures = []\n        self.timer = StopWatch()\n\t\n    def sort(self, exp):\n        self.sorter.sort(exp)\n\n    def display_details(self):\n        print(self.terms_per_iteration)\n        print(\"\\n\")\n        for struct in self.logical_structures:\n            print(struct)\n            print(\"\\n\")\n            \n    def manual_post_processing(self):\n        collect_factors(self.exp)\n        substitute(self.exp, reduce_G)\n        canonicalise_Gamma(self.exp)\n        canonicalise_Sigma(self.exp)\n        canonicalise_eLevi(self.exp)\n        substitute(self.exp,contract_fields,repeat=True)\n        canonicalise(self.exp)\n        substitute(self.exp, contract_metric, repeat=True)\n        eliminate_kronecker(self.exp,repeat=True)\n        substitute(self.exp, gamma_properties)\n        rename_dummies(self.exp)\n        sort(self.exp)\n        canonicalise(self.exp)\n        canonicalise_Gamma(self.exp)\n        canonicalise_Sigma(self.exp)\n        #eliminate_metric(self.exp,repeat=True,redundant=True)\n        substitute(self.exp, canonicalise_vector)\n        substitute(self.exp, contract_metric,repeat=True)\n        eliminate_kronecker(self.exp)\n        rename_dummies(self.exp)\n        sort(self.exp)\n        canonicalise(self.exp)\n        return(self.exp)\n    \n    # This method finds occurances of objects in expression and optionally the children of objects. If nested_objects is defined, it will find objects nested within a parent (like inside a derivative for example).\n    def check_entire_expression_for_object(self, logic_struct, object, nested_objects = [], add_parent_object = False):\n        for occurance in self.exp[object]:\n            if nested_objects:\n                for child in occurance.children():\n                    for nested_object in nested_objects:\n                        if str(child.name) == nested_object:\n                            logic_struct[nested_object] +=1\n            if not nested_objects or add_parent_object:\n                    logic_struct[object] +=1\n        return(logic_struct)\n\n    # This method goes term by term to find implicit simplifications that are index-dependent. Checking for \\vW is the oddball here so for now it's just optionally added at the end.\n    def check_terms(self, logic_struct, contraction_combos, check_for_factors = False, check_for_eLevi = False):\n        total_terms = 0\n        for term in self.exp.top().terms():\n            total_terms += 1\n            for combo in contraction_combos.keys():\n                index_struct = {}\n                for object in contraction_combos[combo]:\n                    for occurance in term[object]:\n                        for ind in occurance.free_indices():\n                            if str(ind) in index_struct:\n                                index_struct[str(ind)] += 1\n                            elif str(ind) not in index_struct:\n                                index_struct[str(ind)] = 1\n                    \n                if len([i for i in list(index_struct.values()) if i > 1])  > 0:\n                    logic_struct[combo] += 1\n            \n            if check_for_factors:\n                vW_num = 0\n                nested = False\n                index_next = False\n                for n in term.ex():\n                \n                    if n.name == \"\\\\vD\" or n.name == \"\\\\D\" or n.name == \"K\" or n.name == \"S\" or n.name == \"M\" or n.name == \"J\" or n.name == \"\\\\mD\":\n                        nested = True\n                        index_next = True\n                    elif n.name == \"\\\\cD\":\n                        nested = True\n                    elif index_next:\n                        index_next = False\n                    elif n.name == \"\\\\vW\" and not nested:\n                        vW_num += 1\n                    elif n.name != \"\\prod\":\n                        nested = False\n    \n                if vW_num > 1:\n                    logic_struct[\"collect_vW_terms\"] += 1\n\n            if check_for_eLevi:\n                eLevi_num = 0\n                for n in term.ex():\n                \n                    if n.name == \"\\\\eLevi\":\n                        eLevi_num += 1\n    \n                if eLevi_num > 1:\n                    logic_struct[\"eLevi_contract_terms\"] += 1\n\n        self.terms_per_iteration.append(total_terms)\n        return(logic_struct)\n        \n    def expression_check(self, consistency, apply_symmetrize):\n        logic_struct = {\"\\\\D\":0, \"K\":0, \"S\":0, \"\\\\vD\":0, \"\\\\mD\":0, \"\\\\cD\":0, \"M\":0, \"J\":0, \"\\\\ILambda\":0, \"\\\\IOmega\":0, \"\\\\IAOmega\":0, \"\\\\Symmetrize\":0, \"\\\\ASymmetrize\":0, \"\\\\sum\":0, \"\\\\prod\":0, \"\\\\pow\":0, \"epsilon_contracts\":0, \"identity_contracts\":0, \"collect_vW_terms\":0, \"collect_G_terms\":0, \"eLevi_contract_terms\":0}\n        logic_struct = self.check_entire_expression_for_object(logic_struct, \"\\\\D\", [\"\\\\sum\",\"\\\\prod\", \"\\\\pow\", \"\\\\vD\"], True)\n        logic_struct = self.check_entire_expression_for_object(logic_struct, \"\\\\vD\", [\"\\\\sum\",\"\\\\prod\", \"\\\\pow\"])\n        if consistency:\n            logic_struct = self.check_entire_expression_for_object(logic_struct, \"\\\\mD\", [\"\\\\sum\",\"\\\\prod\", \"\\\\pow\"])\n            logic_struct = self.check_entire_expression_for_object(logic_struct, \"K\", [\"\\\\sum\",\"\\\\prod\", \"\\\\pow\", \"\\\\vD\", \"\\\\mD\"], True)\n            logic_struct = self.check_entire_expression_for_object(logic_struct, \"S\", [\"\\\\sum\",\"\\\\prod\", \"\\\\pow\", \"\\\\vD\"], True)\n            logic_struct = self.check_entire_expression_for_object(logic_struct, \"\\\\cD\", [\"\\\\sum\",\"\\\\prod\", \"\\\\pow\", \"\\\\vD\"], True)\n            logic_struct = self.check_entire_expression_for_object(logic_struct, \"M\", [\"\\\\sum\",\"\\\\prod\", \"\\\\pow\", \"\\\\vD\"], True)\n            logic_struct = self.check_entire_expression_for_object(logic_struct, \"J\", [\"\\\\sum\",\"\\\\prod\", \"\\\\pow\", \"\\\\vD\"], True)\n        logic_struct = self.check_entire_expression_for_object(logic_struct, \"\\\\prod\",[\"\\\\sum\"])\n        logic_struct = self.check_entire_expression_for_object(logic_struct, \"\\\\ILambda\")\n        logic_struct = self.check_entire_expression_for_object(logic_struct, \"\\\\IOmega\")\n        logic_struct = self.check_entire_expression_for_object(logic_struct, \"\\\\IAOmega\")\n        if apply_symmetrize:\n            logic_struct = self.check_entire_expression_for_object(logic_struct, \"\\\\Symmetrize\")\n            logic_struct = self.check_entire_expression_for_object(logic_struct, \"\\\\ASymmetrize\")\n    \n        # Loop through all terms for index-dependent contractions.\n        check_for_factors = False\n        check_for_eLevi = True\n        contraction_combos = {\"epsilon_contracts\": [\"\\\\e\"], \"identity_contracts\": [\"\\\\Gamma\", \"\\\\Sigma\"]}\n        logic_struct = self.check_terms(logic_struct, contraction_combos, check_for_factors, check_for_eLevi)\n\n        return(logic_struct)\n    \n    \n    ### Contains all of the expression manipulations depndent on results of expression_check() ###\n    def simplify(self, struct):\n        if struct[\"\\\\prod\"] or  struct[\"\\\\pow\"] > 0:\n            unwrap(self.exp)\n            product_rule(self.exp)\n            distribute(self.exp)\n        elif struct[\"\\\\sum\"] > 0:\n            distribute(self.exp)\n        elif struct[\"collect_vW_terms\"] > 0 or struct[\"collect_G_terms\"] > 0:\n            collect_factors(self.exp)\n        elif struct[\"\\\\vD\"] > 0 or struct[\"\\\\mD\"] > 0:\n            substitute(self.exp, vector_algebra_spinor)\n            substitute(self.exp, generators_vector)\n            substitute(self.exp, generators_weyl)\n            substitute(self.exp, generators_O2)\n        elif struct[\"\\\\D\"] > 0:\n            substitute(self.exp, tower_project_vector)\n            substitute(self.exp, tower_project_weyl)\n            substitute(self.exp, tower_project_O2)\n        elif struct[\"K\"] > 0 or struct[\"S\"] > 0 or struct[\"\\\\cD\"] > 0 or struct[\"M\"] > 0 or struct[\"J\"] > 0:\n            substitute(self.exp, generators_vector)\n            substitute(self.exp, generators_weyl)\n            substitute(self.exp, generators_O2)\n\n        if struct[\"\\\\ILambda\"] > 0:\n            canonicalise_Lambda(self.exp)\n            substitute(self.exp, remove_Lambda)\n            eliminate_kronecker(self.exp)\n\n        if struct[\"\\\\IOmega\"] or struct[\"\\\\IAOmega\"] > 0:\n            canonicalise_Omega(self.exp)\n            substitute(self.exp, remove_Omega)\n            substitute(self.exp, symmetrize_indices)\n            distribute(self.exp)\n            eliminate_kronecker(self.exp)\n        elif struct[\"\\\\Symmetrize\"] > 0 or struct[\"\\\\ASymmetrize\"] > 0:\n            substitute(self.exp, symmetrize_indices)\n            distribute(self.exp)\n            eliminate_kronecker(self.exp)\n\n        if struct[\"epsilon_contracts\"] > 0:\n            eliminate_epsilon(self.exp)\n        \n        if struct[\"eLevi_contract_terms\"] > 0:\n            epsilon_to_delta(self.exp, repeat=True)\n            expand_delta(self.exp)\n            distribute(self.exp)\n            eliminate_kronecker(self.exp)\n            canonicalise_fields(self.exp)\n            substitute(self.exp, contract_metric, repeat=True)\n            eliminate_kronecker(self.exp)\n            substitute(self.exp,contract_fields,repeat=True)\n                    \n        if struct[\"identity_contracts\"] > 0:\n            canonicalise_Gamma(self.exp)\n            canonicalise_Sigma(self.exp)\n            canonicalise_eLevi(self.exp)\n            substitute(self.exp, contract_metric, repeat=True)\n            eliminate_kronecker(self.exp,repeat=True)\n            substitute(self.exp,contract_fields,repeat=True)\n            canonicalise(self.exp)\n            substitute(self.exp, gamma_properties)\n\n        if self.post_processing:\n            collect_factors(self.exp)\n            substitute(self.exp, imaginary_simplify)\n            substitute(self.exp, reduce_G)\n            canonicalise_Gamma(self.exp)\n            canonicalise_Sigma(self.exp)\n            canonicalise_eLevi(self.exp)\n            substitute(self.exp,contract_fields,repeat=True)\n            canonicalise(self.exp)\n            substitute(self.exp, contract_metric, repeat=True)\n            eliminate_kronecker(self.exp,repeat=True)\n            substitute(self.exp, gamma_properties)\n            rename_dummies(self.exp)\n            #sort(self.exp)\n            canonicalise(self.exp)\n            canonicalise_Gamma(self.exp)\n            canonicalise_Sigma(self.exp)\n            substitute(self.exp, canonicalise_vector)\n            substitute(self.exp, contract_metric,repeat=True)\n            eliminate_kronecker(self.exp)\n            substitute(self.exp, remove_zeros)\n            rename_dummies(self.exp)\n            sort(self.exp)\n            canonicalise(self.exp)\n\n\n    def main(self, iterations, consistency = False, apply_symmetrize = True):\n        \n        for i in range(iterations):\n            \n            ### Check Expression ###\n            logic_struct = self.expression_check(consistency, apply_symmetrize)\n            self.logical_structures.append(logic_struct)\n\n            ### Check if Completed and Post Processing Switch ###\n            if len([i for i in list(logic_struct.values()) if i != 0])  == 0:\n                if self.post_processing:\n                    break\n                else:\n                    self.post_processing = True\n            else:\n                self.post_processing = False\n\n            ### Simplify Expression ###\n            self.simplify(logic_struct)\n\n        logic_struct = self.expression_check(consistency, apply_symmetrize)\n        self.logical_structures.append(logic_struct)\n        return(self.exp)\n\ndef update_Gs(term, G_pair, G1_indices, G2_indices, convert_G_to_eps = False):\n\treplaced = 0\n\tfor G in term[\"G\"]:\n\t\tif str(G) in G_pair:\n\t\t\tindices = G.indices()\n\t\t\tif convert_G_to_eps:\n\t\t\t\tG.name = '\\\\e'\n\n\t\t\tif replaced == 0:\n\t\t\t\tnext(indices).name = G1_indices[0]\n\t\t\t\tnext(indices).name = G1_indices[1]\n\t\t\telse:\n\t\t\t\tnext(indices).name = G2_indices[0]\n\t\t\t\tnext(indices).name = G2_indices[1]\n\t\t\treplaced += 1\t\n\ndef G_symmetry_simplify(ex, debug = False):\t\n\n\tfor debugi, term in enumerate(ex.top().terms()):\n\t\tif debug:\n\t\t\tdisplay(term)\n\t\t\tdisplay(debugi)\n\t\t\tdisplay_step = 1;\t\t\n\t\tantisymmetric_spinors1 = [(next(eps.indices()).name, next(next(eps.indices())).name) for eps in term[\"\\\\e\"] if \"h\" in str(eps)]\n\t\tantisymmetric_spinors2 = [(next(next(gam.indices())).name, next(next(next(gam.indices()))).name) for gam in term[\"\\\\Gamma\"]]\n\t\tantisymmetric_spinors = antisymmetric_spinors1 + antisymmetric_spinors2\n\t\tif debug:\n\t\t\tdisplay(antisymmetric_spinors)\n\t\t\tdisplay_step = 2;\n\t\tsymmetric_su2s = []\n\t\t# Clean this up\n\t\tfor combo in antisymmetric_spinors:\t\t\n\t\t\tsu2_combo = []\n\t\t\tfor fermion in term[\"\\\\varphi\"]:\n\t\t\t\tindices = fermion.indices()\n\t\t\t\tsu2_index = next(indices).name\t\n\t\t\t\tspinor_index = next(indices).name\n\t\t\t\tif spinor_index in combo:\n\t\t\t\t\tsu2_combo.append(su2_index)\n\t\t\tfor fermion in term[\"X\"]:\n\t\t\t\tindices = fermion.indices()\n\t\t\t\tsu2_index = next(indices).name\t\n\t\t\t\tspinor_index = next(indices).name\n\t\t\t\tif spinor_index in combo:\n\t\t\t\t\tsu2_combo.append(su2_index)\n\n\t\t\tif len(su2_combo) == 2:\n\t\t\t\tsymmetric_su2s.append(tuple(item for item in su2_combo))\n\t\tif debug:\n\t\t\tdisplay(symmetric_su2s)\n\t\t\tdisplay_step = 3;\n\t\tfor index, symmetric_combo in enumerate(symmetric_su2s):\n\t\t\tnew_combo = []\n\t\t\tfor eps in term[\"\\\\e\"]:\n\t\t\t\tif \"h\" not in str(eps):\n\t\t\t\t\tindices = eps.indices()\n\t\t\t\t\tsu2one = next(indices).name\n\t\t\t\t\tsu2two = next(indices).name\n\t\t\t\t\tif (su2one in symmetric_combo and su2two not in symmetric_combo):\n\t\t\t\t\t\tnew_combo.append(su2two)\n\t\t\t\t\telif (su2two in symmetric_combo and su2one not in symmetric_combo):\n\t\t\t\t\t\tnew_combo.append(su2one)\n\t\t\tif len(new_combo) == 2:\n\t\t\t\tsymmetric_su2s[index] = tuple(item for item in new_combo)\n\t\tif debug:\n\t\t\tdisplay(symmetric_su2s)\n\t\t\tdisplay_step = 4;\n\n\t\tfor symmetric_combo in symmetric_su2s:\n\t\t\tG_pair = []\n\t\t\tsu2_pair = []\n\t\t\tfor G in term[\"G\"]:\n\t\t\t\tif '^' in str(G):\n\t\t\t\t\tindices = G.indices()\n\t\t\t\t\tsu2one = str(next(indices))\n\t\t\t\t\tsu2two = str(next(indices))\n\t\t\t\t\tif (su2one in symmetric_combo and su2two not in symmetric_combo):\n\t\t\t\t\t\tG_pair.append(str(G))\n\t\t\t\t\t\tsu2_pair.append(su2two)\n\t\t\t\t\telif (su2two in symmetric_combo and su2one not in symmetric_combo):\n\t\t\t\t\t\tG_pair.append(str(G))\n\t\t\t\t\t\tsu2_pair.append(su2one)\n\t\t\t# Update term \n\t\t\tif len(G_pair) == 2:\n\t\t\t\tnew_term1 = term.ex()\n\t\t\t\tnew_term2 = term.ex()\n\t\t\t\tupdate_Gs(term, G_pair, su2_pair, symmetric_combo)\n\t\t\t\tupdate_Gs(new_term1, G_pair, (su2_pair[0], symmetric_combo[0]), (symmetric_combo[1], su2_pair[1]), True)\n\t\t\t\tupdate_Gs(new_term2, G_pair, (su2_pair[0], symmetric_combo[1]), (symmetric_combo[0], su2_pair[1]), True)\n\t\t\t\tGsquared :=  (1/2) G**(2).\n\t\t\t\tterm += new_term1 * Gsquared + new_term2 * Gsquared\n\t\t\t\tbreak\n\t\n\t\t\telif len(G_pair) > 2:\n\t\t\t\traise Exception(\"There is a problem in G_pair: \" + str(G_pair))\n\t\t\t\n\treturn ex"
+		},
+		{
+			"cell_id": 5461215191933705412,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": ""
+		}
+	],
+	"description": "Cadabra JSON notebook format",
+	"version": 1.0
+}

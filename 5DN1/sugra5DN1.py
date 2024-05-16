@@ -9,8 +9,8 @@ sys.path.append(module_path)
 sys.path.append(py_path)
 
 from shared import *
-from latex_macros import *                                                  
-from props import *
-from subs import *
-from methods import *
-from objects import *
+from latex_macros5D import *                                                  
+from properties5D import *
+from substitutions5D import *
+from methods5D import *
+from objects5D import *

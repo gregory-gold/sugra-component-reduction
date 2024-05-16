@@ -59,8 +59,9 @@ class Sort:
                     der_num = 0
                     for child in object.children():
                         fermionic = not fermionic if re.sub('\d\d|\d','#', child.name) in self.anti_commute else fermionic
-
-                    if self.is_object_a_derivative(object):
+                    if object.name == '\\pow':
+                        final_object = next(object.children())                                
+                    elif self.is_object_a_derivative(object):
                         inside = False
                         current_object = object
                         der_num = 0
@@ -128,4 +129,68 @@ class Sort:
 
                 #term.replace(new_term)
         
+        return ex
+    
+
+class CleanUp:
+
+    def __init__(self, dummy_object = '\\Gamma', dummy_index_positions = [sub, super], epsilon_object = '\\e'):
+        self.dummy_object = dummy_object
+        self.dummy_index_positions = dummy_index_positions
+        self.epsilon_object = epsilon_object
+
+    ### Dummy derivative contraction algorithm ###
+    def contract_dummy_auto(self, ex, der_object='\\vD'):
+
+        for term in ex.top().terms():
+            for dummy in term[self.dummy_object]:
+
+                index_list = [str(index) for index in dummy.indices()]
+                
+                for vD in term[der_object]:
+            
+                    indexIter = next(vD.indices())
+                    if index_list[2] == str(indexIter):
+                        indexIter.name = index_list[0]
+                        indexIter.parent_rel = self.dummy_index_positions[0]
+                        next(indexIter).name = index_list[1]
+                        indexIter.parent_rel = self.dummy_index_positions[1]
+                        term[dummy] = Ex(1)
+                        break
+        
+        return(ex)
+    
+    ### Epsilon Metric Contraction Algorithm ###
+    def contract_epsilon_auto(self, ex):
+        # For each term, loop through epsilon metrics and save their indices.
+        for term in ex.top().terms():
+            for eps in term[self.epsilon_object]:
+                index_tuple = tuple(str(index) for index in eps.indices())
+                contraction = False
+
+                # Loop through other objects in term to check for contractions.
+                for child in term.children():
+                    if child.name != self.epsilon_object and child.name != "1" and not contraction:
+                        
+                        for index in child.indices():
+
+                            if str(index) == index_tuple[1]:
+                                contraction = True
+                                index.name = index_tuple[0]
+                                break
+                            elif str(index) == index_tuple[0]:
+                                contraction = True
+                                index.name = index_tuple[1]
+                                child.multiplier = -1
+                                break
+
+                        if contraction:
+                            if index.parent_rel == sub:
+                                index.parent_rel = super
+                            else:
+                                index.parent_rel = sub
+                            eps.name = '1'
+
+        # This removes redundant ones.
+        collect_factors(ex)
         return ex
