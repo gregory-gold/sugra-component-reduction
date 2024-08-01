@@ -1,5 +1,6 @@
 # SUGRA Component Reduction
-A framework built on cadabra and python project superspace fields to components in Supergravity (SUGRA).
+A framework built on cadabra and python project superspace fields to components in Supergravity (SUGRA). 
+Please cite arxiv:406.19687 if using this repository in a public work. Also, see this paper for a more detailed description of this codebase.
 
 ## About The Project
 The modern way to construct matter-coupled off-shell supergravity actions is by a combination of superconformal tensor calculus and superspace approaches. 
